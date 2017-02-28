@@ -1,0 +1,1463 @@
+2017-02-28T17:19:23Z,2017-02-27T17:48:17Z,http://arxiv.org/abs/1702.08400v1,http://arxiv.org/pdf/1702.08400v1,Asymmetric Tri-training for Unsupervised Domain Adaptation,"Deep-layered models trained on a large number of labeled samples boost the
+accuracy of many tasks. It is important to apply such models to different
+domains because collecting many labeled samples in various domains is
+expensive. In unsupervised domain adaptation one needs to train a classifier
+that works well on a target domain when provided with labeled source samples
+and unlabeled target samples. Although many methods aim to match the
+distributions of source and target samples simply matching the distribution
+cannot ensure accuracy on the target domain. To learn discriminative
+representations for the target domain we assume that artificially labeling
+target samples can result in a good representation. Tri-training leverages
+three classifiers equally to give pseudo-labels to unlabeled samples but the
+method does not assume labeling samples generated from a different domain.In
+this paper we propose an asymmetric tri-training method for unsupervised
+domain adaptation where we assign pseudo-labels to unlabeled samples and train
+neural networks as if they are true labels. In our work we use three networks
+asymmetrically. By asymmetric we mean that two networks are used to label
+unlabeled target samples and one network is trained by the samples to obtain
+target-discriminative representations. We evaluate our method on digit
+recognition and sentiment analysis datasets. Our proposed method achieves
+state-of-the-art performance on the benchmark digit recognition datasets of
+domain adaptation.",Kuniaki Saito|Yoshitaka Ushiku|Tatsuya Harada,cs.CV|cs.AI
+2017-02-28T17:19:23Z,2017-02-27T16:44:38Z,http://arxiv.org/abs/1702.08367v1,http://arxiv.org/pdf/1702.08367v1,Differentiable Learning of Logical Rules for Knowledge Base Completion,"Learned models composed of probabilistic logical rules are useful for many
+tasks such as knowledge base completion. Unfortunately this learning problem
+is difficult since determining the structure of the theory normally requires
+solving a discrete optimization problem. In this paper we propose an
+alternative approach: a completely differentiable model for learning sets of
+first-order rules. The approach is inspired by a recently-developed
+differentiable logic i.e. a subset of first-order logic for which inference
+tasks can be compiled into sequences of differentiable operations. Here we
+describe a neural controller system which learns how to sequentially compose
+the these primitive differentiable operations to solve reasoning tasks and in
+particular to perform knowledge base completion. The long-term goal of this
+work is to develop integrated end-to-end systems that can learn to perform
+high-level logical reasoning as well as lower-level perceptual tasks.",Fan Yang|Zhilin Yang|William W. Cohen,cs.AI
+2017-02-28T17:19:23Z,2017-02-27T13:54:44Z,http://arxiv.org/abs/1702.08286v1,http://arxiv.org/pdf/1702.08286v1,"Balancing Lexicographic Fairness and a Utilitarian Objective with
+  Application to Kidney Exchange","Balancing fairness and efficiency in resource allocation is a classical
+economic and computational problem. The price of fairness measures the
+worst-case loss of economic efficiency when using an inefficient but fair
+allocation rule; for indivisible goods in many settings this price is
+unacceptably high. In this work we propose a hybrid fairness rule that
+balances a strict lexicographic preference ordering over classes of agents and
+a utilitarian objective that maximizes economic efficiency. We develop a
+utility function that favors disadvantaged groups lexicographically; but if
+cost to overall efficiency becomes too high it smoothly switches to a
+utilitarian objective. This rule has only one parameter which is proportional
+to a bound on the price of fairness and can be adjusted by policymakers. We
+apply this rule to kidney exchange where needy patients swap willing but
+incompatible donors and demonstrate on real data from a large exchange that
+our hybrid rule produces more reliable outcomes than other fairness rules.",Duncan C. McElfresh|John P. Dickerson,cs.GT|cs.AI|I.2.11; J.4
+2017-02-28T17:19:23Z,2017-02-27T10:36:36Z,http://arxiv.org/abs/1702.08222v1,http://arxiv.org/pdf/1702.08222v1,Synergistic Team Composition,"Effective teams are crucial for organisations especially in environments
+that require teams to be constantly created and dismantled such as software
+development scientific experiments crowd-sourcing or the classroom. Key
+factors influencing team performance are competences and personality of team
+members. Hence we present a computational model to compose proficient and
+congenial teams based on individuals' personalities and their competences to
+perform tasks of different nature. With this purpose we extend Wilde's
+post-Jungian method for team composition which solely employs individuals'
+personalities. The aim of this study is to create a model to partition agents
+into teams that are balanced in competences personality and gender. Finally
+we present some preliminary empirical results that we obtained when analysing
+student performance. Results show the benefits of a more informed team
+composition that exploits individuals' competences besides information about
+their personalities.",Ewa Andrejczuk|Juan A. Rodriguez-Aguilar|Carme Roig|Carles Sierra,cs.AI
+2017-02-28T17:19:23Z,2017-02-27T08:53:31Z,http://arxiv.org/abs/1702.08192v1,http://arxiv.org/abs/1702.08192v1,DeepNAT: Deep Convolutional Neural Network for Segmenting Neuroanatomy,"We introduce DeepNAT a 3D Deep convolutional neural network for the
+automatic segmentation of NeuroAnaTomy in T1-weighted magnetic resonance
+images. DeepNAT is an end-to-end learning-based approach to brain segmentation
+that jointly learns an abstract feature representation and a multi-class
+classification. We propose a 3D patch-based approach where we do not only
+predict the center voxel of the patch but also neighbors which is formulated
+as multi-task learning. To address a class imbalance problem we arrange two
+networks hierarchically where the first one separates foreground from
+background and the second one identifies 25 brain structures on the
+foreground. Since patches lack spatial context we augment them with
+coordinates. To this end we introduce a novel intrinsic parameterization of
+the brain volume formed by eigenfunctions of the Laplace-Beltrami operator. As
+network architecture we use three convolutional layers with pooling batch
+normalization and non-linearities followed by fully connected layers with
+dropout. The final segmentation is inferred from the probabilistic output of
+the network with a 3D fully connected conditional random field which ensures
+label agreement between close voxels. The roughly 2.7 million parameters in the
+network are learned with stochastic gradient descent. Our results show that
+DeepNAT compares favorably to state-of-the-art methods. Finally the purely
+learning-based method may have a high potential for the adaptation to young
+old or diseased brains by fine-tuning the pre-trained network with a small
+training sample on the target application where the availability of larger
+datasets with manual annotations may boost the overall segmentation accuracy in
+the future.",Christian Wachinger|Martin Reuter|Tassilo Klein,cs.CV|cs.AI|cs.LG
+2017-02-28T17:19:23Z,2017-02-27T07:16:41Z,http://arxiv.org/abs/1702.08165v1,http://arxiv.org/pdf/1702.08165v1,Reinforcement Learning with Deep Energy-Based Policies,"We propose a method for learning expressive energy-based policies for
+continuous states and actions which has been feasible only in tabular domains
+before. We apply our method to learning maximum entropy policies resulting
+into a new algorithm called soft Q-learning that expresses the optimal policy
+via a Boltzmann distribution. We use the recently proposed amortized Stein
+variational gradient descent to learn a stochastic sampling network that
+approximates samples from this distribution. The benefits of the proposed
+algorithm include improved exploration and compositionality that allows
+transferring skills between tasks which we confirm in simulated experiments
+with swimming and walking robots. We also draw a connection to actor-critic
+methods which can be viewed performing approximate inference on the
+corresponding energy-based model.",Tuomas Haarnoja|Haoran Tang|Pieter Abbeel|Sergey Levine,cs.LG|cs.AI
+2017-02-28T17:19:23Z,2017-02-26T14:43:38Z,http://arxiv.org/abs/1702.08039v1,http://arxiv.org/pdf/1702.08039v1,Criticality and Deep Learning Part I: Theory vs. Empirics,"Motivated by the idea that criticality and universality of phase transitions
+might play a crucial role in achieving and sustaining learning and intelligent
+behaviour in biological and artificial networks we analyse a theoretical and a
+pragmatic experimental set up for critical phenomena in deep learning. On the
+theoretical side we use results from statistical physics to carry out critical
+point calculations in feed-forward/fully connected networks while on the
+experimental side we set out to find traces of criticality in deep neural
+networks. This is our first step in a series of upcoming investigations to map
+out the relationship between criticality and learning in deep networks.",Dan Oprisa|Peter Toth,cs.AI|cs.LG
+2017-02-28T17:19:23Z,2017-02-26T03:19:13Z,http://arxiv.org/abs/1702.07983v1,http://arxiv.org/pdf/1702.07983v1,Maximum-Likelihood Augmented Discrete Generative Adversarial Networks,"Despite the successes in capturing continuous distributions the application
+of generative adversarial networks (GANs) to discrete settings like natural
+language tasks is rather restricted. The fundamental reason is the difficulty
+of back-propagation through discrete random variables combined with the
+inherent instability of the GAN training objective. To address these problems
+we propose Maximum-Likelihood Augmented Discrete Generative Adversarial
+Networks. Instead of directly optimizing the GAN objective we derive a novel
+and low-variance objective using the discriminator's output that follows
+corresponds to the log-likelihood. Compared with the original the new
+objective is proved to be consistent in theory and beneficial in practice. The
+experimental results on various discrete datasets demonstrate the effectiveness
+of the proposed approach.",Tong Che|Yanran Li|Ruixiang Zhang|R Devon Hjelm|Wenjie Li|Yangqiu Song|Yoshua Bengio,cs.AI|cs.CL|cs.LG
+2017-02-28T17:19:23Z,2017-02-25T20:15:55Z,http://arxiv.org/abs/1702.07944v1,http://arxiv.org/pdf/1702.07944v1,Stochastic Variance Reduction Methods for Policy Evaluation,"Policy evaluation is a crucial step in many reinforcement-learning
+procedures which estimates a value function that predicts states' long-term
+value under a given policy. In this paper we focus on policy evaluation with
+linear function approximation over a fixed dataset. We first transform the
+empirical policy evaluation problem into a (quadratic) convex-concave saddle
+point problem and then present a primal-dual batch gradient method as well as
+two stochastic variance reduction methods for solving the problem. These
+algorithms scale linearly in both sample size and feature dimension. Moreover
+they achieve linear convergence even when the saddle-point problem has only
+strong concavity in the dual variables but no strong convexity in the primal
+variables. Numerical experiments on benchmark problems demonstrate the
+effectiveness of our methods.",Simon S. Du|Jianshu Chen|Lihong Li|Lin Xiao|Dengyong Zhou,cs.LG|cs.AI|cs.SY|math.OC|stat.ML
+2017-02-28T17:19:23Z,2017-02-25T13:12:26Z,http://arxiv.org/abs/1702.07889v1,http://arxiv.org/pdf/1702.07889v1,Contractibility for Open Global Constraints,"Open forms of global constraints allow the addition of new variables to an
+argument during the execution of a constraint program. Such forms are needed
+for difficult constraint programming problems where problem construction and
+problem solving are interleaved and fit naturally within constraint logic
+programming. However in general filtering that is sound for a global
+constraint can be unsound when the constraint is open. This paper provides a
+simple characterization called contractibility of the constraints where
+filtering remains sound when the constraint is open. With this characterization
+we can easily determine whether a constraint has this property or not. In the
+latter case we can use it to derive a contractible approximation to the
+constraint. We demonstrate this work on both hard and soft constraints. In the
+process we formulate two general classes of soft constraints.",Michael J. Maher,cs.LO|cs.AI
+2017-02-28T17:19:27Z,2017-02-25T03:20:49Z,http://arxiv.org/abs/1702.07826v1,http://arxiv.org/pdf/1702.07826v1,"Rationalization: A Neural Machine Translation Approach to Generating
+  Natural Language Explanations","We introduce AI rationalization an approach for generating explanations of
+autonomous system behavior as if a human had done the behavior. We describe a
+rationalization technique that uses neural machine translation to translate
+internal state-action representations of the autonomous agent into natural
+language. We evaluate our technique in the Frogger game environment. The
+natural language is collected from human players thinking out loud as they play
+the game. We motivate the use of rationalization as an approach to explanation
+generation show the results of experiments on the accuracy of our
+rationalization technique and describe future research agenda.",Brent Harrison|Upol Ehsan|Mark O. Riedl,cs.AI|cs.CL|cs.HC|cs.LG
+2017-02-28T17:19:27Z,2017-02-24T22:14:30Z,http://arxiv.org/abs/1702.07784v1,http://arxiv.org/pdf/1702.07784v1,Measuring #GamerGate: A Tale of Hate Sexism and Bullying,"Over the past few years online aggression and abusive behaviors have
+occurred in many different forms and on a variety of platforms. In extreme
+cases these incidents have evolved into hate discrimination and bullying
+and even materialized into real-world threats and attacks against individuals
+or groups. In this paper we study the Gamergate controversy. Started in August
+2014 in the online gaming world it quickly spread across various social
+networking platforms ultimately leading to many incidents of cyberbullying and
+cyberaggression. We focus on Twitter presenting a measurement study of a
+dataset of 340k unique users and 1.6M tweets to study the properties of these
+users the content they post and how they differ from random Twitter users. We
+find that users involved in this ""Twitter war"" tend to have more friends and
+followers are generally more engaged and post tweets with negative sentiment
+less joy and more hate than random users. We also perform preliminary
+measurements on how the Twitter suspension mechanism deals with such abusive
+behaviors. While we focus on Gamergate our methodology to collect and analyze
+tweets related to aggressive and bullying activities is of independent
+interest.",Despoina Chatzakou|Nicolas Kourtellis|Jeremy Blackburn|Emiliano De Cristofaro|Gianluca Stringhini|Athena Vakali,cs.SI|cs.AI|cs.CY
+2017-02-28T17:19:27Z,2017-02-24T11:28:02Z,http://arxiv.org/abs/1702.07543v1,http://arxiv.org/pdf/1702.07543v1,"Embedding Knowledge Graphs Based on Transitivity and Antisymmetry of
+  Rules","Representation learning of knowledge graphs encodes entities and relation
+types into a continuous low-dimensional vector space learns embeddings of
+entities and relation types. Most existing methods only concentrate on
+knowledge triples ignoring logic rules which contain rich background
+knowledge. Although there has been some work aiming at leveraging both
+knowledge triples and logic rules they ignore the transitivity and
+antisymmetry of logic rules. In this paper we propose a novel approach to
+learn knowledge representations with entities and ordered relations in
+knowledges and logic rules. The key idea is to integrate knowledge triples and
+logic rules and approximately order the relation types in logic rules to
+utilize the transitivity and antisymmetry of logic rules. All entries of the
+embeddings of relation types are constrained to be non-negative. We translate
+the general constrained optimization problem into an unconstrained optimization
+problem to solve the non-negative matrix factorization. Experimental results
+show that our model significantly outperforms other baselines on knowledge
+graph completion task. It indicates that our model is capable of capturing the
+transitivity and antisymmetry information which is significant when learning
+embeddings of knowledge graphs.",Mengya Wang|Hankui Zhuo|Huiling Zhu,cs.AI
+2017-02-28T17:19:27Z,2017-02-24T08:30:43Z,http://arxiv.org/abs/1702.07492v1,http://arxiv.org/pdf/1702.07492v1,"Robot gains Social Intelligence through Multimodal Deep Reinforcement
+  Learning","For robots to coexist with humans in a social world like ours it is crucial
+that they possess human-like social interaction skills. Programming a robot to
+possess such skills is a challenging task. In this paper we propose a
+Multimodal Deep Q-Network (MDQN) to enable a robot to learn human-like
+interaction skills through a trial and error method. This paper aims to develop
+a robot that gathers data during its interaction with a human and learns human
+interaction behaviour from the high-dimensional sensory information using
+end-to-end reinforcement learning. This paper demonstrates that the robot was
+able to learn basic interaction skills successfully after 14 days of
+interacting with people.",Ahmed Hussain Qureshi|Yutaka Nakamura|Yuichiro Yoshikawa|Hiroshi Ishiguro,cs.RO|cs.AI|cs.CV|stat.ML
+2017-02-28T17:19:27Z,2017-02-24T06:37:06Z,http://arxiv.org/abs/1702.07475v1,http://arxiv.org/pdf/1702.07475v1,"Sequence-based Multimodal Apprenticeship Learning For Robot Perception
+  and Decision Making","Apprenticeship learning has recently attracted a wide attention due to its
+capability of allowing robots to learn physical tasks directly from
+demonstrations provided by human experts. Most previous techniques assumed that
+the state space is known a priori or employed simple state representations that
+usually suffer from perceptual aliasing. Different from previous research we
+propose a novel approach named Sequence-based Multimodal Apprenticeship
+Learning (SMAL) which is capable to simultaneously fusing temporal information
+and multimodal data and to integrate robot perception with decision making. To
+evaluate the SMAL approach experiments are performed using both simulations
+and real-world robots in the challenging search and rescue scenarios. The
+empirical study has validated that our SMAL approach can effectively learn
+plans for robots to make decisions using sequence of multimodal observations.
+Experimental results have also showed that SMAL outperforms the baseline
+methods using individual images.",Fei Han|Xue Yang|Yu Zhang|Hao Zhang,cs.RO|cs.AI|cs.CV
+2017-02-28T17:19:27Z,2017-02-24T02:30:15Z,http://arxiv.org/abs/1702.07450v1,http://arxiv.org/pdf/1702.07450v1,Strongly-Typed Agents are Guaranteed to Interact Safely,"As artificial agents proliferate it is becoming increasingly important to
+ensure that their interactions with one another are well-behaved. In this
+paper we formalize a common-sense notion of when algorithms are well-behaved:
+an algorithm is safe if it does no harm. Motivated by recent progress in deep
+learning we focus on the specific case where agents update their actions
+according to gradient descent. The first result is that gradient descent
+converges to a Nash equilibrium in safe games.
+  The paper provides sufficient conditions that guarantee safe interactions.
+The main contribution is to define strongly-typed agents and show they are
+guaranteed to interact safely. A series of examples show that strong-typing
+generalizes certain key features of convexity and is closely related to blind
+source separation. The analysis introduce a new perspective on classical
+multilinear games based on tensor decomposition.",David Balduzzi,cs.LG|cs.AI|cs.GT
+2017-02-28T17:19:27Z,2017-02-23T16:34:07Z,http://arxiv.org/abs/1702.07281v1,http://arxiv.org/pdf/1702.07281v1,A Probabilistic Framework for Location Inference from Social Media,"We study the extent to which we can infer users' geographical locations from
+social media. Location inference from social media can benefit many
+applications such as disaster management targeted advertising and news
+content tailoring. In recent years a number of algorithms have been proposed
+for identifying user locations on social media platforms such as Twitter and
+Facebook from message contents friend networks and interactions between
+users. In this paper we propose a novel probabilistic model based on factor
+graphs for location inference that offers several unique advantages for this
+task. First the model generalizes previous methods by incorporating content
+network and deep features learned from social context. The model is also
+flexible enough to support both supervised learning and semi-supervised
+learning. Second we explore several learning algorithms for the proposed
+model and present a Two-chain Metropolis-Hastings (MH+) algorithm which
+improves the inference accuracy. Third we validate the proposed model on three
+different genres of data - Twitter Weibo and Facebook - and demonstrate that
+the proposed model can substantially improve the inference accuracy (+3.3-18.5%
+by F1-score) over that of several state-of-the-art methods.",Yujie Qian|Jie Tang|Zhilin Yang|Binxuan Huang|Wei Wei|Kathleen M. Carley,cs.AI|cs.SI
+2017-02-28T17:19:27Z,2017-02-23T12:36:14Z,http://arxiv.org/abs/1702.07193v1,http://arxiv.org/pdf/1702.07193v1,Ontologies in System Engineering: a Field Report,"In recent years ontologies enjoyed a growing popularity outside specialized
+AI communities. System engineering is no exception to this trend with
+ontologies being proposed as a basis for several tasks in complex industrial
+implements including system design monitoring and diagnosis. In this paper
+we consider four different contributions to system engineering wherein
+ontologies are instrumental to provide enhancements over traditional ad-hoc
+techniques. For each application we briefly report the methodologies the
+tools and the results obtained with the goal to provide an assessment of merits
+and limits of ontologies in such domains.",Marco Menapace|Armando Tacchella,cs.AI|cs.SE|I.2.4
+2017-02-28T17:19:27Z,2017-02-23T10:51:32Z,http://arxiv.org/abs/1702.07168v1,http://arxiv.org/pdf/1702.07168v1,A DIKW Paradigm to Cognitive Engineering,"Though the word cognitive has a wide range of meanings we define cognitive
+engineering as learning from brain to bolster engineering solutions. However
+giving an achievable framework to the process towards this has been a difficult
+task. In this work we take the classic data information knowledge wisdom (DIKW)
+framework to set some achievable goals and sub-goals towards cognitive
+engineering. A layered framework like DIKW aligns nicely with the layered
+structure of pre-frontal cortex. And breaking the task into sub-tasks based on
+the layers also makes it easier to start developmental endeavours towards
+achieving the final goal of a brain-inspired system.",Amit Kumar Mishra,cs.AI
+2017-02-28T17:19:27Z,2017-02-22T22:34:57Z,http://arxiv.org/abs/1702.07031v1,http://arxiv.org/pdf/1702.07031v1,"Proactive Resource Management in LTE-U Systems: A Deep Learning
+  Perspective","LTE in unlicensed spectrum (LTE-U) is a promising approach to overcome the
+wireless spectrum scarcity. However to reap the benefits of LTE-U a fair
+coexistence mechanism with other incumbent WiFi deployments is required. In
+this paper a novel deep learning approach is proposed for modeling the
+resource allocation problem of LTE-U small base stations (SBSs). The proposed
+approach enables multiple SBSs to proactively perform dynamic channel
+selection carrier aggregation and fractional spectrum access while
+guaranteeing fairness with existing WiFi networks and other LTE-U operators.
+Adopting a proactive coexistence mechanism enables future delay-intolerant
+LTE-U data demands to be served within a given prediction window ahead of their
+actual arrival time thus avoiding the underutilization of the unlicensed
+spectrum during off-peak hours while maximizing the total served LTE-U traffic
+load. To this end a noncooperative game model is formulated in which SBSs are
+modeled as Homo Egualis agents that aim at predicting a sequence of future
+actions and thus achieving long-term equal weighted fairness with WLAN and
+other LTE-U operators over a given time horizon. The proposed deep learning
+algorithm is then shown to reach a mixed-strategy Nash equilibrium (NE) when
+it converges. Simulation results using real data traces show that the proposed
+scheme can yield up to 28% and 11% gains over a conventional reactive approach
+and a proportional fair coexistence mechanism respectively. The results also
+show that the proposed framework prevents WiFi performance degradation for a
+densely deployed LTE-U network.",Ursula Challita|Li Dong|Walid Saad,cs.IT|cs.AI|cs.GT|math.IT
+2017-02-28T17:19:31Z,2017-02-22T20:57:29Z,http://arxiv.org/abs/1702.07001v1,http://arxiv.org/pdf/1702.07001v1,Theoretical and Experimental Analysis of the Canadian Traveler Problem,"Devising an optimal strategy for navigation in a partially observable
+environment is one of the key objectives in AI. One of the problem in this
+context is the Canadian Traveler Problem (CTP). CTP is a navigation problem
+where an agent is tasked to travel from source to target in a partially
+observable weighted graph whose edge might be blocked with a certain
+probability and observing such blockage occurs only when reaching upon one of
+the edges end points. The goal is to find a strategy that minimizes the
+expected travel cost. The problem is known to be P$\#$ hard. In this work we
+study the CTP theoretically and empirically. First we study the Dep-CTP a CTP
+variant we introduce which assumes dependencies between the edges status. We
+show that Dep-CTP is intractable and further we analyze two of its subclasses
+on disjoint paths graph. Second we develop a general algorithm Gen-PAO that
+optimally solve the CTP. Gen-PAO is capable of solving two other types of CTP
+called Sensing-CTP and Expensive-Edges CTP. Since the CTP is intractable
+Gen-PAO use some pruning methods to reduce the space search for the optimal
+solution. We also define some variants of Gen-PAO compare their performance
+and show some benefits of Gen-PAO over existing work.",Doron Zarchy,cs.AI
+2017-02-28T17:19:31Z,2017-02-22T19:10:30Z,http://arxiv.org/abs/1702.06970v1,http://arxiv.org/pdf/1702.06970v1,"A Realistic Dataset for the Smart Home Device Scheduling Problem for
+  DCOPs","The field of Distributed Constraint Optimization has gained momentum in
+recent years thanks to its ability to address various applications related to
+multi-agent cooperation. While techniques to solve Distributed Constraint
+Optimization Problems (DCOPs) are abundant and have matured substantially since
+the field inception the number of DCOP realistic applications and benchmark
+used to asses the performance of DCOP algorithms is lagging behind. To contrast
+this background we (i) introduce the Smart Home Device Scheduling (SHDS)
+problem which describe the problem of coordinating smart devices schedules
+across multiple homes as a multi-agent system (ii) detail the physical models
+adopted to simulate smart sensors smart actuators and homes environments and
+(iii) introduce a DCOP realistic benchmark for SHDS problems.",William Kluegel|Muhammad Aamir Iqbal|Ferdinando Fioretto|William Yeoh|Enrico Pontelli,cs.AI|cs.DC
+2017-02-28T17:19:31Z,2017-02-22T18:35:43Z,http://arxiv.org/abs/1702.06934v1,http://arxiv.org/pdf/1702.06934v1,Realization of Ontology Web Search Engine,"This paper describes the realization of the Ontology Web Search Engine. The
+Ontology Web Search Engine is realizable as independent project and as a part
+of other projects. The main purpose of this paper is to present the Ontology
+Web Search Engine realization details as the part of the Semantic Web Expert
+System and to present the results of the Ontology Web Search Engine
+functioning. It is expected that the Semantic Web Expert System will be able to
+process ontologies from the Web generate rules from these ontologies and
+develop its knowledge base.",Olegs Verhodubs,cs.AI|cs.IR
+2017-02-28T17:19:31Z,2017-02-22T18:15:42Z,http://arxiv.org/abs/1702.06925v1,http://arxiv.org/abs/1702.06925v1,Transferring Face Verification Nets To Pain and Expression Regression,"Limited annotated data is available for the research of estimating facial
+expression intensities which makes the training of deep networks for automated
+expression assessment very challenging. Fortunately fine-tuning from a
+data-extensive pre-trained domain such as face verification can alleviate the
+problem. In this paper we propose a transferred network that fine-tunes a
+state-of-the-art face verification network using expression-intensity labeled
+data with a regression layer. In this way the expression regression task can
+benefit from the rich feature representations trained on a huge amount of data
+for face verification. The proposed transferred deep regressor is applied in
+estimating the intensity of facial action units (2017 EmotionNet Challenge) and
+in particular pain intensity estimation (UNBS-McMaster Shoulder-Pain dataset).
+It wins the second place in the challenge and achieves the state-of-the-art
+performance on Shoulder-Pain dataset. Particularly for Shoulder-Pain with the
+imbalance issue of different pain levels a new weighted evaluation metric is
+proposed.",Feng Wang|Xiang Xiang|Chang Liu|Trac D. Tran|Austin Reiter|Gregory D. Hager|Harry Quon|Jian Cheng|Alan L. Yuille,cs.CV|cs.AI|cs.LG|cs.MM
+2017-02-28T17:19:31Z,2017-02-23T01:21:38Z,http://arxiv.org/abs/1702.06915v2,http://arxiv.org/pdf/1702.06915v2,Solving DCOPs with Distributed Large Neighborhood Search,"The field of Distributed Constraint Optimization has gained momentum in
+recent years thanks to its ability to address various applications related to
+multi-agent cooperation. Nevertheless solving Distributed Constraint
+Optimization Problems (DCOPs) optimally is NP-hard. Therefore in large-scale
+complex applications incomplete DCOP algorithms are necessary. Current
+incomplete DCOP algorithms suffer of one or more of the following limitations:
+they (a) find local minima without providing quality guarantees; (b) provide
+loose quality assessment; or (c) are unable to benefit from the structure of
+the problem such as domain-dependent knowledge and hard constraints.
+Therefore capitalizing on strategies from the centralized constraint solving
+community we propose a Distributed Large Neighborhood Search (D-LNS) framework
+to solve DCOPs. The proposed framework (with its novel repair phase) provides
+guarantees on solution quality refining upper and lower bounds during the
+iterative process and can exploit domain-dependent structures. Our
+experimental results show that D-LNS outperforms other incomplete DCOP
+algorithms on both structured and unstructured problem instances.",Ferdinando Fioretto|Agostino Dovier|Enrico Pontelli|William Yeoh|Roie Zivan,cs.AI
+2017-02-28T17:19:31Z,2017-02-22T16:28:11Z,http://arxiv.org/abs/1702.06879v1,http://arxiv.org/pdf/1702.06879v1,Knowledge Graph Completion via Complex Tensor Factorization,"In statistical relational learning knowledge graph completion deals with
+automatically understanding the structure of large knowledge graphs---labeled
+directed graphs---and predicting missing relationships---labeled edges.
+State-of-the-art embedding models propose different trade-offs between modeling
+expressiveness and time and space complexity. We reconcile both expressiveness
+and complexity through the use of complex-valued embeddings and explore the
+link between such complex-valued embeddings and unitary diagonalization. We
+corroborate our approach theoretically and show that all real square
+matrices---thus all possible relation/adjacency matrices---are the real part of
+some unitarily diagonalizable matrix. This results opens the door to a lot of
+other applications of square matrices factorization. Our approach based on
+complex embeddings is arguably simple as it only involves a Hermitian dot
+product the complex counterpart of the standard dot product between real
+vectors whereas other methods resort to more and more complicated composition
+functions to increase their expressiveness. The proposed complex embeddings are
+scalable to large data sets as it remains linear in both space and time while
+consistently outperforming alternative approaches on standard link prediction
+benchmarks.",Théo Trouillon|Christopher R. Dance|Johannes Welbl|Sebastian Riedel|Éric Gaussier|Guillaume Bouchard,cs.AI|cs.LG|math.SP|stat.ML
+2017-02-28T17:19:31Z,2017-02-22T12:36:21Z,http://arxiv.org/abs/1702.06776v1,http://arxiv.org/pdf/1702.06776v1,Causal Inference by Stochastic Complexity,"The algorithmic Markov condition states that the most likely causal direction
+between two random variables X and Y can be identified as that direction with
+the lowest Kolmogorov complexity. Due to the halting problem however this
+notion is not computable.
+  We hence propose to do causal inference by stochastic complexity. That is we
+propose to approximate Kolmogorov complexity via the Minimum Description Length
+(MDL) principle using a score that is mini-max optimal with regard to the
+model class under consideration. This means that even in an adversarial
+setting such as when the true distribution is not in this class we still
+obtain the optimal encoding for the data relative to the class.
+  We instantiate this framework which we call CISC for pairs of univariate
+discrete variables using the class of multinomial distributions. Experiments
+show that CISC is highly accurate on synthetic benchmark as well as
+real-world data outperforming the state of the art by a margin and scales
+extremely well with regard to sample and domain sizes.",Kailash Budhathoki|Jilles Vreeken,cs.LG|cs.AI
+2017-02-28T17:19:31Z,2017-02-22T08:19:38Z,http://arxiv.org/abs/1702.06700v1,http://arxiv.org/pdf/1702.06700v1,"Task-driven Visual Saliency and Attention-based Visual Question
+  Answering","Visual question answering (VQA) has witnessed great progress since May 2015
+as a classic problem unifying visual and textual data into a system. Many
+enlightening VQA works explore deep into the image and question encodings and
+fusing methods of which attention is the most effective and infusive
+mechanism. Current attention based methods focus on adequate fusion of visual
+and textual features but lack the attention to where people focus to ask
+questions about the image. Traditional attention based methods attach a single
+value to the feature at each spatial location which losses many useful
+information. To remedy these problems we propose a general method to perform
+saliency-like pre-selection on overlapped region features by the interrelation
+of bidirectional LSTM (BiLSTM) and use a novel element-wise multiplication
+based attention method to capture more competent correlation information
+between visual and textual features. We conduct experiments on the large-scale
+COCO-VQA dataset and analyze the effectiveness of our model demonstrated by
+strong empirical results.",Yuetan Lin|Zhangyang Pang|Donghui Wang|Yueting Zhuang,cs.CV|cs.AI|cs.CL|cs.NE
+2017-02-28T17:19:31Z,2017-02-22T04:34:31Z,http://arxiv.org/abs/1702.06674v1,http://arxiv.org/pdf/1702.06674v1,Unsupervised Diverse Colorization via Generative Adversarial Networks,"Colorization of grayscale images has been a hot topic in computer vision.
+Previous research mainly focuses on producing a colored image to match the
+original one. However since many colors share the same gray value an input
+grayscale image could be diversely colored while maintaining its reality. In
+this paper we design a novel solution for unsupervised diverse colorization.
+Specifically we leverage conditional generative adversarial networks to model
+the distribution of real-world item colors in which we develop a fully
+convolutional generator with multi-layer noise to enhance diversity with
+multi-layer condition concatenation to maintain reality and with stride 1 to
+keep spatial information. With such a novel network architecture the model
+yields highly competitive performance on the open LSUN bedroom dataset. The
+Turing test of 80 humans further indicates our generated color schemes are
+highly convincible.",Yun Cao|Zhiming Zhou|Weinan Zhang|Yong Yu,cs.CV|cs.AI
+2017-02-28T17:19:31Z,2017-02-22T03:14:05Z,http://arxiv.org/abs/1702.06662v1,http://arxiv.org/pdf/1702.06662v1,"An Integer Programming Model for Binary Knapsack Problem with
+  Value-Related Dependencies among Elements","Binary Knapsack Problem (BKP) is to select a subset of an element (item) set
+with the highest value while keeping the total weight within the capacity of
+the knapsack. This paper presents an integer programming model for a variation
+of BKP where the value of each element may depend on selecting or ignoring
+other elements. Strengths of such Value-Related Dependencies are assumed to be
+imprecise and hard to specify. To capture this imprecision we have proposed
+modeling value-related dependencies using fuzzy graphs and their algebraic
+structure.",Davoud Mougouei|David M. W. Powers|Asghar Moeini,cs.AI
+2017-02-28T17:19:35Z,2017-02-21T14:35:55Z,http://arxiv.org/abs/1702.06404v1,http://arxiv.org/pdf/1702.06404v1,Delving Deeper into MOOC Student Dropout Prediction,"In order to obtain reliable accuracy estimates for automatic MOOC dropout
+predictors it is important to train and test them in a manner consistent with
+how they will be used in practice. Yet most prior research on MOOC dropout
+prediction has measured test accuracy on the same course used for training the
+classifier which can lead to overly optimistic accuracy estimates. In order to
+understand better how accuracy is affected by the training+testing regime we
+compared the accuracy of a standard dropout prediction architecture
+(clickstream features + logistic regression) across 4 different training
+paradigms. Results suggest that (1) training and testing on the same course
+(""post-hoc"") can overestimate accuracy by several percentage points; (2)
+dropout classifiers trained on proxy labels based on students' persistence are
+surprisingly competitive with post-hoc training (87.33% versus 90.20% AUC
+averaged over 8 weeks of 40 HarvardX MOOCs); and (3) classifier performance
+does not vary significantly with the academic discipline. Finally we also
+research new dropout prediction architectures based on deep fully-connected
+feed-forward neural networks and find that (4) networks with as many as 5
+hidden layers can statistically significantly increase test accuracy over that
+of logistic regression.",Jacob Whitehill|Kiran Mohan|Daniel Seaton|Yigal Rosen|Dustin Tingley,cs.AI|cs.CY
+2017-02-28T17:19:35Z,2017-02-21T11:29:28Z,http://arxiv.org/abs/1702.06334v1,http://arxiv.org/pdf/1702.06334v1,"Synthesizing Imperative Programs for Introductory Programming
+  Assignments","We present a novel algorithm that synthesizes imperative programs for
+introductory programming courses. Given a set of input-output examples and a
+partial program our algorithm generates a complete program that is consistent
+with every example. Our key idea is to combine enumerative program synthesis
+and static analysis which aggressively prunes out a large search space while
+guaranteeing to find if any a correct solution. We have implemented our
+algorithm in a tool called SIMPL and evaluated it on 30 problems used in
+introductory programming courses. The results show that SIMPL is able to solve
+the benchmark problems in 6.6 seconds on average.",Sunbeom So|Hakjoo Oh,cs.PL|cs.AI
+2017-02-28T17:19:35Z,2017-02-21T11:07:27Z,http://arxiv.org/abs/1702.06329v1,http://arxiv.org/pdf/1702.06329v1,"Towards a Common Implementation of Reinforcement Learning for Multiple
+  Robotic Tasks","Mobile robots are increasingly being employed for performing complex tasks in
+dynamic environments. Reinforcement learning (RL) methods are recognized to be
+promising for specifying such tasks in a relatively simple manner. However the
+strong dependency between the learning method and the task to learn is a
+well-known problem that restricts practical implementations of RL in robotics
+often requiring major modifications of parameters and adding other techniques
+for each particular task. In this paper we present a practical core
+implementation of RL which enables the learning process for multiple robotic
+tasks with minimal per-task tuning or none. Based on value iteration methods
+this implementation includes a novel approach for action selection called
+Q-biased softmax regression (QBIASSR) which avoids poor performance of the
+learning process when the robot reaches new unexplored states. Our approach
+takes advantage of the structure of the state space by attending the physical
+variables involved (e.g. distances to obstacles XY{\theta} pose etc.)
+thus experienced sets of states may favor the decision-making process of
+unexplored or rarely-explored states. This improvement has a relevant role in
+reducing the tuning of the algorithm for particular tasks. Experiments with
+real and simulated robots performed with the software framework also
+introduced here show that our implementation is effectively able to learn
+different robotic tasks without tuning the learning method. Results also
+suggest that the combination of true online SARSA({\lambda}) with QBIASSR can
+outperform the existing RL core algorithms in low-dimensional robotic tasks.",Angel Martínez-Tenor|Juan Antonio Fernández-Madrigal|Ana Cruz-Martín|Javier González-Jiménez,cs.AI|cs.LG|cs.RO|68T40|I.2.6; I.2.9
+2017-02-28T17:19:35Z,2017-02-21T02:14:47Z,http://arxiv.org/abs/1702.06238v1,http://arxiv.org/pdf/1702.06238v1,Sample Efficient Policy Search for Optimal Stopping Domains,"Arising naturally in many fields optimal stopping problems consider the
+question of deciding when to stop an observation-generating process. We examine
+the problem of simultaneously learning and planning in such domains when data
+is collected directly from the environment. We propose GFSE a simple and
+flexible model-free policy search method that reuses data for sample efficiency
+by leveraging problem structure. We bound the sample complexity of our approach
+to guarantee uniform convergence of policy value estimates tightening existing
+PAC bounds to achieve logarithmic dependence on horizon length for our setting.
+We also examine the benefit of our method against prevalent model-based and
+model-free approaches on 3 domains taken from diverse fields.",Karan Goel|Christoph Dann|Emma Brunskill,cs.AI|cs.LG
+2017-02-28T17:19:35Z,2017-02-21T01:06:11Z,http://arxiv.org/abs/1702.06230v1,http://arxiv.org/pdf/1702.06230v1,"Beating the World's Best at Super Smash Bros. with Deep Reinforcement
+  Learning","There has been a recent explosion in the capabilities of game-playing
+artificial intelligence. Many classes of RL tasks from Atari games to motor
+control to board games are now solvable by fairly generic algorithms based on
+deep learning that learn to play from experience with minimal knowledge of the
+specific domain of interest. In this work we will investigate the performance
+of these methods on Super Smash Bros. Melee (SSBM) a popular console fighting
+game. The SSBM environment has complex dynamics and partial observability
+making it challenging for human and machine alike. The multi-player aspect
+poses an additional challenge as the vast majority of recent advances in RL
+have focused on single-agent environments. Nonetheless we will show that it is
+possible to train agents that are competitive against and even surpass human
+professionals a new result for the multi-player video game setting.",Vlad Firoiu|William F. Whitney|Joshua B. Tenenbaum,cs.LG|cs.AI|I.2.6
+2017-02-28T17:19:35Z,2017-02-20T22:43:54Z,http://arxiv.org/abs/1702.06199v1,http://arxiv.org/pdf/1702.06199v1,The Dialog State Tracking Challenge with Bayesian Approach,"Generative model has been one of the most common approaches for solving the
+Dialog State Tracking Problem with the capabilities to model the dialog
+hypotheses in an explicit manner. The most important task in such Bayesian
+networks models is constructing the most reliable user models by learning and
+reflecting the training data into the probability distribution of user actions
+conditional on networks states. This paper provides an overall picture of the
+learning process in a Bayesian framework with an emphasize on the
+state-of-the-art theoretical analyses of the Expectation Maximization learning
+algorithm.",Quan Nguyen,cs.AI
+2017-02-28T17:19:35Z,2017-02-20T16:32:07Z,http://arxiv.org/abs/1702.06054v1,http://arxiv.org/pdf/1702.06054v1,"Learning to Repeat: Fine Grained Action Repetition for Deep
+  Reinforcement Learning","Reinforcement Learning algorithms can learn complex behavioral patterns for
+sequential decision making tasks wherein an agent interacts with an environment
+and acquires feedback in the form of rewards sampled from it. Traditionally
+such algorithms make decisions i.e. select actions to execute at every
+single time step of the agent-environment interactions. In this paper we
+propose a novel framework Fine Grained Action Repetition (FiGAR) which
+enables the agent to decide the action as well as the time scale of repeating
+it. FiGAR can be used for improving any Deep Reinforcement Learning algorithm
+which maintains an explicit policy estimate by enabling temporal abstractions
+in the action space. We empirically demonstrate the efficacy of our framework
+by showing performance improvements on top of three policy search algorithms in
+different domains: Asynchronous Advantage Actor Critic in the Atari 2600
+domain Trust Region Policy Optimization in Mujoco domain and Deep
+Deterministic Policy Gradients in the TORCS car racing domain.",Sahil Sharma|Aravind S. Lakshminarayanan|Balaraman Ravindran,cs.LG|cs.AI|cs.NE
+2017-02-28T17:19:35Z,2017-02-23T15:02:59Z,http://arxiv.org/abs/1702.05970v2,http://arxiv.org/pdf/1702.05970v2,"Automatic Liver and Tumor Segmentation of CT and MRI Volumes using
+  Cascaded Fully Convolutional Neural Networks","Automatic segmentation of the liver and hepatic lesions is an important step
+towards deriving quantitative biomarkers for accurate clinical diagnosis and
+computer-aided decision support systems. This paper presents a method to
+automatically segment liver and lesions in CT and MRI abdomen images using
+cascaded fully convolutional neural networks (CFCNs) enabling the segmentation
+of a large-scale medical trial or quantitative image analysis. We train and
+cascade two FCNs for a combined segmentation of the liver and its lesions. In
+the first step we train a FCN to segment the liver as ROI input for a second
+FCN. The second FCN solely segments lesions within the predicted liver ROIs of
+step 1. CFCN models were trained on an abdominal CT dataset comprising 100
+hepatic tumor volumes. Validations on further datasets show that CFCN-based
+semantic liver and lesion segmentation achieves Dice scores over 94% for liver
+with computation times below 100s per volume. We further experimentally
+demonstrate the robustness of the proposed method on an 38 MRI liver tumor
+volumes and the public 3DIRCAD dataset.",Patrick Ferdinand Christ|Florian Ettlinger|Felix Grün|Mohamed Ezzeldin A. Elshaera|Jana Lipkova|Sebastian Schlecht|Freba Ahmaddy|Sunil Tatavarty|Marc Bickel|Patrick Bilic|Markus Rempfler|Felix Hofmann|Melvin D Anastasi|Seyed-Ahmad Ahmadi|Georgios Kaissis|Julian Holch|Wieland Sommer|Rickmer Braren|Volker Heinemann|Bjoern Menze,cs.CV|cs.AI
+2017-02-28T17:19:35Z,2017-02-20T09:56:34Z,http://arxiv.org/abs/1702.06831v1,http://arxiv.org/pdf/1702.06831v1,"Using Redescription Mining to Relate Clinical and Biological
+  Characteristics of Cognitively Impaired and Alzheimer's Disease Patients","Based on a set of subjects and a collection of descriptors obtained from the
+Alzheimer's Disease Neuroimaging Initiative database we use redescription
+mining to find rules revealing associations between these determinants which
+provides insights about the Alzheimer's disease (AD). We applied a four-step
+redescription mining algorithm (CLUS-RM) which has been extended to engender
+constraint-based redescription mining (CBRM) and enables several modes of
+targeted exploration of specific user-defined associations. To a large extent
+we confirmed known findings previously reported in the literature. However
+several redescriptions contained biological descriptors that differentiated
+well between the groups and for which connection to AD is still not completely
+explained. Examples include testosterone ciliary neurotrophic factor brain
+natriuretic peptide insulin etc. The imaging descriptor Spatial Pattern of
+Abnormalities for Recognition of Early AD and levels of leptin and
+angiopoietin-2 in plasma were also found to be remarkably good descriptors
+that may provide better understanding of AD pathogenesis. Finally the most
+intriguing and novel finding was the high association of the
+Pregnancy-Associated Protein-A (PAPP-A) with cognitive impairment in AD. The
+high importance of this finding lies in the fact that PAPP-A is a
+metalloproteinase known to cleave insulin-like growth factor binding proteins.
+Since it also shares similar substrates with A Disintegrin and
+Metalloproteinase family of enzymes that act as {\alpha}-secretase to
+physiologically cleave amyloid precursor protein (APP) in the non-amyloidogenic
+pathway it could be directly involved in metabolism of APP very early during
+the disease course. Therefore further studies should investigate the role of
+PAPP-A in the development of AD more thoroughly.",Matej Mihelčić|Goran Šimić|Mirjana Babić Leko|Nada Lavrač|Sašo Džeroski|Tomislav Šmuc,q-bio.QM|cs.AI|q-bio.NC
+2017-02-28T17:19:35Z,2017-02-22T06:33:34Z,http://arxiv.org/abs/1702.05870v2,http://arxiv.org/pdf/1702.05870v2,"Cosine Normalization: Using Cosine Similarity Instead of Dot Product in
+  Neural Networks","Traditionally multi-layer neural networks use dot product between the output
+vector of previous layer and the incoming weight vector as the input to
+activation function. The result of dot product is unbounded thus increases the
+risk of large variance. Large variance of neuron makes the model sensitive to
+the change of input distribution thus results in poor generalization and
+aggravates the internal covariate shift which slows down the training. To bound
+dot product and decrease the variance we propose to use cosine similarity
+instead of dot product in neural networks which we call cosine normalization.
+Our experiments show that cosine normalization in fully-connected neural
+networks notably reduces the test err with lower divergence compared to other
+normalization techniques. Applied to convolutional networks cosine
+normalization also significantly enhances the accuracy of classification and
+accelerates the training.",Luo Chunjie|Zhan jianfeng|Wang lei|Yang Qiang,cs.LG|cs.AI|stat.ML
+2017-02-28T17:19:38Z,2017-02-20T05:51:18Z,http://arxiv.org/abs/1702.05865v1,http://arxiv.org/pdf/1702.05865v1,Hemingway: Modeling Distributed Optimization Algorithms,"Distributed optimization algorithms are widely used in many industrial
+machine learning applications. However choosing the appropriate algorithm and
+cluster size is often difficult for users as the performance and convergence
+rate of optimization algorithms vary with the size of the cluster. In this
+paper we make the case for an ML-optimizer that can select the appropriate
+algorithm and cluster size to use for a given problem. To do this we propose
+building two models: one that captures the system level characteristics of how
+computation communication change as we increase cluster sizes and another that
+captures how convergence rates change with cluster sizes. We present
+preliminary results from our prototype implementation called Hemingway and
+discuss some of the challenges involved in developing such a system.",Xinghao Pan|Shivaram Venkataraman|Zizheng Tai|Joseph Gonzalez,cs.DC|cs.AI|cs.LG
+2017-02-28T17:19:38Z,2017-02-19T21:51:48Z,http://arxiv.org/abs/1702.05800v1,http://arxiv.org/pdf/1702.05800v1,Revisiting Distributed Synchronous SGD,"Distributed training of deep learning models on large-scale training data is
+typically conducted with asynchronous stochastic optimization to maximize the
+rate of updates at the cost of additional noise introduced from asynchrony. In
+contrast the synchronous approach is often thought to be impractical due to
+idle time wasted on waiting for straggling workers. We revisit these
+conventional beliefs in this paper and examine the weaknesses of both
+approaches. We demonstrate that a third approach synchronous optimization with
+backup workers can avoid asynchronous noise while mitigating for the worst
+stragglers. Our approach is empirically validated and shown to converge faster
+and to better test accuracies.",Xinghao Pan|Jianmin Chen|Rajat Monga|Samy Bengio|Rafal Jozefowicz,cs.DC|cs.AI|cs.LG
+2017-02-28T17:19:38Z,2017-02-19T18:23:47Z,http://arxiv.org/abs/1702.05778v1,http://arxiv.org/pdf/1702.05778v1,The Absent-Minded Driver Problem Redux,"This paper reconsiders the problem of the absent-minded driver who must
+choose between alternatives with different payoff with imperfect recall and
+varying degrees of knowledge of the system. The classical absent-minded driver
+problem represents the case with limited information and it has bearing on the
+general area of communication and learning social choice mechanism design
+auctions theories of knowledge belief and rational agency. Within the
+framework of extensive games this problem has applications to many artificial
+intelligence scenarios. It is obvious that the performance of the agent
+improves as information available increases. It is shown that a non-uniform
+assignment strategy for successive choices does better than a fixed probability
+strategy. We consider both classical and quantum approaches to the problem. We
+argue that the superior performance of quantum decisions with access to
+entanglement cannot be fairly compared to a classical algorithm. If the
+cognitive systems of agents are taken to have access to quantum resources or
+have a quantum mechanical basis then that can be leveraged into superior
+performance.",Subhash Kak,cs.AI|cs.GT
+2017-02-28T17:19:38Z,2017-02-19T07:19:52Z,http://arxiv.org/abs/1702.05710v1,http://arxiv.org/pdf/1702.05710v1,"Polynomial Time Efficient Construction Heuristics for Vertex Separation
+  Minimization Problem","Vertex Separation Minimization Problem (VSMP) consists of finding a layout of
+a graph G = (VE) which minimizes the maximum vertex cut or separation of a
+layout. It is an NP-complete problem in general for which metaheuristic
+techniques can be applied to find near optimal solution. VSMP has applications
+in VLSI design graph drawing and computer language compiler design. VSMP is
+polynomially solvable for grids trees permutation graphs and cographs.
+Construction heuristics play a very important role in the metaheuristic
+techniques as they are responsible for generating initial solutions which lead
+to fast convergence. In this paper we have proposed three construction
+heuristics H1 H2 and H3 and performed experiments on Grids Small graphs
+Trees and Harwell Boeing graphs totaling 248 instances of graphs. Experiments
+reveal that H1 H2 and H3 are able to achieve best results for 88.71% 43.5%
+and 37.1% of the total instances respectively while the best construction
+heuristic in the literature achieves the best solution for 39.9% of the total
+instances. We have also compared the results with the state-of-the-art
+metaheuristic GVNS and observed that the proposed construction heuristics
+improves the results for some of the input instances. It was found that GVNS
+obtained best results for 82.9% instances of all input instances and the
+heuristic H1 obtained best results for 82.3% of all input instances.",Pallavi Jain|Gur Saran|Kamal Srivastava,cs.DS|cs.AI
+2017-02-28T17:19:38Z,2017-02-18T23:46:10Z,http://arxiv.org/abs/1702.05677v1,http://arxiv.org/pdf/1702.05677v1,"Quadratic Upper Bound for Recursive Teaching Dimension of Finite VC
+  Classes","In this work we study the quantitative relation between the recursive
+teaching dimension (RTD) and the VC dimension (VCD) of concept classes of
+finite sizes. The RTD of a concept class $\mathcal C \subseteq \{0 1\}^n$
+introduced by Zilles et al. (2011) is a combinatorial complexity measure
+characterized by the worst-case number of examples necessary to identify a
+concept in $\mathcal C$ according to the recursive teaching model.
+  For any finite concept class $\mathcal C \subseteq \{01\}^n$ with
+$\mathrm{VCD}(\mathcal C)=d$ Simon & Zilles (2015) posed an open problem
+$\mathrm{RTD}(\mathcal C) = O(d)$ i.e. is RTD linearly upper bounded by VCD?
+Previously the best known result is an exponential upper bound
+$\mathrm{RTD}(\mathcal C) = O(d \cdot 2^d)$ due to Chen et al. (2016). In this
+paper we show a quadratic upper bound: $\mathrm{RTD}(\mathcal C) = O(d^2)$
+much closer to an answer to the open problem. We also discuss the challenges in
+fully solving the problem.",Lunjia Hu|Ruihan Wu|Tianhong Li|Liwei Wang,cs.LG|cs.AI|stat.ML
+2017-02-28T17:19:38Z,2017-02-17T20:39:38Z,http://arxiv.org/abs/1702.05515v1,http://arxiv.org/pdf/1702.05515v1,"Overview: Generalizations of Multi-Agent Path Finding to Real-World
+  Scenarios","Multi-agent path finding (MAPF) is well-studied in artificial intelligence
+robotics theoretical computer science and operations research. We discuss
+issues that arise when generalizing MAPF methods to real-world scenarios and
+four research directions that address them. We emphasize the importance of
+addressing these issues as opposed to developing faster methods for the
+standard formulation of the MAPF problem.",Hang Ma|Sven Koenig|Nora Ayanian|Liron Cohen|Wolfgang Hoenig|T. K. Satish Kumar|Tansel Uras|Hong Xu|Craig Tovey|Guni Sharon,cs.AI|cs.MA|cs.RO
+2017-02-28T17:19:38Z,2017-02-17T18:52:11Z,http://arxiv.org/abs/1702.05472v1,http://arxiv.org/pdf/1702.05472v1,"Threshold Constraints with Guarantees for Parity Objectives in Markov
+  Decision Processes","The beyond worst-case synthesis problem was introduced recently by Bruy\`ere
+et al. [BFRR14]: it aims at building system controllers that provide strict
+worst-case performance guarantees against an antagonistic environment while
+ensuring higher expected performance against a stochastic model of the
+environment. Our work extends the framework of [BFRR14] and follow-up papers
+which focused on quantitative objectives by addressing the case of
+$\omega$-regular conditions encoded as parity objectives a natural way to
+represent functional requirements of systems.
+  We build strategies that satisfy a main parity objective on all plays while
+ensuring a secondary one with sufficient probability. This setting raises new
+challenges in comparison to quantitative objectives as one cannot easily mix
+different strategies without endangering the functional properties of the
+system. We establish that for all variants of this problem deciding the
+existence of a strategy lies in ${\sf NP} \cap {\sf coNP}$ the same complexity
+class as classical parity games. Hence our framework provides additional
+modeling power while staying in the same complexity class.
+  [BFRR14] V\'eronique Bruy\`ere Emmanuel Filiot Mickael Randour and
+Jean-Fran\c{c}ois Raskin. Meet your expectations with guarantees: Beyond
+worst-case synthesis in quantitative games. In Ernst W. Mayr and Natacha
+Portier editors 31st International Symposium on Theoretical Aspects of
+Computer Science STACS 2014 March 5-8 2014 Lyon France volume 25 of
+LIPIcs pages 199-213. Schloss Dagstuhl - Leibniz - Zentrum fuer Informatik
+2014.",Raphaël Berthon|Mickael Randour|Jean-François Raskin,cs.LO|cs.AI|cs.FL|cs.GT|math.PR
+2017-02-28T17:19:38Z,2017-02-17T17:02:29Z,http://arxiv.org/abs/1702.05437v1,http://arxiv.org/pdf/1702.05437v1,Quantifying Program Bias,"With the range and sensitivity of algorithmic decisions expanding at a
+break-neck speed it is imperative that we aggressively investigate whether
+programs are biased. We propose a novel probabilistic program analysis
+technique and apply it to quantifying bias in decision-making programs.
+Specifically we (i) present a sound and complete automated verification
+technique for proving quantitative properties of probabilistic programs; (ii)
+show that certain notions of bias recently proposed in the fairness
+literature can be phrased as quantitative correctness properties; and (iii)
+present FairSquare the first verification tool for quantifying program bias
+and evaluate it on a range of decision-making programs.",Aws Albarghouthi|Loris D'Antoni|Samuel Drews|Aditya Nori,cs.PL|cs.AI
+2017-02-28T17:19:38Z,2017-02-17T15:12:31Z,http://arxiv.org/abs/1702.05376v1,http://arxiv.org/pdf/1702.05376v1,Towards a Unified Taxonomy of Biclustering Methods,"Being an unsupervised machine learning and data mining technique
+biclustering and its multimodal extensions are becoming popular tools for
+analysing object-attribute data in different domains. Apart from conventional
+clustering techniques biclustering is searching for homogeneous groups of
+objects while keeping their common description e.g. in binary setting their
+shared attributes. In bioinformatics biclustering is used to find genes which
+are active in a subset of situations thus being candidates for biomarkers.
+However the authors of those biclustering techniques that are popular in gene
+expression analysis may overlook the existing methods. For instance BiMax
+algorithm is aimed at finding biclusters which are well-known for decades as
+formal concepts. Moreover even if bioinformatics classify the biclustering
+methods according to reasonable domain-driven criteria their classification
+taxonomies may be different from survey to survey and not full as well. So in
+this paper we propose to use concept lattices as a tool for taxonomy building
+(in the biclustering domain) and attribute exploration as means for
+cross-domain taxonomy completion.",Dmitry I. Ignatov|Bruce W. Watson,"cs.AI|cs.DM|stat.ML|06B99, 62H30|I.5.3; H.2.8; I.2.6; I.2.4"
+2017-02-28T17:19:38Z,2017-02-17T09:26:10Z,http://arxiv.org/abs/1702.05270v1,http://arxiv.org/pdf/1702.05270v1,"Be Precise or Fuzzy: Learning the Meaning of Cardinals and Quantifiers
+  from Vision","People can refer to quantities in a visual scene by using either exact
+cardinals (e.g. one two three) or natural language quantifiers (e.g. few
+most all). In humans these two processes underlie fairly different cognitive
+and neural mechanisms. Inspired by this evidence the present study proposes
+two models for learning the objective meaning of cardinals and quantifiers from
+visual scenes containing multiple objects. We show that a model capitalizing on
+a 'fuzzy' measure of similarity is effective for learning quantifiers whereas
+the learning of exact cardinals is better accomplished when information about
+number is provided.",Sandro Pezzelle|Marco Marelli|Raffaella Bernardi,cs.CL|cs.AI|cs.CV
+2017-02-28T17:19:42Z,2017-02-17T04:46:24Z,http://arxiv.org/abs/1702.05222v1,http://arxiv.org/pdf/1702.05222v1,"Direct Estimation of Information Divergence Using Nearest Neighbor
+  Ratios","We propose a direct estimation method for R\'{e}nyi and f-divergence measures
+based on a new graph theoretical interpretation. Suppose that we are given two
+sample sets $X$ and $Y$ respectively with $N$ and $M$ samples where
+$\eta:=M/N$ is a constant value. Considering the $k$-nearest neighbor ($k$-NN)
+graph of $Y$ in the joint data set $(XY)$ we show that the average powered
+ratio of the number of $X$ points to the number of $Y$ points among all $k$-NN
+points is proportional to R\'{e}nyi divergence of $X$ and $Y$ densities. A
+similar method can also be used to estimate f-divergence measures. We derive
+bias and variance rates and show that for the class of $\gamma$-H\""{o}lder
+smooth functions the estimator achieves the MSE rate of
+$O(N^{-2\gamma/(\gamma+d)})$. Furthermore by using a weighted ensemble
+estimation technique for density functions with continuous and bounded
+derivatives of up to the order $d$ and some extra conditions at the support
+set boundary we derive an ensemble estimator that achieves the parametric MSE
+rate of $O(1/N)$. Our estimators are more computationally tractable than other
+competing estimators which makes them appealing in many practical
+applications.",Morteza Noshad|Kevin R. Moon|Salimeh Yasaei Sekeh|Alfred O. Hero III,cs.IT|cs.AI|math.IT|stat.ML
+2017-02-28T17:19:42Z,2017-02-16T19:14:00Z,http://arxiv.org/abs/1702.05112v1,http://arxiv.org/pdf/1702.05112v1,"OntoMath Digital Ecosystem: Ontologies Mathematical Knowledge Analytics
+  and Management","In this article we consider the basic ideas approaches and results of
+developing of mathematical knowledge management technologies based on
+ontologies. These solutions form the basis of a specialized digital ecosystem
+OntoMath which consists of the ontology of the logical structure of
+mathematical documents Mocassin and ontology of mathematical knowledge
+OntoMathPRO tools of text analysis recommender system and other applications
+to manage mathematical knowledge. The studies are in according to the ideas of
+creating a distributed system of interconnected repositories of digitized
+versions of mathematical documents and project to create a World Digital
+Mathematical Library.",Alexander Elizarov|Alexander Kirillovich|Evgeny Lipachev|Olga Nevzorova,cs.DL|cs.AI|68T30|H.3.7
+2017-02-28T17:19:42Z,2017-02-16T13:29:30Z,http://arxiv.org/abs/1702.04956v1,http://arxiv.org/pdf/1702.04956v1,Reflexive Regular Equivalence for Bipartite Data,"Bipartite data is common in data engineering and brings unique challenges
+particularly when it comes to clustering tasks that impose on strong structural
+assumptions. This work presents an unsupervised method for assessing similarity
+in bipartite data. Similar to some co-clustering methods the method is based
+on regular equivalence in graphs. The algorithm uses spectral properties of a
+bipartite adjacency matrix to estimate similarity in both dimensions. The
+method is reflexive in that similarity in one dimension is used to inform
+similarity in the other. Reflexive regular equivalence can also use the
+structure of transitivities -- in a network sense -- the contribution of which
+is controlled by the algorithm's only free-parameter $\alpha$. The method is
+completely unsupervised and can be used to validate assumptions of
+co-similarity which are required but often untested in co-clustering
+analyses. Three variants of the method with different normalizations are tested
+on synthetic data. The method is found to be robust to noise and well-suited to
+asymmetric co-similar structure making it particularly informative for cluster
+analysis and recommendation in bipartite data of unknown structure. In
+experiments the convergence and speed of the algorithm are found to be stable
+for different levels of noise. Real-world data from a network of malaria genes
+are analyzed where the similarity produced by the reflexive method is shown to
+out-perform other measures' ability to correctly classify genes.",Aaron Gerow|Mingyang Zhou|Stan Matwin|Feng Shi,cs.LG|cs.AI|stat.ML
+2017-02-28T17:19:42Z,2017-02-16T03:39:07Z,http://arxiv.org/abs/1702.04849v1,http://arxiv.org/pdf/1702.04849v1,Theoretical and Practical Advances on Smoothing for Extensive-Form Games,"Sparse iterative methods in particular first-order methods are known to be
+among the most effective in solving large-scale two-player zero-sum
+extensive-form games. The convergence rates of these methods depend heavily on
+the properties of the distance-generating function that they are based on. We
+investigate the acceleration of first-order methods for solving extensive-form
+games through better design of the dilated entropy function---a class of
+distance-generating functions related to the domains associated with the
+extensive-form games. By introducing a new weighting scheme for the dilated
+entropy function we develop the first distance-generating function for the
+strategy spaces of sequential games that has no dependence on the branching
+factor of the player. This result improves the convergence rate of several
+first-order methods by a factor of $\Omega(b^dd)$ where $b$ is the branching
+factor of the player and $d$ is the depth of the game tree.
+  Thus far counterfactual regret minimization methods have been faster in
+practice and more popular than first-order methods despite their
+theoretically inferior convergence rates. Using our new weighting scheme and
+practical tuning we show that for the first time the excessive gap technique
+can be made faster than the fastest counterfactual regret minimization
+algorithm CFR+ in practice.",Christian Kroer|Kevin Waugh|Fatma Kilinc-Karzan|Tuomas Sandholm,cs.GT|cs.AI
+2017-02-28T17:19:42Z,2017-02-15T20:40:12Z,http://arxiv.org/abs/1702.04767v1,http://arxiv.org/pdf/1702.04767v1,Efficient Computation of Moments in Sum-Product Networks,"Bayesian online learning algorithms for Sum-Product Networks (SPNs) need to
+compute moments of model parameters under the one-step update posterior
+distribution. The best existing method for computing such moments scales
+quadratically in the size of the SPN although it scales linearly for trees. We
+propose a linear-time algorithm that works even when the SPN is a directed
+acyclic graph (DAG). We achieve this goal by reducing the moment computation
+problem into a joint inference problem in SPNs and by taking advantage of a
+special structure of the one-step update posterior distribution: it is a
+multilinear polynomial with exponentially many monomials and we can evaluate
+moments by differentiating. The latter is known as the \emph{differential
+trick}. We apply the proposed algorithm to develop a linear time assumed
+density filter (ADF) for SPN parameter learning. As an additional contribution
+we conduct extensive experiments comparing seven different online learning
+algorithms for SPNs on 20 benchmark datasets. The new linear-time ADF method
+consistently achieves low runtime due to the efficient linear-time algorithm
+for moment computation; however we discover that two other methods (CCCP and
+SMA) typically perform better statistically while a third (BMM) is comparable
+to ADF. Interestingly CCCP can be viewed as implicitly using the same
+differentiation trick that we make explicit here. The fact that two of the top
+four fastest methods use this trick suggests that the same trick might find
+other uses for SPN learning in the future.",Han Zhao|Geoff Gordon,cs.LG|cs.AI
+2017-02-28T17:19:42Z,2017-02-15T13:25:26Z,http://arxiv.org/abs/1702.04595v1,http://arxiv.org/pdf/1702.04595v1,"Visualizing Deep Neural Network Decisions: Prediction Difference
+  Analysis","This article presents the prediction difference analysis method for
+visualizing the response of a deep neural network to a specific input. When
+classifying images the method highlights areas in a given input image that
+provide evidence for or against a certain class. It overcomes several
+shortcoming of previous methods and provides great additional insight into the
+decision making process of classifiers. Making neural network decisions
+interpretable through visualization is important both to improve models and to
+accelerate the adoption of black-box classifiers in application areas such as
+medicine. We illustrate the method in experiments on natural images (ImageNet
+data) as well as medical images (MRI brain scans).",Luisa M Zintgraf|Taco S Cohen|Tameem Adel|Max Welling,cs.CV|cs.AI
+2017-02-28T17:19:42Z,2017-02-15T13:22:57Z,http://arxiv.org/abs/1702.04594v1,http://arxiv.org/abs/1702.04594v1,"Local Search for Minimum Weight Dominating Set with Two-Level
+  Configuration Checking and Frequency Based Scoring Function","The Minimum Weight Dominating Set (MWDS) problem is an important
+generalization of the Minimum Dominating Set (MDS) problem with extensive
+applications. This paper proposes a new local search algorithm for the MWDS
+problem which is based on two new ideas. The first idea is a heuristic called
+two-level configuration checking (CC2) which is a new variant of a recent
+powerful configuration checking strategy (CC) for effectively avoiding the
+recent search paths. The second idea is a novel scoring function based on the
+frequency of being uncovered of vertices. Our algorithm is called CC2FS
+according to the names of the two ideas. The experimental results show that
+CC2FS performs much better than some state-of-the-art algorithms in terms of
+solution quality on a broad range of MWDS benchmarks.",Yiyuan Wang|Shaowei Cai|Minghao Yin,cs.AI
+2017-02-28T17:19:42Z,2017-02-15T12:58:39Z,http://arxiv.org/abs/1702.04584v1,http://arxiv.org/pdf/1702.04584v1,"Developing an ontology for the access to the contents of an archival
+  fonds: the case of the Catasto Gregoriano","The research was proposed to exploit and extend the relational and contextual
+nature of the information assets of the Catasto Gregoriano kept at the
+Archivio di Stato in Rome. Developed within the MODEUS project (Making Open
+Data Effectively Usable) this study originates from the following key ideas of
+MODEUS: to require Open Data to be expressed in terms of an ontology and to
+include such an ontology as a documentation of the data themselves. Thus Open
+Data are naturally linked by means of the ontology which meets the
+requirements of the Linked Open Data vision.",Lina Antonietta Coppola,cs.AI|cs.DL
+2017-02-28T17:19:42Z,2017-02-15T12:25:28Z,http://arxiv.org/abs/1702.04577v1,http://arxiv.org/pdf/1702.04577v1,"On the Discrepancy Between Kleinberg's Clustering Axioms and $k$-Means
+  Clustering Algorithm Behavior","This paper investigates the validity of Kleinberg's axioms for clustering
+functions with respect to the quite popular clustering algorithm called
+$k$-means. While Kleinberg's axioms have been discussed heavily in the past we
+concentrate here on the case predominantly relevant for $k$-means algorithm
+that is behavior embedded in Euclidean space. We point at some contradictions
+and counter intuitiveness aspects of this axiomatic set within $\mathbb{R}^m$
+that were evidently not discussed so far. Our results suggest that apparently
+without defining clearly what kind of clusters we expect we will not be able to
+construct a valid axiomatic system. In particular we look at the shape and the
+gaps between the clusters. Finally we demonstrate that there exist several ways
+to reconcile the formulation of the axioms with their intended meaning and that
+under this reformulation the axioms stop to be contradictory and the real-world
+$k$-means algorithm conforms to this axiomatic system.",Robert Kłopotek|Mieczysław Kłopotek,cs.LG|cs.AI|I.5.2; I.2.6
+2017-02-28T17:19:42Z,2017-02-15T11:12:34Z,http://arxiv.org/abs/1702.05383v1,http://arxiv.org/pdf/1702.05383v1,Theorem Proving Based on Semantics of DNA Strand Graph,"Because of several technological limitations of traditional silicon based
+computing for past few years a paradigm shift from silicon to carbon is
+occurring in computational world. DNA computing has been considered to be quite
+promising in solving computational and reasoning problems by using DNA strands.
+Resolution an important aspect of automated theorem proving and mathematical
+logic is a rule of inference which leads to proof by contradiction technique
+for sentences in propositional logic and first-order logic. This can also be
+called refutation theorem-proving. In this paper we have shown how the theorem
+proving with resolution refutation by DNA computation can be represented by the
+semantics of process calculus and strand graph.",Kumar S. Ray|Mandrita Mondal,cs.AI
+2017-02-28T17:19:46Z,2017-02-15T09:45:23Z,http://arxiv.org/abs/1702.04521v1,http://arxiv.org/pdf/1702.04521v1,Frustratingly Short Attention Spans in Neural Language Modeling,"Neural language models predict the next token using a latent representation
+of the immediate token history. Recently various methods for augmenting neural
+language models with an attention mechanism over a differentiable memory have
+been proposed. For predicting the next token these models query information
+from a memory of the recent history which can facilitate learning mid- and
+long-range dependencies. However conventional attention mechanisms used in
+memory-augmented neural language models produce a single output vector per time
+step. This vector is used both for predicting the next token as well as for the
+key and value of a differentiable memory of a token history. In this paper we
+propose a neural language model with a key-value attention mechanism that
+outputs separate representations for the key and value of a differentiable
+memory as well as for encoding the next-word distribution. This model
+outperforms existing memory-augmented neural language models on two corpora.
+Yet we found that our method mainly utilizes a memory of the five most recent
+output representations. This led to the unexpected main finding that a much
+simpler model based only on the concatenation of recent output representations
+from previous time steps is on par with more sophisticated memory-augmented
+neural language models.",Michał Daniluk|Tim Rocktäschel|Johannes Welbl|Sebastian Riedel,cs.CL|cs.AI|cs.LG|cs.NE
+2017-02-28T17:19:46Z,2017-02-14T23:43:32Z,http://arxiv.org/abs/1702.04423v1,http://arxiv.org/pdf/1702.04423v1,Efficient Multi-task Feature and Relationship Learning,"In this paper we propose a multi-convex framework for multi-task learning
+that improves predictions by learning relationships both between tasks and
+between features. Our framework is a generalization of related methods in
+multi-task learning that either learn task relationships or feature
+relationships but not both. We start with a hierarchical Bayesian model and
+use the empirical Bayes method to transform the underlying inference problem
+into a multi-convex optimization problem. We propose a coordinate-wise
+minimization algorithm that has a closed form solution for each block
+subproblem. Naively these solutions would be expensive to compute but by using
+the theory of doubly stochastic matrices we are able to reduce the underlying
+matrix optimization subproblem into a minimum weight perfect matching problem
+on a complete bipartite graph and solve it analytically and efficiently. To
+solve the weight learning subproblem we propose three different strategies
+including a gradient descent method with linear convergence guarantee when the
+instances are not shared by multiple tasks and a numerical solution based on
+Sylvester equation when instances are shared. We demonstrate the efficiency of
+our method on both synthetic datasets and real-world datasets. Experiments show
+that the proposed optimization method is orders of magnitude faster than an
+off-the-shelf projected gradient method and our model is able to exploit the
+correlation structures among multiple tasks and features.",Han Zhao|Otilia Stretcu|Renato Negrinho|Alex Smola|Geoff Gordon,cs.LG|cs.AI
+2017-02-28T17:19:46Z,2017-02-14T21:18:17Z,http://arxiv.org/abs/1702.04389v1,http://arxiv.org/pdf/1702.04389v1,Entropy Non-increasing Games for the Improvement of Dataflow Programming,"In this article we introduce a new conception of a family of esport games
+called Samu Entropy to try to improve dataflow program graphs like the ones
+that are based on Google's TensorFlow. Currently the Samu Entropy project
+specifies only requirements for new esport games to be developed with
+particular attention to the investigation of the relationship between esport
+and artificial intelligence. It is quite obvious that there is a very close and
+natural relationship between esport games and artificial intelligence.
+Furthermore the project Samu Entropy focuses not only on using artificial
+intelligence but on creating AI in a new way. We present a reference game
+called Face Battle that implements the Samu Entropy requirements.",Norbert Bátfai|Renátó Besenczi|Gergő Bogacsovics|Fanny Monori,cs.AI|68T01|I.2.1
+2017-02-28T17:19:46Z,2017-02-14T17:24:04Z,http://arxiv.org/abs/1702.06186v1,http://arxiv.org/pdf/1702.06186v1,Survey of Reasoning using Neural networks,"Reason and inference require process as well as memory skills by humans.
+Neural networks are able to process tasks like image recognition (better than
+humans) but in memory aspects are still limited (by attention mechanism size).
+Recurrent Neural Network (RNN) and it's modified version LSTM are able to solve
+small memory contexts but as context becomes larger than a threshold it is
+difficult to use them. The Solution is to use large external memory. Still it
+poses many challenges like how to train neural networks for discrete memory
+representation how to describe long term dependencies in sequential data etc.
+Most prominent neural architectures for such tasks are Memory networks:
+inference components combined with long term memory and Neural Turing Machines:
+neural networks using external memory resources. Also additional techniques
+like attention mechanism end to end gradient descent on discrete memory
+representation are needed to support these solutions. Preliminary results of
+above neural architectures on simple algorithms (sorting copying) and Question
+Answering (based on story dialogs) application are comparable with the state
+of the art. In this paper I explain these architectures (in general) the
+additional techniques used and the results of their application.",Amit Sahu,cs.LG|cs.AI|cs.NE
+2017-02-28T17:19:46Z,2017-02-14T16:42:49Z,http://arxiv.org/abs/1702.04282v1,http://arxiv.org/pdf/1702.04282v1,"T-SKIRT: Online Estimation of Student Proficiency in an Adaptive
+  Learning System","We develop T-SKIRT: a temporal structured-knowledge IRT-based method for
+predicting student responses online. By explicitly accounting for student
+learning and employing a structured multidimensional representation of student
+proficiencies the model outperforms standard IRT-based methods on an online
+response prediction task when applied to real responses collected from students
+interacting with diverse pools of educational content.",Chaitanya Ekanadham|Yan Karklin,cs.AI
+2017-02-28T17:19:46Z,2017-02-14T16:34:05Z,http://arxiv.org/abs/1702.04280v1,http://arxiv.org/pdf/1702.04280v1,"DAGER: Deep Age Gender and Emotion Recognition Using Convolutional
+  Neural Network","This paper describes the details of Sighthound's fully automated age gender
+and emotion recognition system. The backbone of our system consists of several
+deep convolutional neural networks that are not only computationally
+inexpensive but also provide state-of-the-art results on several competitive
+benchmarks. To power our novel deep networks we collected large labeled
+datasets through a semi-supervised pipeline to reduce the annotation
+effort/time. We tested our system on several public benchmarks and report
+outstanding results. Our age gender and emotion recognition models are
+available to developers through the Sighthound Cloud API at
+https://www.sighthound.com/products/cloud",Afshin Dehghan|Enrique G. Ortiz|Guang Shu|Syed Zain Masood,cs.CV|cs.AI
+2017-02-28T17:19:46Z,2017-02-21T06:53:38Z,http://arxiv.org/abs/1702.04267v2,http://arxiv.org/pdf/1702.04267v2,On Detecting Adversarial Perturbations,"Machine learning and deep learning in particular has advanced tremendously on
+perceptual tasks in recent years. However it remains vulnerable against
+adversarial perturbations of the input that have been crafted specifically to
+fool the system while being quasi-imperceptible to a human. In this work we
+propose to augment deep neural networks with a small ""detector"" subnetwork
+which is trained on the binary classification task of distinguishing genuine
+data from data containing adversarial perturbations. Our method is orthogonal
+to prior work on addressing adversarial perturbations which has mostly focused
+on making the classification network itself more robust. We show empirically
+that adversarial perturbations can be detected surprisingly well even though
+they are quasi-imperceptible to humans. Moreover while the detectors have been
+trained to detect only a specific adversary they generalize to similar and
+weaker adversaries. In addition we propose an adversarial attack that fools
+both the classifier and the detector and a novel training procedure for the
+detector that counteracts this attack.",Jan Hendrik Metzen|Tim Genewein|Volker Fischer|Bastian Bischoff,stat.ML|cs.AI|cs.CV|cs.LG
+2017-02-28T17:19:46Z,2017-02-14T02:29:29Z,http://arxiv.org/abs/1702.04047v1,http://arxiv.org/pdf/1702.04047v1,Constraint Answer Set Solver EZCSP and Why Integration Schemas Matter,"Researchers in answer set programming and constraint programming have spent
+significant efforts in the development of hybrid languages and solving
+algorithms combining the strengths of these traditionally separate fields.
+These efforts resulted in a new research area: constraint answer set
+programming. Constraint answer set programming languages and systems proved to
+be successful at providing declarative yet efficient solutions to problems
+involving hybrid reasoning tasks. One of the main contributions of this paper
+is the first comprehensive account of the constraint answer set language and
+solver EZCSP a mainstream representative of this research area that has been
+used in various successful applications. We also develop an extension of the
+transition systems proposed by Nieuwenhuis et al. in 2006 to capture Boolean
+satisfiability solvers. We use this extension to describe the EZCSP algorithm
+and prove formal claims about it. The design and algorithmic details behind
+EZCSP clearly demonstrate that the development of the hybrid systems of this
+kind is challenging. Many questions arise when one faces various design choices
+in an attempt to maximize system's benefits. One of the key decisions that a
+developer of a hybrid solver makes is settling on a particular integration
+schema within its implementation. Thus another important contribution of this
+paper is a thorough case study based on EZCSP focused on the various
+integration schemas that it provides.
+  Under consideration in Theory and Practice of Logic Programming (TPLP).",Marcello Balduccini|Yuliya Lierler,cs.AI
+2017-02-28T17:19:46Z,2017-02-13T19:00:04Z,http://arxiv.org/abs/1702.03935v1,http://arxiv.org/abs/1702.03935v1,"Data-Intensive Supercomputing in the Cloud: Global Analytics for
+  Satellite Imagery","We present our experiences using cloud computing to support data-intensive
+analytics on satellite imagery for commercial applications. Drawing from our
+background in high-performance computing we draw parallels between the early
+days of clustered computing systems and the current state of cloud computing
+and its potential to disrupt the HPC market. Using our own virtual file system
+layer on top of cloud remote object storage we demonstrate aggregate read
+bandwidth of 230 gigabytes per second using 512 Google Compute Engine (GCE)
+nodes accessing a USA multi-region standard storage bucket. This figure is
+comparable to the best HPC storage systems in existence. We also present
+several of our application results including the identification of field
+boundaries in Ukraine and the generation of a global cloud-free base layer
+from Landsat imagery.",Michael S. Warren|Samuel W. Skillman|Rick Chartrand|Tim Kelton|Ryan Keisler|David Raleigh|Matthew Turk,cs.DC|cs.AI
+2017-02-28T17:19:46Z,2017-02-13T18:52:04Z,http://arxiv.org/abs/1702.03920v1,http://arxiv.org/pdf/1702.03920v1,Cognitive Mapping and Planning for Visual Navigation,"We introduce a neural architecture for navigation in novel environments. Our
+proposed architecture learns to map from first-person viewpoints and plans a
+sequence of actions towards goals in the environment. The Cognitive Mapper and
+Planner (CMP) is based on two key ideas: a) a unified joint architecture for
+mapping and planning such that the mapping is driven by the needs of the
+planner and b) a spatial memory with the ability to plan given an incomplete
+set of observations about the world. CMP constructs a top-down belief map of
+the world and applies a differentiable neural net planner to produce the next
+action at each time step. The accumulated belief of the world enables the agent
+to track visited regions of the environment. Our experiments demonstrate that
+CMP outperforms both reactive strategies and standard memory-based
+architectures and performs well in novel environments. Furthermore we show
+that CMP can also achieve semantically specified goals such as 'go to a
+chair'.",Saurabh Gupta|James Davidson|Sergey Levine|Rahul Sukthankar|Jitendra Malik,cs.CV|cs.AI|cs.LG|cs.RO
+2017-02-28T17:19:50Z,2017-02-13T16:31:06Z,http://arxiv.org/abs/1702.03859v1,http://arxiv.org/pdf/1702.03859v1,"Offline bilingual word vectors orthogonal transformations and the
+  inverted softmax","Usually bilingual word vectors are trained ""online"". Mikolov et al. showed
+they can also be found ""offline"" whereby two pre-trained embeddings are
+aligned with a linear transformation using dictionaries compiled from expert
+knowledge. In this work we prove that the linear transformation between two
+spaces should be orthogonal. This transformation can be obtained using the
+singular value decomposition. We introduce a novel ""inverted softmax"" for
+identifying translation pairs with which we improve the precision @1 of
+Mikolov's original mapping from 34% to 43% when translating a test set
+composed of both common and rare English words into Italian. Orthogonal
+transformations are more robust to noise enabling us to learn the
+transformation without expert bilingual signal by constructing a
+""pseudo-dictionary"" from the identical character strings which appear in both
+languages achieving 40% precision on the same test set. Finally we extend our
+method to retrieve the true translations of English sentences from a corpus of
+200k Italian sentences with a precision @1 of 68%.",Samuel L. Smith|David H. P. Turban|Steven Hamblin|Nils Y. Hammerla,cs.CL|cs.AI|cs.IR
+2017-02-28T17:19:50Z,2017-02-13T15:26:27Z,http://arxiv.org/abs/1702.03814v1,http://arxiv.org/pdf/1702.03814v1,Bilateral Multi-Perspective Matching for Natural Language Sentences,"Natural language sentence matching is a fundamental technology for a variety
+of tasks. Previous approaches either match sentences from a single direction or
+only apply single granular (word-by-word or sentence-by-sentence) matching. In
+this work we propose a bilateral multi-perspective matching (BiMPM) model
+under the ""matching-aggregation"" framework. Given two sentences $P$ and $Q$
+our model first encodes them with a BiLSTM encoder. Next we match the two
+encoded sentences in two directions $P \rightarrow Q$ and $P \leftarrow Q$. In
+each matching direction each time step of one sentence is matched against all
+time-steps of the other sentence from multiple perspectives. Then another
+BiLSTM layer is utilized to aggregate the matching results into a fix-length
+matching vector. Finally based on the matching vector the decision is made
+through a fully connected layer. We evaluate our model on three tasks:
+paraphrase identification natural language inference and answer sentence
+selection. Experimental results on standard benchmark datasets show that our
+model achieves the state-of-the-art performance on all tasks.",Zhiguo Wang|Wael Hamza|Radu Florian,cs.AI|cs.CL
+2017-02-28T17:19:50Z,2017-02-13T15:23:06Z,http://arxiv.org/abs/1702.03812v1,http://arxiv.org/pdf/1702.03812v1,Reservoir Computing Using Non-Uniform Binary Cellular Automata,"The Reservoir Computing (RC) paradigm utilizes a dynamical system i.e. a
+reservoir and a linear classifier i.e. a read-out layer to process data
+from sequential classification tasks. In this paper the usage of Cellular
+Automata (CA) as a reservoir is investigated. The use of CA in RC has been
+showing promising results. In this paper selected state-of-the-art experiments
+are reproduced. It is shown that some CA-rules perform better than others and
+the reservoir performance is improved by increasing the size of the CA
+reservoir itself. In addition the usage of parallel loosely coupled
+CA-reservoirs where each reservoir has a different CA-rule is investigated.
+The experiments performed on quasi-uniform CA reservoir provide valuable
+insights in CA reservoir design. The results herein show that some rules do not
+work well together while other combinations work remarkably well. This
+suggests that non-uniform CA could represent a powerful tool for novel CA
+reservoir implementations.",Stefano Nichele|Magnus S. Gundersen,cs.ET|cs.AI
+2017-02-28T17:19:50Z,2017-02-13T13:33:47Z,http://arxiv.org/abs/1702.03767v1,http://arxiv.org/pdf/1702.03767v1,Is Big Data Sufficient for a Reliable Detection of Non-Technical Losses?,"Non-technical losses (NTL) occur during the distribution of electricity in
+power grids and include but are not limited to electricity theft and faulty
+meters. In emerging countries they may range up to 40% of the total
+electricity distributed. In order to detect NTLs machine learning methods are
+used that learn irregular consumption patterns from customer data and
+inspection results. The Big Data paradigm followed in modern machine learning
+reflects the desire of deriving better conclusions from simply analyzing more
+data without the necessity of looking at theory and models. However the
+sample of inspected customers may be biased i.e. it does not represent the
+population of all customers. As a consequence machine learning models trained
+on these inspection results are biased as well and therefore lead to unreliable
+predictions of whether customers cause NTL or not. In machine learning this
+issue is called covariate shift and has not been addressed in the literature on
+NTL detection yet. In this work we present a novel framework for quantifying
+and visualizing covariate shift. We apply it to a commercial data set from
+Brazil that consists of 3.6M customers and 820K inspection results. We show
+that some features have a stronger covariate shift than others making
+predictions less reliable. In particular previous inspections were focused on
+certain neighborhoods or customer classes and that they were not sufficiently
+spread among the population of customers. This framework is about to be
+deployed in a commercial product for NTL detection.",Patrick Glauner|Angelo Migliosi|Jorge Meira|Eric Aislan Antonelo|Petko Valtchev|Radu State|Franck Bettinger,cs.LG|cs.AI
+2017-02-28T17:19:50Z,2017-02-13T11:46:04Z,http://arxiv.org/abs/1702.03724v1,http://arxiv.org/pdf/1702.03724v1,On Seeking Consensus Between Document Similarity Measures,"This paper investigates the application of consensus clustering and
+meta-clustering to the set of all possible partitions of a data set. We show
+that when using a ""complement"" of Rand Index as a measure of cluster
+similarity the total-separation partition putting each element in a separate
+set is chosen.",Mieczysław Kłopotek,cs.AI
+2017-02-28T17:19:50Z,2017-02-12T23:23:17Z,http://arxiv.org/abs/1702.03594v1,http://arxiv.org/pdf/1702.03594v1,"Genetic and Memetic Algorithm with Diversity Equilibrium based on Greedy
+  Diversification","The lack of diversity in a genetic algorithm's population may lead to a bad
+performance of the genetic operators since there is not an equilibrium between
+exploration and exploitation. In those cases genetic algorithms present a fast
+and unsuitable convergence.
+  In this paper we develop a novel hybrid genetic algorithm which attempts to
+obtain a balance between exploration and exploitation. It confronts the
+diversity problem using the named greedy diversification operator. Furthermore
+the proposed algorithm applies a competition between parent and children so as
+to exploit the high quality visited solutions. These operators are complemented
+by a simple selection mechanism designed to preserve and take advantage of the
+population diversity.
+  Additionally we extend our proposal to the field of memetic algorithms
+obtaining an improved model with outstanding results in practice.
+  The experimental study shows the validity of the approach as well as how
+important is taking into account the exploration and exploitation concepts when
+designing an evolutionary algorithm.",Andrés Herrera-Poyatos|Francisco Herrera,cs.AI|I.2.8
+2017-02-28T17:19:50Z,2017-02-12T23:12:01Z,http://arxiv.org/abs/1702.03592v1,http://arxiv.org/pdf/1702.03592v1,Graph Neural Networks and Boolean Satisfiability,"In this paper we explore whether or not deep neural architectures can learn
+to classify Boolean satisfiability (SAT). We devote considerable time to
+discussing the theoretical properties of SAT. Then we define a graph
+representation for Boolean formulas in conjunctive normal form and train
+neural classifiers over general graph structures called Graph Neural Networks
+or GNNs to recognize features of satisfiability. To the best of our knowledge
+this has never been tried before. Our preliminary findings are potentially
+profound. In a weakly-supervised setting that is without problem specific
+feature engineering Graph Neural Networks can learn features of
+satisfiability.",Benedikt Bünz|Matthew Lamm,cs.AI
+2017-02-28T17:19:50Z,2017-02-12T22:38:42Z,http://arxiv.org/abs/1702.03584v1,http://arxiv.org/pdf/1702.03584v1,Similarity Preserving Representation Learning for Time Series Analysis,"A considerable amount of machine learning algorithms take matrices as their
+inputs. As such they cannot directly analyze time series data due to its
+temporal nature usually unequal lengths and complex properties. This is a
+great pity since many of these algorithms are effective robust efficient and
+easy to use. In this paper we bridge this gap by proposing an efficient
+representation learning framework that is able to convert a set of time series
+with equal or unequal lengths to a matrix format. In particular we guarantee
+that the pairwise similarities between time series are well preserved after the
+transformation. Therefore the learned feature representation is particularly
+suitable to the class of learning problems that are sensitive to data
+similarities. Given a set of $n$ time series we first construct an $n\times n$
+partially observed similarity matrix by randomly sampling $O(n \log n)$ pairs
+of time series and computing their pairwise similarities. We then propose an
+extremely efficient algorithm that solves a highly non-convex and NP-hard
+problem to learn new features based on the partially observed similarity
+matrix. We use the learned features to conduct experiments on both data
+classification and clustering tasks. Our extensive experimental results
+demonstrate that the proposed framework is both effective and efficient.",Qi Lei|Jinfeng Yi|Roman Vaculin|Lingfei Wu|Inderjit S. Dhillon,cs.AI|cs.LG
+2017-02-28T17:19:50Z,2017-02-12T14:58:45Z,http://arxiv.org/abs/1702.04638v1,http://arxiv.org/pdf/1702.04638v1,"A Spacetime Approach to Generalized Cognitive Reasoning in Multi-scale
+  Learning","In modern machine learning pattern recognition replaces realtime semantic
+reasoning. The mapping from input to output is learned with fixed semantics by
+training outcomes deliberately. This is an expensive and static approach which
+depends heavily on the availability of a very particular kind of prior raining
+data to make inferences in a single step. Conventional semantic network
+approaches on the other hand base multi-step reasoning on modal logics and
+handcrafted ontologies which are {\em ad hoc} expensive to construct and
+fragile to inconsistency. Both approaches may be enhanced by a hybrid approach
+which completely separates reasoning from pattern recognition. In this report
+a quasi-linguistic approach to knowledge representation is discussed motivated
+by spacetime structure. Tokenized patterns from diverse sources are integrated
+to build a lightly constrained and approximately scale-free network. This is
+then be parsed with very simple recursive algorithms to generate
+`brainstorming' sets of reasoned knowledge.",Mark Burgess,cs.AI|cs.LG|I.2.11; F.4.1; I.2.4; G.2.2
+2017-02-28T17:19:50Z,2017-02-12T04:53:25Z,http://arxiv.org/abs/1702.03488v1,http://arxiv.org/pdf/1702.03488v1,Octopus: A Framework for Cost-Quality-Time Optimization in Crowdsourcing,"Managing micro-tasks on crowdsourcing marketplaces involves balancing
+conflicting objectives -- the quality of work total cost incurred and time to
+completion. Previous agents have focused on cost-quality or cost-time
+tradeoffs limiting their real-world applicability. As a step towards this goal
+we present Octopus the first AI agent that jointly manages all three
+objectives in tandem. Octopus is based on a computationally tractable
+multi-agent formulation consisting of three components; one that sets the price
+per ballot to adjust the rate of completion of tasks another that optimizes
+each task for quality and a third that performs task selection. We demonstrate
+that Octopus outperforms existing state-of-the-art approaches in simulation and
+experiments with real data demonstrating its superior performance. We also
+deploy Octopus on Amazon Mechanical Turk to establish its ability to manage
+tasks in a real-world dynamic setting.",Karan Goel|Shreya Rajpal|Mausam,cs.AI|cs.HC|cs.MA
+2017-02-28T17:19:53Z,2017-02-11T17:34:34Z,http://arxiv.org/abs/1702.03443v1,http://arxiv.org/pdf/1702.03443v1,"Group Scissor: Scaling Neuromorphic Computing Design to Big Neural
+  Networks","Synapse crossbar is an elementary structure in Neuromorphic Computing Systems
+(NCS). However the limited size of crossbars and heavy routing congestion
+impedes the NCS implementations of big neural networks. In this paper we
+propose a two-step framework (namely \textit{group scissor}) to scale NCS
+designs to big neural networks. The first step is \textit{rank clipping} which
+integrates low-rank approximation into the training to reduce total crossbar
+area. The second step is \textit{group connection deletion} which structurally
+prunes connections to reduce routing congestion between crossbars. Tested on
+convolutional neural networks of \textit{LeNet} on MNIST database and
+\textit{ConvNet} on CIFAR-10 database our experiments show significant
+reduction of crossbar area and routing area in NCS designs. Without accuracy
+loss rank clipping reduces total crossbar area to 13.62\% and 51.81\% in the
+NCS designs of \textit{LeNet} and \textit{ConvNet} respectively. Following
+rank clipping group connection deletion further reduces the routing area of
+\textit{LeNet} and \textit{ConvNet} to 8.1\% and 52.06\% respectively.",Yandan Wang|Wei Wen|Beiye Liu|Donald Chiarulli|Hai Li,"cs.NE|cs.AI|C.1.3, I.2.6, I.5.1"
+2017-02-28T17:19:53Z,2017-02-11T09:48:12Z,http://arxiv.org/abs/1702.03401v1,http://arxiv.org/pdf/1702.03401v1,A Minimax Algorithm Better Than Alpha-beta?: No and Yes,"This paper has three main contributions to our understanding of fixed-depth
+minimax search: (A) A new formulation for Stockman's SSS* algorithm based on
+Alpha-Beta is presented. It solves all the perceived drawbacks of SSS*
+finally transforming it into a practical algorithm. In effect we show that
+SSS* = alpha-beta + ransposition tables. The crucial step is the realization
+that transposition tables contain so-called solution trees structures that are
+used in best-first search algorithms like SSS*. Having created a practical
+version we present performance measurements with tournament game-playing
+programs for three different minimax games yielding results that contradict a
+number of publications. (B) Based on the insights gained in our attempts at
+understanding SSS* we present a framework that facilitates the construction of
+several best-first fixed- depth game-tree search algorithms known and new. The
+framework is based on depth-first null-window Alpha-Beta search enhanced with
+storage to allow for the refining of previous search results. It focuses
+attention on the essential differences between algorithms. (C) We present a new
+instance of the framework MTD(f). It is well-suited for use with iterative
+deepening and performs better than algorithms that are currently used in most
+state-of-the-art game-playing programs. We provide experimental evidence to
+explain why MTD(f) performs better than the other fixed-depth minimax
+algorithms.",Aske Plaat|Jonathan Schaeffer|Wim Pijls|Arie de Bruin,cs.AI
+2017-02-28T17:19:53Z,2017-02-10T18:24:13Z,http://arxiv.org/abs/1702.03274v1,http://arxiv.org/pdf/1702.03274v1,"Hybrid Code Networks: practical and efficient end-to-end dialog control
+  with supervised and reinforcement learning","End-to-end learning of recurrent neural networks (RNNs) is an attractive
+solution for dialog systems; however current techniques are data-intensive and
+require thousands of dialogs to learn simple behaviors. We introduce Hybrid
+Code Networks (HCNs) which combine an RNN with domain-specific knowledge
+encoded as software and system action templates. Compared to existing
+end-to-end approaches HCNs considerably reduce the amount of training data
+required while retaining the key benefit of inferring a latent representation
+of dialog state. In addition HCNs can be optimized with supervised learning
+reinforcement learning or a mixture of both. HCNs attain state-of-the-art
+performance on the bAbI dialog dataset and outperform two commercially
+deployed customer-facing dialog systems.",Jason D. Williams|Kavosh Asadi|Geoffrey Zweig,cs.AI|cs.CL
+2017-02-28T17:19:53Z,2017-02-10T10:31:57Z,http://arxiv.org/abs/1702.03121v1,http://arxiv.org/pdf/1702.03121v1,"Modeling Semantic Expectation: Using Script Knowledge for Referent
+  Prediction","Recent research in psycholinguistics has provided increasing evidence that
+humans predict upcoming content. Prediction also affects perception and might
+be a key to robustness in human language processing. In this paper we
+investigate the factors that affect human prediction by building a
+computational model that can predict upcoming discourse referents based on
+linguistic knowledge alone vs. linguistic knowledge jointly with common-sense
+knowledge in the form of scripts. We find that script knowledge significantly
+improves model estimates of human predictions. In a second study we test the
+highly controversial hypothesis that predictability influences referring
+expression type but do not find evidence for such an effect.",Ashutosh Modi|Ivan Titov|Vera Demberg|Asad Sayeed|Manfred Pinkal,cs.CL|cs.AI|stat.ML
+2017-02-28T17:19:53Z,2017-02-10T02:30:22Z,http://arxiv.org/abs/1702.03044v1,http://arxiv.org/pdf/1702.03044v1,"Incremental Network Quantization: Towards Lossless CNNs with
+  Low-Precision Weights","This paper presents incremental network quantization (INQ) a novel method
+targeting to efficiently convert any pre-trained full-precision convolutional
+neural network (CNN) model into a low-precision version whose weights are
+constrained to be either powers of two or zero. Unlike existing methods which
+are struggled in noticeable accuracy loss our INQ has the potential to resolve
+this issue as benefiting from two innovations. On one hand we introduce three
+interdependent operations namely weight partition group-wise quantization and
+re-training. A well-proven measure is employed to divide the weights in each
+layer of a pre-trained CNN model into two disjoint groups. The weights in the
+first group are responsible to form a low-precision base thus they are
+quantized by a variable-length encoding method. The weights in the other group
+are responsible to compensate for the accuracy loss from the quantization thus
+they are the ones to be re-trained. On the other hand these three operations
+are repeated on the latest re-trained group in an iterative manner until all
+the weights are converted into low-precision ones acting as an incremental
+network quantization and accuracy enhancement procedure. Extensive experiments
+on the ImageNet classification task using almost all known deep CNN
+architectures including AlexNet VGG-16 GoogleNet and ResNets well testify the
+efficacy of the proposed method. Specifically at 5-bit quantization our
+models have improved accuracy than the 32-bit floating-point references. Taking
+ResNet-18 as an example we further show that our quantized models with 4-bit
+3-bit and 2-bit ternary weights have improved or very similar accuracy against
+its 32-bit floating-point baseline. Besides impressive results with the
+combination of network pruning and INQ are also reported. The code will be made
+publicly available.",Aojun Zhou|Anbang Yao|Yiwen Guo|Lin Xu|Yurong Chen,cs.CV|cs.AI|cs.NE
+2017-02-28T17:19:53Z,2017-02-10T01:48:40Z,http://arxiv.org/abs/1702.03037v1,http://arxiv.org/pdf/1702.03037v1,Multi-agent Reinforcement Learning in Sequential Social Dilemmas,"Matrix games like Prisoner's Dilemma have guided research on social dilemmas
+for decades. However they necessarily treat the choice to cooperate or defect
+as an atomic action. In real-world social dilemmas these choices are temporally
+extended. Cooperativeness is a property that applies to policies not
+elementary actions. We introduce sequential social dilemmas that share the
+mixed incentive structure of matrix game social dilemmas but also require
+agents to learn policies that implement their strategic intentions. We analyze
+the dynamics of policies learned by multiple self-interested independent
+learning agents each using its own deep Q-network on two Markov games we
+introduce here: 1. a fruit Gathering game and 2. a Wolfpack hunting game. We
+characterize how learned behavior in each domain changes as a function of
+environmental factors including resource abundance. Our experiments show how
+conflict can emerge from competition over shared resources and shed light on
+how the sequential nature of real world social dilemmas affects cooperation.",Joel Z. Leibo|Vinicius Zambaldi|Marc Lanctot|Janusz Marecki|Thore Graepel,cs.MA|cs.AI|cs.GT|cs.LG
+2017-02-28T17:19:53Z,2017-02-09T16:50:23Z,http://arxiv.org/abs/1702.02890v1,http://arxiv.org/pdf/1702.02890v1,Answer Set Solving with Bounded Treewidth Revisited,"Parameterized algorithms are a way to solve hard problems more efficiently
+given that a specific parameter of the input is small. In this paper we apply
+this idea to the field of answer set programming (ASP). To this end we propose
+two kinds of graph representations of programs to exploit their treewidth as a
+parameter. Treewidth roughly measures to which extent the internal structure of
+a program resembles a tree. Our main contribution is the design of
+parameterized dynamic programming algorithms which run in linear time if the
+treewidth and weights of the given program are bounded. Compared to previous
+work our algorithms handle the full syntax of ASP. Finally we report on an
+empirical evaluation that shows good runtime behaviour for benchmark instances
+of low treewidth especially for counting answer sets.",Johannes Fichte|Markus Hecher|Michael Morak|Stefan Woltran,cs.LO|cs.AI|cs.CC
+2017-02-28T17:19:53Z,2017-02-09T13:18:08Z,http://arxiv.org/abs/1702.02821v1,http://arxiv.org/pdf/1702.02821v1,"Phase Transitions of the Typical Algorithmic Complexity of the Random
+  Satisfiability Problem Studied with Linear Programming","The Boolean Satisfiability problem asks if a Boolean formula is satisfiable
+by some assignment of the variables or not. It belongs to the NP-complete
+complexity class and hence no algorithm with polynomial time worst-case
+complexity is known i.e. the problem is hard. The K-SAT problem is the subset
+of the Boolean Satisfiability problem for which the Boolean formula has the
+conjunctive normal form with K literals per clause. This problem is still
+NP-complete for $K \ge 3$. Although the worst case complexity of NP-complete
+problems is conjectured to be exponential there might be subsets of the
+realizations where solutions can typically be found in polynomial time. In
+fact random $K$-SAT with the number of clauses to number of variables ratio
+$\alpha$ as control parameter shows a phase transition between a satisfiable
+phase and an unsatisfiable phase at which the hardest problems are located. We
+use here several linear programming approaches to reveal further ""easy-hard""
+transition points at which the typical hardness of the problems increases which
+means that such algorithms can solve the problem on one side efficiently but
+not beyond this point. For one of these transitions we observed a coincidence
+with a structural transition of the literal factor graphs of the problem
+instances. We also investigated cutting-plane approaches which often increase
+the computational efficiency. Also we tried out a mapping to another
+NP-complete optimization problem using a specific algorithm for that problem.
+In both cases no improvement of the performance was observed i.e. no shift
+of the easy-hard transition to higher values of $\alpha$.",Hendrik Schawe|Roman Bleim|Alexander K. Hartmann,cond-mat.dis-nn|cond-mat.stat-mech|cs.AI|cs.CC
+2017-02-28T17:19:53Z,2017-02-09T12:58:23Z,http://arxiv.org/abs/1702.02817v1,http://arxiv.org/abs/1702.02817v1,Graph Based Relational Features for Collective Classification,"Statistical Relational Learning (SRL) methods have shown that classification
+accuracy can be improved by integrating relations between samples. Techniques
+such as iterative classification or relaxation labeling achieve this by
+propagating information between related samples during the inference process.
+When only a few samples are labeled and connections between samples are sparse
+collective inference methods have shown large improvements over standard
+feature-based ML methods. However in contrast to feature based ML collective
+inference methods require complex inference procedures and often depend on the
+strong assumption of label consistency among related samples. In this paper we
+introduce new relational features for standard ML methods by extracting
+information from direct and indirect relations. We show empirically on three
+standard benchmark datasets that our relational features yield results
+comparable to collective inference methods. Finally we show that our proposal
+outperforms these methods when additional information is available.",Immanuel Bayer|Uwe Nagel|Steffen Rendle,cs.IR|cs.AI|cs.LG
+2017-02-28T17:19:53Z,2017-02-09T02:02:27Z,http://arxiv.org/abs/1702.02676v1,http://arxiv.org/pdf/1702.02676v1,Energy Saving Additive Neural Network,"In recent years machine learning techniques based on neural networks for
+mobile computing become increasingly popular. Classical multi-layer neural
+networks require matrix multiplications at each stage. Multiplication operation
+is not an energy efficient operation and consequently it drains the battery of
+the mobile device. In this paper we propose a new energy efficient neural
+network with the universal approximation property over space of Lebesgue
+integrable functions. This network called additive neural network is very
+suitable for mobile computing. The neural structure is based on a novel vector
+product definition called ef-operator that permits a multiplier-free
+implementation. In ef-operation the ""product"" of two real numbers is defined
+as the sum of their absolute values with the sign determined by the sign of
+the product of the numbers. This ""product"" is used to construct a vector
+product in $R^N$. The vector product induces the $l_1$ norm. The proposed
+additive neural network successfully solves the XOR problem. The experiments on
+MNIST dataset show that the classification performances of the proposed
+additive neural networks are very similar to the corresponding multi-layer
+perceptron and convolutional neural networks (LeNet).",Arman Afrasiyabi|Ozan Yildiz|Baris Nasir|Fatos T. Yarman Vural|A. Enis Cetin,cs.NE|cs.AI|cs.LG
+2017-02-28T17:19:57Z,2017-02-08T21:49:46Z,http://arxiv.org/abs/1702.02628v1,http://arxiv.org/pdf/1702.02628v1,Optimal Detection of Faulty Traffic Sensors Used in Route Planning,"In a smart city real-time traffic sensors may be deployed for various
+applications such as route planning. Unfortunately sensors are prone to
+failures which result in erroneous traffic data. Erroneous data can adversely
+affect applications such as route planning and can cause increased travel time
+and environmental impact. To minimize the impact of sensor failures we must
+detect them promptly and with high accuracy. However typical detection
+algorithms may lead to a large number of false positives (i.e. false alarms)
+and false negatives (i.e. missed detections) which can result in suboptimal
+route planning. In this paper we devise an effective detector for identifying
+faulty traffic sensors using a prediction model based on Gaussian Processes.
+Further we present an approach for computing the optimal parameters of the
+detector which minimize losses due to false-positive and false-negative errors.
+We also characterize critical sensors whose failure can have high impact on
+the route planning application. Finally we implement our method and evaluate
+it numerically using a real-world dataset and the route planning platform
+OpenTripPlanner.",Amin Ghafouri|Aron Laszka|Abhishek Dubey|Xenofon Koutsoukos,cs.AI|cs.SY
+2017-02-28T17:19:57Z,2017-02-23T18:52:58Z,http://arxiv.org/abs/1702.02604v2,http://arxiv.org/pdf/1702.02604v2,Causal Regularization,"In application domains such as healthcare we want accurate predictive models
+that are also causally interpretable. In pursuit of such models we propose a
+causal regularizer to steer predictive models towards causally-interpretable
+solutions and theoretically study its properties. In a large-scale analysis of
+Electronic Health Records (EHR) our causally-regularized model outperforms its
+L1-regularized counterpart in causal accuracy and is competitive in predictive
+performance. We perform non-linear causality analysis by causally regularizing
+a special neural network architecture. We also show that the proposed causal
+regularizer can be used together with neural representation learning algorithms
+to yield up to 20% improvement over multilayer perceptron in detecting
+multivariate causation a situation common in healthcare where many causal
+factors should occur simultaneously to have an effect on the target variable.",Mohammad Taha Bahadori|Krzysztof Chalupka|Edward Choi|Robert Chen|Walter F. Stewart|Jimeng Sun,cs.LG|cs.AI|cs.NE|stat.ML
+2017-02-28T17:19:57Z,2017-02-24T22:20:25Z,http://arxiv.org/abs/1702.02540v2,http://arxiv.org/pdf/1702.02540v2,Automatic Rule Extraction from Long Short Term Memory Networks,"Although deep learning models have proven effective at solving problems in
+natural language processing the mechanism by which they come to their
+conclusions is often unclear. As a result these models are generally treated
+as black boxes yielding no insight of the underlying learned patterns. In this
+paper we consider Long Short Term Memory networks (LSTMs) and demonstrate a new
+approach for tracking the importance of a given input to the LSTM for a given
+output. By identifying consistently important patterns of words we are able to
+distill state of the art LSTMs on sentiment analysis and question answering
+into a set of representative phrases. This representation is then
+quantitatively validated by using the extracted phrases to construct a simple
+rule-based classifier which approximates the output of the LSTM.",W. James Murdoch|Arthur Szlam,cs.CL|cs.AI|cs.NE|stat.ML
+2017-02-28T17:19:57Z,2017-02-08T16:57:48Z,http://arxiv.org/abs/1702.02519v1,http://arxiv.org/pdf/1702.02519v1,Deep Generalized Canonical Correlation Analysis,"We present Deep Generalized Canonical Correlation Analysis (DGCCA) -- a
+method for learning nonlinear transformations of arbitrarily many views of
+data such that the resulting transformations are maximally informative of each
+other. While methods for nonlinear two-view representation learning (Deep CCA
+(Andrew et al. 2013)) and linear many-view representation learning
+(Generalized CCA (Horst 1961)) exist DGCCA is the first CCA-style multiview
+representation learning technique that combines the flexibility of nonlinear
+(deep) representation learning with the statistical power of incorporating
+information from many independent sources or views. We present the DGCCA
+formulation as well as an efficient stochastic optimization algorithm for
+solving it. We learn DGCCA repre- sentations on two distinct datasets for three
+downstream tasks: phonetic transcrip- tion from acoustic and articulatory
+measurements and recommending hashtags and friends on a dataset of Twitter
+users. We find that DGCCA representations soundly beat existing methods at
+phonetic transcription and hashtag recommendation and in general perform no
+worse than standard linear many-view techniques.",Adrian Benton|Huda Khayrallah|Biman Gujral|Drew Reisinger|Sheng Zhang|Raman Arora,cs.LG|cs.AI|stat.ML
+2017-02-28T17:19:57Z,2017-02-08T06:51:33Z,http://arxiv.org/abs/1702.02302v1,http://arxiv.org/pdf/1702.02302v1,Autonomous Braking System via Deep Reinforcement Learning,"In this paper we propose a new autonomous braking system based on deep
+reinforcement learning. The proposed autonomous braking system automatically
+decides whether to apply the brake at each time step when confronting the risk
+of collision using the information on the obstacle obtained by the sensors. The
+problem of designing brake control is formulated as searching for the optimal
+policy in Markov decision process (MDP) model where the state is given by the
+relative position of the obstacle and the vehicle's speed and the action space
+is defined as whether brake is stepped or not. The policy used for brake
+control is learned through computer simulations using the deep reinforcement
+learning method called deep Q-network (DQN). In order to derive desirable
+braking policy we propose the reward function which balances the damage
+imposed to the obstacle in case of accident and the reward achieved when the
+vehicle runs out of risk as soon as possible. DQN is trained for the scenario
+where a vehicle is encountered with a pedestrian crossing the urban road.
+Experiments show that the control agent exhibits desirable control behavior and
+avoids collision without any mistake in various uncertain environments.",Hyunmin Chae|Chang Mook Kang|ByeoungDo Kim|Jaekyum Kim|Chung Choo Chung|Jun Won Choi,cs.AI
+2017-02-28T17:19:57Z,2017-02-08T04:27:11Z,http://arxiv.org/abs/1702.02277v1,http://arxiv.org/pdf/1702.02277v1,A Historical Review of Forty Years of Research on CMAC,"The Cerebellar Model Articulation Controller (CMAC) is an influential
+brain-inspired computing model in many relevant fields. Since its inception in
+the 1970s the model has been intensively studied and many variants of the
+prototype such as Kernel-CMAC Self-Organizing Map CMAC and Linguistic CMAC
+have been proposed. This review article focus on how the CMAC model is
+gradually developed and refined to meet the demand of fast adaptive and
+robust control. Two perspective CMAC as a neural network and CMAC as a table
+look-up technique are presented. Three aspects of the model: the architecture
+learning algorithms and applications are discussed. In the end some potential
+future research directions on this model are suggested.",Frank Z. Xing,cs.NE|cs.AI|A.1
+2017-02-28T17:19:57Z,2017-02-08T02:54:25Z,http://arxiv.org/abs/1702.02258v1,http://arxiv.org/pdf/1702.02258v1,"Generating Multiple Hypotheses for Human 3D Pose Consistent with 2D
+  Joint Detections","We propose a method to generate multiple hypotheses for human 3D pose all of
+them consistent with the 2D detection of joints in a monocular RGB image. To
+generate these pose hypotheses we use a novel generative model defined in the
+space of anatomically plausible 3D poses satisfying the joint angle limits and
+limb length ratios. The proposed generative model is uniform in the space of
+anatomically valid poses and as a result does not suffer from the dataset bias
+in existing motion capture datasets such as Human3.6M (H36M) HumanEva and CMU
+MoCap. A good model that spans the full variability of human pose and
+generalizes to unseen poses must be compositional i.e. produce a pose by
+combining parts. Our model is flexible and compositional and consequently can
+generalize to every plausible human 3D pose since it is only limited by
+physical constraints. We discuss sampling from this model and use these samples
+to generate multiple diverse human 3D pose hypotheses given the 2D detection of
+joints. We argue that generating multiple pose hypotheses from a monocular RGB
+image is more reasonable than generating only a single 3D pose given the depth
+ambiguity and the uncertainty caused by occlusion and imperfect 2D joint
+detection. To support this argument we have performed empirical evaluation on
+the popular Human3.6M dataset that confirms that most often at least one of
+our pose hypotheses is closer to the true 3D pose compared to the estimated
+pose by other recent baseline methods for 3D pose reconstruction from monocular
+RGB images. The idea of generating multiple consistent and valid pose
+hypotheses can give rise to a new line of future work that has not previously
+been addressed in the literature.",Ehsan Jahangiri|Alan L. Yuille,cs.CV|cs.AI|cs.MM|stat.ML
+2017-02-28T17:19:57Z,2017-02-07T15:45:39Z,http://arxiv.org/abs/1702.02470v1,http://arxiv.org/abs/1702.02470v1,Propagation via Kernelization: The Vertex Cover Constraint,"The technique of kernelization consists in extracting from an instance of a
+problem an essentially equivalent instance whose size is bounded in a
+parameter k. Besides being the basis for efficient param-eterized algorithms
+this method also provides a wealth of information to reason about in the
+context of constraint programming. We study the use of kernelization for
+designing propagators through the example of the Vertex Cover constraint. Since
+the classic kernelization rules often correspond to dominance rather than
+consistency we introduce the notion of ""loss-less"" kernel. While our
+preliminary experimental results show the potential of the approach they also
+show some of its limits. In particular this method is more effective for
+vertex covers of large and sparse graphs as they tend to have relatively
+smaller kernels.",Clément Carbonnel|Emmanuel Hébrard,cs.AI
+2017-02-28T17:19:57Z,2017-02-07T13:02:09Z,http://arxiv.org/abs/1702.01991v1,http://arxiv.org/pdf/1702.01991v1,"Representations of language in a model of visually grounded speech
+  signal","We present a visually grounded model of speech perception which projects
+spoken utterances and images to a joint semantic space. We use a multi-layer
+recurrent highway network to model the temporal nature of spoken speech and
+show that it learns to extract both form and meaning-based linguistic knowledge
+from the input signal. We carry out an in-depth analysis of the representations
+used by different components of the trained model and show that encoding of
+semantic aspects tends to become richer as we go up the hierarchy of layers
+whereas encoding of form-related aspects of the language input tends to
+initially increase and then plateau or decrease.",Grzegorz Chrupała|Lieke Gelderloos|Afra Alishahi,cs.CL|cs.AI|cs.LG
+2017-02-28T17:19:57Z,2017-02-10T16:22:18Z,http://arxiv.org/abs/1702.01975v2,http://arxiv.org/pdf/1702.01975v2,Learning what matters - Sampling interesting patterns,"In the field of exploratory data mining local structure in data can be
+described by patterns and discovered by mining algorithms. Although many
+solutions have been proposed to address the redundancy problems in pattern
+mining most of them either provide succinct pattern sets or take the interests
+of the user into account-but not both. Consequently the analyst has to invest
+substantial effort in identifying those patterns that are relevant to her
+specific interests and goals. To address this problem we propose a novel
+approach that combines pattern sampling with interactive data mining. In
+particular we introduce the LetSIP algorithm which builds upon recent
+advances in 1) weighted sampling in SAT and 2) learning to rank in interactive
+pattern mining. Specifically it exploits user feedback to directly learn the
+parameters of the sampling distribution that represents the user's interests.
+We compare the performance of the proposed algorithm to the state-of-the-art in
+interactive pattern mining by emulating the interests of a user. The resulting
+system allows efficient and interleaved learning and sampling thus
+user-specific anytime data exploration. Finally LetSIP demonstrates favourable
+trade-offs concerning both quality-diversity and exploitation-exploration when
+compared to existing methods.",Vladimir Dzyuba|Matthijs van Leeuwen,stat.ML|cs.AI|cs.DB

@@ -1,0 +1,1524 @@
+2017-02-28T17:17:28Z,2017-02-27T17:43:59Z,http://arxiv.org/abs/1702.08397v1,http://arxiv.org/pdf/1702.08397v1,"Forward Event-Chain Monte Carlo: a general rejection-free and
+  irreversible Markov chain simulation method","This paper considers Event-Chain Monte Carlo simulation schemes in order to
+design an original irreversible Markov Chain Monte Carlo (MCMC) algorithm for
+the sampling of complex statistical models. The functioning principles of MCMC
+sampling methods are firstly recalled as well as standard Event-Chain Monte
+Carlo simulation schemes are described. Then a Forward Event-Chain Monte Carlo
+sampling methodology is proposed and introduced. This nonreversible MCMC
+rejection-free simulation algorithm is tested and run for the sampling of
+high-dimensional ill-conditioned Gaussian statistical distributions. Numerical
+experiments demonstrate the efficiency of the proposed approach compared to
+standard Event-Chain and standard Monte Carlo sampling methods. Accelerations
+up to several magnitudes are exhibited.",Manon Michel|Stéphane Sénécal,stat.CO
+2017-02-28T17:17:28Z,2017-02-27T12:12:46Z,http://arxiv.org/abs/1702.08251v1,http://arxiv.org/pdf/1702.08251v1,Hessian corrections to Hybrid Monte Carlo,"A method for the introduction of second-order derivatives of the log
+likelihood into HMC algorithms is introduced which does not require the
+Hessian to be evaluated at each leapfrog step but only at the start and end of
+trajectories.",Thomas House,stat.CO
+2017-02-28T17:17:28Z,2017-02-27T12:03:01Z,http://arxiv.org/abs/1702.08248v1,http://arxiv.org/pdf/1702.08248v1,Scalable and Distributed Clustering via Lightweight Coresets,"Coresets are compact representations of data sets such that models trained on
+a coreset are provably competitive with models trained on the full data set. As
+such they have been successfully used to scale up clustering models to massive
+data sets. While existing approaches generally only allow for multiplicative
+approximation errors we propose a novel notion of coresets called lightweight
+coresets that allows for both multiplicative and additive errors. We provide a
+single algorithm to construct light-weight coresets for k-Means clustering
+Bregman clustering and maximum likelihood estimation of Gaussian mixture
+models. The algorithm is substantially faster than existing constructions
+embarrassingly parallel and resulting coresets are smaller. In an extensive
+experimental evaluation we demonstrate that the proposed method outperforms
+existing coreset constructions.",Olivier Bachem|Mario Lucic|Andreas Krause,stat.ML|cs.DC|cs.DS|cs.LG|stat.CO
+2017-02-28T17:17:28Z,2017-02-27T08:42:49Z,http://arxiv.org/abs/1702.08188v1,http://arxiv.org/pdf/1702.08188v1,"dotCall64: An Efficient Interface to Compiled C/C++ and Fortran Code
+  Supporting Long Vectors","The R functions .C() and .Fortran() can be used to call compiled C/C++ and
+Fortran code from R. This so-called foreign function interface is convenient
+since it does not require any interactions with the C API of R. However it
+does not support long vectors (i.e. vectors of more than 2^31 elements). To
+overcome this limitation the R package dotCall64 provides .C64() which can be
+used to call compiled C/C++ and Fortran functions. It transparently supports
+long vectors and does the necessary castings to pass numeric R vectors to
+64-bit integer arguments of the compiled code. Moreover .C64() features a
+mechanism to avoid unnecessary copies of function arguments making it
+efficient in terms of speed and memory usage.",Florian Gerber|Kaspar Mösinger|Reinhard Furrer,stat.CO
+2017-02-28T17:17:28Z,2017-02-27T08:33:26Z,http://arxiv.org/abs/1702.08185v1,http://arxiv.org/pdf/1702.08185v1,An update on statistical boosting in biomedicine,"Statistical boosting algorithms have triggered a lot of research during the
+last decade. They combine a powerful machine-learning approach with classical
+statistical modelling offering various practical advantages like automated
+variable selection and implicit regularization of effect estimates. They are
+extremely flexible as the underlying base-learners (regression functions
+defining the type of effect for the explanatory variables) can be combined with
+any kind of loss function (target function to be optimized defining the type
+of regression setting). In this review article we highlight the most recent
+methodological developments on statistical boosting regarding variable
+selection functional regression and advanced time-to-event modelling.
+Additionally we provide a short overview on relevant applications of
+statistical boosting in biomedicine.",Andreas Mayr|Benjamin Hofner|Elisabeth Waldmann|Tobias Hepp|Olaf Gefeller|Matthias Schmid,stat.AP|stat.CO|stat.ML
+2017-02-28T17:17:28Z,2017-02-27T04:17:36Z,http://arxiv.org/abs/1702.08140v1,http://arxiv.org/pdf/1702.08140v1,"A mixture model approach to infer land-use influence on point referenced
+  water quality","The assessment of water quality across space and time is of considerable
+interest for both agricultural and public health reasons. The standard method
+to assess the water quality of a catchment or a group of catchments usually
+involves collecting point measurements of water quality and other additional
+information such as the date and time of measurements rainfall amounts the
+land-use and soil-type of the catchment and the elevation. Some of this
+auxiliary information will be point data measured at the exact location
+whereas other such as land-use will be areal data often in a compositional
+format. Two problems arise if analysts try to incorporate this information into
+a statistical model in order to predict (for example) the influence of land-use
+on water quality. First is the spatial change of support problem that arises
+when using areal data to predict outcomes at point locations. Secondly the
+physical process driving water quality is not compositional rather it is the
+observation process that provides compositional data. In this paper we present
+an approach that accounts for these two issues by using a latent variable to
+identify the land-use that most likely influences water quality. This latent
+variable is used in a spatial mixture model to help estimate the influence of
+land-use on water quality. We demonstrate the potential of this approach with
+data from a water quality research study in the Mount Lofty range in South
+Australia.",Adrien Ickowicz|Jessica H. Ford|Keith R. Hayes,stat.AP|stat.CO
+2017-02-28T17:17:28Z,2017-02-26T17:50:28Z,http://arxiv.org/abs/1702.08061v1,http://arxiv.org/pdf/1702.08061v1,The Ensemble Kalman Filter: A Signal Processing Perspective,"The ensemble Kalman filter (EnKF) is a Monte Carlo based implementation of
+the Kalman filter (KF) for extremely high-dimensional possibly nonlinear and
+non-Gaussian state estimation problems. Its ability to handle state dimensions
+in the order of millions has made the EnKF a popular algorithm in different
+geoscientific disciplines. Despite a similarly vital need for scalable
+algorithms in signal processing e.g. to make sense of the ever increasing
+amount of sensor data the EnKF is hardly discussed in our field.
+  This self-contained review paper is aimed at signal processing researchers
+and provides all the knowledge to get started with the EnKF. The algorithm is
+derived in a KF framework without the often encountered geoscientific
+terminology. Algorithmic challenges and required extensions of the EnKF are
+provided as well as relations to sigma-point KF and particle filters. The
+relevant EnKF literature is summarized in an extensive survey and unique
+simulation examples including popular benchmark problems complement the
+theory with practical insights. The signal processing perspective highlights
+new directions of research and facilitates the exchange of potentially
+beneficial ideas both for the EnKF and high-dimensional nonlinear and
+non-Gaussian filtering in general.",Michael Roth|Gustaf Hendeby|Carsten Fritsche|Fredrik Gustafsson,stat.ME|cs.SY|stat.CO
+2017-02-28T17:17:28Z,2017-02-25T17:47:33Z,http://arxiv.org/abs/1702.07930v1,http://arxiv.org/pdf/1702.07930v1,"Upper-Bounding the Regularization Constant for Convex Sparse Signal
+  Reconstruction","Consider reconstructing a signal $x$ by minimizing a weighted sum of a convex
+differentiable negative log-likelihood (NLL) (data-fidelity) term and a convex
+regularization term that imposes a convex-set constraint on $x$ and enforces
+its sparsity using $\ell_1$-norm analysis regularization. We compute upper
+bounds on the regularization tuning constant beyond which the regularization
+term overwhelmingly dominates the NLL term so that the set of minimum points of
+the objective function does not change. Necessary and sufficient conditions for
+irrelevance of sparse signal regularization and a condition for the existence
+of finite upper bounds are established. We formulate an optimization problem
+for finding these bounds when the regularization term can be globally minimized
+by a feasible $x$ and also develop an alternating direction method of
+multipliers (ADMM) type method for their computation. Simulation examples show
+that the derived and empirical bounds match.",Renliang Gu|Aleksandar Dogandžić,stat.CO|math.OC
+2017-02-28T17:17:28Z,2017-02-25T03:46:20Z,http://arxiv.org/abs/1702.07830v1,http://arxiv.org/pdf/1702.07830v1,"A Near-Optimal Sampling Strategy for Sparse Recovery of Polynomial Chaos
+  Expansions","Compressive sampling has become a widely used approach to construct
+polynomial chaos surrogates when the number of available simulation samples is
+limited. Originally these expensive simulation samples would be obtained at
+random locations in the parameter space. It was later shown that the choice of
+sample locations could significantly impact the accuracy of resulting
+surrogates. This motivated new sampling strategies or design-of-experiment
+approaches such as coherence-optimal sampling which aim at improving the
+coherence property. In this paper we propose a sampling strategy that can
+identify near-optimal sample locations that lead to improvement in
+local-coherence property and also enhancement of cross-correlation properties
+of measurement matrices. We provide theoretical motivations for the proposed
+sampling strategy along with several numerical examples that show that our
+near-optimal sampling strategy produces substantially more accurate results
+compared to other sampling strategies.",Negin Alemazkoor|Hadi Meidani,stat.CO
+2017-02-28T17:17:28Z,2017-02-24T17:54:23Z,http://arxiv.org/abs/1702.07685v1,http://arxiv.org/pdf/1702.07685v1,ROPE: high-dimensional network modeling with robust control of edge FDR,"Network modeling has become increasingly popular for analyzing genomic data
+to aid in the interpretation and discovery of possible mechanistic components
+and therapeutic targets. However genomic-scale networks are high-dimensional
+models and are usually estimated from a relatively small number of samples.
+Therefore their usefulness is hampered by estimation instability. In addition
+the complexity of the models is controlled by one or more penalization (tuning)
+parameters where small changes to these can lead to vastly different networks
+thus making interpretation of models difficult. This necessitates the
+development of techniques to produce robust network models accompanied by
+estimation quality assessments.
+  We introduce Resampling of Penalized Estimates (ROPE): a novel statistical
+method for robust network modeling. The method utilizes resampling-based
+network estimation and integrates results from several levels of penalization
+through a constrained over-dispersed beta-binomial mixture model. ROPE
+provides robust False Discovery Rate (FDR) control of network estimates and
+each edge is assigned a measure of validity the q-value corresponding to the
+FDR-level for which the edge would be included in the network model. We apply
+ROPE to several simulated data sets as well as genomic data from The Cancer
+Genome Atlas. We show that ROPE outperforms state-of-the-art methods in terms
+of FDR control and robust performance across data sets. We illustrate how to
+use ROPE to make a principled model selection for which genomic associations to
+study further. ROPE is available as an R package on CRAN.",Jonatan Kallus|Jose Sanchez|Alexandra Jauhiainen|Sven Nelander|Rebecka Jörnsten,stat.CO
+2017-02-28T17:17:32Z,2017-02-24T17:01:59Z,http://arxiv.org/abs/1702.07662v1,http://arxiv.org/pdf/1702.07662v1,A Network Epidemic Model for Online Community Commissioning Data,"Statistical models for network epidemics usually assume a Bernoulli random
+graph in which any two nodes have the same probability of being connected.
+This assumption provides computational simplicity but does not describe
+real-life networks well. We propose an epidemic model based on the preferential
+attachment model which adds nodes sequentially by simple rules to generate a
+network. A simulation study based on the subsequent Markov Chain Monte Carlo
+algorithm reveals an identifiability issue with the model parameters so an
+alternative parameterisation is suggested. Finally the model is applied to a
+set of online commissioning data.",Clement Lee|Andrew Garbett|Darren J. Wilkinson,stat.CO|cs.SI|stat.ME
+2017-02-28T17:17:32Z,2017-02-23T21:37:06Z,http://arxiv.org/abs/1702.07400v1,http://arxiv.org/pdf/1702.07400v1,Horseshoe Regularization for Feature Subset Selection,"Feature subset selection arises in many high-dimensional applications in
+machine learning and statistics such as compressed sensing and genomics. The
+$\ell_0$ penalty is ideal for this task the caveat being it requires the
+NP-hard combinatorial evaluation of all models. A recent area of considerable
+interest is to develop efficient algorithms to fit models with a non-convex
+$\ell_\gamma$ penalty for $\gamma\in (01)$ which results in sparser models
+than the convex $\ell_1$ or lasso penalty but is harder to fit. We propose an
+alternative termed the horseshoe regularization penalty for feature subset
+selection and demonstrate its theoretical and computational advantages. The
+distinguishing feature from existing non-convex optimization approaches is a
+full probabilistic representation of the penalty as the negative of the
+logarithm of a suitable prior which in turn enables an efficient
+expectation-maximization algorithm for optimization and MCMC for uncertainty
+quantification. In synthetic and real data the resulting algorithm provides
+better statistical performance and the computation requires a fraction of time
+of state of the art non-convex solvers.",Anindya Bhadra|Jyotishka Datta|Nicholas G. Polson|Brandon Willard,stat.ML|stat.CO
+2017-02-28T17:17:32Z,2017-02-23T04:40:41Z,http://arxiv.org/abs/1702.07094v1,http://arxiv.org/pdf/1702.07094v1,"BigVAR: Tools for Modeling Sparse High-Dimensional Multivariate Time
+  Series","The R package BigVAR allows for the simultaneous estimation of
+high-dimensional time series by applying structured penalties to the
+conventional vector autoregression (VAR) and vector autoregression with
+exogenous variables (VARX) frameworks. Our methods can be utilized in many
+forecasting applications that make use of time-dependent data such as
+macroeconomics finance and internet traffic. Our package extends solution
+algorithms from the machine learning and signal processing literatures to a
+time dependent setting: selecting the regularization parameter by sequential
+cross validation and provides substantial improvements in forecasting
+performance over conventional methods. We offer a user-friendly interface that
+utilizes R's s4 object class structure which makes our methodology easily
+accessible to practicioners.
+  In this paper we present an overview of our notation the models that
+comprise BigVAR and the functionality of our package with a detailed example
+using publicly available macroeconomic data. In addition we present a
+simulation study comparing the performance of several procedures that refit the
+support selected by a BigVAR procedure according to several variants of least
+squares and conclude that refitting generally degrades forecast performance.",William Nicholson|David Matteson|Jacob Bien,stat.CO
+2017-02-28T17:17:32Z,2017-02-22T00:43:01Z,http://arxiv.org/abs/1702.06632v1,http://arxiv.org/pdf/1702.06632v1,A Balanced Algorithm for Sampling Abstract Simplicial Complexes,"We provide an algorithm for sampling the space of abstract simplicial
+complexes on a fixed number of vertices that aims to provide a balanced
+sampling over non-isomorphic complexes. Although sampling uniformly from
+geometrically distinct complexes is a difficult task with no known analytic
+algorithm our generative and descriptive algorithm is designed with heuristics
+to help balance the combinatorial multiplicities of the states and more widely
+sample across the space of inequivalent configurations. We provide a formula
+for the exact probabilities with which this algorithm will produce a requested
+labeled state and compare the algorithm to Kahle's multi-parameter model of
+exponential random simplicial complexes demonstrating analytically that our
+algorithm performs better with respect to worst-case probability bounds on a
+given complex and providing numerical results illustrating the increased
+sampling efficiency over distinct classes.",John Lombard,stat.CO|math.CO|math.PR
+2017-02-28T17:17:32Z,2017-02-23T19:01:53Z,http://arxiv.org/abs/1702.06488v2,http://arxiv.org/pdf/1702.06488v2,Distributed Estimation of Principal Eigenspaces,"Principal component analysis (PCA) is fundamental to statistical machine
+learning. It extracts latent principal factors that contribute to the most
+variation of the data. When data are stored across multiple machines however
+communication cost can prohibit the computation of PCA in a central location
+and distributed algorithms for PCA are thus needed. This paper proposes and
+studies a distributed PCA algorithm: each node machine computes the top $K$
+eigenvectors and transmits them to the central server; the central server then
+aggregates the information from all the node machines and conducts a PCA based
+on the aggregated information. We investigate the bias and variance for the
+resulting distributed estimator of the top $K$ eigenvectors. In particular we
+show that for distributions with symmetric innovation the distributed PCA is
+""unbiased"". We derive the rate of convergence for distributed PCA estimators
+which depends explicitly on the effective rank of covariance eigen-gap and
+the number of machines. We show that when the number of machines is not
+unreasonably large the distributed PCA performs as well as the whole sample
+PCA even without full access of whole data. The theoretical results are
+verified by an extensive simulation study. We also extend our analysis to the
+heterogeneous case where the population covariance matrices are different
+across local machines but share similar top eigen-structures.",Jianqing Fan|Dong Wang|Kaizheng Wang|Ziwei Zhu,stat.CO|math.ST|stat.TH
+2017-02-28T17:17:32Z,2017-02-23T14:07:34Z,http://arxiv.org/abs/1702.06407v2,http://arxiv.org/pdf/1702.06407v2,"General Semiparametric Shared Frailty Model Estimation and Simulation
+  with frailtySurv","The R package frailtySurv for simulating and fitting semi-parametric shared
+frailty models is introduced. frailtySurv implements semi-parametric consistent
+estimators for a variety of frailty distributions including gamma log-normal
+inverse Gaussian and power variance function and provides consistent
+estimators of the standard errors of the parameters' estimators. The
+parameters' estimators are asymptotically normally distributed and therefore
+statistical inference based on the results of this package such as hypothesis
+testing and confidence intervals can be performed using the normal
+distribution. Extensive simulations demonstrate the flexibility and correct
+implementation of the estimator. Two case studies performed with
+publicly-available datasets demonstrate applicability of the package. In the
+Diabetic Retinopathy Study the onset of blindness is clustered by patient and
+in a large hard drive failure dataset failure times are thought to be
+clustered by the hard drive manufacturer and model.",John V. Monaco|Malka Gorfine|Li Hsu,stat.CO|cs.MS
+2017-02-28T17:17:32Z,2017-02-19T04:08:18Z,http://arxiv.org/abs/1702.05698v1,http://arxiv.org/pdf/1702.05698v1,Online Robust Principal Component Analysis with Change Point Detection,"Robust PCA methods are typically batch algorithms which requires loading all
+observations into memory before processing. This makes them inefficient to
+process big data. In this paper we develop an efficient online robust
+principal component methods namely online moving window robust principal
+component analysis (OMWRPCA). Unlike existing algorithms OMWRPCA can
+successfully track not only slowly changing subspace but also abruptly changed
+subspace. By embedding hypothesis testing into the algorithm OMWRPCA can
+detect change points of the underlying subspaces. Extensive simulation studies
+demonstrate the superior performance of OMWRPCA comparing with other
+state-of-art approach. We also apply the algorithm for real-time background
+subtraction of surveillance video.",Wei Xiao|Xiaolin Huang|Jorge Silva|Saba Emrani|Arin Chaudhuri,cs.LG|cs.CV|stat.AP|stat.CO|stat.ML
+2017-02-28T17:17:32Z,2017-02-18T00:04:25Z,http://arxiv.org/abs/1702.05546v1,http://arxiv.org/pdf/1702.05546v1,A Sequential Scheme for Large Scale Bayesian Multiple Testing,"The problem of large scale multiple testing arises in many contexts
+including testing for pairwise interaction among large numbers of neurons. With
+advances in technologies it has become common to record from hundreds of
+neurons simultaneously and this number is growing quickly so that the number
+of pairwise tests can be very large. It is important to control the rate at
+which false positives occur. In addition there is sometimes information that
+affects the probability of a positive result for any given pair. In the case of
+neurons they are more likely to have correlated activity when they are close
+together and when they respond similarly to various stimuli. Recently a method
+was developed to control false positives when covariate information such as
+distances between pairs of neurons is available. This method however relies
+on computationally-intensive Markov Chain Monte Carlo (MCMC). Here we develop
+an alternative based on Sequential Monte Carlo which scales well with the
+size of the dataset. This scheme considers data items sequentially with
+relevant probabilities being updated at each step. Simulation experiments
+demonstrate that the proposed algorithm delivers results as accurately as the
+previous MCMC method with only a single pass through the data. We illustrate
+the method by using it to analyze neural recordings from extrastriate cortex in
+a macaque monkey. The scripts that implement the proposed algorithm with a
+synthetic dataset are available online at:
+https://github.com/robinlau1981/SMC_Multi_Testing.",Bin Liu|Giuseppe Vinci|Adam C. Snyder|Matthew A. Smith|Robert E. Kass,stat.CO
+2017-02-28T17:17:32Z,2017-02-17T21:16:40Z,http://arxiv.org/abs/1702.05518v1,http://arxiv.org/pdf/1702.05518v1,Sampling Strategies for Fast Updating of Gaussian Markov Random Fields,"Gaussian Markov random fields (GMRFs) are popular for modeling temporal or
+spatial dependence in large areal datasets due to their ease of interpretation
+and computational convenience afforded by conditional independence and their
+sparse precision matrices needed for random variable generation. Using such
+models inside a Markov chain Monte Carlo algorithm requires repeatedly
+simulating random fields. This is a nontrivial issue especially when the full
+conditional precision matrix depends on parameters that change at each
+iteration. Typically in Bayesian computation GMRFs are updated jointly in a
+block Gibbs sampler or one location at a time in a single-site sampler. The
+former approach leads to quicker convergence by updating correlated variables
+all at once while the latter avoids solving large matrices. Efficient
+algorithms for sampling Markov random fields have become the focus of much
+recent research in the machine learning literature much of which can be useful
+to statisticians. We briefly review recently proposed approaches with an eye
+toward implementation for statisticians without expertise in numerical analysis
+or advanced computing. In particular we consider a version of block sampling
+in which the underlying graph can be cut so that conditionally independent
+sites are all updated together. This algorithm allows a practitioner to
+parallelize the updating of a subset locations or to take advantage of
+`vectorized' calculations in a high-level language such as R. Through both
+simulation and real data application we demonstrate computational savings that
+can be achieved versus both traditional single-site updating and block
+updating regardless of whether the data are on a regular or irregular lattice.
+We argue that this easily-implemented sampling routine provides a good
+compromise between statistical and computational efficiency when working with
+large datasets.",D. Andrew Brown|Christopher S. McMahan,stat.CO
+2017-02-28T17:17:32Z,2017-02-17T18:06:27Z,http://arxiv.org/abs/1702.05462v1,http://arxiv.org/pdf/1702.05462v1,Objective Bayesian Analysis for Change Point Problems,"In this paper we present an objective approach to change point analysis. In
+particular we look at the problem from two perspectives. The first focuses on
+the definition of an objective prior when the number of change points is known
+a priori. The second contribution aims to estimate the number of change points
+by using an objective approach recently introduced in the literature based on
+losses. The latter considers change point estimation as a model selection
+exercise. We show the performance of the proposed approach on simulated data
+and on real data sets.",Laurentiu Hinoveanu|Fabrizio Leisen|Cristiano Villa,stat.ME|math.ST|stat.AP|stat.CO|stat.ML|stat.TH
+2017-02-28T17:17:36Z,2017-02-15T11:52:14Z,http://arxiv.org/abs/1702.04561v1,http://arxiv.org/pdf/1702.04561v1,Probing for sparse and fast variable selection with model-based boosting,"We present a new variable selection method based on model-based gradient
+boosting and randomly permuted variables. Model-based boosting is a tool to fit
+a statistical model while performing variable selection at the same time. A
+drawback of the fitting lies in the need of multiple model fits on slightly
+altered data (e.g. cross-validation or bootstrap) to find the optimal number of
+boosting iterations and prevent overfitting. In our proposed approach we
+augment the data set with randomly permuted versions of the true variables so
+called shadow variables and stop the step-wise fitting as soon as such a
+variable would be added to the model. This allows variable selection in a
+single fit of the model without requiring further parameter tuning. We show
+that our probing approach can compete with state-of-the-art selection methods
+like stability selection in a high-dimensional classification benchmark and
+apply it on gene expression data for the estimation of riboflavin production of
+Bacillus subtilis.",Janek Thomas|Tobias Hepp|Andreas Mayr|Bernd Bischl,stat.ML|stat.CO
+2017-02-28T17:17:36Z,2017-02-14T21:20:23Z,http://arxiv.org/abs/1702.04391v1,http://arxiv.org/pdf/1702.04391v1,"Bootstrap-based inferential improvements in beta autoregressive moving
+  average model","We consider the issue of performing accurate small sample inference in beta
+autoregressive moving average model which is useful for modeling and
+forecasting continuous variables that assumes values in the interval $(01)$.
+The inferences based on conditional maximum likelihood estimation have good
+asymptotic properties but their performances in small samples may be poor.
+This way we propose bootstrap bias corrections of the point estimators and
+different bootstrap strategies for confidence interval improvements. Our Monte
+Carlo simulations show that finite sample inference based on bootstrap
+corrections is much more reliable than the usual inferences. We also presented
+an empirical application.",Bruna Gregory Palm|Fábio M. Bayer,stat.CO
+2017-02-28T17:17:36Z,2017-02-13T17:23:02Z,http://arxiv.org/abs/1702.03891v1,http://arxiv.org/pdf/1702.03891v1,"Spatial Models with the Integrated Nested Laplace Approximation within
+  Markov Chain Monte Carlo","The Integrated Nested Laplace Approximation (INLA) is a convenient way to
+obtain approximations to the posterior marginals for parameters in Bayesian
+hierarchical models when the latent effects can be expressed as a Gaussian
+Markov Random Field (GMRF). In addition its implementation in the R-INLA
+package for the R statistical software provides an easy way to fit models using
+INLA in practice. R-INLA implements a number of widely used latent models
+including several spatial models. In addition R-INLA can fit models in a
+fraction of the time than other computer intensive methods (e.g. Markov Chain
+Monte Carlo) take to fit the same model.
+  Although INLA provides a fast approximation to the marginals of the model
+parameters it is difficult to use it with models not implemented in R-INLA. It
+is also difficult to make multivariate posterior inference on the parameters of
+the model as INLA focuses on the posterior marginals and not the joint
+posterior distribution.
+  In this paper we describe how to use INLA within the Metropolis-Hastings
+algorithm to fit spatial models and estimate the joint posterior distribution
+of a reduced number of parameters. We will illustrate the benefits of this new
+method with two examples on spatial econometrics and disease mapping where
+complex spatial models with several spatial structures need to be fitted.",Virgilio Gómez-Rubio|Francisco Palmí-Perales,stat.CO
+2017-02-28T17:17:36Z,2017-02-13T08:52:58Z,http://arxiv.org/abs/1702.03673v1,http://arxiv.org/pdf/1702.03673v1,Bayesian Probabilistic Numerical Methods,"The emergent field of probabilistic numerics has thus far lacked rigorous
+statistical principals. This paper establishes Bayesian probabilistic numerical
+methods as those which can be cast as solutions to certain Bayesian inverse
+problems albeit problems that are non-standard. This allows us to establish
+general conditions under which Bayesian probabilistic numerical methods are
+well-defined encompassing both non-linear and non-Gaussian models. For general
+computation a numerical approximation scheme is developed and its asymptotic
+convergence is established. The theoretical development is then extended to
+pipelines of computation wherein probabilistic numerical methods are composed
+to solve more challenging numerical tasks. The contribution highlights an
+important research frontier at the interface of numerical analysis and
+uncertainty quantification with some illustrative applications presented.",Jon Cockayne|Chris Oates|Tim Sullivan|Mark Girolami,stat.ME|cs.NA|math.NA|math.ST|stat.CO|stat.TH
+2017-02-28T17:17:36Z,2017-02-10T12:26:52Z,http://arxiv.org/abs/1702.03146v1,http://arxiv.org/pdf/1702.03146v1,"Analysis of a nonlinear importance sampling scheme for Bayesian
+  parameter estimation in state-space models","The Bayesian estimation of the unknown parameters of state-space (dynamical)
+systems has received considerable attention over the past decade with a
+handful of powerful algorithms being introduced. In this paper we tackle the
+theoretical analysis of the recently proposed {\it nonlinear} population Monte
+Carlo (NPMC). This is an iterative importance sampling scheme whose key
+features compared to conventional importance samplers are (i) the approximate
+computation of the importance weights (IWs) assigned to the Monte Carlo samples
+and (ii) the nonlinear transformation of these IWs in order to prevent the
+degeneracy problem that flaws the performance of conventional importance
+samplers. The contribution of the present paper is a rigorous proof of
+convergence of the nonlinear IS (NIS) scheme as the number of Monte Carlo
+samples $M$ increases. Our analysis reveals that the NIS approximation errors
+converge to 0 almost surely and with the optimal Monte Carlo rate of
+$M^{-\frac{1}{2}}$. Moreover we prove that this is achieved even when the mean
+estimation error of the IWs remains constant a property that has been termed
+{\it exact approximation} in the Markov chain Monte Carlo literature. We
+illustrate these theoretical results by means of a computer simulation example
+involving the estimation of the parameters of a state-space model typically
+used for target tracking.",Joaquin Miguez|Ines P. Mariño|Manuel A. Vazquez,stat.CO
+2017-02-28T17:17:36Z,2017-02-10T10:44:23Z,http://arxiv.org/abs/1702.03126v1,http://arxiv.org/pdf/1702.03126v1,Computational inference without proposal kernels,"Likelihood-free methods such as approximate Bayesian computation are
+powerful tools for practical inference problems with intractable likelihood
+functions. Markov chain Monte Carlo and sequential Monte Carlo variants of
+approximate Bayesian computation can be effective techniques for sampling
+posterior distributions without likelihoods. However the efficiency of these
+methods depends crucially on the proposal kernel used to generate proposal
+posterior samples and a poor choice can lead to extremely low efficiency. We
+propose a new method for likelihood-free Bayesian inference based upon ideas
+from multilevel Monte Carlo. Our method is accurate and does not require
+proposal kernels thereby overcoming a key obstacle in the use of
+likelihood-free approaches in real-world situations.",David J. Warne|Ruth E. Baker|Matthew J. Simpson,"stat.CO|62F15, 65C05"
+2017-02-28T17:17:36Z,2017-02-15T10:14:43Z,http://arxiv.org/abs/1702.03057v2,http://arxiv.org/pdf/1702.03057v2,Unbiased Multi-index Monte Carlo,"We introduce a new class of Monte Carlo based approximations of expectations
+of random variables defined whose laws are not available directly but only
+through certain discretisatizations. Sampling from the discretized versions of
+these laws can typically introduce a bias. In this paper we show how to remove
+that bias by introducing a new version of multi-index Monte Carlo (MIMC) that
+has the added advantage of reducing the computational effort relative to
+i.i.d. sampling from the most precise discretization for a given level of
+error. We cover extensions of results regarding variance and optimality
+criteria for the new approach. We apply the methodology to the problem of
+computing an unbiased mollified version of the solution of a partial
+differential equation with random coefficients. A second application concerns
+the Bayesian inference (the smoothing problem) of an infinite dimensional
+signal modelled by the solution of a stochastic partial differential equation
+that is observed on a discrete space grid and at discrete times. Both
+applications are complemented by numerical simulations.",Dan Crisan|Jeremie Houssineau|Ajay Jasra,stat.CO
+2017-02-28T17:17:36Z,2017-02-14T04:22:00Z,http://arxiv.org/abs/1702.02707v2,http://arxiv.org/pdf/1702.02707v2,A Fast Algorithm for the Coordinate-wise Minimum Distance Estimation,"Application of the minimum distance method to the linear regression model for
+estimating regression parameters is a difficult and time-consuming process due
+to the complexity of its distance function and hence it is computationally
+expensive. To deal with the computational cost this paper proposes a fast
+algorithm which mainly uses technique of coordinate-wise minimization in order
+to estimate the regression parameters. R package based on the proposed
+algorithm and written in Rcpp is available online.",Jiwoong Kim,stat.CO
+2017-02-28T17:17:36Z,2017-02-09T00:11:27Z,http://arxiv.org/abs/1702.02658v1,http://arxiv.org/pdf/1702.02658v1,Estimating the number of clusters using cross-validation,"Many clustering methods including k-means require the user to specify the
+number of clusters as an input parameter. A variety of methods have been
+devised to choose the number of clusters automatically but they often rely on
+strong modeling assumptions. This paper proposes a data-driven approach to
+estimate the number of clusters based on a novel form of cross-validation. The
+proposed method differs from ordinary cross-validation because clustering is
+fundamentally an unsupervised learning problem. Simulation and real data
+analysis results show that the proposed method outperforms existing methods
+especially in high-dimensional settings with heterogeneous or heavy-tailed
+noise. In a yeast cell cycle dataset the proposed method finds a parsimonious
+clustering with interpretable gene groupings.",Wei Fu|Patrick O. Perry,stat.ME|stat.CO
+2017-02-28T17:17:36Z,2017-02-06T14:01:20Z,http://arxiv.org/abs/1702.01618v1,http://arxiv.org/pdf/1702.01618v1,"Learning of state-space models with highly informative observations: a
+  tempered Sequential Monte Carlo solution","Probabilistic (or Bayesian) modeling and learning offers interesting
+possibilities for systematic representation of uncertainty based on probability
+theory. Recent advances in Monte Carlo based methods have made previously
+intractable problem possible to solve using only the computational power
+available in a standard personal computer. For probabilistic learning of
+unknown parameters in nonlinear state-space models methods based on the
+particle filter have proven useful. However a notoriously challenging problem
+occurs when the observations are highly informative i.e. when there is very
+little or no measurement noise present. The particle filter will then struggle
+in estimating one of the basic component in most parameter learning algorithms
+the likelihood p(data|parameters). To this end we suggest an algorithm which
+initially assumes that there is artificial measurement noise present. The
+variance of this noise is sequentially decreased in an adaptive fashion such
+that we in the end recover the original problem or possibly a very close
+approximation of it. Computationally the parameters are learned using a
+sequential Monte Carlo (SMC) sampler which gives our proposed method a clear
+resemblance to the SMC^2 method. Another natural link is also made to the ideas
+underlying the so-called approximate Bayesian computation (ABC). We provide a
+theoretical justification (implying convergence results) for the suggested
+approach. We also illustrate it with numerical examples and in particular show
+promising results for a challenging Wiener-Hammerstein benchmark.",Andreas Svensson|Thomas B. Schön|Fredrik Lindsten,stat.CO|stat.ML
+2017-02-28T17:17:40Z,2017-02-05T15:43:17Z,http://arxiv.org/abs/1702.01418v1,http://arxiv.org/pdf/1702.01418v1,"Choosing the number of groups in a latent stochastic block model for
+  dynamic networks","Latent stochastic block models are flexible statistical models that are
+widely used in social network analysis. In recent years efforts have been made
+to extend these models to temporal dynamic networks whereby the connections
+between nodes are observed at a number of different times. In this paper we
+extend the original stochastic block model by using a Markovian property to
+describe the evolution of nodes' cluster memberships over time. We recast the
+problem of clustering the nodes of the network into a model-based context and
+show that the integrated completed likelihood can be evaluated analytically for
+a number of likelihood models. Then we propose a scalable greedy algorithm to
+maximise this quantity thereby estimating both the optimal partition and the
+ideal number of groups in a single inferential framework. Finally we propose
+applications of our methodology to both real and artificial datasets.",Riccardo Rastelli|Pierre Latouche|Nial Friel,stat.ME|stat.CO
+2017-02-28T17:17:40Z,2017-02-05T04:55:14Z,http://arxiv.org/abs/1702.01373v1,http://arxiv.org/pdf/1702.01373v1,Exact heat kernel on a hypersphere and its applications in kernel SVM,"Many contemporary statistical learning methods assume a Euclidean feature
+space however the ""curse of dimensionality"" associated with high feature
+dimensions is particularly severe for the Euclidean distance. This paper
+presents a method for defining similarity based on hyperspherical geometry and
+shows that it often improves the performance of support vector machine compared
+to other competing similarity measures. Specifically the idea of using heat
+diffusion on a hypersphere to measure similarity has been proposed and tested
+by \citet{Lafferty:2015uy} demonstrating promising results based on an
+approximate heat kernel however the exact hyperspherical heat kernel hitherto
+remains unknown. In this paper we derive an exact form of the heat kernel on a
+unit hypersphere in terms of a uniformly and absolutely convergent series in
+high-dimensional angular momentum eigenmodes. Being a natural measure of
+similarity between sample points dwelling on a hypersphere the exact kernel
+often shows superior performance in kernel SVM classifications applied to text
+mining tumor somatic mutation imputation and stock market analysis. The
+improvement in classification accuracy compared with kernels based on Euclidean
+geometry may arise from ameliorating the curse of dimensionality on compact
+manifolds.",Chenchao Zhao|Jun S. Song,stat.ML|q-bio.QM|stat.CO
+2017-02-28T17:17:40Z,2017-02-04T18:58:02Z,http://arxiv.org/abs/1702.01326v1,http://arxiv.org/pdf/1702.01326v1,"An Algorithm for Computing the Distribution Function of the Generalized
+  Poisson-Binomial Distribution","The Poisson-binomial distribution is useful in many applied problems in
+engineering actuarial science and data mining. The Poisson-binomial
+distribution models the distribution of the sum of independent but not
+identically distributed Bernoulli random variables whose success probabilities
+vary. In this paper we extend the Poisson-binomial distribution to the
+generalized Poisson-binomial (GPB) distribution. The GPB distribution is
+defined in cases where the Bernoulli variables can take any two arbitrary
+values instead of 0 and~1. The GPB distribution is useful in many areas such as
+voting theory actuarial science warranty prediction and probability theory.
+With few previous works studying the GPB distribution we derive the
+probability distribution via the discrete Fourier transform of the
+characteristic function of the distribution. We develop an efficient algorithm
+for computing the distribution function which uses the fast Fourier transform.
+We test the accuracy of the developed algorithm upon comparing it with
+enumeration-based exact method and the results from the binomial distribution.
+We also study the computational time of the algorithm in various parameter
+settings. Finally we discus the factors affecting the computational efficiency
+of this algorithm and illustrate the use of the software package.",Man Zhang|Yili Hong|Narayanaswamy Balakrishnan,stat.CO
+2017-02-28T17:17:40Z,2017-02-03T22:07:37Z,http://arxiv.org/abs/1702.01185v1,http://arxiv.org/pdf/1702.01185v1,Basis Adaptive Sample Efficient Polynomial Chaos (BASE-PC),"For a large class of orthogonal basis functions there has been a recent
+identification of expansion methods for computing accurate stable
+approximations of a quantity of interest. This paper presents within the
+context of uncertainty quantification a practical implementation using basis
+adaptation and coherence motivated sampling which under assumptions has
+satisfying guarantees. This implementation is referred to as Basis Adaptive
+Sample Efficient Polynomial Chaos (BASE-PC). A key component of this is the use
+of anisotropic polynomial order which admits evolving global bases for
+approximation in an efficient manner leading to consistently stable
+approximation for a practical class of smooth functionals. This fully adaptive
+non-intrusive method requires no a priori information of the solution and has
+satisfying theoretical guarantees of recovery. A key contribution to stability
+is the use of a presented correction sampling for coherence-optimal sampling in
+order to improve stability and accuracy within the adaptive basis scheme.
+Theoretically the method may dramatically reduce the impact of dimensionality
+in function approximation and numerically the method is demonstrated to
+perform well on problems with dimension up to 1000.",Jerrad Hampton|Alireza Doostan,stat.CO|math.PR|math.ST|stat.TH
+2017-02-28T17:17:40Z,2017-02-03T21:23:46Z,http://arxiv.org/abs/1702.01166v1,http://arxiv.org/pdf/1702.01166v1,Optimal Subsampling for Large Sample Logistic Regression,"For massive data the family of subsampling algorithms is popular to downsize
+the data volume and reduce computational burden. Existing studies focus on
+approximating the ordinary least squares estimate in linear regression where
+statistical leverage scores are often used to define subsampling probabilities.
+In this paper we propose fast subsampling algorithms to efficiently
+approximate the maximum likelihood estimate in logistic regression. We first
+establish consistency and asymptotic normality of the estimator from a general
+subsampling algorithm and then derive optimal subsampling probabilities that
+minimize the asymptotic mean squared error of the resultant estimator. An
+alternative minimization criterion is also proposed to further reduce the
+computational cost. The optimal subsampling probabilities depend on the full
+data estimate so we develop a two-step algorithm to approximate the optimal
+subsampling procedure. This algorithm is computationally efficient and has a
+significant reduction in computing time compared to the full data approach.
+Consistency and asymptotic normality of the estimator from a two-step algorithm
+are also established. Synthetic and real data sets are used to evaluate the
+practical performance of the proposed method.",HaiYing Wang|Rong Zhu|Ping Ma,stat.CO|stat.ME|stat.ML
+2017-02-28T17:17:40Z,2017-02-02T20:08:42Z,http://arxiv.org/abs/1702.00817v1,http://arxiv.org/abs/1702.00817v1,DCT-like Transform for Image Compression Requires 14 Additions Only,"A low-complexity 8-point orthogonal approximate DCT is introduced. The
+proposed transform requires no multiplications or bit-shift operations. The
+derived fast algorithm requires only 14 additions less than any existing DCT
+approximation. Moreover in several image compression scenarios the proposed
+transform could outperform the well-known signed DCT as well as
+state-of-the-art algorithms.",F. M. Bayer|R. J. Cintra,cs.MM|cs.DS|stat.AP|stat.CO
+2017-02-28T17:17:40Z,2017-02-01T19:44:14Z,http://arxiv.org/abs/1702.00434v1,http://arxiv.org/pdf/1702.00434v1,"Applying Nearest Neighbor Gaussian Processes to Massive Spatial Data
+  Sets: Forest Canopy Height Prediction Across Tanana Valley Alaska","Light detection and ranging (LiDAR) data provide critical information on the
+three-dimensional structure of forests. However collecting wall-to-wall LiDAR
+data at regional and global scales is cost prohibitive. As a result studies
+employing LiDAR data from airborne platforms typically collect data via strip
+sampling; leaving large swaths of the forest domain unmeasured by the
+instrument. Frameworks to accommodate incomplete coverage information from
+LiDAR instruments are essential to advance our understanding of forest
+structure and begin effectively monitoring forest resource dynamics over time.
+Here we define and assess several spatial regression models capable of
+delivering complete coverage forest canopy height prediction maps with
+associated uncertainty estimates using sparsely sampled LiDAR data. Despite the
+sparsity of the LiDAR data considered the number of observations is large
+e.g. n=5x10^6. Computational hurdles associated with developing the desired
+data products is overcome by using highly scalable hierarchical Nearest
+Neighbor Gaussian Process (NNGP) models. We outline new Markov chain Monte
+Carlo (MCMC) algorithms that provide improved convergence and run time over
+existing algorithms. We also propose a MCMC free hybrid implementation of NNGP.
+We assess the computational and inferential benefits of these alternate NNGP
+specifications using simulated data sets and LiDAR data collected over the US
+Forest Service Tanana Inventory Unit (TIU) in a remote portion of Interior
+Alaska. The resulting data product is the first statistically robust map of
+forest canopy for the TIU.",Andrew O. Finley|Abhirup Datta|Bruce C. Cook|Douglas C. Morton|Hans E. Andersen|Sudipto Banerjee,stat.CO|stat.AP
+2017-02-28T17:17:40Z,2017-02-27T17:17:15Z,http://arxiv.org/abs/1702.00428v2,http://arxiv.org/pdf/1702.00428v2,"Malliavin-based Multilevel Monte Carlo Estimators for Densities of
+  Max-stable Processes","We introduce a class of unbiased Monte Carlo estimators for the multivariate
+density of max-stable fields generated by Gaussian processes. Our estimators
+take advantage of recent results on exact simulation of max-stable fields
+combined with identities studied in the Malliavin calculus literature and ideas
+developed in the multilevel Monte Carlo literature. Our approach allows
+estimating multivariate densities of max-stable fields with precision
+$\varepsilon $ at a computational cost of order $O\left( \varepsilon ^{-2}\log
+\log \log \left( 1/\varepsilon \right) \right) $.",Jose Blanchet|Zhipeng Liu,stat.CO|math.PR
+2017-02-28T17:17:40Z,2017-02-07T22:13:25Z,http://arxiv.org/abs/1702.00317v2,http://arxiv.org/pdf/1702.00317v2,On SGD's Failure in Practice: Characterizing and Overcoming Stalling,"Stochastic Gradient Descent (SGD) is widely used in machine learning problems
+to efficiently perform empirical risk minimization yet in practice SGD is
+known to stall before reaching the actual minimizer of the empirical risk. SGD
+stalling has often been attributed to its sensitivity to the conditioning of
+the problem; however as we demonstrate SGD will stall even when applied to a
+simple linear regression problem with unity condition number for standard
+learning rates. Thus in this work we numerically demonstrate and
+mathematically argue that stalling is a crippling and generic limitation of SGD
+and its variants in practice. Once we have established the problem of stalling
+we generalize an existing framework for hedging against its effects which (1)
+deters SGD and its variants from stalling (2) still provides convergence
+guarantees and (3) makes SGD and its variants more practical methods for
+minimization.",Vivak Patel,"stat.ML|cs.LG|math.OC|stat.CO|62L20, 62L12, 90C99|G.1.6; G.3; I.2.6"
+2017-02-28T17:17:40Z,2017-02-01T10:55:12Z,http://arxiv.org/abs/1702.00204v1,http://arxiv.org/pdf/1702.00204v1,"Bayesian model selection for the latent position cluster model for
+  Social Networks","The latent position cluster model is a popular model for the statistical
+analysis of network data. This model assumes that there is an underlying latent
+space in which the actors follow a finite mixture distribution. Moreover
+actors which are close in this latent space are more likely to be tied by an
+edge. This is an appealing approach since it allows the model to cluster actors
+which consequently provides the practitioner with useful qualitative
+information. However exploring the uncertainty in the number of underlying
+latent components in the mixture distribution is a complex task. The current
+state-of-the-art is to use an approximate form of BIC for this purpose where
+an approximation of the log-likelihood is used instead of the true
+log-likelihood which is unavailable. The main contribution of this paper is to
+show that through the use of conjugate prior distributions it is possible to
+analytically integrate out almost all of the model parameters leaving a
+posterior distribution which depends on the allocation vector of the mixture
+model. This enables posterior inference over the number of components in the
+latent mixture distribution without using trans- dimensional MCMC algorithms
+such as reversible jump MCMC. Our approach is compared with the
+state-of-the-art latentnet (Krivitsky & Handcock 2015) and VBLPCM
+(Salter-Townshend & Murphy 2013) packages.",Caitriona Ryan|Jason Wyse|Nial Friel,stat.CO
+2017-02-28T17:17:44Z,2017-01-28T16:31:25Z,http://arxiv.org/abs/1701.08299v1,http://arxiv.org/pdf/1701.08299v1,"Computing the aggregate loss distribution based on numerical inversion
+  of the compound empirical characteristic function of frequency and severity","A non-parametric method for evaluation of the aggregate loss distribution
+(ALD) by combining and numerically inverting the empirical characteristic
+functions (CFs) is presented and illustrated. This approach to evaluate ALD is
+based on purely non-parametric considerations i.e. based on the empirical CFs
+of frequency and severity of the claims in the actuarial risk applications.
+This approach can be however naturally generalized to a more complex
+semi-parametric modeling approach e.g. by incorporating the generalized
+Pareto distribution fit of the severity distribution heavy tails and/or by
+considering the weighted mixture of the parametric CFs (used to model the
+expert knowledge) and the empirical CFs (used to incorporate the knowledge
+based on the historical data - internal and/or external). Here we present a
+simple and yet efficient method and algorithms for numerical inversion of the
+CF suitable for evaluation of the ALDs and the associated measures of interest
+important for applications as e.g. the value at risk (VaR). The presented
+approach is based on combination of the Gil-Pelaez inversion formulae for
+deriving the probability distribution (PDF and CDF) from the compound
+(empirical) CF and the trapezoidal rule used for numerical integration. The
+applicability of the suggested approach is illustrated by analysis of a well
+know insurance dataset the Danish fire loss data.",Viktor Witkovsky|Gejza Wimmer|Tomas Duby,"stat.CO|q-fin.RM|stat.AP|91B30, 62G32"
+2017-02-28T17:17:44Z,2017-02-09T14:45:06Z,http://arxiv.org/abs/1701.08142v2,http://arxiv.org/pdf/1701.08142v2,Modelling Ranking Data with the Wallenius Distribution,"Ranking datasets is useful when statements on the order of observations are
+more important than the magnitude of their differences and little is known
+about the underlying distribution of the data. The Wallenius distribution is a
+generalisation of the Hypergeometric distribution where weights are assigned to
+balls of different colours. This naturally defines a model for ranking
+categories which can be used for classification purposes. In this paper we
+adopt an approximate Bayesian computational (ABC) approach since in general
+the resulting likelihood is not analytically available. We illustrate the
+performance of the estimation procedure on simulated datasets. Finally we use
+the new model for analysing two datasets about movies ratings and Italian
+academic statisticians' journals preferences. The latter is a novel dataset
+collected by the authors.",Clara Grazian|Fabrizio Leisen|Brunero Liseo,stat.ME|stat.AP|stat.CO|stat.ML
+2017-02-28T17:17:44Z,2017-01-26T19:07:53Z,http://arxiv.org/abs/1701.07844v1,http://arxiv.org/pdf/1701.07844v1,"Markov Chain Monte Carlo with the Integrated Nested Laplace
+  Approximation","The Integrated Nested Laplace Approximation (INLA) has established itself as
+a widely used method for approximate inference on Bayesian hierarchical models
+which can be represented as a latent Gaussian model (LGM). INLA is based on
+producing an accurate approximation to the posterior marginal distributions of
+the parameters in the model and some other quantities of interest by using
+repeated approximations to intermediate distributions and integrals that appear
+in the computation of the posterior marginals.
+  INLA focuses on models whose latent effects are a Gaussian Markov random
+field (GMRF). For this reason we have explored alternative ways of expanding
+the number of possible models that can be fitted using the INLA methodology. In
+this paper we present a novel approach that combines INLA and Markov chain
+Monte Carlo (MCMC). The aim is to consider a wider range of models that cannot
+be fitted with INLA unless some of the parameters of the model have been fixed.
+Hence conditioning on these parameters the model could be fitted with the
+R-INLA package. We show how new values of these parameters can be drawn from
+their posterior by using conditional models fitted with INLA and standard MCMC
+algorithms such as Metropolis-Hastings. Hence this will extend the use of
+INLA to fit models that can be expressed as a conditional LGM. Also this new
+approach can be used to build simpler MCMC samplers for complex models as it
+allows sampling only on a limited number parameters in the model.
+  We will demonstrate how our approach can extend the class of models that
+could benefit from INLA and how the R-INLA package will ease its
+implementation. We will go through simple examples of this new approach before
+we discuss more advanced problems with datasets taken from relevant literature.",Virgilio Gómez-Rubio|Håvard Rue,stat.CO
+2017-02-28T17:17:44Z,2017-02-09T12:18:42Z,http://arxiv.org/abs/1701.07787v3,http://arxiv.org/pdf/1701.07787v3,"Multi-locus data distinguishes between population growth and multiple
+  merger coalescents","We introduce a low dimensional function of the site frequency spectrum that
+is tailor-made for distinguishing coalescent models with multiple mergers from
+Kingman coalescent models with population growth and use this function to
+construct a hypothesis test between these two model classes. The null and
+alternative sampling distributions of our statistic are intractable but its
+low dimensionality renders these distributions amenable to Monte Carlo
+estimation. We construct kernel density estimates of the sampling distributions
+based on simulated data and show that the resulting hypothesis test
+dramatically improves on the statistical power of a current state-of-the-art
+method. A key reason for this improvement is the use of multi-locus data in
+particular averaging observed site frequency spectra across unlinked loci to
+reduce sampling variance. We also demonstrate the robustness of our method to
+nuisance and tuning parameters. Finally we demonstrate that the same kernel
+density estimates can be used to conduct parameter estimation and argue that
+our method is readily generalisable for applications in model selection
+parameter inference and experimental design.",Jere Koskela,"q-bio.PE|q-bio.QM|stat.CO|stat.ME|92D15 (Primary), 62M02, 62M05 (Secondary)"
+2017-02-28T17:17:44Z,2017-01-25T21:43:03Z,http://arxiv.org/abs/1701.07496v1,http://arxiv.org/pdf/1701.07496v1,Phylogenetic Factor Analysis,"Phylogenetic comparative methods explore the relationships between
+quantitative traits adjusting for shared evolutionary history. This adjustment
+often occurs through a Brownian diffusion process along the branches of the
+phylogeny that generates model residuals or the traits themselves. For
+high-dimensional traits inferring all pair-wise correlations within the
+multivariate diffusion is limiting. To circumvent this problem we propose
+phylogenetic factor analysis (PFA) that assumes a small unknown number of
+independent evolutionary factors arise along the phylogeny and these factors
+generate clusters of dependent traits. Set in a Bayesian framework PFA
+provides measures of uncertainty on the factor number and groupings combines
+both continuous and discrete traits integrates over missing measurements and
+incorporates phylogenetic uncertainty with the help of molecular sequences. We
+develop Gibbs samplers based on dynamic programming to estimate the PFA
+posterior distribution over three-fold faster than for multivariate diffusion
+and a further order-of-magnitude more efficiently in the presence of latent
+traits. We further propose a novel marginal likelihood estimator for previously
+impractical models with discrete data and find that PFA also provides a better
+fit than multivariate diffusion in evolutionary questions in columbine flower
+development placental reproduction transitions and triggerfish fin
+morphometry.",Max R. Tolkoff|Michael L. Alfaro|Guy Baele|Philippe Lemey|Marc A. Suchard,stat.ME|stat.AP|stat.CO
+2017-02-28T17:17:44Z,2017-01-23T20:26:42Z,http://arxiv.org/abs/1701.06619v1,http://arxiv.org/pdf/1701.06619v1,Bayesian Inference in the Presence of Intractable Normalizing Functions,"Models with intractable normalizing functions arise frequently in statistics.
+Common examples of such models include exponential random graph models for
+social networks and Markov point processes for ecology and disease modeling.
+Inference for these models is complicated because the normalizing functions of
+their probability distributions include the parameters of interest. In Bayesian
+analysis they result in so-called doubly intractable posterior distributions
+which pose significant computational challenges. Several Monte Carlo methods
+have emerged in recent years to address Bayesian inference for such models. We
+provide a framework for understanding the algorithms and elucidate connections
+among them. Through multiple simulated and real data examples we compare and
+contrast the computational and statistical efficiency of these algorithms and
+discuss their theoretical bases. Our study provides practical recommendations
+for practitioners along with directions for future research for MCMC
+methodologists.",Jaewoo Park|Murali Haran,stat.CO|stat.AP
+2017-02-28T17:17:44Z,2017-01-20T22:08:49Z,http://arxiv.org/abs/1701.05936v1,http://arxiv.org/pdf/1701.05936v1,"The biglasso Package: A Memory- and Computation-Efficient Solver for
+  Lasso Model Fitting with Big Data in R","Penalized regression models such as the lasso have been extensively applied
+to analyzing high-dimensional data sets. However due to memory limitations
+existing R packages like glmnet and ncvreg are not capable of fitting
+lasso-type models for ultrahigh-dimensional multi-gigabyte data sets that are
+increasingly seen in many areas such as genetics genomics biomedical imaging
+and high-frequency finance. In this research we implement an R package called
+biglasso that tackles this challenge. biglasso utilizes memory-mapped files to
+store the massive data on the disk only reading data into memory when
+necessary during model fitting and is thus able to handle out-of-core
+computation seamlessly. Moreover it's equipped with newly proposed more
+efficient feature screening rules which substantially accelerate the
+computation. Benchmarking experiments show that our biglasso package as
+compared to existing popular ones like glmnet is much more memory- and
+computation-efficient. We further analyze a 31 GB real data set on a laptop
+with only 16 GB RAM to demonstrate the out-of-core computation capability of
+biglasso in analyzing massive data sets that cannot be accommodated by existing
+R packages.",Yaohui Zeng|Patrick Breheny,stat.CO|stat.ML
+2017-02-28T17:17:44Z,2017-01-20T18:50:50Z,http://arxiv.org/abs/1701.05892v1,http://arxiv.org/pdf/1701.05892v1,"Bayesian Static Parameter Estimation for Partially Observed Diffusions
+  via Multilevel Monte Carlo","In this article we consider static Bayesian parameter estimation for
+partially observed diffusions that are discretely observed. We work under the
+assumption that one must resort to discretizing the underlying diffusion
+process for instance using the Euler-Maruyama method. Given this assumption
+we show how one can use Markov chain Monte Carlo (MCMC) and particularly
+particle MCMC [Andrieu C. Doucet A. and Holenstein R. (2010). Particle
+Markov chain Monte Carlo methods (with discussion). J. R. Statist. Soc. Ser. B
+72 269--342] to implement a new approximation of the multilevel (ML) Monte
+Carlo (MC) collapsing sum identity. Our approach comprises constructing an
+approximate coupling of the posterior density of the joint distribution over
+parameter and hidden variables at two different discretization levels and then
+correcting by an importance sampling method. The variance of the weights are
+independent of the length of the observed data set. The utility of such a
+method is that for a prescribed level of mean square error the cost of this
+MLMC method is provably less than i.i.d. sampling from the posterior associated
+to the most precise discretization. However the method here comprises using
+only known and efficient simulation methodologies. The theoretical results are
+illustrated by inference of the parameters of two prototypical processes given
+noisy partial observations of the process: the first is an Ornstein Uhlenbeck
+process and the second is a more general Langevin equation.",Ajay Jasra|Kengo Kamatani|Kody J. H. Law|Yan Zhou,stat.CO|math.PR
+2017-02-28T17:17:44Z,2017-01-19T21:31:39Z,http://arxiv.org/abs/1701.05609v1,http://arxiv.org/pdf/1701.05609v1,Confidence Intervals for Finite Difference Solutions,"Although applications of Bayesian analysis for numerical quadrature problems
+have been considered before it's only very recently that statisticians have
+focused on the connections between statistics and numerical analysis of
+differential equations. In line with this very recent trend we show how
+certain commonly used finite difference schemes for numerical solutions of
+ordinary and partial differential equations can be considered in a regression
+setting. Focusing on this regression framework we apply a simple Bayesian
+strategy to obtain confidence intervals for the finite difference solutions. We
+apply this framework on several examples to show how the confidence intervals
+are related to truncation error and illustrate the utility of the confidence
+intervals for the examples considered.",Majnu John|Yihren Wu,stat.CO|math.NA
+2017-02-28T17:17:44Z,2017-01-19T17:07:21Z,http://arxiv.org/abs/1701.05512v1,http://arxiv.org/pdf/1701.05512v1,Fisher consistency for prior probability shift,"We introduce Fisher consistency in the sense of unbiasedness as a criterion
+to distinguish potentially suitable and unsuitable estimators of prior class
+probabilities in test datasets under prior probability and more general dataset
+shift. The usefulness of this unbiasedness concept is demonstrated with three
+examples of classifiers used for quantification: Adjusted Classify & Count
+EM-algorithm and CDE-Iterate. We find that Adjusted Classify & Count and
+EM-algorithm are Fisher consistent. A counter-example shows that CDE-Iterate is
+not Fisher consistent and therefore cannot be trusted to deliver reliable
+estimates of class probabilities.",Dirk Tasche,stat.ML|cs.LG|stat.CO|62C10
+2017-02-28T17:17:47Z,2017-01-19T10:26:48Z,http://arxiv.org/abs/1701.05358v1,http://arxiv.org/pdf/1701.05358v1,Smooth Transition HYGARCH Model: Stability and Forecasting,"HYGARCH process is the commonly used long memory process in modeling the
+long-rang dependence in volatility.
+  Financial time series are characterized by transition between phases of
+different volatility levels. The smooth transition HYGARCH (ST-HYGARCH) model
+is proposed to model time-varying structure with long memory property. The
+asymptotic behavior of the second moment is studied and an upper bound for it
+is derived. A score test is developed to check the smooth transition property.
+The asymptotic behavior of the proposed model and the score test is examined by
+simulation. The proposed model is applied to the \textit{S}\&\textit{P}500
+indices for some period which show evidence of smooth transition property and
+demonstrates out-performance of the ST-HYGARCH than HYGARCH in forecasting.",Ferdous Mohammadi|Saeid Rezakhah,"stat.CO|stat.ME|37JM10, 62P05, 62F03, 62F10"
+2017-02-28T17:17:47Z,2017-01-18T16:59:55Z,http://arxiv.org/abs/1701.05146v1,http://arxiv.org/pdf/1701.05146v1,Inference in generative models using the Wasserstein distance,"In purely generative models one can simulate data given parameters but not
+necessarily evaluate the likelihood. We use Wasserstein distances between
+empirical distributions of observed data and empirical distributions of
+synthetic data drawn from such models to estimate their parameters. Previous
+interest in the Wasserstein distance for statistical inference has been mainly
+theoretical due to computational limitations. Thanks to recent advances in
+numerical transport the computation of these distances has become feasible up
+to controllable approximation errors. We leverage these advances to propose
+point estimators and quasi-Bayesian distributions for parameter inference
+first for independent data. For dependent data we extend the approach by using
+delay reconstruction and residual reconstruction techniques. For large data
+sets we propose an alternative distance using the Hilbert space-filling curve
+which computation scales as $n\log n$ where $n$ is the size of the data. We
+provide a theoretical study of the proposed estimators and adaptive Monte
+Carlo algorithms to approximate them. The approach is illustrated on four
+examples: a quantile g-and-k distribution a toggle switch model from systems
+biology a Lotka-Volterra model for plankton population sizes and a
+L\'evy-driven stochastic volatility model.",Espen Bernton|Pierre E. Jacob|Mathieu Gerber|Christian P. Robert,stat.ME|math.ST|stat.CO|stat.TH
+2017-02-28T17:17:47Z,2017-01-18T16:13:24Z,http://arxiv.org/abs/1701.05128v1,http://arxiv.org/pdf/1701.05128v1,A Constructive Approach to High-dimensional Regression,"We develop a constructive approach to estimating sparse high-dimensional
+linear regression models. The approach is a computational algorithm motivated
+from the KKT conditions for the $\ell_0$-penalized least squares solutions. It
+generates a sequence of solutions iteratively based on support detection using
+primal and dual information and root finding. We refer to the algorithm as SDAR
+for brevity. Under a sparse Rieze condition on the design matrix and certain
+other conditions we show that with high probability the $\ell_2$ estimation
+error of the solution sequence decays exponentially to the minimax error bound
+in $O(\sqrt{J}\log(R))$ steps; and under a mutual coherence condition and
+certain other conditions the $\ell_{\infty}$ estimation error decays to the
+optimal error bound in $O(\log(R))$ steps where $J$ is the number of important
+predictors $R$ is the relative magnitude of the nonzero target coefficients.
+Computational complexity analysis shows that the cost of SDAR is $O(np)$ per
+iteration. Moreover the oracle least squares estimator can be exactly recovered
+with high probability at the same cost if we know the sparsity level. We also
+consider an adaptive version of SDAR to make it more practical in applications.
+Numerical comparisons with Lasso MCP and greedy methods demonstrate that SDAR
+is competitive with or outperforms them in accuracy and efficiency.",Jian Huang|Yuling Jiao|Yanyan Liu|Xiliang Lu,stat.CO|stat.ME
+2017-02-28T17:17:47Z,2017-01-16T11:28:50Z,http://arxiv.org/abs/1701.04247v1,http://arxiv.org/pdf/1701.04247v1,"Nonreversible Langevin Samplers: Splitting Schemes Analysis and
+  Implementation","For a given target density there exist an infinite number of diffusion
+processes which are ergodic with respect to this density. As observed in a
+number of papers samplers based on nonreversible diffusion processes can
+significantly outperform their reversible counterparts both in terms of
+asymptotic variance and rate of convergence to equilibrium. In this paper we
+take advantage of this in order to construct efficient sampling algorithms
+based on the Lie-Trotter decomposition of a nonreversible diffusion process
+into reversible and nonreversible components. We show that samplers based on
+this scheme can significantly outperform standard MCMC methods at the cost of
+introducing some controlled bias. In particular we prove that numerical
+integrators constructed according to this decomposition are geometrically
+ergodic and characterise fully their asymptotic bias and variance showing that
+the sampler inherits the good mixing properties of the underlying nonreversible
+diffusion. This is illustrated further with a number of numerical examples
+ranging from highly correlated low dimensional distributions to logistic
+regression problems in high dimensions as well as inference for spatial models
+with many latent variables.",A. B. Duncan|G. A. Pavliotis|K. C. Zygalakis,stat.ME|stat.CO
+2017-02-28T17:17:47Z,2017-01-16T11:18:51Z,http://arxiv.org/abs/1701.04244v1,http://arxiv.org/pdf/1701.04244v1,"Piecewise Deterministic Markov Processes for Scalable Monte Carlo on
+  Restricted Domains","Piecewise deterministic Monte Carlo methods (PDMC) consist of a class of
+continuous-time Markov chain Monte Carlo methods (MCMC) which have recently
+been shown to hold considerable promise. Being non-reversible the mixing
+properties of PDMC methods often significantly outperform classical reversible
+MCMC competitors. Moreover in a Bayesian context they can use sub-sampling
+ideas so that they need only access one data point per iteration whilst still
+maintaining the true posterior distribution as their invariant distribution.
+However current methods are limited to parameter spaces of real d-dimensional
+vectors. We show how these algorithms can be extended to applications involving
+restricted parameter spaces. In simulations we observe that the resulting
+algorithm is more efficient than Hamiltonian Monte Carlo for sampling from
+truncated logistic regression models. The theoretical framework used to justify
+this extension lays the foundation for the development of other novel PDMC
+algorithms.",Joris Bierkens|Alexandre Bouchard-Côté|Arnaud Doucet|Andrew B. Duncan|Paul Fearnhead|Gareth Roberts|Sebastian J. Vollmer,stat.ME|stat.CO
+2017-02-28T17:17:47Z,2017-01-14T01:15:23Z,http://arxiv.org/abs/1701.03861v1,http://arxiv.org/pdf/1701.03861v1,"Network Inference from a Link-Traced Sample using Approximate Bayesian
+  Computation","We present a new inference method based on approximate Bayesian computation
+for estimating parameters governing an entire network based on link-traced
+samples of that network. To do this we first take summary statistics from an
+observed link-traced network sample such as a recruitment network of subjects
+in a hard-to-reach population. Then we assume prior distributions such as
+multivariate uniform for the distribution of some parameters governing the
+structure of the network and behaviour of its nodes. Then we draw many
+independent and identically distributed values for these parameters. For each
+set of values we simulate a population network take a link-traced sample from
+that network and find the summary statistics for that sample. The statistics
+from the sample and the parameters that eventually led to that sample are
+collectively treated as a single point. We take a Kernel Density estimate of
+the points from many simulations and observe the density across the hyperplane
+coinciding with the statistic values of the originally observed sample. This
+density function is treat as a posterior estimate of the paramaters of the
+network that provided the observed sample.
+  We also apply this method to a network of precedence citations between legal
+documents centered around cases overseen by the Supreme Court of Canada is
+observed. The features of certain cases that lead to their frequent citation
+are inferred and their effects estimated by ABC. Future work and extensions
+are also briefly discussed.",Jack Davis|Steven K. Thompson,stat.CO|cs.SI|physics.soc-ph
+2017-02-28T17:17:47Z,2017-01-13T17:52:07Z,http://arxiv.org/abs/1701.03757v1,http://arxiv.org/pdf/1701.03757v1,Deep Probabilistic Programming,"We propose Edward a Turing-complete probabilistic programming language.
+Edward builds on two compositional representations---random variables and
+inference. By treating inference as a first class citizen on a par with
+modeling we show that probabilistic programming can be as flexible and
+computationally efficient as traditional deep learning. For flexibility Edward
+makes it easy to fit the same model using a variety of composable inference
+methods ranging from point estimation to variational inference to MCMC. In
+addition Edward can reuse the modeling representation as part of inference
+facilitating the design of rich variational models and generative adversarial
+networks. For efficiency Edward is integrated into TensorFlow providing
+significant speedups over existing probabilistic systems. For example on a
+benchmark logistic regression task Edward is at least 35x faster than Stan and
+PyMC3.",Dustin Tran|Matthew D. Hoffman|Rif A. Saurous|Eugene Brevdo|Kevin Murphy|David M. Blei,stat.ML|cs.AI|cs.LG|cs.PL|stat.CO
+2017-02-28T17:17:47Z,2017-01-13T14:05:41Z,http://arxiv.org/abs/1701.03675v1,http://arxiv.org/pdf/1701.03675v1,"Tutorial in Joint Modeling and Prediction: a Statistical Software for
+  Correlated Longitudinal Outcomes Recurrent Events and a Terminal Event","Extensions in the field of joint modeling of correlated data and dynamic
+predictions improve the development of prognosis research. The R package
+frailtypack provides estimations of various joint models for longitudinal data
+and survival events. In particular it fits models for recurrent events and a
+terminal event (frailtyPenal) models for two survival outcomes for clustered
+data (frailtyPenal) models for two types of recurrent events and a terminal
+event (multivPenal) models for a longitudinal biomarker and a terminal event
+(longiPenal) and models for a longitudinal biomarker recurrent events and a
+terminal event (trivPenal). The estimators are obtained using a standard and
+penalized maximum likelihood approach each model function allows to evaluate
+goodness-of-fit analyses and plots of baseline hazard functions. Finally the
+package provides individual dynamic predictions of the terminal event and
+evaluation of predictive accuracy. This paper presents theoretical models with
+estimation techniques applies the methods for predictions and illustrates
+frailtypack functions details with examples.",Agnieszka Król|Audrey Mauguen|Yassin Mazroui|Alexandre Laurent|Stefan Michiels|Virginie Rondeau,stat.CO
+2017-02-28T17:17:47Z,2017-01-12T21:34:48Z,http://arxiv.org/abs/1701.03512v1,http://arxiv.org/pdf/1701.03512v1,"Parallelizing Computation of Expected Values in Recombinant Binomial
+  Trees","Recombinant binomial trees are binary trees where each non-leaf node has two
+child nodes but adjacent parents share a common child node. Such trees arise
+in finance when pricing an option. For example valuation of a European option
+can be carried out by evaluating the expected value of asset payoffs with
+respect to random paths in the tree. In many variants of the option valuation
+problem a closed form solution cannot be obtained and computational methods
+are needed. The cost to exactly compute expected values over random paths grows
+exponentially in the depth of the tree rendering a serial computation of one
+branch at a time impractical. We propose a parallelization method that
+transforms the calculation of the expected value into an ""embarrassingly
+parallel"" problem by mapping the branches of the binomial tree to the processes
+in a multiprocessor computing environment. We also propose a parallel Monte
+Carlo method which takes advantage of the mapping to achieve a reduced variance
+over the basic Monte Carlo estimator. Performance results from R and Julia
+implementations of the parallelization method on a distributed computing
+cluster indicate that both the implementations are scalable but Julia is
+significantly faster than a similarly written R code. A simulation study is
+carried out to verify the convergence and the variance reduction behavior in
+the proposed Monte Carlo method.",Sai K. Popuri|Andrew M. Raim|Nagaraj K. Neerchal|Matthias K. Gobbert,stat.CO|q-fin.CP
+2017-02-28T17:17:47Z,2017-01-12T16:56:29Z,http://arxiv.org/abs/1701.03405v1,http://arxiv.org/pdf/1701.03405v1,New Flexible Compact Covariance Model on a Sphere,"We discuss how the kernel convolution approach can be used to accurately
+approximate the spatial covariance model on a sphere using spherical distances
+between points. A detailed derivation of the required formulas is provided. The
+proposed covariance model approximation can be used for non-stationary spatial
+prediction and simulation in the case when the dataset is large and the
+covariance model can be estimated separately in the data subsets.",Alexander Gribov|Konstantin Krivoruchko,stat.CO
+2017-02-28T17:17:51Z,2017-01-12T08:44:14Z,http://arxiv.org/abs/1701.03267v1,http://arxiv.org/pdf/1701.03267v1,Robust clustering for functional data based on trimming and constraints,"Many clustering algorithms when the data are curves or functions have been
+recently proposed. However the presence of contamination in the sample of
+curves can influence the performance of most of them. In this work we propose a
+robust model-based clustering method based on an approximation to the ""density
+function"" for functional data. The robustness results from the joint
+application of trimming for reducing the effect of contaminated observations
+and constraints on the variances for avoiding spurious clusters in the
+solution. The proposed method has been evaluated through a simulation study.
+Finally an application to a real data problem is given.",Diego Rivera-García|Luis Angel García-Escudero|Agustín Mayo-Iscar|Joaquın Ortega,stat.CO
+2017-02-28T17:17:51Z,2017-01-11T18:51:54Z,http://arxiv.org/abs/1701.03095v1,http://arxiv.org/pdf/1701.03095v1,Bayesian estimation of Differential Transcript Usage from RNA-seq data,"Next generation sequencing allows the identification of genes consisting of
+differentially expressed transcripts a term which usually refers to changes in
+the overall expression level. A specific type of differential expression is
+differential transcript usage (DTU) and targets changes in the relative within
+gene expression of a transcript. The contribution of this paper is to: (a)
+extend the use of cjBitSeq to the DTU context a previously introduced Bayesian
+model which is originally designed for identifying changes in overall
+expression levels and (b) propose a Bayesian version of DRIMSeq a frequentist
+model for inferring DTU. cjBitSeq is a read based model and performs fully
+Bayesian inference by MCMC sampling on the space of latent state of each
+transcript per gene. BayesDRIMSeq is a count based model and estimates the
+Bayes Factor of a DTU model against a null model using Laplace's approximation.
+The proposed models are benchmarked against the existing ones using a recent
+independent simulation study. Our results suggest that the Bayesian methods
+exhibit similar performance with DRIMSeq in terms of precision/recall but offer
+better calibration of False Discovery Rate.",Panagiotis Papastamoulis|Magnus Rattray,q-bio.GN|stat.AP|stat.CO
+2017-02-28T17:17:51Z,2017-01-11T13:44:01Z,http://arxiv.org/abs/1701.02969v1,http://arxiv.org/pdf/1701.02969v1,Logit stick-breaking priors for Bayesian density regression,"There is an increasing focus in several fields on learning how the
+distribution of an outcome changes with a set of covariates. Bayesian
+nonparametric dependent mixture models provide a useful approach to flexibly
+address this goal however many representations are characterized by difficult
+interpretation and intractable computational methods. Motivated by these
+issues we describe a flexible formulation for Bayesian density regression
+which is defined as a potentially infinite mixture model whose probability
+weights change with the covariates via a stick-breaking construction relying on
+a set of logistic regressions. We derive theoretical properties and show that
+our logit stick-breaking representation can be interpreted as a simple
+continuation-ratio logistic regression. This result facilitates derivation of
+three computational methods of routine use in Bayesian inference covering
+Markov Chain Monte Carlo via Gibbs sampling the Expectation Conditional
+Maximization algorithm for the estimation of posterior modes and a Variational
+Bayes approach for scalable inference. The algorithms associated with these
+methods are analytically derived and made available online at
+https://github.com/tommasorigon/DLSBP. We additionally compare the three
+computational strategies in an application to the Old Faithful Geyser dataset.",Tommaso Rigon|Daniele Durante,stat.CO
+2017-02-28T17:17:51Z,2017-01-10T11:33:41Z,http://arxiv.org/abs/1701.02522v1,http://arxiv.org/pdf/1701.02522v1,Magnus expansions and pseudospectra of Master Equations,"New directions in research on master equations are showcased by example.
+Magnus expansions time-varying rates and pseudospectra are highlighted. Exact
+eigenvalues are found and contrasted with the large errors produced by standard
+numerical methods in some cases. Isomerisation provides a running example and
+an illustrative application to chemical kinetics. We also give a brief example
+of the totally asymmetric exclusion process.",Arieh Iserles|Shev MacNamara,math.NA|math.PR|stat.CO
+2017-02-28T17:17:51Z,2017-01-09T21:00:46Z,http://arxiv.org/abs/1701.02349v1,http://arxiv.org/pdf/1701.02349v1,MEBoost: Variable Selection in the Presence of Measurement Error,"We present a novel method for variable selection in regression models when
+covariates are measured with error. The iterative algorithm we propose
+MEBoost follows a path defined by estimating equations that correct for
+covariate measurement error. Via simulation we evaluated our method and
+compare its performance to the recently-proposed Convex Conditioned Lasso
+(CoCoLasso) and to the ""naive"" Lasso which does not correct for measurement
+error. Increasing the degree of measurement error increased prediction error
+and decreased the probability of accurate covariate selection but this loss of
+accuracy was least pronounced when using MEBoost. We illustrate the use of
+MEBoost in practice by analyzing data from the Box Lunch Study a clinical
+trial in nutrition where several variables are based on self-report and hence
+measured with error.",Benjamin Brown|Timothy Weaver|Julian Wolfson,stat.CO|stat.ML
+2017-02-28T17:17:51Z,2017-01-09T17:19:45Z,http://arxiv.org/abs/1701.02265v1,http://arxiv.org/pdf/1701.02265v1,On Reject and Refine Options in Multicategory Classification,"In many real applications of statistical learning a decision made from
+misclassification can be too costly to afford; in this case a reject option
+which defers the decision until further investigation is conducted is often
+preferred. In recent years there has been much development for binary
+classification with a reject option. Yet little progress has been made for the
+multicategory case. In this article we propose margin-based multicategory
+classification methods with a reject option. In addition and more importantly
+we introduce a new and unique refine option for the multicategory problem
+where the class of an observation is predicted to be from a set of class
+labels whose cardinality is not necessarily one. The main advantage of both
+options lies in their capacity of identifying error-prone observations.
+Moreover the refine option can provide more constructive information for
+classification by effectively ruling out implausible classes. Efficient
+implementations have been developed for the proposed methods. On the
+theoretical side we offer a novel statistical learning theory and show a fast
+convergence rate of the excess $\ell$-risk of our methods with emphasis on
+diverging dimensionality and number of classes. The results can be further
+improved under a low noise assumption. A set of comprehensive simulation and
+real data studies has shown the usefulness of the new learning tools compared
+to regular multicategory classifiers. Detailed proofs of theorems and extended
+numerical results are included in the supplemental materials available online.",Chong Zhang|Wenbo Wang|Xingye Qiao,stat.ML|math.ST|stat.CO|stat.TH|62H30
+2017-02-28T17:17:51Z,2017-02-10T16:37:51Z,http://arxiv.org/abs/1701.02201v3,http://arxiv.org/pdf/1701.02201v3,"A fast algorithm for detecting maximal number of matched pairs under a
+  given caliper","We present a new algorithm which detects the maximal number of matched
+disjoint pairs satisfying a given caliper when the matching is done with
+respect to a scalar index (e.g. propensity score) and constructs a
+corresponding matching. If each of the groups is ordered with respect to the
+index then the number of operations needed is $O(N)$ where $N$ is the total
+number of objects to be matched. The case of 1-to-$n$ matching is also
+considered.
+  Keywords: propensity score matching matching with caliper",Pavel S. Ruzankin,stat.CO|cs.DS|62P10|G.3; G.4
+2017-02-28T17:17:51Z,2017-01-08T19:24:59Z,http://arxiv.org/abs/1701.02002v1,http://arxiv.org/pdf/1701.02002v1,Smoothing with Couplings of Conditional Particle Filters,"In state space models smoothing refers to the task of estimating a latent
+stochastic process given noisy measurements related to the process. We propose
+the first unbiased estimator of smoothing expectations. The lack-of-bias
+property has methodological benefits as it allows for a complete
+parallelization of the algorithm and for computing accurate confidence
+intervals. The method combines two recent breakthroughs: the first is a generic
+debiasing technique for Markov chains due to Rhee and Glynn and the second is
+the introduction of a uniformly ergodic Markov chain for smoothing the
+conditional particle filter of Andrieu Doucet and Holenstein. We show how a
+combination of the two methods delivers practical estimators upon the
+introduction of couplings between conditional particle filters. The algorithm
+is widely applicable has minimal tuning parameters and is amenable to modern
+computing hardware. We establish the validity of the proposed estimator under
+mild assumptions. Numerical experiments illustrate its performance in a toy
+model and in a Lotka-Volterra model with an intractable transition density.",Pierre E. Jacob|Fredrik Lindsten|Thomas B. Schön,stat.ME|stat.CO
+2017-02-28T17:17:51Z,2017-02-03T10:26:34Z,http://arxiv.org/abs/1701.01672v2,http://arxiv.org/pdf/1701.01672v2,Detecting changes in slope with an $L_0$ penalty,"Whilst there are many approaches to detecting changes in mean for a
+univariate time-series the problem of detecting multiple changes in slope has
+comparatively been ignored. Part of the reason for this is that detecting
+changes in slope is much more challenging. For example simple binary
+segmentation procedures do not work for this problem whilst efficient dynamic
+programming methods that work well for the change in mean problem cannot be
+directly used for detecting changes in slope. We present a novel dynamic
+programming approach CPOP for finding the ""best"" continuous piecewise-linear
+fit to data. We define best based on a criterion that measures fit to data
+using the residual sum of squares but penalises complexity based on an $L_0$
+penalty on changes in slope. We show that using such a criterion is more
+reliable at estimating changepoint locations than approaches that penalise
+complexity using an $L_1$ penalty. Empirically CPOP has good computational
+properties and can analyse a time-series with over 10000 observations and
+over 100 changes in a few minutes. Our method is used to analyse data on the
+motion of bacteria and provides fits to the data that both have substantially
+smaller residual sum of squares and are more parsimonious than two competing
+approaches.",Robert Maidstone|Paul Fearnhead|Adam Letchford,stat.CO|stat.ME|stat.ML
+2017-02-28T17:17:51Z,2017-01-05T19:10:22Z,http://arxiv.org/abs/1701.04858v1,http://arxiv.org/pdf/1701.04858v1,Mixed Effects Models are Sometimes Terrible,"Mixed-effects models have emerged as the gold standard of statistical
+analysis in different sub-fields of linguistics (Baayen Davidson & Bates
+2008; Johnson 2009; Barr et al 2013; Gries 2015). One problematic feature
+of these models is their failure to converge under maximal (or even
+near-maximal) random effects structures. The lack of convergence is relatively
+unaddressed in linguistics and when it is addressed has resulted in statistical
+practices (e.g. Jaeger 2009; Gries 2015; Bates et al 2015b) that are
+premised on the idea that non-convergence is an indication that a random
+effects structure is over-specified (or not parsimonious) the parsimonious
+convergence hypothesis (PCH). We test the PCH by running simulations in lme4
+under two sets of assumptions for both a linear dependent variable and a binary
+dependent variable in order to assess the rate of non-convergence for both
+types of mixed effects models when a known maximal effect structure is used to
+generate the data (i.e. when non-convergence cannot be explained by random
+effects with zero variance). Under the PCH lack of convergence is treated as
+evidence against a more maximal random effects structure but that result is
+not upheld with our simulations. We provide an alternative model fully
+specified Bayesian models implemented in rstan (Stan Development Team 2016;
+Carpenter et al in press) that removed the convergence problems almost
+entirely in simulations of the same conditions. These results indicate that
+when there is known non-zero variance for all slopes and intercepts under
+realistic distributions of data and with moderate to severe imbalance mixed
+effects models in lme4 have moderate to high non-convergence rates which can
+cause linguistic researchers to wrongfully exclude random effect terms.",Christopher Eager|Joseph Roy,stat.AP|stat.CO
+2017-02-28T17:17:55Z,2017-01-05T09:18:21Z,http://arxiv.org/abs/1701.04781v1,http://arxiv.org/pdf/1701.04781v1,checkmate: Fast Argument Checks for Defensive R Programming,"Dynamically typed programming languages like R allow programmers to write
+generic flexible and concise code and to interact with the language using an
+interactive Read-eval-print-loop (REPL). However this flexibility has its
+price: As the R interpreter has no information about the expected variable
+type many base functions automatically convert the input instead of raising an
+exception. Unfortunately this frequently leads to runtime errors deeper down
+the call stack which obfuscates the original problem and renders debugging
+challenging. Even worse unwanted conversions can remain undetected and skew or
+invalidate the results of a statistical analysis. As a resort assertions can
+be employed to detect unexpected input during runtime and to signal
+understandable and traceable errors.
+  The package ""checkmate"" provides a plethora of functions to check the type
+and related properties of the most frequently used R objects and variable
+types. The package is mostly written in C to avoid any unnecessary performance
+overhead. Thus the programmer can conveniently write concise well-tested
+assertions which outperforms custom R code for many applications. Furthermore
+checkmate simplifies writing unit tests using the framework ""testthat"" by
+extending it with plenty of additional expectation functions and registered C
+routines are available for package developers to perform assertions on
+arbitrary SEXPs (internal data structure for R objects implemented as struct in
+C) in compiled code.",Michel Lang,stat.CO
+2017-02-28T17:17:55Z,2017-01-03T22:47:35Z,http://arxiv.org/abs/1701.00857v1,http://arxiv.org/pdf/1701.00857v1,"Bayesian Computation for Log-Gaussian Cox Processes--A Comparative
+  Analysis of Methods","The Log-Gaussian Cox Process is a commonly used model for the analysis of
+spatial point patterns. Fitting this model is difficult because of its
+doubly-stochastic property i.e. it is an hierarchical combination of a
+Poisson process at the first level and a Gaussian Process at the second level.
+Different methods have been proposed to estimate such a process including
+traditional likelihood-based approaches as well as Bayesian methods. We focus
+here on Bayesian methods and several approaches that have been considered for
+model fitting within this framework including Hamiltonian Monte Carlo the
+Integrated nested Laplace approximation and Variational Bayes. We consider
+these approaches and make comparisons with respect to statistical and
+computational efficiency. These comparisons are made through several
+simulations studies as well as through applications examining both ecological
+data and neuroimaging data.",Ming Teng|Farouk S. Nathoo|Timothy D. Johnson,stat.CO
+2017-02-28T17:17:55Z,2017-01-01T20:11:06Z,http://arxiv.org/abs/1701.00285v1,http://arxiv.org/pdf/1701.00285v1,High Dimensional Multi-Level Covariance Estimation and Kriging,"With the advent of big data sets much of the computational science and
+engineering communities have been moving toward data-driven approaches to
+regression and classification. However they present a significant challenge
+due to the increasing size complexity and dimensionality of the problems. In
+this paper a multi-level kriging method that scales well with dimensions is
+developed. A multi-level basis is constructed that is adapted to a random
+projection tree (or kD-tree) partitioning of the observations and a sparse grid
+approximation. This approach identifies the high dimensional underlying
+phenomena from the noise in an accurate and numerically stable manner.
+Furthermore numerically unstable covariance matrices are transformed into well
+conditioned multi-level matrices without compromising accuracy. A-posteriori
+error estimates are derived such as the sub-exponential decay of the
+coefficients of the multi-level covariance matrix. The multi-level method is
+tested on numerically unstable problems of up to 50 dimensions. Accurate
+solutions with feasible computational cost are obtained.",Julio E. Castrillon-Candas,"stat.CO|stat.ML|62H86, 62H11, 62H12, 62F15, 65C20, 65C60"
+2017-02-28T17:17:55Z,2016-12-30T00:38:30Z,http://arxiv.org/abs/1612.09357v1,http://arxiv.org/pdf/1612.09357v1,"Sparse Learning with Semi-Proximal-Based Strictly Contractive
+  Peaceman-Rachford Splitting Method","Minimizing sum of two functions under a linear constraint is what we called
+splitting problem. This convex optimization has wide applications in machine
+learning problems such as Lasso Group Lasso and Sparse logistic regression. A
+recent paper by Gu et al (2015) developed a Semi-Proximal-Based Strictly
+Contractive Peaceman-Rachford Splitting Method (SPB-SPRSM) which is an
+extension of Strictly Contractive Peaceman-Rachford Splitting Method (SPRSM)
+proposed by He et al (2014). By introducing semi-proximal terms and using two
+different relaxation factors SPB-SPRSM showed a more flexiable applicability
+comparing to its origin SPRSM and widely-used Alternating Direction Method of
+Multipliers (ADMM) algorithm although all of them have $O(1/t)$ convergence
+rate. In this paper we develop a stochastic version of SPB-SPRSM algorithm
+where only a subset of samples (even one sample) are used at each iteration.
+The resulting algorithm Stochastic SPB-SPRSM is more flexiable than
+Stochastic ADMM and other ADMM-based algorithms on both simulations and real
+datasets. Moreover we prove $O(1/\sqrt{t})$ convergence rate in ergodic sense
+which is the same with Stochastic ADMM algorithm under the same assumption. But
+as shown in He et al (2014) that SPRSM based algorithms will always converge
+faster than ADMM in apllication our proposed algorithm will also preserve this
+advantage.",Sen Na|Cho-Jui Hsieh,stat.CO|math.OC
+2017-02-28T17:17:55Z,2016-12-29T14:58:55Z,http://arxiv.org/abs/1612.09162v1,http://arxiv.org/pdf/1612.09162v1,High-dimensional Filtering using Nested Sequential Monte Carlo,"Sequential Monte Carlo (SMC) methods comprise one of the most successful
+approaches to approximate Bayesian filtering. However SMC without good
+proposal distributions struggle in high dimensions. We propose nested
+sequential Monte Carlo (NSMC) a methodology that generalises the SMC framework
+by requiring only approximate properly weighted samples from the SMC proposal
+distribution while still resulting in a correct SMC algorithm. This way we can
+exactly approximate the locally optimal proposal and extend the class of
+models for which we can perform efficient inference using SMC. We show improved
+accuracy over other state-of-the-art methods on several spatio-temporal state
+space models.",Christian A. Naesseth|Fredrik Lindsten|Thomas B. Schön,stat.CO|stat.ML
+2017-02-28T17:17:55Z,2016-12-28T20:17:58Z,http://arxiv.org/abs/1612.08974v1,http://arxiv.org/pdf/1612.08974v1,ggRandomForests: Exploring Random Forest Survival,"Random forest (Leo Breiman 2001a) (RF) is a non-parametric statistical method
+requiring no distributional assumptions on covariate relation to the response.
+RF is a robust nonlinear technique that optimizes predictive accuracy by
+fitting an ensemble of trees to stabilize model estimates. Random survival
+forests (RSF) (Ishwaran and Kogalur 2007; Ishwaran et al. 2008) are an
+extension of Breimans RF techniques allowing efficient nonparametric analysis
+of time to event data. The randomForestSRC package (Ishwaran and Kogalur 2014)
+is a unified treatment of Breimans random forest for survival regression and
+classification problems.
+  Predictive accuracy makes RF an attractive alternative to parametric models
+though complexity and interpretability of the forest hinder wider application
+of the method. We introduce the ggRandomForests package tools for visually
+understand random forest models grown in R (R Core Team 2014) with the
+randomForestSRC package. The ggRandomForests package is structured to extract
+intermediate data objects from randomForestSRC objects and generate figures
+using the ggplot2 (Wickham 2009) graphics package.
+  This document is structured as a tutorial for building random forest for
+survival with the randomForestSRC package and using the ggRandomForests package
+for investigating how the forest is constructed. We analyse the Primary Biliary
+Cirrhosis of the liver data from a clinical trial at the Mayo Clinic (Fleming
+and Harrington 1991). Our aim is to demonstrate the strength of using Random
+Forest methods for both prediction and information retrieval specifically in
+time to event data settings.",John Ehrlinger,stat.CO|stat.ML
+2017-02-28T17:17:55Z,2016-12-31T22:06:19Z,http://arxiv.org/abs/1612.08709v2,http://arxiv.org/pdf/1612.08709v2,"Randomized algorithms for distributed computation of principal component
+  analysis and singular value decomposition","As illustrated via numerical experiments with an implementation in Spark (the
+popular platform for distributed computation) randomized algorithms solve two
+ubiquitous problems: (1) calculating a full principal component analysis or
+singular value decomposition of a highly rectangular matrix and (2)
+calculating a low-rank approximation in the form of a singular value
+decomposition to an arbitrary matrix. Several optimizations to recently
+introduced methods yield results that are uniformly superior to those of the
+stock implementations.",Huamin Li|Yuval Kluger|Mark Tygert,cs.DC|cs.NA|math.NA|stat.CO
+2017-02-28T17:17:55Z,2016-12-24T23:35:30Z,http://arxiv.org/abs/1612.08224v1,http://arxiv.org/pdf/1612.08224v1,"Geodesic Lagrangian Monte Carlo over the space of positive definite
+  matrices: with application to Bayesian spectral density estimation","We extend the application of Hamiltonian Monte Carlo to allow for sampling
+from probability distributions defined over symmetric or Hermitian positive
+definite matrices. To do so we exploit the Riemannian structure induced by
+Cartan's century-old canonical metric. The geodesics that correspond to this
+metric are available in closed-form and---within the context of Lagrangian
+Monte Carlo---provide a principled way to travel around the space of positive
+definite matrices. Our method improves Bayesian inference on such matrices by
+allowing for a broad range of priors so we are not limited to conjugate priors
+only. In the context of spectral density estimation we use the (non-conjugate)
+complex reference prior as an example modeling option made available by the
+algorithm. Results based on simulated and real-world multivariate time series
+are presented in this context and future directions are outlined.",Andrew Holbrook|Shiwei Lan|Alexander Vandenberg-Rodes|Babak Shahbaba,stat.CO
+2017-02-28T17:17:55Z,2017-01-09T15:37:44Z,http://arxiv.org/abs/1612.08141v2,http://arxiv.org/pdf/1612.08141v2,PLMIX: An R package for modeling and clustering partially ranked data,"Ranking data represent a peculiar form of multivariate ordinal data taking
+values in the set of permutations. Despite the numerous methodological
+contributions to increase the flexibility of ranked data modeling the
+application of more sophisticated models is limited by the related
+computational issues. The PLMIX package offers a comprehensive framework aiming
+at endowing the R environment with the recent methodological advancements. The
+usefulness of the novel PLMIX package can be motivated from several
+perspectives: (i) it contributes to fill the gap concerning the Bayesian
+estimation of ranking models in R by focusing on the Plackett-Luce model as
+generative distribution and its extension within the finite mixture approach;
+(ii) it combines the flexibility of R routines and the speed of compiled C
+code with possible parallel execution; (iii) it covers the fundamental phases
+of ranking data analysis allowing for a more careful and critical application
+of ranking models in real experiments: (iv) it provides effective tools for
+clustering heterogeneous partially ranked data. The functionality of the novel
+package is illustrated with application to simulated and real datasets.",Cristina Mollica|Luca Tardella,stat.CO
+2017-02-28T17:17:55Z,2016-12-22T09:19:02Z,http://arxiv.org/abs/1612.07498v1,http://arxiv.org/pdf/1612.07498v1,Generalised Linear Model Trees with Global Additive Effects,"Model-based trees are used to find subgroups in data which differ with
+respect to model parameters. In some applications it is natural to keep some
+parameters fixed globally for all observations while asking if and how other
+parameters vary across the subgroups. Existing implementations of model-based
+trees can only deal with the scenario where all parameters depend on the
+subgroups. We propose partially additive linear model trees (PALM trees) as an
+extention to (generalised) linear model trees (LM and GLM trees respectively)
+in which the model parameters are specified a priori to be estimated either
+globally from all observations or locally from the observations within the
+subgroups determined by the tree. Simulations show that the method has high
+power for detection of subgroups in the presence of global effects and reliably
+recovers the true parameters. Furthermore treatment-subgroup differences are
+detected in an empirical application of the method to data from a mathematics
+exam: the PALM tree is able to detect a small subgroup of students that had a
+disadvantage in an exam with two versions while adjusting for overall ability
+effects.",Heidi Seibold|Torsten Hothorn|Achim Zeileis,stat.CO|stat.ME
+2017-02-28T17:17:59Z,2016-12-22T07:31:59Z,http://arxiv.org/abs/1612.07471v1,http://arxiv.org/pdf/1612.07471v1,"Efficient Bayesian computation by proximal Markov chain Monte Carlo:
+  when Langevin meets Moreau","Modern imaging methods rely strongly on Bayesian inference techniques to
+solve challenging imaging problems. Currently the predominant Bayesian
+computation approach is convex optimisation which scales very efficiently to
+high dimensional image models and delivers accurate point estimation results.
+However in order to perform more complex analyses for example image
+uncertainty quantification or model selection it is necessary to use more
+computationally intensive Bayesian computation techniques such as Markov chain
+Monte Carlo methods. This paper presents a new and highly efficient Markov
+chain Monte Carlo methodology to perform Bayesian computation for high
+dimensional models that are log-concave and non-smooth a class of models that
+is central in imaging sciences. The methodology is based on a regularised
+unadjusted Langevin algorithm that exploits tools from convex analysis namely
+Moreau-Yoshida envelopes and proximal operators to construct Markov chains
+with favourable convergence properties. In addition to scaling efficiently to
+high dimensions the method is straightforward to apply to models that are
+currently solved by using proximal optimisation algorithms. We provide a
+detailed theoretical analysis of the proposed methodology including asymptotic
+and non-asymptotic convergence results with easily verifiable conditions and
+explicit bounds on the convergence rates. The proposed methodology is
+demonstrated with four experiments related to image deconvolution and
+tomographic reconstruction with total-variation and $\ell_1$ priors where we
+conduct a range of challenging Bayesian analyses related to uncertainty
+quantification hypothesis testing and model selection in the absence of
+ground truth.",Alain Durmus|Eric Moulines|Marcelo Pereyra,stat.CO|stat.ME
+2017-02-28T17:17:59Z,2016-12-21T08:32:34Z,http://arxiv.org/abs/1612.07010v1,http://arxiv.org/pdf/1612.07010v1,"Permutation in genetic association studies with covariates: controlling
+  the familywise error rate with score tests in generalized linear models","In genome-wide association (GWA) studies the goal is to detect associations
+between genetic markers and a given phenotype. The number of genetic markers
+can be large and effective methods for control of the overall error rate is a
+central topic when analyzing GWA data. The Bonferroni method is known to be
+conservative when the tests are dependent. Permutation methods give exact
+control of the overall error rate when the assumption of exchangeability is
+satisfied but are computationally intensive for large datasets. For regression
+models the exchangeability assumption is in general not satisfied and there is
+no standard solution on how to do permutation testing except some approximate
+methods. In this paper we will discuss permutation methods for control of the
+familywise error rate in genetic association studies and present an approximate
+solution. These methods will be compared using simulated data.",Kari Krizak Halle|Mette Langaas,stat.ME|stat.CO
+2017-02-28T17:17:59Z,2016-12-21T07:59:15Z,http://arxiv.org/abs/1612.07002v1,http://arxiv.org/pdf/1612.07002v1,"A subset multicanonical Monte Carlo method for simulating rare failure
+  events","Estimating failure probabilities of engineering systems is an important
+problem in many engineering fields. In this work we consider such problems
+where the failure probability is extremely small (e.g $\leq10^{-10}$). In this
+case standard Monte Carlo methods are not feasible due to the extraordinarily
+large number of samples required. To address these problems we propose an
+algorithm that combines the main ideas of two very powerful failure probability
+estimation approaches: the subset simulation (SS) and the multicanonical Monte
+Carlo (MMC) methods. Unlike the standard MMC which samples in the entire domain
+of the input parameter in each iteration the proposed subset MMC algorithm
+adaptively performs MMC simulations in a subset of the state space and thus
+improves the sampling efficiency. With numerical examples we demonstrate that
+the proposed method is significantly more efficient than both of the SS and the
+MMC methods. Moreover the proposed algorithm can reconstruct the complete
+distribution function of the parameter of interest and thus can provide more
+information than just the failure probabilities of the systems.",Xinjuan Chen|Jinglai Li,math.NA|stat.CO
+2017-02-28T17:17:59Z,2016-12-20T06:18:02Z,http://arxiv.org/abs/1612.06518v1,http://arxiv.org/pdf/1612.06518v1,"REPPlab: An R package for detecting clusters and outliers using
+  exploratory projection pursuit","The R-package REPPlab is designed to explore multivariate data sets using
+one-dimensional unsupervised projection pursuit. It is useful in practice as a
+preprocessing step to find clusters or as an outlier detection tool for
+multivariate numerical data. Except from the package tourr that implements
+smooth sequences of projection matrices and rggobi that provides an interface
+to a dynamic graphics package called GGobi there is no implementation of
+exploratory projection pursuit tools available in R especially in the context
+of outlier detection. REPPlab is an R interface for the Java program EPPlab
+that implements four projection indices and three biologically inspired
+optimization algorithms. The implemented indices are either adapted to cluster
+or to outlier detection and the optimization algorithms have at most one
+parameter to tune. Following the original software EPPlab the exploration
+strategy in REPPlab is divided into two steps. Many potentially interesting
+projections are calculated at the first step and examined at the second step.
+For this second step different tools for plotting and combining the results
+are proposed with specific tools for outlier detection. Compared to EPPlab
+some of these tools are new and their performance is illustrated through some
+simulations and using some real data sets in a clustering context. The
+functionalities of the package are also illustrated for outlier detection on a
+new data set that is provided with the package.",Daniel Fischer|Alain Berro|Klaus Nordhausen|Anne Ruiz-Gazen,stat.CO
+2017-02-28T17:17:59Z,2016-12-29T05:26:25Z,http://arxiv.org/abs/1612.06492v2,http://arxiv.org/pdf/1612.06492v2,Chunked-and-Averaged Estimators for Vector Parameters,"Big Data has become a pervasive and ubiquitous component of modern data
+analysis. Due to the pathologies of Big Data such as network distribution or
+infeasible scalings of computational time strategies are required for
+conducting effective analysis under such conditions. A traditional approach of
+computer science that has found success in Big Data analysis is the
+divide-and-conquer paradigm. A simple divide-and-conquer method is the
+chunked-and-averaged (CA) estimator. Statistical properties of the CA estimator
+have been studied for the case of univariate parameters under independent and
+identically distributed (IID) sampling. We extend upon the known results and
+study the statistical properties for CA estimators of vector parameters as well
+as CA estimators under non-IID sampling.",Hien D. Nguyen|Geoffrey J. McLachlan,stat.CO
+2017-02-28T17:17:59Z,2016-12-20T00:57:02Z,http://arxiv.org/abs/1612.06468v1,http://arxiv.org/pdf/1612.06468v1,"Sequential Bayesian inference for mixture models and the coalescent
+  using sequential Monte Carlo samplers with transformations","This paper introduces methodology for performing Bayesian inference
+sequentially on a sequence of posteriors on spaces of different dimensions. We
+show how this may be achieved through the use of sequential Monte Carlo (SMC)
+samplers (Del Moral et al. 2006 2007) making use of the full flexibility of
+this framework in order that the method is computationally efficient. In
+particular we introduce the innovation of using a sequence of distributions
+that are defined on spaces between which bijective transformations exist using
+these transformations to move particles effectively between one target
+distribution and the next. This approach combined with adaptive methods and
+the use of multiple routes between targets yields an extremely flexible and
+general algorithm for tackling the aforementioned situation. We demonstrate
+this approach on the well-studied problem of model comparison for mixture
+models and for the novel application of inferring coalescent trees
+sequentially as data arrives.",Richard G Everitt|Richard Culliford|Felipe Medina-Aguayo|Daniel J Wilson,stat.CO|stat.AP|stat.ME
+2017-02-28T17:17:59Z,2017-01-18T00:26:34Z,http://arxiv.org/abs/1612.05614v2,http://arxiv.org/pdf/1612.05614v2,An MM Algorithm for Split Feasibility Problems,"The classical multi-set split feasibility problem seeks a point in the
+intersection of finitely many closed convex domain constraints whose image
+under a linear mapping also lies in the intersection of finitely many closed
+convex range constraints. Split feasibility generalizes important inverse
+problems including convex feasibility linear complementarity and regression
+with constraint sets. When a feasible point does not exist solution methods
+that proceed by minimizing a proximity function can be used to obtain optimal
+approximate solutions to the problem. We present an extension of the proximity
+function approach that generalizes the linear split feasibility problem to
+allow for non-linear mappings. Our algorithm is based on the principle of
+majorization-minimization is amenable to quasi-Newton acceleration and comes
+complete with convergence guarantees under mild assumptions. Furthermore we
+show that the Euclidean norm appearing in the proximity function of the
+non-linear split feasibility problem can be replaced by arbitrary Bregman
+divergences. We explore several examples illustrating the merits of non-linear
+formulations over the linear case with a focus on optimization for
+intensity-modulated radiation therapy.",Jason Xu|Eric C. Chi|Meng Yang|Kenneth Lange,math.OC|math.NA|stat.CO|stat.ML
+2017-02-28T17:17:59Z,2016-12-16T15:10:12Z,http://arxiv.org/abs/1612.05501v1,http://arxiv.org/pdf/1612.05501v1,"The Bayesian analysis of contingency table data using the bayesloglin R
+  package","For log-linear analysis the hyper Dirichlet conjugate prior is available to
+work in the Bayesian paradigm. With this prior the MC3 algorithm allows for
+exploration of the space of models to try to find those with the highest
+posterior probability. Once top models have been identified a block Gibbs
+sampler can be constructed to sample from the posterior distribution and to
+estimate parameters of interest. Our aim in this paper is to introduce the
+bayesloglin R package \citep{R} which contains functions to carry out these
+tasks.",Matthew Friedlander,stat.CO
+2017-02-28T17:17:59Z,2016-12-15T13:16:46Z,http://arxiv.org/abs/1612.05053v1,http://arxiv.org/pdf/1612.05053v1,Expectation Propagation performs a smoothed gradient descent,"Bayesian inference is a popular method to build learning algorithms but it is
+hampered by the fact that its key object the posterior probability
+distribution is often uncomputable. Expectation Propagation (EP) (Minka
+(2001)) is a popular algorithm that solves this issue by computing a parametric
+approximation (e.g: Gaussian) to the density of the posterior. However while
+it is known empirically to quickly compute fine approximations EP is extremely
+poorly understood which prevents it from being adopted by a larger fraction of
+the community.
+  The object of the present article is to shed intuitive light on EP by
+relating it to other better understood methods. More precisely we link it to
+using gradient descent to compute the Laplace approximation of a target
+probability distribution. We show that EP is exactly equivalent to performing
+gradient descent on a smoothed energy landscape: i.e: the original energy
+landscape convoluted with some smoothing kernel. This also relates EP to
+algorithms that compute the Gaussian approximation which minimizes the reverse
+KL divergence to the target distribution a link that has been conjectured
+before but has not been proved rigorously yet. These results can help
+practitioners to get a better feel for how EP works as well as lead to other
+new results on this important method.",Guillaume P. Dehaene,stat.ML|stat.CO
+2017-02-28T17:17:59Z,2016-12-13T16:38:37Z,http://arxiv.org/abs/1612.04271v1,http://arxiv.org/pdf/1612.04271v1,BayesBD: An R Package for Bayesian Inference on Image Boundaries,"We present the \pkg{BayesBD} package providing Bayesian inference for
+boundaries of noisy images. The \pkg{BayesBD} package implements flexible
+Gaussian process priors indexed by the circle to recover the boundary in a
+binary or Gaussian noised image and achieves four aims of guaranteed geometric
+restriction (nearly) minimax optimal rate adaptive to the smoothness level
+convenience for joint inference and computational efficiency. The core
+sampling tasks are carried out in \code{c++} using packages \pkg{Rcpp} and
+\pkg{RcppArmadillo}. Users can access the full functionality of the package in
+both \code{Rgui} and the corresponding \pkg{shiny} application. We demonstrate
+the usage of \pkg{BayesBD} both in simulations and a real data application in
+brain oncology.",Nicholas Syring|Meng Li,stat.CO|62-09
+2017-02-28T17:18:02Z,2016-12-13T11:20:58Z,http://arxiv.org/abs/1612.04101v1,http://arxiv.org/pdf/1612.04101v1,"Calculating probabilistic excursion sets and related quantities using
+  excursions","The R software package excursions contains methods for calculating
+probabilistic excursion sets contour credible regions and simultaneous
+confidence bands for latent Gaussian stochastic processes and fields. It also
+contains methods for uncertainty quantification of contour maps and computation
+of Gaussian integrals. This article describes the theoretical and computational
+methods used in the package. The main functions of the package are introduced
+and two examples illustrate how the package can be used.",David Bolin|Finn Lindgren,stat.CO
+2017-02-28T17:18:02Z,2016-12-13T10:45:06Z,http://arxiv.org/abs/1612.04093v1,http://arxiv.org/pdf/1612.04093v1,"Modified Cholesky Riemann Manifold Hamiltonian Monte Carlo: Exploiting
+  Sparsity for Fast Sampling of High-dimensional Targets","Riemann manifold Hamiltonian Monte Carlo (RHMC) holds the potential for
+producing high-quality Markov chain Monte Carlo-output even for very
+challenging target distributions. To this end a symmetric positive definite
+scaling matrix for RHMC which derives via a modified Cholesky factorization
+from the potentially indefinite negative Hessian of the target log-density is
+proposed. The methodology is able to exploit sparsity stemming from
+conditional independence modeling assumptions of said Hessian and thus admit
+fast and highly automatic implementation of RHMC even for high-dimensional
+target distributions. Moreover the methodology can exploit log-concave
+conditional target densities often encountered in Bayesian hierarchical
+models for faster sampling and more straight forward tuning. The proposed
+methodology is compared to Gibbs sampling and Euclidian metric Hamiltonian
+Monte Carlo on some challenging targets and illustrated by applying a state
+space model to real data.",Tore Selland Kleppe,stat.CO|stat.ME
+2017-02-28T17:18:02Z,2016-12-13T09:42:39Z,http://arxiv.org/abs/1612.04074v1,http://arxiv.org/pdf/1612.04074v1,Spatio-temporal data mining in ecological and veterinary epidemiology,"Understanding the spread of any disease is a highly complex and
+interdisciplinary exercise as biological social geographic economic and
+medical factors may shape the way a disease moves through a population and
+options for its eventual control or eradication. Disease spread poses a serious
+threat in animal and plant health and has implications for ecosystem
+functioning and species extinctions as well as implications in society through
+food security and potential disease spread in humans. Space-time epidemiology
+is based on the concept that various characteristics of the pathogenic agents
+and the environment interact in order to alter the probability of disease
+occurrence and form temporal or spatial patterns. Epidemiology aims to identify
+these patterns and factors to assess the relevant uncertainty sources and to
+describe disease in the population. Thus disease spread at the population level
+differs from the approach traditionally taken by veterinary practitioners that
+are principally concerned with the health status of the individual. Patterns of
+disease occurrence provide insights into which factors may be affecting the
+health of the population through investigating which individuals are affected
+where are these individuals located and when did they become infected. With the
+rapid development of smart sensors social networks as well as digital maps
+and remotely-sensed imagery spatio-temporal data are more ubiquitous and richer
+than ever before. The availability of such large datasets (Big data) poses
+great challenges in data analysis. In addition increased availability of
+computing power facilitates the use of computationally-intensive methods for
+the analysis of such data. Thus new methods as well as case studies are needed
+to understand veterinary and ecological epidemiology. A special issue aimed to
+address this topic.",Aristides Moustakas,q-bio.PE|stat.AP|stat.CO
+2017-02-28T17:18:02Z,2016-12-25T02:19:07Z,http://arxiv.org/abs/1612.03930v2,http://arxiv.org/pdf/1612.03930v2,"ManifoldOptim: An R Interface to the ROPTLIB Library for Riemannian
+  Manifold Optimization","Manifold optimization appears in a wide variety of computational problems in
+the applied sciences. In recent statistical methodologies such as sufficient
+dimension reduction and regression envelopes estimation relies on the
+optimization of likelihood functions over spaces of matrices such as the
+Stiefel or Grassmann manifolds. Recently Huang Absil Gallivan and Hand
+(2016) have introduced the library ROPTLIB which provides a framework and
+state of the art algorithms to optimize real-valued objective functions over
+commonly used matrix-valued Riemannian manifolds. This article presents
+ManifoldOptim an R package that wraps the C++ library ROPTLIB. ManifoldOptim
+enables users to access functionality in ROPTLIB through R so that optimization
+problems can easily be constructed solved and integrated into larger R codes.
+Computationally intensive problems can be programmed with Rcpp and
+RcppArmadillo and otherwise accessed through R. We illustrate the practical
+use of ManifoldOptim through several motivating examples involving dimension
+reduction and envelope methods in regression.",Sean Martin|Andrew M. Raim|Wen Huang|Kofi P. Adragni,stat.CO
+2017-02-28T17:18:02Z,2016-12-11T19:41:44Z,http://arxiv.org/abs/1612.03461v1,http://arxiv.org/abs/1612.03461v1,Low-complexity Pruned 8-point DCT Approximations for Image Encoding,"Two multiplierless pruned 8-point discrete cosine transform (DCT)
+approximation are presented. Both transforms present lower arithmetic
+complexity than state-of-the-art methods. The performance of such new methods
+was assessed in the image compression context. A JPEG-like simulation was
+performed demonstrating the adequateness and competitiveness of the introduced
+methods. Digital VLSI implementation in CMOS technology was also considered.
+Both presented methods were realized in Berkeley Emulation Engine (BEE3).",V. A. Coutinho|R. J. Cintra|F. M. Bayer|S. Kulasekera|A. Madanayake,cs.MM|cs.DS|stat.CO
+2017-02-28T17:18:02Z,2016-12-10T16:36:07Z,http://arxiv.org/abs/1612.03319v1,http://arxiv.org/pdf/1612.03319v1,Anytime Monte Carlo,"A Monte Carlo algorithm typically simulates a prescribed number of samples
+taking some random real time to complete the computations necessary. This work
+considers the converse: to impose a real-time budget on the computation so
+that the number of samples simulated is random. To complicate matters the real
+time taken for each simulation may depend on the sample produced so that the
+samples themselves are not independent of their number and a length bias with
+respect to computation time is introduced.
+  We propose an anytime framework to address this concern. We firstly introduce
+a continuous-time Markov jump process to chart the progress of the computation
+in real time. With respect to the target distribution the stationary
+distribution of this process is length-biased by computation time. We introduce
+a multiple chain construction to eliminate this length bias for any Markov
+chain Monte Carlo (MCMC) algorithm. Exploiting this debiasing technique yields
+MCMC algorithms that may be interrupted at any real time to obtain a sample
+from the target distribution. We call these class of interruptible algorithms
+anytime Monte Carlo algorithms.
+  The utility of these algorithms is demonstrated on a large-scale Sequential
+Monte Carlo Squared implementation using four billion particles in total
+distributed across a cluster of 128 graphics processing units on the Amazon EC2
+service providing approximately 200000-way parallelism. The anytime framework
+is used to impose a real-time budget on move steps ensuring that all
+processors are simultaneously ready for the resampling step demonstrably
+reducing wait times.",Lawrence M. Murray|Sumeetpal Singh|Pierre E. Jacob|Anthony Lee,stat.CO|stat.ML
+2017-02-28T17:18:02Z,2016-12-10T14:25:00Z,http://arxiv.org/abs/1612.03301v1,http://arxiv.org/pdf/1612.03301v1,Gradient Coding,"We propose a novel coding theoretic framework for mitigating stragglers in
+distributed learning. We show how carefully replicating data blocks and coding
+across gradients can provide tolerance to failures and stragglers for
+synchronous Gradient Descent. We implement our scheme in MPI and show how we
+compare against baseline architectures in running time and generalization
+error.",Rashish Tandon|Qi Lei|Alexandros G. Dimakis|Nikos Karampatziakis,stat.ML|cs.DC|cs.IT|cs.LG|math.IT|stat.CO
+2017-02-28T17:18:02Z,2016-12-10T01:07:20Z,http://arxiv.org/abs/1612.03233v1,http://arxiv.org/pdf/1612.03233v1,"New Tests of Uniformity on the Compact Classical Groups as Diagnostics
+  for Weak-star Mixing of Markov Chains","This paper introduces two new families of non-parametric tests of
+goodness-of-fit on the compact classical groups. One of them is a family of
+tests for the eigenvalue distribution induced by the uniform distribution
+which is consistent against all fixed alternatives. The other is a family of
+tests for the uniform distribution on the entire group which is again
+consistent against all fixed alternatives. We find the asymptotic distribution
+under the null and general alternatives. The tests are proved to be
+asymptotically admissible. Local power is derived and the global properties of
+the power function against local alternatives are explored.
+  The new tests are validated on two random walks for which the mixing-time is
+studied in the literature. The new tests and several others are applied to
+the Markov chain sampler proposed by \cite{jones2011randomized} providing
+strong evidence supporting the claim that the sampler mixes quickly.",Amir Sepehri,math.ST|math.NA|math.RT|stat.CO|stat.ME|stat.TH
+2017-02-28T17:18:02Z,2016-12-09T15:21:46Z,http://arxiv.org/abs/1612.03054v1,http://arxiv.org/pdf/1612.03054v1,DERGMs: Degeneracy-restricted exponential random graph models,"We propose a new exponential family of models for random graphs. Starting
+from the standard exponential random graph model (ERGM) framework we propose
+an extension that addresses some of the well-known issues with ERGMs.
+Specifically we solve the problem of computational intractability and
+`degenerate' model behavior by an interpretable support restriction.",Vishesh Karwa|Sonja Petrović|Denis Bajić,stat.ME|cs.DM|cs.SI|stat.CO
+2017-02-28T17:18:02Z,2016-12-07T18:23:21Z,http://arxiv.org/abs/1612.02358v1,http://arxiv.org/pdf/1612.02358v1,"A-optimal encoding weights for nonlinear inverse problems with
+  applications to the Helmholtz inverse problem","The computational cost of solving an inverse problem governed by PDEs using
+multiple experiments increases linearly with the number of experiments. A
+recently proposed method to decrease this cost uses only a small number of
+random linear combinations of all experiments for solving the inverse problem.
+This approach applies to inverse problems where the PDE-solution depends
+linearly on the right-hand side function that models the experiment. As this
+method is stochastic in essence it leads to reconstructions of fluctuating
+quality in particular when only a small number of combinations are used. We
+develop a Bayesian formulation for the definition and computation of encoding
+weights that lead to a parameter reconstruction with the least uncertainty. We
+call these weights A-optimal encoding weights. Our framework applies to inverse
+problems where the governing PDE is nonlinear with respect to the inversion
+parameter field. We formulate the problem in infinite dimensions; this
+facilitates the development of numerical methods for the computation of the
+optimal weights whose computational cost is independent of the parameter
+discretization. We elaborate our method for a Helmholtz inverse problem and
+derive the adjoint-based expressions for the gradient of the objective function
+of the optimization problem for finding the A-optimal encoding weights. The
+proposed method is potentially attractive for real-time monitoring
+applications where one can invest the effort to compute optimal weights
+offline to later solve an inverse problem repeatedly over time at a fraction
+of the initial cost.",Benjamin Crestel|Alen Alexanderian|Georg Stadler|Omar Ghattas,math.OC|stat.CO

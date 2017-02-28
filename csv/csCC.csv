@@ -1,0 +1,1555 @@
+2017-02-28T17:20:41Z,2017-02-27T12:21:07Z,http://arxiv.org/abs/1702.08255v1,http://arxiv.org/pdf/1702.08255v1,Learning with Errors is easy with quantum samples,"Learning with Errors is one of the fundamental problems in computational
+learning theory and has in the last years become the cornerstone of
+post-quantum cryptography. In this work we study the quantum sample complexity
+of Learning with Errors and show that there exists an efficient quantum
+learning algorithm (with polynomial sample and time complexity) for the
+Learning with Errors problem where the error distribution is the one used in
+cryptography. While our quantum learning algorithm does not break the LWE-based
+encryption schemes proposed in the cryptography literature it does have some
+interesting implications for cryptography: first when building an LWE-based
+scheme one needs to be careful about the access to the public-key generation
+algorithm that is given to the adversary; second our algorithm shows a
+possible way for attacking LWE-based encryption by using classical samples to
+approximate the quantum sample state since then using our quantum learning
+algorithm would solve LWE.",Alex B. Grilo|Iordanis Kerenidis,quant-ph|cs.CC
+2017-02-28T17:20:41Z,2017-02-27T11:24:02Z,http://arxiv.org/abs/1702.08238v1,http://arxiv.org/pdf/1702.08238v1,Consensus Patterns parameterized by input string length is W[1]-hard,"We consider the Consensus Patterns problem where given a set of input
+strings one is asked to extract a long-enough pattern which appears (with some
+errors) in all strings. We prove that this problem is W[1]-hard when
+parameterized by the maximum length of input strings.",Laurent Bulteau,cs.CC
+2017-02-28T17:20:41Z,2017-02-27T04:42:03Z,http://arxiv.org/abs/1702.08144v1,http://arxiv.org/pdf/1702.08144v1,Synchronization Problems in Automata without Non-trivial Cycles,"In this paper we study the computational complexity of various problems
+related to synchronization of weakly acyclic automata a subclass of widely
+studied aperiodic automata. We provide upper and lower bounds on the length of
+a shortest word synchronizing a weakly acyclic automaton or more generally a
+subset of its states and show that the problem of approximating this length is
+hard. We also show inapproximability of the problem of computing the rank of a
+subset of states in a binary weakly acyclic automaton and prove that several
+problems related to recognizing a synchronizing subset of states in such
+automata are NP-complete.",Andrew Ryzhikov,cs.FL|cs.CC|68Q17|F.1.1; F.1.3; F.2.2
+2017-02-28T17:20:41Z,2017-02-26T20:53:29Z,http://arxiv.org/abs/1702.08084v1,http://arxiv.org/pdf/1702.08084v1,On Algorithmic Statistics for space-bounded algorithms,"Algorithmic statistics studies explanations of observed data that are good in
+the algorithmic sense: an explanation should be simple i.e. should have small
+Kolmogorov complexity and capture all the algorithmically discoverable
+regularities in the data. However this idea can not be used in practice because
+Kolmogorov complexity is not computable.
+  In this paper we develop algorithmic statistics using space-bounded
+Kolmogorov complexity. We prove an analogue of one of the main result of
+`classic' algorithmic statistics (about the connection between optimality and
+randomness deficiences). The main tool of our proof is the Nisan-Wigderson
+generator.",Alexey Milovanov,cs.IT|cs.CC|math.IT
+2017-02-28T17:20:41Z,2017-02-26T15:25:57Z,http://arxiv.org/abs/1702.08045v1,http://arxiv.org/pdf/1702.08045v1,"General Upper Bounds for Gate Complexity and Depth of Reversible
+  Circuits Consisting of NOT CNOT and 2-CNOT Gates","The paper discusses the gate complexity of reversible circuits consisting of
+NOT CNOT and 2-CNOT gates in the case when the number of additional inputs is
+limited. We study Shennon's gate complexity function $L(n q)$ and depth
+function $D(nq)$ for a reversible circuit implementing a transformation
+$f\colon \mathbb Z_2^n \to \mathbb Z_2^n$ with $8n < q \lesssim n2^{n-o(n)}$
+additional inputs. We prove general upper bounds $L(nq) \lesssim 2^n + 8n2^n
+\mathop / (\log_2 (q-4n) - \log_2 n - 2)$ and $D(nq) \lesssim 2^{n+1}(25 +
+\log_2 n - \log_2 (\log_2 (q - 4n) - \log_2 n - 2))$ for this case.",Dmitry V. Zakablukov,cs.CC
+2017-02-28T17:20:41Z,2017-02-25T19:07:15Z,http://arxiv.org/abs/1702.07938v1,http://arxiv.org/pdf/1702.07938v1,Complexity Classification of the Eight-Vertex Model,"We prove a complexity dichotomy theorem for the eight-vertex model. For every
+setting of the parameters of the model we prove that computing the partition
+function is either solvable in polynomial time or \#P-hard. The dichotomy
+criterion is explicit. For tractability we find some new classes of problems
+computable in polynomial time. For \#P-hardness we employ M\""{o}bius
+transformations to prove the success of interpolations.",Jin-Yi Cai|Zhiguo Fu,cs.CC
+2017-02-28T17:20:41Z,2017-02-25T15:07:59Z,http://arxiv.org/abs/1702.07902v1,http://arxiv.org/pdf/1702.07902v1,Approval Voting with Intransitive Preferences,"We extend Approval voting to the settings where voters may have intransitive
+preferences. The major obstacle to applying Approval voting in these settings
+is that voters are not able to clearly determine who they should approve or
+disapprove due to the intransitivity of their preferences. An approach to
+address this issue is to apply tournament solutions to help voters make the
+decision. We study a class of voting systems where first each voter casts a
+vote defined as a tournament then a well-defined tournament solution is
+applied to select the candidates who are assumed to be approved by the voter.
+Winners are the ones receiving the most approvals. We study axiomatic
+properties of this class of voting systems and complexity of control and
+bribery problems for these voting systems.",Yongjie Yang,cs.GT|cs.CC|cs.DM
+2017-02-28T17:20:41Z,2017-02-24T17:18:02Z,http://arxiv.org/abs/1702.07669v1,http://arxiv.org/pdf/1702.07669v1,On problems equivalent to (min+)-convolution,"In the recent years significant progress has been made in explaining
+apparent hardness of improving over naive solutions for many fundamental
+polynomially solvable problems. This came in the form of conditional lower
+bounds - reductions to one of problems assumed to be hard. These include 3SUM
+All-Pairs Shortest Paths SAT and Orthogonal Vectors and others.
+  In the (min+)-convolution problem the goal is to compute a sequence
+$(c[i])^{n-1}_{i=0}$ where $c[k] = \min_{i=0\ldotsk} \{a[i]+b[k-i]\}$ given
+sequences $(a[i])^{n-1}_{i=0}$ and $(b[i])_{i=0}^{n-1}$. This can easily be
+done in $O(n^2)$ time but no $O(n^{2-\varepsilon})$ algorithm is known for
+$\varepsilon > 0$. In this paper we undertake a systematic study of the
+(min+)-convolution problem as a hardness assumption.
+  As the first step we establish equivalence of this problem to a group of
+other problems including variants of the classic knapsack problem and problems
+related to subadditive sequences. The (min+)-convolution has been used as a
+building block in algorithms for many problems notably problems in
+stringology. It has also already appeared as an ad hoc hardness assumption. We
+investigate some of these connections and provide new reductions and other
+results.",Marek Cygan|Marcin Mucha|Karol Węgrzycki|Michał Włodarczyk,cs.DS|cs.CC|F.1.3; F.2
+2017-02-28T17:20:41Z,2017-02-23T18:52:31Z,http://arxiv.org/abs/1702.07339v1,http://arxiv.org/pdf/1702.07339v1,A Converse to Banach's Fixed Point Theorem and its CLS Completeness,"Banach's fixed point theorem for contraction maps has been widely used to
+analyze the convergence of iterative methods in non-convex problems. It is a
+common experience however that iterative maps fail to be globally contracting
+under the natural metric in their domain making the applicability of Banach's
+theorem limited. We explore how generally we can apply Banach's fixed point
+theorem to establish the convergence of iterative methods when pairing it with
+carefully designed metrics.
+  Our first result is a strong converse of Banach's theorem showing that it is
+a universal analysis tool for establishing uniqueness of fixed points and for
+bounding the convergence rate of iterative maps to a unique fixed point. In
+other words we show that whenever an iterative map globally converges to a
+unique fixed point there exists a metric under which the iterative map is
+contracting and which can be used to bound the number of iterations until
+convergence. We illustrate our approach in the widely used power method
+providing a new way of bounding its convergence rate through contraction
+arguments.
+  We next consider the computational complexity of Banach's fixed point
+theorem. Making the proof of our converse theorem constructive we show that
+computing a fixed point whose existence is guaranteed by Banach's fixed point
+theorem is CLS-complete. We thus provide the first natural complete problem for
+the class CLS which was defined in [Daskalakis-Papadimitriou 2011] to capture
+the complexity of problems such as P-matrix LCP computing KKT-points and
+finding mixed Nash equilibria in congestion and network coordination games.",Constantinos Daskalakis|Christos Tzamos|Manolis Zampetakis,cs.CC|cs.LG|math.GN|stat.ML
+2017-02-28T17:20:41Z,2017-02-23T11:38:36Z,http://arxiv.org/abs/1702.07180v1,http://arxiv.org/pdf/1702.07180v1,"Small hitting-sets for tiny arithmetic circuits or: How to turn bad
+  designs into good","We show that if we can design poly($s$)-time hitting-sets for
+$\Sigma\wedge^a\Sigma\Pi^{O(\log s)}$ circuits of size $s$ where $a=\omega(1)$
+is arbitrarily small and the number of variables or arity $n$ is $O(\log s)$
+then we can derandomize blackbox PIT for general circuits in quasipolynomial
+time. This also establishes that either E$\not\subseteq$\#P/poly or that
+VP$\ne$VNP. In fact we show that one only needs a poly($s$)-time hitting-set
+against individual-degree $a'=\omega(1)$ polynomials that are computable by a
+size-$s$ arity-$(\log s)$ $\Sigma\Pi\Sigma$ circuit (note: $\Pi$ fanin may be
+$s$). Alternatively we claim that to understand VP one only needs to find
+hitting-sets for depth-$3$ that have a small parameterized complexity.
+Another tiny family of interest is when we restrict the arity $n=\omega(1)$ to
+be arbitrarily small. We show that if we can design poly($s\mu(n)$)-time
+hitting-sets for size-$s$ arity-$n$ $\Sigma\Pi\Sigma\wedge$ circuits
+(resp.~$\Sigma\wedge^a\Sigma\Pi$) where function $\mu$ is arbitrary then we
+can solve PIT for VP in quasipoly-time and prove the corresponding lower
+bounds. Our methods are strong enough to prove a surprising {\em arity
+reduction} for PIT-- to solve the general problem completely it suffices to
+find a blackbox PIT with time-complexity $sd2^{O(n)}$. We give several examples
+of ($\log s$)-variate circuits where a new measure (called cone-size) helps in
+devising poly-time hitting-sets but the same question for their $s$-variate
+versions is open till date: For eg. diagonal depth-$3$ circuits and in
+general models that have a {\em small} partial derivative space. We also
+introduce a new concept called cone-closed basis isolation and provide
+example models where it occurs or can be achieved by a small shift.",Manindra Agrawal|Michael Forbes|Sumanta Ghosh|Nitin Saxena,cs.CC|F.1.1; I.1.2; F.1.3
+2017-02-28T17:20:45Z,2017-02-23T08:02:25Z,http://arxiv.org/abs/1702.07128v1,http://arxiv.org/pdf/1702.07128v1,The Facets of the Bases Polytope of a Matroid and Two Consequences,"Let $M$ to be a matroid defined on a finite set $E$ and $L\subset E$. $L$ is
+locked in $M$ if $M|L$ and $M^*|(E\backslash L)$ are 2-connected and
+$min\{r(L) r^*(E\backslash L)\} \geq 2$. In this paper we prove that the
+nontrivial facets of the bases polytope of $M$ are described by the locked
+subsets. We deduce that finding the maximum--weight basis of $M$ is a
+polynomial time problem for matroids with a polynomial number of locked
+subsets. This class of matroids is closed under 2-sums and contains the class
+of uniform matroids the V\'amos matroid and all the excluded minors of 2-sums
+of uniform matroids. We deduce also a matroid oracle for testing uniformity of
+matroids after one call of this oracle.",Brahim Chaourar,"cs.CC|Primary 90C27, Secondary 90C57, 52B40"
+2017-02-28T17:20:45Z,2017-02-22T22:43:45Z,http://arxiv.org/abs/1702.07032v1,http://arxiv.org/pdf/1702.07032v1,On the Complexity of Bundle-Pricing and Simple Mechanisms,"We show that the problem of finding an optimal bundle-pricing for a single
+additive buyer is #P-hard even when the distributions have support size 2 for
+each item and the optimal solution is guaranteed to be a simple one: the seller
+picks a price for the grand bundle and a price for each individual item; the
+buyer can purchase either the grand bundle at the given price or any bundle of
+items at their total individual prices. We refer to this simple and natural
+family of pricing schemes as discounted item-pricings. In addition to the
+hardness result we show that when the distributions are i.i.d. with support
+size 2 a discounted item-pricing can achieve the optimal revenue obtainable by
+lottery-pricings and it can be found in polynomial time.",Xi Chen|George Matikas|Dimitris Paparas|Mihalis Yannakakis,cs.GT|cs.CC|cs.DS
+2017-02-28T17:20:45Z,2017-02-22T20:38:35Z,http://arxiv.org/abs/1702.06997v1,http://arxiv.org/pdf/1702.06997v1,"Beyond Talagrand Functions: New Lower Bounds for Testing Monotonicity
+  and Unateness","We prove a lower bound of $\tilde{\Omega}(n^{1/3})$ for the query complexity
+of any two-sided and adaptive algorithm that tests whether an unknown Boolean
+function $f:\{01\}^n\rightarrow \{01\}$ is monotone or far from monotone.
+This improves the recent bound of $\tilde{\Omega}(n^{1/4})$ for the same
+problem by Belovs and Blais [BB15]. Our result builds on a new family of random
+Boolean functions that can be viewed as a two-level extension of Talagrand's
+random DNFs.
+  Beyond monotonicity we also prove a lower bound of
+$\tilde{\Omega}(\sqrt{n})$ for any two-sided and adaptive algorithm and a
+lower bound of $\tilde{\Omega}(n)$ for any one-sided and non-adaptive algorithm
+for testing unateness a natural generalization of monotonicity. The latter
+matches the recent linear upper bounds by Khot and Shinkar [KS15] and by
+Chakrabarty and Seshadhri [CS16].",Xi Chen|Erik Waingarten|Jinyu Xie,cs.CC
+2017-02-28T17:20:45Z,2017-02-22T15:29:15Z,http://arxiv.org/abs/1702.06844v1,http://arxiv.org/pdf/1702.06844v1,Parameterized Shifted Combinatorial Optimization,"Shifted combinatorial optimization is a new nonlinear optimization framework
+which is a broad extension of standard combinatorial optimization involving
+the choice of several feasible solutions at a time. This framework captures
+well studied and diverse problems ranging from so-called vulnerability problems
+to sharing and partitioning problems. In particular every standard
+combinatorial optimization problem has its shifted counterpart which is
+typically much harder. Already with explicitly given input set the shifted
+problem may be NP-hard. In this article we initiate a study of the
+parameterized complexity of this framework. First we show that shifting over an
+explicitly given set with its cardinality as the parameter may be in XP FPT or
+P depending on the objective function. Second we study the shifted problem
+over sets definable in MSO logic (which includes e.g. the well known MSO
+partitioning problems). Our main results here are that shifted combinatorial
+optimization over MSO definable sets is in XP with respect to the MSO formula
+and the treewidth (or more generally clique-width) of the input graph and is
+W[1]-hard even under further severe restrictions.",Jakub Gajarský|Petr Hliněný|Martin Koutecký|Shmuel Onn,cs.CC
+2017-02-28T17:20:45Z,2017-02-21T23:06:56Z,http://arxiv.org/abs/1702.06616v1,http://arxiv.org/pdf/1702.06616v1,TC^0 circuits for algorithmic problems in nilpotent groups,"Recently MacDonald et. al. showed that many algorithmic problems for
+nilpotent groups including computation of normal forms the subgroup membership
+problem the conjugacy problem and computation of presentations of subgroups
+can be done in Logspace. Here we follow their approach and show that all these
+problems are actually complete for the uniform circuit class TC^0 -- uniformly
+for all r-generated nilpotent groups of class at most c for fixed r and c.
+  Moreover if we allow a certain binary representation of the inputs then the
+word problem and computation of normal forms is still in uniform TC^0 while
+all the other problems we examine are shown to be TC^0-Turing reducible to the
+problem of computing greatest common divisors and expressing them as a linear
+combination.",Alexei Myasnikov|Armin Weiß,math.GR|cs.CC|F.2.2; G.2.0
+2017-02-28T17:20:45Z,2017-02-21T18:13:40Z,http://arxiv.org/abs/1702.06503v1,http://arxiv.org/pdf/1702.06503v1,When can Graph Hyperbolicity be computed in Linear Time?,"Hyperbolicity measures in terms of (distance) metrics how close a given
+graph is to being a tree. Due to its relevance in modeling real-world networks
+hyperbolicity has seen intensive research over the last years. Unfortunately
+the best known algorithms for computing the hyperbolicity number of a graph
+(the smaller the more tree-like) have running time $O(n^4)$ where $n$ is the
+number of graph vertices. Exploiting the framework of parameterized complexity
+analysis we explore possibilities for ""linear-time FPT"" algorithms to compute
+hyperbolicity. For instance we show that hyperbolicity can be computed in time
+$O(2^{O(k)} + n +m)$ ($m$ being the number of graph edges) while at the same
+time unless the SETH fails there is no $2^{o(k)}n^2$-time algorithm.",Till Fluschnik|Christian Komusiewicz|George B. Mertzios|André Nichterlein|Rolf Niedermeier|Nimrod Talmon,"cs.CC|cs.DS|05C12, 68R10, 68Q25, 68Q17|F.2.2; G.2.2"
+2017-02-28T17:20:45Z,2017-02-21T13:06:59Z,http://arxiv.org/abs/1702.06364v1,http://arxiv.org/pdf/1702.06364v1,Linear-Time Tree Containment in Phylogenetic Networks,"We consider the NP-hard Tree Containment problem that has important
+applications in phylogenetics. The problem asks if a given leaf-labeled network
+contains a subdivision of a given leaf-labeled tree. We develop a fast
+algorithm for the case that the input network is indeed a tree in which
+multiple leaves might share a label. By combining this algorithm with a
+generalization of a previously known decomposition scheme we improve the
+running time on reticulation visible networks and nearly stable networks to
+linear time. While these are special classes of networks they rank among the
+most general of the previously considered classes.",Mathias Weller,cs.CC|cs.DS
+2017-02-28T17:20:45Z,2017-02-23T02:48:22Z,http://arxiv.org/abs/1702.06237v2,http://arxiv.org/pdf/1702.06237v2,Exact tensor completion with sum-of-squares,"We obtain the first polynomial-time algorithm for exact tensor completion
+that improves over the bound implied by reduction to matrix completion. The
+algorithm recovers an unknown 3-tensor with $r$ incoherent orthogonal
+components in $\mathbb R^n$ from $r\cdot \tilde O(n^{1.5})$ randomly observed
+entries of the tensor. This bound improves over the previous best one of
+$r\cdot \tilde O(n^{2})$ by reduction to exact matrix completion. Our bound
+also matches the best known results for the easier problem of approximate
+tensor completion (Barak & Moitra 2015).
+  Our algorithm and analysis extends seminal results for exact matrix
+completion (Candes & Recht 2009) to the tensor setting via the sum-of-squares
+method. The main technical challenge is to show that a small number of randomly
+chosen monomials are enough to construct a degree-3 polynomial with precisely
+planted orthogonal global optima over the sphere and that this fact can be
+certified within the sum-of-squares proof system.",Aaron Potechin|David Steurer,cs.LG|cs.CC|cs.DS|cs.IT|math.IT|stat.ML
+2017-02-28T17:20:45Z,2017-02-20T15:39:13Z,http://arxiv.org/abs/1702.06017v1,http://arxiv.org/pdf/1702.06017v1,CLS: New Problems and Completeness,"The complexity class CLS was introduced by Daskalakis and Papadimitriou with
+the goal of capturing the complexity of some well-known problems in
+PPAD$~\cap~$PLS that have resisted in some cases for decades attempts to put
+them in polynomial time. No complete problem was known for CLS and in previous
+work the problems ContractionMap i.e. the problem of finding an approximate
+fixpoint of a contraction map and PLCP i.e. the problem of solving a
+P-matrix Linear Complementarity Problem were identified as prime candidates.
+  First we present a new CLS-complete problem MetaMetricContractionMap which
+is closely related to the ContractionMap. Second we introduce
+EndOfPotentialLine which captures aspects of PPAD and PLS directly via a
+monotonic directed path and show that EndOfPotentialLine is in CLS via a
+two-way reduction to EndOfMeteredLine. The latter was defined to keep track of
+how far a vertex is on the PPAD path via a restricted potential function.
+Third we reduce PLCP to EndOfPotentialLine thus making EndOfPotentialLine and
+EndOfMeteredLine at least as likely to be hard for CLS as PLCP. This last
+result leverages the monotonic structure of Lemke paths for PLCP problems
+making EndOfPotentialLine a likely candidate to capture the exact complexity of
+PLCP; we note that the structure of Lemke-Howson paths for finding a Nash
+equilibrium in a two-player game very directly motivated the definition of the
+complexity class PPAD which eventually ended up capturing this problem's
+complexity exactly.",John Fearnley|Spencer Gordon|Ruta Mehta|Rahul Savani,cs.CC
+2017-02-28T17:20:45Z,2017-02-20T11:04:29Z,http://arxiv.org/abs/1702.05927v1,http://arxiv.org/pdf/1702.05927v1,How to implement a genuine Parrondo's paradox with quantum walks?,"Parrondo's paradox is ubiquitous in games ratchets and random walks.The
+apparent paradox devised by Juan M. R. Parrondo that two losing games A and B
+can produce an winning outcome has been adapted in many physical and biological
+systems to explain their working. However proposals on demonstrating
+Parrondo's paradox using quantum walks failed in the asymptotic limits. In this
+work we show that instead of a single coin if we consider a two coin initial
+state which may or may not be entangled we can observe a genuine Parrondo's
+paradox with quantum walks. The implications of our results for observing
+quantum ratchet like behavior using quantum walks is also discussed.",Jishnu Rajendran|Colin Benjamin,quant-ph|cond-mat.mes-hall|cs.CC
+2017-02-28T17:20:48Z,2017-02-19T15:48:11Z,http://arxiv.org/abs/1702.05760v1,http://arxiv.org/pdf/1702.05760v1,Hypercube LSH for approximate near neighbors,"A celebrated technique for finding near neighbors for the angular distance
+involves using a set of \textit{random} hyperplanes to partition the space into
+hash regions [Charikar STOC 2002]. Experiments later showed that using a set
+of \textit{orthogonal} hyperplanes thereby partitioning the space into the
+Voronoi regions induced by a hypercube leads to even better results [Terasawa
+and Tanaka WADS 2007]. However no theoretical explanation for this
+improvement was ever given and it remained unclear how the resulting hypercube
+hash method scales in high dimensions.
+  In this work we provide explicit asymptotics for the collision probabilities
+when using hypercubes to partition the space. For instance two near-orthogonal
+vectors are expected to collide with probability $(\frac{1}{\pi})^{d + o(d)}$
+in dimension $d$ compared to $(\frac{1}{2})^d$ when using random hyperplanes.
+Vectors at angle $\frac{\pi}{3}$ collide with probability
+$(\frac{\sqrt{3}}{\pi})^{d + o(d)}$ compared to $(\frac{2}{3})^d$ for random
+hyperplanes and near-parallel vectors collide with similar asymptotic
+probabilities in both cases.
+  For $c$-approximate nearest neighbor searching this translates to a decrease
+in the exponent $\rho$ of locality-sensitive hashing (LSH) methods of a factor
+up to $\log_2(\pi) \approx 1.652$ compared to hyperplane LSH. For $c = 2$ we
+obtain $\rho \approx 0.302 + o(1)$ for hypercube LSH improving upon the $\rho
+\approx 0.377$ for hyperplane LSH. We further describe how to use hypercube LSH
+in practice and we consider an example application in the area of lattice
+algorithms.",Thijs Laarhoven,cs.DS|cs.CC|cs.CG|cs.CR
+2017-02-28T17:20:48Z,2017-02-21T09:07:53Z,http://arxiv.org/abs/1702.05704v2,http://arxiv.org/pdf/1702.05704v2,Computational Complexity of Atomic Chemical Reaction Networks,"Informally a chemical reaction network is ""atomic"" if each reaction may be
+interpreted as the rearrangement of indivisible units of matter. There are
+several reasonable definitions formalizing this idea. We investigate the
+computational complexity of deciding whether a given network is atomic
+according to each of these definitions.
+  Our first definition primitive atomic which requires each reaction to
+preserve the total number of atoms is to shown to be equivalent to mass
+conservation. Since it is known that it can be decided in polynomial time
+whether a given chemical reaction network is mass-conserving the equivalence
+gives an efficient algorithm to decide primitive atomicity.
+  Another definition subset atomic further requires that all atoms are
+species. We show that deciding whether a given network is subset atomic is in
+$\textsf{NP}$ and the problem ""is a network subset atomic with respect to a
+given atom set"" is strongly $\textsf{NP}$-$\textsf{Complete}$.
+  A third definition reachably atomic studied by Adleman Gopalkrishnan et
+al. further requires that each species has a sequence of reactions splitting
+it into its constituent atoms. We show that there is a polynomial-time
+algorithm to decide whether a given network is reachably atomic improving upon
+the result of Adleman et al. that the problem is decidable. We show that the
+reachability problem for reachably atomic networks is
+$\textsf{Pspace}$-$\textsf{Complete}$.
+  Finally we demonstrate equivalence relationships between our definitions and
+some special cases of another existing definition of atomicity due to Gnacadja.",David Doty|Shaopeng Zhu,cs.CC|F.1.1
+2017-02-28T17:20:48Z,2017-02-18T00:19:02Z,http://arxiv.org/abs/1702.05547v1,http://arxiv.org/pdf/1702.05547v1,Nontrivial Turmites are Turing-universal,"A Turmit is a Turing machine that works over a two-dimensional grid that is
+an agent that moves reads and writes symbols over the cells of the grid. Its
+state is an arrow and depending on the symbol that it reads it turns to the
+left or to the right switching the symbol at the same time. Several symbols
+are admitted and the rule is specified by the turning sense that the machine
+has over each symbol. Turmites are a generalization of Langtons ant and they
+present very complex and diverse behaviors. We prove that any Turmite except
+for those whose rule does not depend on the symbol can simulate any Turing
+Machine. We also prove the P-completeness of prediction their future behavior
+by explicitly giving a log-space reduction from the Topological Circuit Value
+Problem. A similar result was already established for Langtons ant; here we use
+a similar technique but prove a stronger notion of simulation and for a more
+general family.",Diego Maldonado|Anahí Gajardo|Benjamin Hellouin de Menibus|Andrés Moreira,"cs.CC|nlin.CG|68Q17, 68Q05|F.1.1; F.1.3"
+2017-02-28T17:20:48Z,2017-02-17T23:43:14Z,http://arxiv.org/abs/1702.05543v1,http://arxiv.org/pdf/1702.05543v1,A Fixed-Parameter Perspective on #BIS,"The complexity of approximately counting independent sets in bipartite graphs
+(#BIS) is a central open problem in approximate counting and it is widely
+believed to be neither easy nor NP-hard. We study several natural parameterised
+variants of #BIS both from the polynomial-time and from the fixed-parameter
+viewpoint: counting independent sets of a given size; counting independent sets
+with a given number of vertices in one vertex class; and counting maximum
+independent sets among those with a given number of vertices in one vertex
+class. Among other things we show that all these problems are NP-hard to
+approximate within any polynomial ratio. We also show that the first problem is
+#W[1]-hard to solve exactly but admits an FPTRAS and the other two are
+W[1]-hard to approximate within any polynomial ratio. Finally we show that
+when restricted to graphs of bounded degree all three problems admit exact
+fixed-parameter algorithms with reasonable time complexity.",Radu Curticapean|Holger Dell|Fedor Fomin|Leslie Ann Goldberg|John Lapinskas,cs.CC|F.2.2; G.2.1; G.2.2
+2017-02-28T17:20:48Z,2017-02-17T17:48:41Z,http://arxiv.org/abs/1702.05456v1,http://arxiv.org/pdf/1702.05456v1,LCL problems on grids,"LCLs or locally checkable labelling problems (e.g. maximal independent set
+maximal matching and vertex colouring) in the LOCAL model of computation are
+very well-understood in cycles (toroidal 1-dimensional grids): every problem
+has a complexity of $O(1)$ $\Theta(\log^* n)$ or $\Theta(n)$ and the design
+of optimal algorithms can be fully automated.
+  This work develops the complexity theory of LCL problems for toroidal
+2-dimensional grids. The complexity classes are the same as in the
+1-dimensional case: $O(1)$ $\Theta(\log^* n)$ and $\Theta(n)$. However given
+an LCL problem it is undecidable whether its complexity is $\Theta(\log^* n)$
+or $\Theta(n)$ in 2-dimensional grids.
+  Nevertheless if we correctly guess that the complexity of a problem is
+$\Theta(\log^* n)$ we can completely automate the design of optimal
+algorithms. For any problem we can find an algorithm that is of a normal form
+$A' \circ S_k$ where $A'$ is a finite function $S_k$ is an algorithm for
+finding a maximal independent set in $k$th power of the grid and $k$ is a
+constant.
+  With the help of this technique we study several concrete \lcl{} problems
+also in more general settings. For example for all $d \ge 2$ we prove that:
+  - $d$-dimensional grids can be $k$-vertex coloured in time $O(\log^* n)$ iff
+$k \ge 4$
+  - $d$-dimensional grids can be $k$-edge coloured in time $O(\log^* n)$ iff $k
+\ge 2d+1$.
+  The proof that $3$-colouring of $2$-dimensional grids requires $\Theta(n)$
+time introduces a new topological proof technique which can also be applied to
+e.g. orientation problems.",Sebastian Brandt|Juho Hirvonen|Janne H. Korhonen|Tuomo Lempiäinen|Patric R. J. Östergård|Christopher Purcell|Joel Rybicki|Jukka Suomela|Przemysław Uznański,cs.DC|cs.CC|cs.DS
+2017-02-28T17:20:48Z,2017-02-17T17:20:21Z,http://arxiv.org/abs/1702.05447v1,http://arxiv.org/pdf/1702.05447v1,"Counting edge-injective homomorphisms and matchings on restricted graph
+  classes","We consider the parameterized problem of counting all matchings with exactly
+$k$ edges in a given input graph $G$. This problem is #W[1]-hard (Curticapean
+ICALP 2013) so it is unlikely to admit $f(k)\cdot n^{O(1)}$ time algorithms.
+We show that #W[1]-hardness persists even when the input graph $G$ comes from
+restricted graph classes such as line graphs and bipartite graphs of arbitrary
+constant girth and maximum degree two on one side. To prove the result for line
+graphs we observe that $k$-matchings in line graphs can be equivalently viewed
+as edge-injective homomorphisms from the disjoint union of $k$ paths of length
+two into (arbitrary) host graphs. Here a homomorphism from $H$ to $G$ is
+edge-injective if it maps any two distinct edges of $H$ to distinct edges in
+$G$. We show that edge-injective homomorphisms from a pattern graph $H$ can be
+counted in polynomial time if $H$ has bounded vertex-cover number after
+removing isolated edges. For hereditary classes $\mathcal{H}$ of pattern
+graphs we obtain a full complexity dichotomy theorem by proving that counting
+edge-injective homomorphisms restricted to patterns from $\mathcal{H}$ is
+#W[1]-hard if no such bound exists. Our proofs rely on an edge-colored variant
+of Holant problems and a delicate interpolation argument; both may be of
+independent interest.",Radu Curticapean|Holger Dell|Marc Roth,cs.CC
+2017-02-28T17:20:48Z,2017-02-17T13:07:58Z,http://arxiv.org/abs/1702.05328v1,http://arxiv.org/pdf/1702.05328v1,On algebraic branching programs of small width,"In 1979 Valiant showed that the complexity class VP_e of families with
+polynomially bounded formula size is contained in the class VP_s of families
+that have algebraic branching programs (ABPs) of polynomially bounded size.
+Motivated by the problem of separating these classes we study the topological
+closure VP_e-bar i.e. the class of polynomials that can be approximated
+arbitrarily closely by polynomials in VP_e. We describe VP_e-bar with a
+strikingly simple complete polynomial (in characteristic different from 2)
+whose recursive definition is similar to the Fibonacci numbers. Further
+understanding this polynomial seems to be a promising route to new formula
+lower bounds.
+  Our methods are rooted in the study of ABPs of small constant width. In 1992
+Ben-Or and Cleve showed that formula size is polynomially equivalent to width-3
+ABP size. We extend their result (in characteristic different from 2) by
+showing that approximate formula size is polynomially equivalent to approximate
+width-2 ABP size. This is surprising because in 2011 Allender and Wang gave
+explicit polynomials that cannot be computed by width-2 ABPs at all! The
+details of our construction lead to the aforementioned characterization of
+VP_e-bar.
+  As a natural continuation of this work we prove that the class VNP can be
+described as the class of families that admit a hypercube summation of
+polynomially bounded dimension over a product of polynomially many affine
+linear forms. This gives the first separations of algebraic complexity classes
+from their nondeterministic analogs.",Karl Bringmann|Christian Ikenmeyer|Jeroen Zuiddam,cs.CC|68Q15|F.1.3
+2017-02-28T17:20:48Z,2017-02-16T23:21:34Z,http://arxiv.org/abs/1702.05183v1,http://arxiv.org/pdf/1702.05183v1,Courcelle's Theorem Made Dynamic,"Dynamic complexity is concerned with updating the output of a problem when
+the input is slightly changed. We study the dynamic complexity of model
+checking a fixed monadic second-order formula over evolving subgraphs of a
+fixed maximal graph having bounded tree-width; here the subgraph evolves by
+losing or gaining edges (from the maximal graph). We show that this problem is
+in DynFO (with LOGSPACE precomputation) via a reduction to a Dyck reachability
+problem on an acyclic automaton.",Patricia Bouyer-Decitre|Vincent Jugé|Nicolas Markey,cs.CC|cs.FL
+2017-02-28T17:20:48Z,2017-02-16T20:02:12Z,http://arxiv.org/abs/1702.05139v1,http://arxiv.org/pdf/1702.05139v1,On the Bit Complexity of Sum-of-Squares Proofs,"It has often been claimed in recent papers that one can find a degree d
+Sum-of-Squares proof if one exists via the Ellipsoid algorithm. In [O17] Ryan
+O'Donnell notes this widely quoted claim is not necessarily true. He presents
+an example of a polynomial system with bounded coeffcients that admits
+low-degree proofs of non-negativity but these proofs necessarily involve
+numbers with an exponential number of bits causing the Ellipsoid algorithm to
+take exponential time. In this paper we obtain both positive and negative
+results on the bit complexity of SoS proofs. First we propose a suffcient
+condition on a polynomial system that implies a bound on the coefficients in an
+SoS proof. We demonstrate that this sufficient condition is applicable for
+common use-cases of the SoS algorithm such as Max-CSP Balanced Separator
+Max- Clique Max-Bisection and Unit-Vector constraints. On the negative side
+O'Donnell asked whether every polynomial system containing Boolean constraints
+admits proofs of polynomial bit complexity. We answer this question in the
+negative giving a counterexample system and non-negative polynomial which has
+degree two SoS proofs but no SoS proof with small coefficients until degree
+Omega(sqrt(n))",Prasad Raghavendra|Benjamin Weitz,cs.CC
+2017-02-28T17:20:48Z,2017-02-15T21:21:34Z,http://arxiv.org/abs/1702.04779v1,http://arxiv.org/pdf/1702.04779v1,Compression Complexity,"The Kolmogorov complexity of x denoted C(x) is the length of the shortest
+program that generates x. For such a simple definition Kolmogorov complexity
+has a rich and deep theory as well as applications to a wide variety of topics
+including learning theory complexity lower bounds and SAT algorithms.
+  Kolmogorov complexity typically focuses on decompression going from the
+compressed program to the original string. This paper develops a dual notion of
+compression the mapping from a string to its compressed version. Typical
+lossless compression algorithms such as Lempel-Ziv or Huffman Encoding always
+produce a string that will decompress to the original. We define a general
+compression concept based on this observation.
+  For every m we exhibit a single compression algorithm q of length about m
+which for n and strings x of length n >= m the output of q will have length
+within n-m+O(1) bits of C(x). We also show this bound is tight in a strong way
+for every n >= m there is an x of length n with C(x) about m such that no
+compression program of size slightly less than m can compress x at all.
+  We also consider a polynomial time-bounded version of compression complexity
+and show that similar results for this version would rule out cryptographic
+one-way functions.",Stephen Fenner|Lance Fortnow,cs.CC
+2017-02-28T17:20:52Z,2017-02-15T19:39:58Z,http://arxiv.org/abs/1702.04748v1,http://arxiv.org/pdf/1702.04748v1,An Improved Dictatorship Test with Perfect Completeness,"A Boolean function $f:\{01\}^n\rightarrow \{01\}$ is called a dictator if
+it depends on exactly one variable i.e $f(x_1 x_2 \ldots x_n) = x_i$ for
+some $i\in [n]$. In this work we study a $k$-query dictatorship test.
+Dictatorship tests are central in proving many hardness results for constraint
+satisfaction problems.
+  The dictatorship test is said to have {\em perfect completeness} if it
+accepts any dictator function. The {\em soundness} of a test is the maximum
+probability with which it accepts any function far from a dictator. Our main
+result is a $k$-query dictatorship test with perfect completeness and soundness
+$ \frac{2k + 1}{2^k}$ where $k$ is of the form $2^t -1$ for any integer $t >
+2$. This improves upon the result of \cite{TY15} which gave a dictatorship test
+with soundness $ \frac{2k + 3}{2^k}$.",Amey Bhangale|Subhash Khot|Devanathan Thiruvenkatachari,cs.CC
+2017-02-28T17:20:52Z,2017-02-16T18:09:15Z,http://arxiv.org/abs/1702.04679v2,http://arxiv.org/pdf/1702.04679v2,The complexity of Boolean surjective general-valued CSPs,"Valued constraint satisfaction problems (VCSPs) are discrete optimisation
+problems with a $\overline{\mathbb{Q}}$-valued objective function given as a
+sum of fixed-arity functions where
+$\overline{\mathbb{Q}}=\mathbb{Q}\cup\{\infty\}$ is the set of extended
+rationals.
+  In Boolean surjective VCSPs variables take on labels from $D=\{01\}$ and an
+optimal assignment is required to use both labels from $D$. A classic example
+is the global min-cut problem in graphs. Building on the work of Uppman we
+establish a dichotomy theorem and thus give a complete complexity
+classification of Boolean surjective VCSPs. The newly discovered tractable case
+has an interesting structure related to projections of downsets and upsets. Our
+work generalises the dichotomy for $\{0\infty\}$-valued constraint languages
+(corresponding to CSPs) obtained by Creignou and H\'ebrard and the dichotomy
+for $\{01\}$-valued constraint languages (corresponding to Min-CSPs) obtained
+by Uppman.",Peter Fulla|Stanislav Zivny,cs.CC|cs.DM|F.2.0
+2017-02-28T17:20:52Z,2017-02-15T01:05:51Z,http://arxiv.org/abs/1702.04432v1,http://arxiv.org/pdf/1702.04432v1,"Vertex isoperimetry and independent set stability for tensor powers of
+  cliques","The tensor power of the clique on $t$ vertices (denoted by $K_t^n$) is the
+graph on vertex set $\{1 ... t\}^n$ such that two vertices $x y \in \{1
+... t\}^n$ are connected if and only if $x_i \neq y_i$ for all $i \in \{1
+... n\}$. Let the density of a subset $S$ of $K_t^n$ to be $\mu(S) :=
+\frac{|S|}{t^n}$ and let the vertex boundary of a set $S$ to be vertices which
+are incident to some vertex of $S$ perhaps including points of $S$. We
+investigate two similar problems on such graphs.
+  First we study the vertex isoperimetry problem. Given a density $\nu \in [0
+1]$ what is the smallest possible density of the vertex boundary of a subset of
+$K_t^n$ of density $\nu$? Let $\Phi_t(\nu)$ be the infimum of these minimum
+densities as $n \to \infty$. We find a recursive relation allows one to compute
+$\Phi_t(\nu)$ in time polynomial to the number of desired bits of precision.
+  Second we study given an independent set $I \subseteq K_t^n$ of density
+$\mu(I) = \frac{1}{t}(1-\epsilon)$ how close it is to a maximum-sized
+independent set $J$ of density $\frac{1}{t}$. We show that this deviation
+(measured by $\mu(I \setminus J)$) is at most $4\epsilon^{\frac{\log t}{\log t
+- \log(t-1)}}$ as long as $\epsilon < 1 - \frac{3}{t} + \frac{2}{t^2}$. This
+substantially improves on results of Alon Dinur Friedgut and Sudakov (2004)
+and Ghandehari and Hatami (2008) which had an $O(\epsilon)$ upper bound. We
+also show the exponent $\frac{\log t}{\log t - \log(t-1)}$ is optimal assuming
+$n$ tending to infinity and $\epsilon$ tending to $0$. The methods have
+similarity to recent work by Ellis Keller and Lifshitz (2016) in the context
+of Kneser graphs and other settings.
+  The author hopes that these results have potential applications in hardness
+of approximation particularly in approximate graph coloring and independent
+set problems.",Joshua Brakensiek,math.CO|cs.CC|cs.DM
+2017-02-28T17:20:52Z,2017-02-14T18:21:28Z,http://arxiv.org/abs/1702.04322v1,http://arxiv.org/pdf/1702.04322v1,"Parameterized Algorithms for Recognizing Monopolar and 2-Subcolorable
+  Graphs","A graph $G$ is a $(\Pi_A\Pi_B)$-graph if $V(G)$ can be bipartitioned into
+$A$ and $B$ such that $G[A]$ satisfies property $\Pi_A$ and $G[B]$ satisfies
+property $\Pi_B$. The $(\Pi_{A}\Pi_{B})$-Recognition problem is to recognize
+whether a given graph is a $(\Pi_A\Pi_B)$-graph. There are many
+$(\Pi_{A}\Pi_{B})$-Recognition problems including the recognition problems
+for bipartite split and unipolar graphs. We present efficient algorithms for
+many cases of $(\Pi_A\Pi_B)$-Recognition based on a technique which we dub
+inductive recognition. In particular we give fixed-parameter algorithms for
+two NP-hard $(\Pi_{A}\Pi_{B})$-Recognition problems Monopolar Recognition and
+2-Subcoloring. We complement our algorithmic results with several hardness
+results for $(\Pi_{A}\Pi_{B})$-Recognition.",Iyad Kanj|Christian Komusiewicz|Manuel Sorge|Erik Jan van Leeuwen,cs.CC|cs.DS
+2017-02-28T17:20:52Z,2017-02-14T17:23:31Z,http://arxiv.org/abs/1702.04300v1,http://arxiv.org/pdf/1702.04300v1,"Optimality condition and complexity analysis for linearly-constrained
+  optimization without differentiability on the boundary","In this paper we consider the minimization of a continuous function that is
+potentially not differentiable or not twice differentiable on the boundary of
+the feasible region. By exploiting an interior point technique we present
+first- and second-order optimality conditions for this problem that reduces to
+classical ones when the derivative on the boundary is available. For this type
+of problems existing necessary conditions often rely on the notion of
+subdifferential or become non-trivially weaker than the KKT condition in the
+(twice-)differentiable counterpart problems. In contrast this paper presents a
+new set of first- and second-order necessary conditions that are derived
+without the use of subdifferential and reduces to exactly the KKT condition
+when (twice-)differentiability holds. As a result these conditions are
+stronger than some existing ones considered for the discussed minimization
+problem when only non-negativity constraints are present. To solve for these
+optimality conditions in the special but important case of linearly constrained
+problems we present two novel interior trust-region point algorithms and show
+that their worst-case computational efficiency in achieving the potentially
+stronger optimality conditions match the best known complexity bounds. Since
+this work considers a more general problem than the literature our results
+also indicate that best known complexity bounds hold for a wider class of
+nonlinear programming problems.",Gabriel Haeser|Hongcheng Liu|Yinyu Ye,"cs.CC|math.OC|90C30, 90C51, 90C60, 68Q25"
+2017-02-28T17:20:52Z,2017-02-14T03:19:55Z,http://arxiv.org/abs/1702.04059v1,http://arxiv.org/pdf/1702.04059v1,Computing geometric Lorenz attractors with arbitrary precision,"The Lorenz attractor was introduced in 1963 by E. N. Lorenz as one of the
+first examples of \emph{strange attractors}. However Lorenz' research was
+mainly based on (non-rigourous) numerical simulations and until recently the
+proof of the existence of the Lorenz attractor remained elusive. To address
+that problem some authors introduced geometric Lorenz models and proved that
+geometric Lorenz models have a strange attractor. In 2002 it was shown that the
+original Lorenz model behaves like a geometric Lorenz model and thus has a
+strange attractor. In this paper we show that geometric Lorenz attractors are
+computable as well as their physical measures.",Daniel Graca|Cristobal Rojas|Ning Zhong,math.DS|cs.CC|nlin.CD
+2017-02-28T17:20:52Z,2017-02-13T10:16:54Z,http://arxiv.org/abs/1702.03700v1,http://arxiv.org/pdf/1702.03700v1,Assortment Optimization under a Single Transition Model,"In this paper we consider a Markov chain choice model with single
+transition. In this model customers arrive at each product with a certain
+probability. If the arrived product is unavailable then the seller can
+recommend a subset of available products to the customer and the customer will
+purchase one of the recommended products or choose not to purchase with certain
+transition probabilities. The distinguishing features of the model are that the
+seller can control which products to recommend depending on the arrived product
+and that each customer either purchases a product or leaves the market after
+one transition.
+  We study the assortment optimization problem under this model. Particularly
+we show that this problem is generally NP-Hard even if each product could only
+transit to at most two products. Despite the complexity of the problem we
+provide polynomial time algorithms for several special cases such as when the
+transition probabilities are homogeneous with respect to the starting point or
+when each product can only transit to one other product. We also provide a
+tight performance bound for revenue-ordered assortments. In addition we
+propose a compact mixed integer program formulation that can solve this problem
+of large size. Through extensive numerical experiments we show that the
+proposed algorithms can solve the problem efficiently and the obtained
+assortments could significantly improve the revenue of the seller than under
+the Markov chain choice model.",Kameng Nip|Zhenbo Wang|Zizhuo Wang,math.OC|cs.CC
+2017-02-28T17:20:52Z,2017-02-13T04:23:37Z,http://arxiv.org/abs/1702.03625v1,http://arxiv.org/pdf/1702.03625v1,Separation of AC$^0[\oplus]$ Formulas and Circuits,"This paper gives the first separation between the power of {\em formulas} and
+{\em circuits} of equal depth in the $\mathrm{AC}^0[\oplus]$ basis (unbounded
+fan-in AND OR NOT and MOD$_2$ gates). We show for all $d(n) \le O(\frac{\log
+n}{\log\log n})$ that there exist {\em polynomial-size depth-$d$ circuits}
+that are not equivalent to {\em depth-$d$ formulas of size $n^{o(d)}$}
+(moreover this is optimal in that $n^{o(d)}$ cannot be improved to
+$n^{O(d)}$). This result is obtained by a combination of new lower and upper
+bounds for {\em Approximate Majorities} the class of Boolean functions
+$\{01\}^n \to \{01\}$ that agree with the Majority function on $3/4$ fraction
+of inputs.
+  $\mathrm{AC}^0[\oplus]$ formula lower bound: We show that every depth-$d$
+$\mathrm{AC}^0[\oplus]$ formula of size $s$ has a {\em $1/8$-error polynomial
+approximation} over $\mathbb{F}_2$ of degree $O(\frac{1}{d}\log s)^{d-1}$. This
+strengthens a classic $O(\log s)^{d-1}$ degree approximation for
+\underline{circuits} due to Razborov. Since the Majority function has
+approximate degree $\Theta(\sqrt n)$ this result implies an
+$\exp(\Omega(dn^{1/2(d-1)}))$ lower bound on the depth-$d$
+$\mathrm{AC}^0[\oplus]$ formula size of all Approximate Majority functions for
+all $d(n) \le O(\log n)$.
+  Monotone $\mathrm{AC}^0$ circuit upper bound: For all $d(n) \le O(\frac{\log
+n}{\log\log n})$ we give a randomized construction of depth-$d$ monotone
+$\mathrm{AC}^0$ circuits (without NOT or MOD$_2$ gates) of size
+$\exp(O(n^{1/2(d-1)}))$ that compute an Approximate Majority function. This
+strengthens a construction of \underline{formulas} of size
+$\exp(O(dn^{1/2(d-1)}))$ due to Amano.",Benjamin Rossman|Srikanth Srinivasan,cs.CC
+2017-02-28T17:20:52Z,2017-02-10T12:43:46Z,http://arxiv.org/abs/1702.03152v1,http://arxiv.org/pdf/1702.03152v1,A Variation of Levin Search for All Well-Defined Problems,"In 1973 L.A. Levin published an algorithm that solves any inversion problem
+$\pi$ as quickly as the fastest algorithm $p^*$ computing a solution for $\pi$
+in time bounded by $2^{l(p^*)}.t^*$ where $l(p^*)$ is the length of the binary
+encoding of $p^*$ and $t^*$ is the runtime of $p^*$ plus the time to verify
+its correctness. In 2002 M. Hutter published an algorithm that solves any
+well-defined problem $\pi$ as quickly as the fastest algorithm $p^*$ computing
+a solution for $\pi$ in time bounded by $5.t_{p}(x)+d_p.time_{t_{p}}(x)+c_p$
+where $d_p=40.2^{l(p)+l(t_{p})}$ and $c_p=40.2^{l(f)+1}.O(l(f)^2)$ where
+$l(f)$ is the length of the binary encoding of a proof $f$ that produces a pair
+$(pt_p)$ where $t_p(x)$ is a provable time bound on the runtime of the
+fastest program $p$ provably equivalent to $p^*$. In this paper we rewrite
+Levin Search using the ideas of Hutter so that we have a new simple algorithm
+that solves any well-defined problem $\pi$ as quickly as the fastest algorithm
+$p^*$ computing a solution for $\pi$ in time bounded by $O(l(f)^2).t_p(x)$.",Fouad B. Chedid,cs.CC|cs.DS
+2017-02-28T17:20:52Z,2017-02-09T16:50:23Z,http://arxiv.org/abs/1702.02890v1,http://arxiv.org/pdf/1702.02890v1,Answer Set Solving with Bounded Treewidth Revisited,"Parameterized algorithms are a way to solve hard problems more efficiently
+given that a specific parameter of the input is small. In this paper we apply
+this idea to the field of answer set programming (ASP). To this end we propose
+two kinds of graph representations of programs to exploit their treewidth as a
+parameter. Treewidth roughly measures to which extent the internal structure of
+a program resembles a tree. Our main contribution is the design of
+parameterized dynamic programming algorithms which run in linear time if the
+treewidth and weights of the given program are bounded. Compared to previous
+work our algorithms handle the full syntax of ASP. Finally we report on an
+empirical evaluation that shows good runtime behaviour for benchmark instances
+of low treewidth especially for counting answer sets.",Johannes Fichte|Markus Hecher|Michael Morak|Stefan Woltran,cs.LO|cs.AI|cs.CC
+2017-02-28T17:20:56Z,2017-02-09T16:32:26Z,http://arxiv.org/abs/1702.02885v1,http://arxiv.org/pdf/1702.02885v1,Sparse Approximation is Provably Hard under Coherent Dictionaries,"It is well known that sparse approximation problem is \textsf{NP}-hard under
+general dictionaries. Several algorithms have been devised and analyzed in the
+past decade under various assumptions on the \emph{coherence} $\mu$ of the
+dictionary represented by an $M \times N$ matrix from which a subset of $k$
+column vectors is selected. All these results assume $\mu=O(k^{-1})$. This
+article is an attempt to bridge the big gap between the negative result of
+\textsf{NP}-hardness under general dictionaries and the positive results under
+this restrictive assumption. In particular it suggests that the aforementioned
+assumption might be asymptotically the best one can make to arrive at any
+efficient algorithmic result under well-known conjectures of complexity theory.
+In establishing the results we make use of a new simple multilayered PCP which
+is tailored to give a matrix with small coherence combined with our reduction.",Ali Çivril,cs.CC|cs.IT|math.IT
+2017-02-28T17:20:56Z,2017-02-20T16:33:24Z,http://arxiv.org/abs/1702.02882v4,http://arxiv.org/pdf/1702.02882v4,"Improved Inapproximability Results for Steiner Tree via Long Code Based
+  Reductions","The best algorithm for approximating Steiner tree has performance ratio
+$\ln(4)+\epsilon \approx 1.386$ [J. Byrka et al. \textit{Proceedings of the
+42th Annual ACM Symposium on Theory of Computing (STOC)} 2010 pp. 583-592]
+whereas the inapproximability result stays at the factor $\frac{96}{95} \approx
+1.0105$ [M. Chleb\'ik and J. Chleb\'ikov\'a \textit{Proceedings of the 8th
+Scandinavian Workshop on Algorithm Theory (SWAT)} 2002 pp. 170-179]. In this
+article we take a step forward to bridge this gap and show that there is no
+polynomial time algorithm approximating Steiner tree with constant ratio better
+than $\frac{19}{18} \approx 1.0555$ unless \textsf{P = NP}. We also relate the
+problem to the Unique Games Conjecture by showing that it is \textsf{UG}-hard
+to find a constant approximation ratio better than $\frac{17}{16} = 1.0625$. In
+the special case of quasi-bipartite graphs we prove an inapproximability
+factor of $\frac{25}{24} \approx 1.0416$ unless \textsf{P = NP} which improves
+upon the previous bound of $\frac{128}{127} \approx 1.0078$. The reductions
+that we present for all the cases are of the same spirit with appropriate
+modifications. Our main technical contribution is an adaptation of a Set-Cover
+type reduction in which the Long Code is used to the geometric setting of the
+problems we consider.",Ali Çivril,cs.CC
+2017-02-28T17:20:56Z,2017-02-09T15:41:48Z,http://arxiv.org/abs/1702.02863v1,http://arxiv.org/pdf/1702.02863v1,Complexity Classification Of The Six-Vertex Model,"We prove a complexity dichotomy theorem for the six-vertex model. For every
+setting of the parameters of the model we prove that computing the partition
+function is either solvable in polynomial time or #P-hard. The dichotomy
+criterion is explicit.",Jin-Yi Cai|Zhiguo Fu|Mingji Xia,cs.CC
+2017-02-28T17:20:56Z,2017-02-09T13:18:08Z,http://arxiv.org/abs/1702.02821v1,http://arxiv.org/pdf/1702.02821v1,"Phase Transitions of the Typical Algorithmic Complexity of the Random
+  Satisfiability Problem Studied with Linear Programming","The Boolean Satisfiability problem asks if a Boolean formula is satisfiable
+by some assignment of the variables or not. It belongs to the NP-complete
+complexity class and hence no algorithm with polynomial time worst-case
+complexity is known i.e. the problem is hard. The K-SAT problem is the subset
+of the Boolean Satisfiability problem for which the Boolean formula has the
+conjunctive normal form with K literals per clause. This problem is still
+NP-complete for $K \ge 3$. Although the worst case complexity of NP-complete
+problems is conjectured to be exponential there might be subsets of the
+realizations where solutions can typically be found in polynomial time. In
+fact random $K$-SAT with the number of clauses to number of variables ratio
+$\alpha$ as control parameter shows a phase transition between a satisfiable
+phase and an unsatisfiable phase at which the hardest problems are located. We
+use here several linear programming approaches to reveal further ""easy-hard""
+transition points at which the typical hardness of the problems increases which
+means that such algorithms can solve the problem on one side efficiently but
+not beyond this point. For one of these transitions we observed a coincidence
+with a structural transition of the literal factor graphs of the problem
+instances. We also investigated cutting-plane approaches which often increase
+the computational efficiency. Also we tried out a mapping to another
+NP-complete optimization problem using a specific algorithm for that problem.
+In both cases no improvement of the performance was observed i.e. no shift
+of the easy-hard transition to higher values of $\alpha$.",Hendrik Schawe|Roman Bleim|Alexander K. Hartmann,cond-mat.dis-nn|cond-mat.stat-mech|cs.AI|cs.CC
+2017-02-28T17:20:56Z,2017-02-09T03:51:01Z,http://arxiv.org/abs/1702.02693v1,http://arxiv.org/pdf/1702.02693v1,Dichotomy for Real Holant$^c$ Problems,"Holant problems capture a class of Sum-of-Product computations such as
+counting matchings. It is inspired by holographic algorithms and is equivalent
+to tensor networks with counting CSP being a special case. A classification
+for Holant problems is more difficult to prove not only because it implies a
+classification for counting CSP but also due to the deeper reason that there
+exist more intricate polynomial time tractable problems in the broader
+framework.
+  We discover a new family of constraint functions $\mathscr{L}$ which define
+polynomial time computable counting problems. These do not appear in counting
+CSP and no newly discovered tractable constraints can be symmetric. It has a
+delicate support structure related to error-correcting codes. Local holographic
+transformations is fundamental in its tractability. We prove a complexity
+dichotomy theorem for all Holant problems defined by any real valued constraint
+function set on Boolean variables and contains two 0-1 pinning functions.
+Previously dichotomy for the same framework was only known for symmetric
+constraint functions. he set $\mathscr{L}$ supplies the last piece of
+tractability. We also prove a dichotomy for a variant of counting CSP as a
+technical component toward this Holant dichotomy.",Jin-Yi Cai|Pinyan Lu|Mingji Xia,cs.CC|cs.DS
+2017-02-28T17:20:56Z,2017-02-08T12:08:22Z,http://arxiv.org/abs/1702.01666v2,http://arxiv.org/pdf/1702.01666v2,On the Complexity of Estimating Renyi Divergences,"This paper studies the complexity of estimating Renyi divergences of discrete
+distributions: $p$ observed from samples and the baseline distribution $q$
+known \emph{a priori}. Extending the results of Acharya et al. (SODA'15) on
+estimating Renyi entropy we present improved estimation techniques together
+with upper and lower bounds on the sample complexity.
+  We show that contrarily to estimating Renyi entropy where a sublinear (in
+the alphabet size) number of samples suffices the sample complexity is heavily
+dependent on \emph{events occurring unlikely} in $q$ and is unbounded in
+general (no matter what an estimation technique is used). For any divergence of
+order bigger than $1$ we provide upper and lower bounds on the number of
+samples dependent on probabilities of $p$ and $q$. We conclude that the
+worst-case sample complexity is polynomial in the alphabet size if and only if
+the probabilities of $q$ are non-negligible.
+  This gives theoretical insights into heuristics used in applied papers to
+handle numerical instability which occurs for small probabilities of $q$. Our
+result explains that small probabilities should be handled with care not only
+because of numerical issues but also because of a blow up in sample
+complexity.",Maciej Skorski,cs.IT|cs.CC|math.IT|H.1.1
+2017-02-28T17:20:56Z,2017-02-05T21:24:18Z,http://arxiv.org/abs/1702.01454v1,http://arxiv.org/pdf/1702.01454v1,Property Testing of Joint Distributions using Conditional Samples,"In this paper we present the first non-trivial property tester for joint
+probability distributions in the recently introduced conditional sampling
+model. The conditional sampling framework provides an oracle for a distribution
+$\mu$ that takes as input a subset $S$ of the domain $\Omega$ and returns a
+sample from the distribution $\mu$ conditioned on $S$.For a joint distribution
+of dimension $n$ we give a $\tilde{\mathcal{O}}(n^3)$-query uniformity tester
+a $\tilde{\mathcal{O}}(n^3)$-query identity tester with a known distribution
+and a $\tilde{\mathcal{O}}(n^6)$-query tester for testing independence of
+marginals. Our technique involves an elegant chain rule which can be proved
+using basic techniques of probability theory yet powerful enough to avoid the
+curse of dimensionality.
+  We also prove a sample complexity lower bound of $\Omega(\sqrt[4]{n})$ for
+testing uniformity of a joint distribution when the tester is only allowed to
+condition independently on the marginals. Our technique involves novel
+relations between Hellinger distance and total variational distance and may be
+of independent interest.",Rishiraj Bhattacharyya|Sourav Chakraborty,cs.CC
+2017-02-28T17:20:56Z,2017-02-05T16:21:35Z,http://arxiv.org/abs/1702.01423v1,http://arxiv.org/pdf/1702.01423v1,"Deciding Irreducibility/Indecomposability of Feedback Shift Registers is
+  NP-hard","Feedback shift registers(FSRs) are a fundamental component in electronics and
+secure communication. An FSR $f$ is said to be reducible if all the output
+sequences of another FSR $g$ can also be generated by $f$ and the FSR $g$ has
+less memory than $f$. An FSR is said to be decomposable if it has the same set
+of output sequences as a cascade connection of two FSRs. It is proved that
+deciding whether FSRs are irreducible/indecomposable is NP-hard.",Lin Wang,"cs.CC|68Q25, 94A55, 94C15"
+2017-02-28T17:20:56Z,2017-02-03T22:34:34Z,http://arxiv.org/abs/1702.02017v1,http://arxiv.org/pdf/1702.02017v1,Pushing the Bounds for Matrix-Matrix Multiplication,"A tight lower bound for required I/O when computing a matrix-matrix
+multiplication on a processor with two layers of memory is established. Prior
+work obtained weaker lower bounds by reasoning about the number of
+\textit{phases} needed to perform $C:=AB$ where each phase is a series of
+operations involving $S$ reads and writes to and from fast memory and $S$ is
+the size of fast memory. A lower bound on the number of phases was then
+determined by obtaining an upper bound on the number of scalar multiplications
+performed per phase. This paper follows the same high level approach but
+improves the lower bound by considering $C:=AB+C$ instead of $C:=AB$ and
+obtains the maximum number of scalar fused multiply-adds (FMAs) per phase
+instead of scalar additions. Key to obtaining the new result is the decoupling
+of the per-phase I/O from the size of fast memory. The new lower bound is
+$2mnk/\sqrt{S}-2S$. The constant for the leading term is an improvement of a
+factor $4\sqrt{2}$. A theoretical algorithm that attains the lower bound is
+given and how the state-of-the-art Goto's algorithm also in some sense meets
+the lower bound is discussed.",Tyler Michael Smith|Robert A. van de Geijn,cs.CC
+2017-02-28T17:20:56Z,2017-02-02T18:01:03Z,http://arxiv.org/abs/1702.00767v1,http://arxiv.org/pdf/1702.00767v1,A new Holant dichotomy inspired by quantum computation,"Holant problems are a framework for the analysis of counting complexity
+problems on graphs. This framework is simultaneously general enough to
+encompass many other counting problems on graphs and specific enough to allow
+the derivation of dichotomy results partitioning all problem instances into
+those which can be solved in polynomial time and those which are #P-hard. The
+Holant framework is based on the theory of holographic algorithms which was
+originally inspired by concepts from quantum computation but this connection
+appears not to have been explored before.
+  Here we employ quantum information theory to explain existing results in a
+concise way and to derive a dichotomy for a new family of problems which we
+call Holant$^+$. This family sits in between the known families of Holant$^*$
+for which a full dichotomy is known and Holant$^c$ for which only a
+restricted dichotomy is known. Using knowledge from entanglement theory -- both
+previously existing work and new results of our own -- we prove a full
+dichotomy theorem for Holant$^+$ which is very similar to the restricted
+Holant$^c$ dichotomy. Other than the dichotomy for #R$_3$-CSP ours is the
+first Holant dichotomy in which the allowed functions are not restricted and in
+which only a finite number of functions are assumed to be freely available.",Miriam Backens,quant-ph|cs.CC
+2017-02-28T17:21:00Z,2017-02-02T07:20:18Z,http://arxiv.org/abs/1702.00558v1,http://arxiv.org/pdf/1702.00558v1,Irreducibility and r-th root finding over finite fields,"Constructing $r$-th nonresidue over a finite field is a fundamental
+computational problem. A related problem is to construct an irreducible
+polynomial of degree $r^e$ (where $r$ is a prime) over a given finite field
+$\mathbb{F}_q$ of characteristic $p$ (equivalently constructing the bigger
+field $\mathbb{F}_{q^{r^e}}$). Both these problems have famous randomized
+algorithms but the derandomization is an open question. We give some new
+connections between these two problems and their variants.
+  In 1897 Stickelberger proved that if a polynomial has an odd number of even
+degree factors then its discriminant is a quadratic nonresidue in the field.
+We give an extension of Stickelberger's Lemma; we construct $r$-th nonresidues
+from a polynomial $f$ for which there is a $d$ such that $r|d$ and
+$r\nmid\$#(irreducible factor of $f(x)$ of degree $d$). Our theorem has the
+following interesting consequences: (1) we can construct $\mathbb{F}_{q^m}$ in
+deterministic poly(deg($f$)$m\log q$)-time if $m$ is an $r$-power and $f$ is
+known; (2) we can find $r$-th roots in $\mathbb{F}_{p^m}$ in deterministic
+poly($m\log p$)-time if $r$ is constant and $r|\gcd(mp-1)$.
+  We also discuss a conjecture significantly weaker than the Generalized
+Riemann hypothesis to get a deterministic poly-time algorithm for $r$-th root
+finding.",Vishwas Bhargava|Gábor Ivanyos|Rajat Mittal|Nitin Saxena,cs.CC|math.AC|math.NT
+2017-02-28T17:21:00Z,2017-02-02T03:23:39Z,http://arxiv.org/abs/1702.00533v1,http://arxiv.org/pdf/1702.00533v1,"Complexity results for $k$-domination and $α$-domination problems
+  and their variants","Let $G=(V E)$ be a simple and undirected graph. For some integer $k\geq 1$
+a set $D\subseteq V$ is said to be a k-dominating set in $G$ if every vertex
+$v$ of $G$ outside $D$ has at least $k$ neighbors in $D$. Furthermore for some
+real number $\alpha$ with $0<\alpha\leq1$ a set $D\subseteq V$ is called an
+$\alpha$-dominating set in $G$ if every vertex $v$ of $G$ outside $D$ has at
+least $\alpha\times d_v$ neighbors in $D$ where $d_v$ is the degree of $v$ in
+$G$. The cardinality of a minimum $k$-dominating set and a minimum
+$\alpha$-dominating set in $G$ is said to be the $k$-domination number and the
+$\alpha$-domination number of $G$ respectively. In this paper we present some
+approximability and inapproximability results on the problem of finding
+$k$-domination number and $\alpha$-domination number of some classes of graphs.
+Moreover we introduce a generalization of $\alpha$-dominating set which we
+call an $f$-dominating set. Given a function $f:\mathbb{N}\rightarrow
+\mathbb{R}$ where $\mathbb{N}=\{1 2 3 \ldots\}$ a set $D\subseteq V$ is
+said to be an $f$-dominating set in $G$ if every vertex $v$ of $G$ outside $D$
+has at least $f(d_v)$ neighbors in $D$. We prove NP-hardness of the problem of
+finding a minimum $f$-dominating set in $G$ for a large family of functions
+$f$.",Davood Bakhshesh|Mohammad Farshi|Mahdieh Hasheminezhad,"cs.CC|math.CO|05C69, 68R05, 68Q25"
+2017-02-28T17:21:00Z,2017-02-01T21:54:41Z,http://arxiv.org/abs/1702.00467v1,http://arxiv.org/pdf/1702.00467v1,"The Computer Science and Physics of Community Detection: Landscapes
+  Phase Transitions and Hardness","Community detection in graphs is the problem of finding groups of vertices
+which are more densely connected than they are to the rest of the graph. This
+problem has a long history but it is currently motivated by social and
+biological networks. While there are many ways to formalize it one of the most
+popular is as an inference problem where there is a planted ""ground truth""
+community structure around which the graph is generated probabilistically. Our
+task is then to recover the ground truth knowing only the graph.
+  Recently it was discovered first heuristically in physics and then
+rigorously in probability and computer science that this problem has a phase
+transition at which it suddenly becomes impossible. Namely if the graph is too
+sparse or the probabilistic process that generates it is too noisy then no
+algorithm can find a partition that is correlated with the planted one---or
+even tell if there are communities i.e. distinguish the graph from a purely
+random one with high probability. Above this information-theoretic threshold
+there is a second threshold beyond which polynomial-time algorithms are known
+to succeed; in between there is a regime in which community detection is
+possible but conjectured to be exponentially hard.
+  For computer scientists this field offers a wealth of new ideas and open
+questions with connections to probability and combinatorics message-passing
+algorithms and random matrix theory. Perhaps more importantly it provides a
+window into the cultures of statistical physics and statistical inference and
+how those cultures think about distributions of instances landscapes of
+solutions and hardness.",Cristopher Moore,cs.CC|cond-mat.stat-mech|cs.SI|math.PR|physics.soc-ph
+2017-02-28T17:21:00Z,2017-02-01T16:55:41Z,http://arxiv.org/abs/1702.00353v1,http://arxiv.org/pdf/1702.00353v1,"The non-cooperative tile assembly model is not intrinsically universal
+  or capable of bounded Turing machine simulation","The field of algorithmic self-assembly is concerned with the computational
+and expressive power of nanoscale self-assembling molecular systems. In the
+well-studied cooperative or temperature 2 abstract tile assembly model it is
+known that there is a tile set to simulate any Turing machine and an
+intrinsically universal tile set that simulates the shapes and dynamics of any
+instance of the model up to spatial rescaling. It has been an open question as
+to whether the seemingly simpler noncooperative or temperature 1 model is
+capable of such behaviour. Here we show that this is not the case by showing
+that there is no tile set in the noncooperative model that is intrinsically
+universal nor one capable of time-bounded Turing machine simulation within a
+bounded region of the plane.
+  Although the noncooperative model intuitively seems to lack the complexity
+and power of the cooperative model it has been exceedingly hard to prove this.
+One reason is that there have been few tools to analyse the structure of
+complicated paths in the plane. This paper provides a number of such tools. A
+second reason is that almost every obvious and small generalisation to the
+model (e.g. allowing error 3D non-square tiles signals/wires on tiles tiles
+that repel each other parallel synchronous growth) endows it with great
+computational and sometimes simulation power. Our main results show that all
+of these generalisations provably increase computational and/or simulation
+power. Our results hold for both deterministic and nondeterministic
+noncooperative systems. Our first main result stands in stark contrast with the
+fact that for both the cooperative tile assembly model and for 3D
+noncooperative tile assembly there are respective intrinsically universal
+tilesets. Our second main result gives a new technique (reduction to
+simulation) for proving negative results about computation in tile assembly.",Pierre-Étienne Meunier|Damien Woods,cs.CC|cs.CG|cs.DS
+2017-02-28T17:21:00Z,2017-01-31T06:00:59Z,http://arxiv.org/abs/1701.08925v1,http://arxiv.org/pdf/1701.08925v1,Generic Cospark of a Matrix Can Be Computed in Polynomial Time,"The cospark of a matrix is the cardinality of the sparsest vector in the
+column space of the matrix. Computing the cospark of a matrix is well known to
+be an NP hard problem. Given the sparsity pattern (i.e. the locations of the
+non-zero entries) of a matrix if the non-zero entries are drawn from
+independently distributed continuous probability distributions we prove that
+the cospark of the matrix equals with probability one to a particular number
+termed the generic cospark of the matrix. The generic cospark also equals to
+the maximum cospark of matrices consistent with the given sparsity pattern. We
+prove that the generic cospark of a matrix can be computed in polynomial time
+and offer an algorithm that achieves this.",Sichen Zhong|Yue Zhao,cs.IT|cs.CC|math.IT
+2017-02-28T17:21:00Z,2017-01-30T11:39:38Z,http://arxiv.org/abs/1701.08557v1,http://arxiv.org/pdf/1701.08557v1,"Thin circulant matrices and lower bounds on the complexity of some
+  Boolean operators","We prove a lower bound
+$\Omega\left(\frac{k+l}{k^2l^2}N^{2-\frac{k+l+2}{kl}}\right)$ on the maximal
+possible weight of a $(kl)$-free (that is free of all-ones $k\times l$
+submatrices) Boolean circulant $N \times N$ matrix. The bound is close to the
+known bound for the class of all $(kl)$-free matrices. As a consequence we
+obtain new bounds for several complexity measures of Boolean sums' systems and
+a lower bound $\Omega(N^2\log^{-6} N)$ on the monotone complexity of the
+Boolean convolution of order $N$.",M. I. Grinchuk|I. S. Sergeev,cs.CC
+2017-02-28T17:21:00Z,2017-01-27T16:37:45Z,http://arxiv.org/abs/1701.08108v1,http://arxiv.org/pdf/1701.08108v1,"Existence of Evolutionarily Stable Strategies Remains Hard to Decide for
+  a Wide Range of Payoff Values","The concept of an evolutionarily stable strategy (ESS) introduced by Smith
+and Price is a refinement of Nash equilibrium in 2-player symmetric games in
+order to explain counter-intuitive natural phenomena whose existence is not
+guaranteed in every game. The problem of deciding whether a game possesses an
+ESS has been shown to be $\Sigma_{2}^{P}$-complete by Conitzer using the
+preceding important work by Etessami and Lochbihler. The latter among other
+results proved that deciding the existence of ESS is both NP-hard and
+coNP-hard. In this paper we introduce a ""reduction robustness"" notion and we
+show that deciding the existence of an ESS remains coNP-hard for a wide range
+of games even if we arbitrarily perturb within some intervals the payoff values
+of the game under consideration. In contrast ESS exist almost surely for large
+games with random and independent payoffs chosen from the same distribution.",Themistoklis Melissourgos|Paul Spirakis,cs.CC|cs.GT|68Q01
+2017-02-28T17:21:00Z,2017-01-27T10:15:31Z,http://arxiv.org/abs/1701.07822v2,http://arxiv.org/pdf/1701.07822v2,An FPTAS for the parametric knapsack problem,"In this paper we investigate the parametric knapsack problem in which the
+item profits are affine functions depending on a real-valued parameter. The aim
+is to provide a solution for all values of the parameter. It is well-known that
+any exact algorithm for the problem may need to output an exponential number of
+knapsack solutions. We present a fully polynomial-time approximation scheme
+(FPTAS) for the problem that for any desired precision $\varepsilon \in
+(01)$ computes $(1-\varepsilon)$-approximate solutions for all values of the
+parameter. This is the first FPTAS for the parametric knapsack problem that
+does not require the slopes and intercepts of the affine functions to be
+non-negative but works for arbitrary integral values. Our FPTAS outputs
+$\mathcal{O}(\frac{n^2}{\varepsilon})$ knapsack solutions and runs in strongly
+polynomial-time $\mathcal{O}(\frac{n^4}{\varepsilon^2})$. Even for the special
+case of positive input data this is the first FPTAS with a strongly polynomial
+running time. We also show that this time bound can be further improved to
+$\mathcal{O}(\frac{n^2}{\varepsilon} \cdot A(n\varepsilon))$ where
+$A(n\varepsilon)$ denotes the running time of any FPTAS for the traditional
+(non-parametric) knapsack problem.",Michael Holzhauser|Sven O. Krumke,cs.DS|cs.CC|math.OC
+2017-02-28T17:21:00Z,2017-01-24T17:13:26Z,http://arxiv.org/abs/1701.06985v1,http://arxiv.org/pdf/1701.06985v1,"Fine-Grained Parameterized Complexity Analysis of Graph Coloring
+  Problems","The $q$-Coloring problem asks whether the vertices of a graph can be properly
+colored with $q$ colors. Lokshtanov et al. [SODA 2011] showed that $q$-Coloring
+on graphs with a feedback vertex set of size $k$ cannot be solved in time
+$\mathcal{O}^*((q-\varepsilon)^k)$ for any $\varepsilon > 0$ unless the
+Strong Exponential-Time Hypothesis (SETH) fails. In this paper we perform a
+fine-grained analysis of the complexity of $q$-Coloring with respect to a
+hierarchy of parameters. We show that even when parameterized by the vertex
+cover number $q$ must appear in the base of the exponent: Unless ETH fails
+there is no universal constant $\theta$ such that $q$-Coloring parameterized by
+vertex cover can be solved in time $\mathcal{O}^*(\theta^k)$ for all fixed $q$.
+We apply a method due to Jansen and Kratsch [Inform. & Comput. 2013] to prove
+that there are $\mathcal{O}^*((q - \varepsilon)^k)$ time algorithms where $k$
+is the vertex deletion distance to several graph classes $\mathcal{F}$ for
+which $q$-Coloring is known to be solvable in polynomial time. We generalize
+earlier ad-hoc results by showing that if $\mathcal{F}$ is a class of graphs
+whose $(q+1)$-colorable members have bounded treedepth then there exists some
+$\varepsilon > 0$ such that $q$-Coloring can be solved in time
+$\mathcal{O}^*((q-\varepsilon)^k)$ when parameterized by the size of a given
+modulator to $\mathcal{F}$. In contrast we prove that if $\mathcal{F}$ is the
+class of paths - some of the simplest graphs of unbounded treedepth - then no
+such algorithm can exist unless SETH fails.",Lars Jaffke|Bart M. P. Jansen,"cs.DS|cs.CC|05C85, 68Q25|F.2.2; G.2.2"
+2017-02-28T17:21:00Z,2017-01-24T15:46:34Z,http://arxiv.org/abs/1701.06942v1,http://arxiv.org/pdf/1701.06942v1,Optimal one-shot quantum algorithm for EQUALITY and AND,"We study the computation complexity of Boolean functions in the quantum black
+box model. In this model our task is to compute a function
+$f:\{01\}\to\{01\}$ on an input $x\in\{01\}^n$ that can be accessed by
+querying the black box. Quantum algorithms are inherently probabilistic; we are
+interested in the lowest possible probability that the algorithm outputs
+incorrect answer (the error probability) for a fixed number of queries. We show
+that the lowest possible error probability for $AND_n$ and $EQUALITY_{n+1}$ is
+$1/2-n/(n^2+1)$.",Andris Ambainis|Janis Iraids,quant-ph|cs.CC
+2017-02-28T17:21:04Z,2017-01-24T10:53:07Z,http://arxiv.org/abs/1701.06806v1,http://arxiv.org/pdf/1701.06806v1,A Survey of Quantum Learning Theory,"This paper surveys quantum learning theory: the theoretical aspects of
+machine learning using quantum computers. We describe the main results known
+for three models of learning: exact learning from membership queries and
+Probably Approximately Correct (PAC) and agnostic learning from classical or
+quantum examples.",Srinivasan Arunachalam|Ronald de Wolf,quant-ph|cs.CC|cs.LG
+2017-02-28T17:21:04Z,2017-01-23T21:34:56Z,http://arxiv.org/abs/1701.06639v1,http://arxiv.org/pdf/1701.06639v1,On the complexity of generalized chromatic polynomials,"J. Makowsky and B. Zilber (2004) showed that many variations of graph
+colorings called CP-colorings in the sequel give rise to graph polynomials.
+This is true in particular for harmonious colorings convex colorings
+mcc_t-colorings and rainbow colorings and many more. N. Linial (1986) showed
+that the chromatic polynomial $\chi(G;X)$ is #P-hard to evaluate for all but
+three values X=012 where evaluation is in P. This dichotomy includes
+evaluation at real or complex values and has the further property that the set
+of points for which evaluation is in P is finite. We investigate how the
+complexity of evaluating univariate graph polynomials that arise from
+CP-colorings varies for different evaluation points. We show that for some
+CP-colorings (harmonious convex) the complexity of evaluation follows a
+similar pattern to the chromatic polynomial. However in other cases (proper
+edge colorings mcc_t-colorings H-free colorings) we could only obtain a
+dichotomy for evaluations at non-negative integer points. We also discuss some
+CP-colorings where we only have very partial results.",A. Goodall|M. Hermann|T. Kotek|J. A. Makowsky|S. D. Noble,"math.CO|cs.CC|05C15, 05C31, 05C85, 68Q17, 68W05"
+2017-02-28T17:21:04Z,2017-01-23T13:46:59Z,http://arxiv.org/abs/1701.06386v1,http://arxiv.org/pdf/1701.06386v1,"A Structured View on Weighted Counting with Relations to Counting
+  Quantum Computation and Applications","Weighted counting problems are a natural generalization of counting problems
+where a weight is associated with every computational path of non-deterministic
+Turing machines and the goal is to compute the sum of the weights of all paths
+(instead of just computing the number of accepting paths). Many useful closure
+properties and plenty of applications make weighted counting problems
+interesting. The general definition of these problems captures even undecidable
+problems but it turns out that obtaining an exponentially small additive
+approximation is just as hard as solving conventional counting problems. In
+many cases such an approximation is sufficient and working with weighted
+counting problems tends to be very convenient.
+  We present a structured view on weighted counting by defining classes that
+depend on the range of the function that assigns weights to paths and by
+showing the relationships between these different classes. These classes
+constitute generalizations of the usual counting problems. Weighted counting
+allows us to easily cast a number of famous results of computational complexity
+in its terms especially regarding counting and quantum computation. Moreover
+these classes are flexible enough and capture the complexity of various
+problems in fields such as probabilistic graphical models and stochastic
+combinatorial optimization. Using the weighted counting terminology and our
+results we are able to greatly simplify and answer some open questions in
+those fields.",Cassio P. de Campos|Georgios Stamoulis|Dennis Weyland,cs.CC
+2017-02-28T17:21:04Z,2017-01-23T05:38:55Z,http://arxiv.org/abs/1701.06268v1,http://arxiv.org/pdf/1701.06268v1,On polynomial approximations over $\mathbb{Z}/2^k\mathbb{Z}$,"We study approximation of Boolean functions by low-degree polynomials over
+the ring $\mathbb{Z}/2^k\mathbb{Z}$. More precisely given a Boolean function
+$F:\{01\}^n \rightarrow \{01\}$ define its $k$-lift to be $F_k:\{01\}^n
+\rightarrow \{02^{k-1}\}$ by $F_k(x) = 2^{k-F(x)} \pmod {2^k}$. We consider
+the fractional agreement (which we refer to as $\gamma_{dk}(F)$) of $F_k$ with
+degree $d$ polynomials from $\mathbb{Z}/2^k\mathbb{Z}[x_1\ldotsx_n]$. Our
+results are the following:
+  - Increasing $k$ can help: We observe that as $k$ increases
+$\gamma_{dk}(F)$ cannot decrease. We give two kinds of examples where
+$\gamma_{dk}(F)$ actually increases. The first is an infinite family of
+functions $F$ such that $\gamma_{2d2}(F) - \gamma_{3d-11}(F) \geq \Omega(1)$.
+The second is an infinite family of functions $F$ such that
+$\gamma_{d1}(F)\leq\frac{1}{2}+o(1)$ -- as small as possible -- but
+$\gamma_{d3}(F) \geq \frac{1}{2}+\Omega(1)$.
+  - Increasing $k$ doesn't always help: Adapting a proof of Green [Comput.
+Complexity 9(1):16-38 2000] we show that irrespective of the value of $k$
+the Majority function $\mathrm{Maj}_n$ satisfies $\gamma_{dk}(\mathrm{Maj}_n)
+\leq \frac{1}{2}+\frac{O(d)}{\sqrt{n}}$. In other words polynomials over
+$\mathbb{Z}/2^k\mathbb{Z}$ for large $k$ do not approximate the majority
+function any better than polynomials over $\mathbb{Z}/2\mathbb{Z}$.
+  We observe that the model we study subsumes the model of non-classical
+polynomials in the sense that proving bounds in our model implies bounds on the
+agreement of non-classical polynomials with Boolean functions. In particular
+our results answer questions raised by Bhowmick and Lovett [In Proc. 30th
+Computational Complexity Conf. pages 72-87 2015] that ask whether
+non-classical polynomials approximate Boolean functions better than classical
+polynomials of the same degree.",Abhishek Bhrushundi|Prahladh Harsha|Srikanth Srinivasan,cs.CC|68Qxx|F.0
+2017-02-28T17:21:04Z,2017-02-16T14:51:36Z,http://arxiv.org/abs/1701.06064v2,http://arxiv.org/pdf/1701.06064v2,"On Recoverable and Two-Stage Robust Selection Problems with Budgeted
+  Uncertainty","In this paper the problem of selecting $p$ out of $n$ available items is
+discussed such that their total cost is minimized. We assume that costs are
+not known exactly but stem from a set of possible outcomes.
+  Robust recoverable and two-stage models of this selection problem are
+analyzed. In the two-stage problem up to $p$ items is chosen in the first
+stage and the solution is completed once the scenario becomes revealed in the
+second stage. In the recoverable problem a set of $p$ items is selected in the
+first stage and can be modified by exchanging up to $k$ items in the second
+stage after a scenario reveals.
+  We assume that uncertain costs are modeled through bounded uncertainty sets
+i.e. the interval uncertainty sets with an additional linear (budget)
+constraint in their discrete and continuous variants. Polynomial algorithms
+for recoverable and two-stage selection problems with continuous bounded
+uncertainty and compact mixed integer formulations in the case of discrete
+bounded uncertainty are constructed.",André Chassein|Marc Goerigk|Adam Kasperski|Paweł Zieliński,math.OC|cs.CC|cs.DS
+2017-02-28T17:21:04Z,2017-02-06T22:18:32Z,http://arxiv.org/abs/1701.05955v2,http://arxiv.org/pdf/1701.05955v2,"Polar Coding for Achieving the Capacity of Marginal Channels in
+  Nonbinary-Input Setting","Achieving information-theoretic security using explicit coding scheme in
+which unlimited computational power for eavesdropper is assumed is one of the
+main topics is security consideration. It is shown that polar codes are
+capacity achieving codes and have a low complexity in encoding and decoding. It
+has been proven that polar codes reach to secrecy capacity in the binary-input
+wiretap channels in symmetric settings for which the wiretapper's channel is
+degraded with respect to the main channel. The first task of this paper is to
+propose a coding scheme to achieve secrecy capacity in asymmetric
+nonbinary-input channels while keeping reliability and security conditions
+satisfied. Our assumption is that the wiretap channel is stochastically
+degraded with respect to the main channel and message distribution is
+unspecified. The main idea is to send information set over good channels for
+Bob and bad channels for Eve and send random symbols for channels that are good
+for both. In this scheme the frozen vector is defined over all possible choices
+using polar codes ensemble concept. We proved that there exists a frozen vector
+for which the coding scheme satisfies reliability and security conditions. It
+is further shown that uniform distribution of the message is the necessary
+condition for achieving secrecy capacity.",Amirsina Torfi|Sobhan Soleymani|Seyed Mehdi Iranmanesh|Hadi Kazemi|Rouzbeh Asghari Shirvani|Vahid Tabataba Vakili,cs.IT|cs.CC|cs.CR|math.IT
+2017-02-28T17:21:04Z,2017-01-19T16:05:48Z,http://arxiv.org/abs/1701.05492v1,http://arxiv.org/pdf/1701.05492v1,"The minimum conflict-free row split problem revisited: a branching
+  formulation and (in)approximability issues","Motivated by applications in cancer genomics and following the work of
+Hajirasouliha and Raphael (WABI 2014) Hujdurovi\'{c} et al. (WABI 2015 full
+version to appear in IEEE TCBB) introduced the minimum conflict-free row split
+(MCRS) problem: split each row of a given binary matrix into a bitwise OR of a
+set of rows so that the resulting matrix corresponds to a perfect phylogeny and
+has the minimum number of rows among all matrices with this property.
+Hajirasouliha and Raphael also proposed the study of a similar problem
+referred to as the minimum distinct conflict-free row split (MDCRS) problem in
+which the task is to minimize the number of distinct rows of the resulting
+matrix. Hujdurovi\'{c} et al. proved that both problems are NP-hard gave a
+related characterization of transitively orientable graphs and proposed a
+polynomial time heuristic algorithm for the MCRS problem based on coloring
+cocomparability graphs.
+  We give new formulations of the two problems showing that the problems are
+equivalent to two optimization problems on branchings in a derived directed
+acyclic graph. Building on these formulations we obtain new results on the two
+problems including: (i) a strengthening of the heuristic by Hujdurovi\'{c} et
+al. via a new min-max result in digraphs generalizing Dilworth's theorem (ii)
+APX-hardness results for both problems (iii) two approximation algorithms for
+the MCRS problem and (iv) a 2-approximation algorithm for the MDCRS problem.
+The branching formulations also lead to exact exponential time algorithms for
+solving the two problems to optimality faster than the na\""ive brute-force
+approach.",Ademir Hujdurović|Edin Husić|Martin Milanič|Romeo Rizzi|Alexandru I. Tomescu,cs.DM|cs.CC|cs.DS|math.CO|q-bio.PE
+2017-02-28T17:21:04Z,2017-01-30T15:37:00Z,http://arxiv.org/abs/1701.05382v2,http://arxiv.org/pdf/1701.05382v2,The Power of Non-Determinism in Higher-Order Implicit Complexity,"We investigate the power of non-determinism in purely functional programming
+languages with higher-order types. Specifically we consider cons-free programs
+of varying data orders equipped with explicit non-deterministic choice.
+Cons-freeness roughly means that data constructors cannot occur in function
+bodies and all manipulation of storage space thus has to happen indirectly
+using the call stack.
+  While cons-free programs have previously been used by several authors to
+characterise complexity classes the work on non-deterministic programs has
+almost exclusively considered programs of data order 0. Previous work has shown
+that adding explicit non-determinism to cons-free programs taking data of order
+0 does not increase expressivity; we prove that this - dramatically - is not
+the case for higher data orders: adding non-determinism to programs with data
+order at least 1 allows for a characterisation of the entire class of
+elementary-time decidable sets.
+  Finally we show how even with non-deterministic choice the original
+hierarchy of characterisations is restored by imposing different restrictions.",Cynthia Kop|Jakob Grue Simonsen,cs.CC|cs.LO
+2017-02-28T17:21:04Z,2017-01-19T11:34:17Z,http://arxiv.org/abs/1701.05378v1,http://arxiv.org/pdf/1701.05378v1,"Efficient Implementation Of Newton-Raphson Methods For Sequential Data
+  Prediction","We investigate the problem of sequential linear data prediction for real life
+big data applications. The second order algorithms i.e. Newton-Raphson
+Methods asymptotically achieve the performance of the ""best"" possible linear
+data predictor much faster compared to the first order algorithms e.g. Online
+Gradient Descent. However implementation of these methods is not usually
+feasible in big data applications because of the extremely high computational
+needs. Regular implementation of the Newton-Raphson Methods requires a
+computational complexity in the order of $O(M^2)$ for an $M$ dimensional
+feature vector while the first order algorithms need only $O(M)$. To this end
+in order to eliminate this gap we introduce a highly efficient implementation
+reducing the computational complexity of the Newton-Raphson Methods from
+quadratic to linear scale. The presented algorithm provides the well-known
+merits of the second order methods while offering the computational complexity
+of $O(M)$. We utilize the shifted nature of the consecutive feature vectors and
+do not rely on any statistical assumptions. Therefore both regular and fast
+implementations achieve the same performance in the sense of mean square error.
+We demonstrate the computational efficiency of our algorithm on real life
+sequential big datasets. We also illustrate that the presented algorithm is
+numerically stable.",Burak C. Civek|Suleyman S. Kozat,cs.DS|cs.CC|cs.NA
+2017-02-28T17:21:04Z,2017-01-19T08:33:31Z,http://arxiv.org/abs/1701.05328v1,http://arxiv.org/pdf/1701.05328v1,"Succinct Hitting Sets and Barriers to Proving Algebraic Circuits Lower
+  Bounds","We formalize a framework of algebraically natural lower bounds for algebraic
+circuits. Just as with the natural proofs notion of Razborov and Rudich for
+boolean circuit lower bounds our notion of algebraically natural lower bounds
+captures nearly all lower bound techniques known. However unlike the boolean
+setting there has been no concrete evidence demonstrating that this is a
+barrier to obtaining super-polynomial lower bounds for general algebraic
+circuits as there is little understanding whether algebraic circuits are
+expressive enough to support ""cryptography"" secure against algebraic circuits.
+  Following a similar result of Williams in the boolean setting we show that
+the existence of an algebraic natural proofs barrier is equivalent to the
+existence of succinct derandomization of the polynomial identity testing
+problem. That is whether the coefficient vectors of polylog(N)-degree
+polylog(N)-size circuits is a hitting set for the class of poly(N)-degree
+poly(N)-size circuits. Further we give an explicit universal construction
+showing that if such a succinct hitting set exists then our universal
+construction suffices.
+  Further we assess the existing literature constructing hitting sets for
+restricted classes of algebraic circuits and observe that none of them are
+succinct as given. Yet we show how to modify some of these constructions to
+obtain succinct hitting sets. This constitutes the first evidence supporting
+the existence of an algebraic natural proofs barrier.
+  Our framework is similar to the Geometric Complexity Theory (GCT) program of
+Mulmuley and Sohoni except that here we emphasize constructiveness of the
+proofs while the GCT program emphasizes symmetry. Nevertheless our succinct
+hitting sets have relevance to the GCT program as they imply lower bounds for
+the complexity of the defining equations of polynomials computed by small
+circuits.",Michael A. Forbes|Amir Shpilka|Ben Lee Volk,cs.CC
+2017-02-28T17:21:08Z,2017-01-17T03:45:13Z,http://arxiv.org/abs/1701.04522v1,http://arxiv.org/abs/1701.04522v1,Proceedings Fourth International Workshop on Linearity,"This volume contains the papers presented at LINEARITY 2016 the Fourth
+International Workshop on Linearity held on June 26 2016 in Porto Portugal.
+The workshop was a one-day satellite event of FSCD 2016 the first
+International Conference on Formal Structures for Computation and Deduction.
+  The aim of this workshop was to bring together researchers who are developing
+theory and applications of linear calculi to foster their interaction and
+provide a forum for presenting new ideas and work in progress and enable
+newcomers to learn about current activities in this area. Of interest were new
+results that made a central use of linearity ranging from foundational work to
+applications in any field. This included: sub-linear logics linear term
+calculi linear type systems linear proof-theory linear programming
+languages applications to concurrency interaction-based systems verification
+of linear systems and biological and chemical models of computation.",Iliano Cervesato|Maribel Fernández,cs.LO|cs.CC|cs.PL
+2017-02-28T17:21:08Z,2017-01-17T03:36:34Z,http://arxiv.org/abs/1701.04521v1,http://arxiv.org/pdf/1701.04521v1,Sum of squares lower bounds for refuting any CSP,"Let $P:\{01\}^k \to \{01\}$ be a nontrivial $k$-ary predicate. Consider a
+random instance of the constraint satisfaction problem $\mathrm{CSP}(P)$ on $n$
+variables with $\Delta n$ constraints each being $P$ applied to $k$ randomly
+chosen literals. Provided the constraint density satisfies $\Delta \gg 1$ such
+an instance is unsatisfiable with high probability. The \emph{refutation}
+problem is to efficiently find a proof of unsatisfiability.
+  We show that whenever the predicate $P$ supports a $t$-\emph{wise uniform}
+probability distribution on its satisfying assignments the sum of squares
+(SOS) algorithm of degree $d = \Theta(\frac{n}{\Delta^{2/(t-1)} \log \Delta})$
+(which runs in time $n^{O(d)}$) \emph{cannot} refute a random instance of
+$\mathrm{CSP}(P)$. In particular the polynomial-time SOS algorithm requires
+$\widetilde{\Omega}(n^{(t+1)/2})$ constraints to refute random instances of
+CSP$(P)$ when $P$ supports a $t$-wise uniform distribution on its satisfying
+assignments. Together with recent work of Lee et al. [LRS15] our result also
+implies that \emph{any} polynomial-size semidefinite programming relaxation for
+refutation requires at least $\widetilde{\Omega}(n^{(t+1)/2})$ constraints.
+  Our results (which also extend with no change to CSPs over larger alphabets)
+subsume all previously known lower bounds for semialgebraic refutation of
+random CSPs. For every constraint predicate~$P$ they give a three-way hardness
+tradeoff between the density of constraints the SOS degree (hence running
+time) and the strength of the refutation. By recent algorithmic results of
+Allen et al. [AOW15] and Raghavendra et al. [RRS16] this full three-way
+tradeoff is \emph{tight} up to lower-order factors.",Pravesh K. Kothari|Ryuhei Mori|Ryan O'Donnell|David Witmer,cs.CC|68Q17|G.1.6; F.4.1
+2017-02-28T17:21:08Z,2017-01-16T19:20:42Z,http://arxiv.org/abs/1701.04428v1,http://arxiv.org/pdf/1701.04428v1,"Some Results on Circuit Lower Bounds and Derandomization of
+  Arthur-Merlin Problems","We prove a downward separation for $\mathsf{\Sigma}_2$-time classes.
+Specifically we prove that if $\Sigma_2$E does not have polynomial size
+non-deterministic circuits then $\Sigma_2$SubEXP does not have \textit{fixed}
+polynomial size non-deterministic circuits. To achieve this result we use
+Santhanam's technique on augmented Arthur-Merlin protocols defined by
+Aydinlio\u{g}lu and van Melkebeek. We show that augmented Arthur-Merlin
+protocols with one bit of advice do not have fixed polynomial size
+non-deterministic circuits. We also prove a weak unconditional derandomization
+of a certain type of promise Arthur-Merlin protocols. Using Williams' easy
+hitting set technique we show that $\Sigma_2$-promise AM problems can be
+decided in $\Sigma_2$SubEXP with $n^c$ advice for some fixed constant $c$.",D. M. Stull,cs.CC
+2017-02-28T17:21:08Z,2017-01-16T15:59:40Z,http://arxiv.org/abs/1701.04341v1,http://arxiv.org/pdf/1701.04341v1,On Bezout Inequalities for non-homogeneous Polynomial Ideals,"We introduce a ""workable"" notion of degree for non-homogeneous polynomial
+ideals and formulate and prove ideal theoretic B\'ezout Inequalities for the
+sum of two ideals in terms of this notion of degree and the degree of
+generators. We compute probabilistically the degree of an equidimensional
+ideal.",Amir Hashemi|Joos Heintz|Luis Miguel Pardo|Pablo Solernó,"cs.SC|cs.CC|math.AC|math.AG|13F20, 14A10, 13P10"
+2017-02-28T17:21:08Z,2017-01-15T20:43:11Z,http://arxiv.org/abs/1701.04108v1,http://arxiv.org/pdf/1701.04108v1,Dimension Spectra of Lines,"This paper investigates the algorithmic dimension spectra of lines in the
+Euclidean plane. Given any line L with slope a and vertical intercept b the
+dimension spectrum sp(L) is the set of all effective Hausdorff dimensions of
+individual points on L. We draw on Kolmogorov complexity and geometrical
+arguments to show that if the effective Hausdorff dimension dim(a b) is equal
+to the effective packing dimension Dim(a b) then sp(L) contains a unit
+interval. We also show that if the dimension dim(a b) is at least one then
+sp(L) is infinite. Together with previous work this implies that the dimension
+spectrum of any line is infinite.",Neil Lutz|D. M. Stull,cs.CC
+2017-02-28T17:21:08Z,2017-01-15T17:54:19Z,http://arxiv.org/abs/1701.04086v1,http://arxiv.org/pdf/1701.04086v1,The complexity of quantified constraints,"Let A be an idempotent algebra on a finite domain. We combine results of Chen
+and Zhuk to argue that if Inv(A) satisfies the polynomially generated powers
+property (PGP) then QCSP(Inv(A)) is in NP. We then use the result of Zhuk to
+prove a converse that if Inv(A) satisfies the exponentially generated powers
+property (EGP) then QCSP(Inv(A)) is co-NP-hard. Since Zhuk proved that only
+PGP and EGP are possible we derive a full dichotomy for the QCSP justifying
+the moral correctness of what we term the Chen Conjecture.
+  We examine in closer detail the situation for domains of size three. Over any
+finite domain the only type of PGP that can occur is switchability.
+Switchability was introduced by Chen as a generalisation of the already-known
+Collapsibility. For three-element domain algebras A that are Switchable we
+prove that for every finite subset Delta of Inv(A) Pol(Delta) is Collapsible.
+The significance of this is that for QCSP on finite structures (over
+three-element domain) all QCSP tractability explained by Switchability is
+already explained by Collapsibility.
+  Next we present a three-element domain complexity classification vignette
+using known as well as derived results.",Catarina Carvalho|Barnaby Martin|Dmitriy Zhuk,cs.LO|cs.CC
+2017-02-28T17:21:08Z,2017-01-15T04:07:40Z,http://arxiv.org/abs/1701.03990v1,http://arxiv.org/pdf/1701.03990v1,Quantum algorithm for multivariate polynomial interpolation,"How many quantum queries are required to determine the coefficients of a
+degree-$d$ polynomial in $n$ variables? We present and analyze quantum
+algorithms for this multivariate polynomial interpolation problem over the
+fields $\mathbb{F}_q$ $\mathbb{R}$ and $\mathbb{C}$. We show that
+$k_{\mathbb{C}}$ and $2k_{\mathbb{C}}$ queries suffice to achieve probability
+$1$ for $\mathbb{C}$ and $\mathbb{R}$ respectively where
+$k_{\mathbb{C}}=\smash{\lceil\frac{1}{n+1}{n+d\choose d}\rceil}$ except for
+$d=2$ and four other special cases. For $\mathbb{F}_q$ we show that
+$\smash{\lceil\frac{d}{n+d}{n+d\choose d}\rceil}$ queries suffice to achieve
+probability approaching $1$ for large field order $q$. The classical query
+complexity of this problem is $\smash{n+d\choose d}$ so our result provides a
+speedup by a factor of $n+1$ $\frac{n+1}{2}$ and $\frac{n+d}{d}$ for
+$\mathbb{C}$ $\mathbb{R}$ and $\mathbb{F}_q$ respectively. Thus we find a
+much larger gap between classical and quantum algorithms than the univariate
+case where the speedup is by a factor of $2$. For the case of $\mathbb{F}_q$
+we conjecture that $2k_{\mathbb{C}}$ queries also suffice to achieve
+probability approaching $1$ for large field order $q$ although we leave this
+as an open problem.",Jianxin Chen|Andrew M. Childs|Shih-Han Hung,quant-ph|cs.CC|cs.DS
+2017-02-28T17:21:08Z,2017-01-12T10:51:33Z,http://arxiv.org/abs/1701.03297v1,http://arxiv.org/pdf/1701.03297v1,"Solutions of twisted word equations EDT0L languages and context-free
+  groups","We prove that the set of all solutions for twisted word equations with
+regular constraints is an EDT0L language and can be computed in PSPACE. It
+follows that the set of solutions to equations with rational constraints in a
+context-free group (= finitely generated virtually free group) in reduced
+normal forms is EDT0L. We can also decide (in PSPACE) whether or not the
+solution set is finite which was an open problem. Our results generalize the
+work by Lohrey and S{\'e}nizergues (ICALP 2006) and Dahmani and Guirardel (J.
+of Topology 2010) with respect to complexity and with respect to expressive
+power. Neither paper gave any concrete complexity bound and both rely on the
+exponent of periodicity so the result in these papers concern only subsets of
+solutions whereas our results concern all solutions. We do more we give in
+some sense the ""optimal"" formal language characterization of the full solution
+set.",Volker Diekert|Murray Elder,"math.GR|cs.CC|cs.FL|cs.LO|03D05, 20F65, 20F70, 68Q25, 68Q45"
+2017-02-28T17:21:08Z,2017-01-12T06:47:46Z,http://arxiv.org/abs/1701.03255v1,http://arxiv.org/abs/1701.03255v1,On the Complexity of L-reachability,"We initiate a complexity theoretic study of the language based graph
+reachability problem (L-REACH) : Fix a language L. Given a graph whose edges
+are labeled with alphabet symbols of the language L and two special vertices s
+and t test if there is path P from s to t in the graph such that the
+concatenation of the symbols seen from s to t in the path P forms a string in
+the language L. We study variants of this problem with different graph classes
+and different language classes and obtain complexity theoretic
+characterizations for all of them. Our main results are the following:
+1.Restricting the language using formal language theory we show that the
+complexity of L-REACH increases with the power of the formal language class. We
+show that there is a regular language for which the L-REACH is NL-complete even
+for undirected graphs. In the case of linear languages the complexity of
+L-REACH does not go beyond the complexity of L itself. Further there is a
+deterministic context-free language L for which L-DAGREACH is LogCFL-complete.
+2.We use L-REACH as a lens to study structural complexity. In this direction we
+show that there is a language A in TC0 for which A-DAGREACH is NP-complete.
+Using this we show that P vs NP question is equivalent to P vs DAGREACH-1(P)
+question. This leads to the intriguing possibility that by proving
+DAGREACH-1(P) is contained in some subclass of P we can prove an upward
+translation of separation of complexity classes. Note that we do not know a way
+to upward translate the separation of complexity classes.",Balagopal Komarath|Jayalal Sarma|K. S. Sunil,cs.CC
+2017-02-28T17:21:08Z,2017-01-11T14:57:30Z,http://arxiv.org/abs/1701.02996v1,http://arxiv.org/pdf/1701.02996v1,Reachability in Augmented Interval Markov Chains,"In this paper we propose augmented interval Markov chains (AIMCs): a
+generalisation of the familiar interval Markov chains (IMCs) where uncertain
+transition probabilities are in addition allowed to depend on one another. This
+new model preserves the flexibility afforded by IMCs for describing stochastic
+systems where the parameters are unclear for example due to measurement error
+but also allows us to specify transitions with probabilities known to be
+identical thereby lending further expressivity.
+  The focus of this paper is reachability in AIMCs. We study the qualitative
+exact quantitative and approximate reachability problem as well as natural
+subproblems thereof and establish several upper and lower bounds for their
+complexity. We prove the exact reachability problem is at least as hard as the
+famous square-root sum problem but encouragingly the approximate version
+lies in $\mathbf{NP}$ if the underlying graph is known whilst the restriction
+of the exact problem to a constant number of uncertain edges is in
+$\mathbf{P}$. Finally we show that uncertainty in the graph structure affects
+complexity by proving $\mathbf{NP}$-completeness for the qualitative
+subproblem in contrast with an easily-obtained upper bound of $\mathbf{P}$ for
+the same subproblem with known graph structure.",Ventsislav Chonev,cs.CC|cs.DM|cs.LO
+2017-02-28T17:21:11Z,2017-01-10T19:40:09Z,http://arxiv.org/abs/1701.02764v1,http://arxiv.org/pdf/1701.02764v1,Column subset selection is NP-complete,"Let $M$ be a real $r\times c$ matrix and let $k$ be a positive integer. In
+the column subset selection problem (CSSP) we need to minimize the quantity
+$\|M-SA\|$ where $A$ can be an arbitrary $k\times c$ matrix and $S$ runs over
+all $r\times k$ submatrices of $M$. This problem and its applications in
+numerical linear algebra are being discussed for several decades but its
+algorithmic complexity remained an open issue. We show that CSSP is
+NP-complete.",Yaroslav Shitov,math.CO|cs.CC|cs.DS
+2017-02-28T17:21:11Z,2017-02-21T03:09:48Z,http://arxiv.org/abs/1701.02409v2,http://arxiv.org/pdf/1701.02409v2,Dichotomy for Digraph Homomorphism Problems,"We consider the problem of finding a homomorphism from an input digraph G to
+a fixed digraph H. We show that if H admits a weak-near-unanimity polymorphism
+$\phi$ then deciding whether G admits a homomorphism to H (HOM(H)) is
+polynomial time solvable. This confirms the conjecture of Bulatov Jeavons and
+Krokhin in the form postulated by Maroti and McKenzie and consequently
+implies the validity of the celebrated dichotomy conjecture due to Feder and
+Vardi. We transform the problem into an instance of the list homomorphism
+problem where initially all the lists are full (contain all the vertices of H).
+Then we use the polymorphism $\phi$ as a guide to reduce the lists to singleton
+lists which yields a homomorphism if one exists.",Arash Rafiey|Jeff Kinne|Tomás Feder,cs.CC|cs.DS
+2017-02-28T17:21:11Z,2017-01-10T01:16:14Z,http://arxiv.org/abs/1701.02401v1,http://arxiv.org/pdf/1701.02401v1,A Linear Algebra Formulation for Boolean Satisfiability Testing,"Boolean satisfiability (SAT) is a fundamental problem in computer science
+which is one of the first proven $\mathbf{NP}$-complete problems. Although
+there is no known theoretically polynomial time algorithm for SAT many
+heuristic SAT methods have been developed for practical problems. For the sake
+of efficiency various techniques were explored from discrete to continuous
+methods from sequential to parallel programmings from constrained to
+unconstrained optimizations from deterministic to stochastic studies. Anyway
+showing the unsatisfiability is a main difficulty in certain sense of finding
+an efficient algorithm for SAT. To address the difficulty this article
+presents a linear algebra formulation for unsatisfiability testing which is a
+procedure dramatically different from DPLL. Somehow it gives an affirmative
+answer to an open question by Kautz and Selman in their article ""The State of
+SAT"". The new approach could provide a chance to disprove satisfiability
+efficiently by resorting to a linear system having no solution if the
+investigated formula is unsatisfiable. Theoretically the method can be applied
+to test arbitrary formula in polynomial time. We are not unclear whether it can
+also show satisfiability efficiently in the same way. If so
+$\mathbf{NP}=\mathbf{P}$. Whatever our novel method is able to deliver a
+definite result to uniquely positive $3$-SAT in polynomial time. To the best of
+our knowledge this constitutes the first polynomial time algorithm for such
+problem. Anyway the new formulation could provide a complementary choice to ad
+hoc methods for SAT problem.",Chengling Fang|Jiang Liu,cs.CC
+2017-02-28T17:21:11Z,2017-01-09T22:08:15Z,http://arxiv.org/abs/1701.02374v1,http://arxiv.org/pdf/1701.02374v1,On Rivest-Vuillemin Conjecture for Fourteen Variables,"A boolean function $f(x_1...x_n)$ is \textit{weakly symmetric} if it is
+invariant under a transitive permutation group on its variables. A boolean
+function $f(x_1...x_n)$ is \textit{elusive} if we have to check all
+$x_1$... $x_n$ to determine the output of $f(x_1...x_n)$ in the worst-case.
+It is conjectured that every nontrivial monotone weakly symmetric boolean
+function is elusive which has been open for a long time. In this paper we
+report that this conjecture is true for $n=14$.",Guangmo Tong|Weili Wu|Ding-Zhu Du,cs.CC
+2017-02-28T17:21:11Z,2017-01-09T17:42:12Z,http://arxiv.org/abs/1701.02274v1,http://arxiv.org/pdf/1701.02274v1,Bounded time computation on metric spaces and Banach spaces,"We extend the framework by Kawamura and Cook for investigating computational
+complexity for operators occurring in analysis. This model is based on
+second-order complexity theory for functions on the Baire space which is
+lifted to metric spaces by means of representations. Time is measured in terms
+of the length of the input encodings and the required output precision. We
+propose the notions of a complete representation and of a regular
+representation. We show that complete representations ensure that any
+computable function has a time bound. Regular representations generalize
+Kawamura and Cook's too restrictive notion of a second-order representation
+while still guaranteeing fast computability of the length of the encodings.
+Applying these notions we investigate the relationship between purely metric
+properties of a metric space and the existence of a representation such that
+the metric is computable within bounded time. We show that a bound on the
+running time of the metric can be straightforwardly translated into size bounds
+of compact subsets of the metric space. Conversely for compact spaces and for
+Banach spaces we construct a family of admissible complete regular
+representations that allow for fast computation of the metric and provide short
+encodings. Here it is necessary to trade the time bound off against the length
+of encodings.",Matthias Schröder|Florian Steinberg,cs.LO|cs.CC|math.FA
+2017-02-28T17:21:11Z,2017-01-09T14:17:28Z,http://arxiv.org/abs/1701.02188v1,http://arxiv.org/pdf/1701.02188v1,Surjective H-Colouring: New Hardness Results,"A homomorphism from a graph G to a graph H is a vertex mapping f from the
+vertex set of G to the vertex set of H such that there is an edge between
+vertices f(u) and f(v) of H whenever there is an edge between vertices u and v
+of G. The H-Colouring problem is to decide whether or not a graph G allows a
+homomorphism to a fixed graph H. We continue a study on a variant of this
+problem namely the Surjective H-Colouring problem which imposes the
+homomorphism to be vertex-surjective. We build upon previous results and show
+that this problem is NP-complete for every connected graph H that has exactly
+two vertices with a self-loop as long as these two vertices are not adjacent.
+As a result we can classify the computational complexity of Surjective
+H-Colouring for every graph H on at most four vertices.",Petr Golovach|Matthew Johnson. Barnaby Martin|Daniel Paulusma|Anthony Stewart,cs.CC|math.CO
+2017-02-28T17:21:11Z,2017-01-09T13:00:53Z,http://arxiv.org/abs/1701.02162v1,http://arxiv.org/pdf/1701.02162v1,Semialgebraic Invariant Synthesis for the Kannan-Lipton Orbit Problem,"The \emph{Orbit Problem} consists of determining given a linear
+transformation $A$ on $\mathbb{Q}^d$ together with vectors $x$ and $y$
+whether the orbit of $x$ under repeated applications of $A$ can ever reach $y$.
+This problem was famously shown to be decidable by Kannan and Lipton in the
+1980s.
+  In this paper we are concerned with the problem of synthesising suitable
+\emph{invariants} $\mathcal{P} \subseteq \mathbb{R}^d$ \emph{i.e.} sets that
+are stable under $A$ and contain $x$ and not $y$ thereby providing compact and
+versatile certificates of non-reachability. We show that whether a given
+instance of the Orbit Problem admits a semialgebraic invariant is decidable
+and moreover in positive instances we provide an algorithm to synthesise
+suitable invariants of polynomial size.
+  It is worth noting that the existence of \emph{semilinear} invariants on the
+other hand is (to the best of our knowledge) not known to be decidable.",Nathanaël Fijalkow|Pierre Ohlmann|Joël Ouaknine|Amaury Pouly|James Worrell,cs.CC|cs.LO|cs.SC|math.AG|math.NT
+2017-02-28T17:21:11Z,2017-01-09T04:40:02Z,http://arxiv.org/abs/1701.02062v1,http://arxiv.org/pdf/1701.02062v1,"The Flow of Information in Interactive Quantum Protocols: the Cost of
+  Forgetting","In the context of two-party interactive quantum communication protocols we
+study a recently defined notion of quantum information cost (QIC) which
+possesses most of the important properties of its classical analogue. Although
+this definition has the advantage to be valid for fully quantum inputs and
+tasks its interpretation for classical tasks remained rather obscure. Also
+the link between this new notion and other notions of information cost for
+quantum protocols that had previously appeared in the literature was not clear
+if existent at all.
+  We settle both these issues: for quantum communication with classical inputs
+we provide an alternate characterization of QIC in terms of information about
+the input registers avoiding any reference to the notion of a purification of
+the classical input state. We provide an exact operational interpretation of
+this alternative characterization as the sum of the cost of transmitting
+information about the classical inputs and the cost of forgetting information
+about these inputs. To obtain this characterization we prove a general lemma
+the Information Flow Lemma assessing exactly the transfer of information in
+general interactive quantum processes. Furthermore we clarify the link between
+QIC and IC of classical protocols by simulating quantumly classical protocols.
+  Finally we apply these concepts to argue that any quantum protocol that does
+not forget information solves Disjointness on n-bits in Omega (n)
+communication completely losing the quadratic quantum speedup. This provides a
+specific sense in which forgetting information is a necessary feature of
+interactive quantum protocols. We also apply these concepts to prove that QIC
+at zero-error is exactly n for the Inner Product function and n (1 - o(1)) for
+a random Boolean function on n+n bits.",Mathieu Lauriere|Dave Touchette,quant-ph|cs.CC|cs.IT|math.IT
+2017-02-28T17:21:11Z,2017-01-08T10:43:55Z,http://arxiv.org/abs/1701.01939v1,http://arxiv.org/pdf/1701.01939v1,On the Complexity of Restoring Corrupted Colorings,"In the \probrFix problem we are given a graph $G$ a (non-proper)
+vertex-coloring $c : V(G) \to [r]$ and a positive integer $k$. The goal is to
+decide whether a proper $r$-coloring $c'$ is obtainable from $c$ by recoloring
+at most $k$ vertices of $G$. Recently Junosza-Szaniawski Liedloff and
+Rz{\k{a}}{\.z}ewski [SOFSEM 2015] asked whether the problem has a polynomial
+kernel parameterized by the number of recolorings $k$. In a full version of the
+manuscript the authors together with Garnero and Montealegre answered the
+question in the negative: for every $r \geq 3$ the problem \probrFix does not
+admit a polynomial kernel unless $\NP \subseteq \coNP / \poly$. Independently
+of their work we give an alternative proof of the theorem. Furthermore we
+study the complexity of \probrFixSwap where the only difference from \probrFix
+is that instead of $k$ recolorings we have a budget of $k$ color swaps. We show
+that for every $r \geq 3$ the problem \probrFixSwap is $\W[1]$-hard whereas
+\probrFix is known to be FPT. Moreover when $r$ is part of the input we
+observe both \probFix and \probFixSwap are $\W[1]$-hard parameterized by
+treewidth. We also study promise variants of the problems where we are
+guaranteed that a proper $r$-coloring $c'$ is indeed obtainable from $c$ by
+some finite number of swaps. For instance we prove that for $r=3$ the
+problems \probrFixPromise and \probrFixSwapPromise are $\NP$-hard for planar
+graphs. As a consequence of our reduction the problems cannot be solved in
+$2^{o(\sqrt{n})}$ time unless the Exponential Time Hypothesis (ETH) fails.",Marzio De Biasi|Juho Lauri,cs.CC
+2017-02-28T17:21:11Z,2017-01-06T18:27:48Z,http://arxiv.org/abs/1701.01717v1,http://arxiv.org/pdf/1701.01717v1,"Towards an algebraic natural proofs barrier via polynomial identity
+  testing","We observe that a certain kind of algebraic proof - which covers essentially
+all known algebraic circuit lower bounds to date - cannot be used to prove
+lower bounds against VP if and only if what we call succinct hitting sets exist
+for VP. This is analogous to the Razborov-Rudich natural proofs barrier in
+Boolean circuit complexity in that we rule out a large class of lower bound
+techniques under a derandomization assumption. We also discuss connections
+between this algebraic natural proofs barrier geometric complexity theory and
+(algebraic) proof complexity.",Joshua A. Grochow|Mrinal Kumar|Michael Saks|Shubhangi Saraf,"cs.CC|math.AG|68Q15, 68Q17, 68W30, 14Q20|F.1.3; F.2.2"
+2017-02-28T17:21:15Z,2017-02-15T19:52:21Z,http://arxiv.org/abs/1701.01485v2,http://arxiv.org/pdf/1701.01485v2,Non interactive simulation of correlated distributions is decidable,"A basic problem in information theory is the following: Let $\mathbf{P} =
+(\mathbf{X} \mathbf{Y})$ be an arbitrary distribution where the marginals
+$\mathbf{X}$ and $\mathbf{Y}$ are (potentially) correlated. Let Alice and Bob
+be two players where Alice gets samples $\{x_i\}_{i \ge 1}$ and Bob gets
+samples $\{y_i\}_{i \ge 1}$ and for all $i$ $(x_i y_i) \sim \mathbf{P}$. What
+joint distributions $\mathbf{Q}$ can be simulated by Alice and Bob without any
+interaction?
+  Classical works in information theory by G{\'a}cs-K{\""o}rner and Wyner answer
+this question when at least one of $\mathbf{P}$ or $\mathbf{Q}$ is the
+distribution on $\{01\} \times \{01\}$ where each marginal is unbiased and
+identical. However other than this special case the answer to this question
+is understood in very few cases. Recently Ghazi Kamath and Sudan showed that
+this problem is decidable for $\mathbf{Q}$ supported on $\{01\} \times
+\{01\}$. We extend their result to $\mathbf{Q}$ supported on any finite
+alphabet.
+  We rely on recent results in Gaussian geometry (by the authors) as well as a
+new \emph{smoothing argument} inspired by the method of \emph{boosting} from
+learning theory and potential function arguments from complexity theory and
+additive combinatorics.",Anindya De|Elchanan Mossel|Joe Neeman,cs.CC|cs.IT|math.IT|math.PR
+2017-02-28T17:21:15Z,2017-02-15T19:46:36Z,http://arxiv.org/abs/1701.01483v2,http://arxiv.org/pdf/1701.01483v2,Noise Stability is computable and low dimensional,"Questions of noise stability play an important role in hardness of
+approximation in computer science as well as in the theory of voting. In many
+applications the goal is to find an optimizer of noise stability among all
+possible partitions of $\mathbb{R}^n$ for $n \geq 1$ to $k$ parts with given
+Gaussian measures $\mu_1\ldots\mu_k$. We call a partition $\epsilon$-optimal
+if its noise stability is optimal up to an additive $\epsilon$. In this paper
+we give an explicit computable function $n(\epsilon)$ such that an
+$\epsilon$-optimal partition exists in $\mathbb{R}^{n(\epsilon)}$. This result
+has implications for the computability of certain problems in non-interactive
+simulation which are addressed in a subsequent work.",Anindya De|Elchanan Mossel|Joe Neeman,math.PR|cs.CC
+2017-02-28T17:21:15Z,2017-01-05T19:48:01Z,http://arxiv.org/abs/1701.01461v1,http://arxiv.org/pdf/1701.01461v1,Understanding the complexity of #SAT using knowledge compilation,"Two main techniques have been used so far to solve the #P-hard problem #SAT.
+The first one used in practice is based on an extension of DPLL for model
+counting called exhaustive DPLL. The second approach more theoretical
+exploits the structure of the input to compute the number of satisfying
+assignments by usually using a dynamic programming scheme on a decomposition of
+the formula. In this paper we make a first step toward the separation of these
+two techniques by exhibiting a family of formulas that can be solved in
+polynomial time with the first technique but needs an exponential time with the
+second one. We show this by observing that both techniques implicitely
+construct a very specific boolean circuit equivalent to the input formula. We
+then show that every beta-acyclic formula can be represented by a polynomial
+size circuit corresponding to the first method and exhibit a family of
+beta-acyclic formulas which cannot be represented by polynomial size circuits
+corresponding to the second method. This result shed a new light on the
+complexity of #SAT and related problems on beta-acyclic formulas. As a
+byproduct we give new handy tools to design algorithms on beta-acyclic
+hypergraphs.",Florent Capelli,cs.CC|cs.AI
+2017-02-28T17:21:15Z,2017-01-05T18:25:37Z,http://arxiv.org/abs/1701.01413v1,http://arxiv.org/pdf/1701.01413v1,"Paths-based criteria and application to linear logic subsystems
+  characterizing polynomial time","Several variants of linear logic have been proposed to characterize
+complexity classes in the proofs-as-programs correspondence. Light linear logic
+(LLL) ensures a polynomial bound on reduction time and characterizes in this
+way polynomial time (Ptime). In this paper we study the complexity of linear
+logic proof-nets and propose three semantic criteria based on context
+semantics: stratification dependence control and nesting. Stratification alone
+entails an elementary time bound the three criteria entail together a
+polynomial time bound.
+  These criteria can be used to prove the complexity soundness of several
+existing variants of linear logic. We define a decidable syntactic subsystem of
+linear logic: SDNLL. We prove that the proof-nets of SDNLL satisfy the three
+criteria which implies that SDNLL is sound for Ptime. Several previous
+subsystems of linear logic characterizing polynomial time (LLL mL^4 maximal
+system of MS) are embedded in SDNLL proving its Ptime completeness.",Matthieu Perrinel,cs.LO|cs.CC
+2017-02-28T17:21:15Z,2017-01-03T18:17:15Z,http://arxiv.org/abs/1701.02231v1,http://arxiv.org/pdf/1701.02231v1,"Rewritability in Monadic Disjunctive Datalog MMSNP and Expressive
+  Description Logics","We study rewritability of monadic disjunctive Datalog programs (the
+complements of) MMSNP sentences and ontology-mediated queries (OMQs) based on
+expressive description logics of the ALC family and on conjunctive queries. We
+show that rewritability into FO and into monadic Datalog (MDLog) are decidable
+and that rewritability into Datalog is decidable when the original query
+satisfies a certain condition related to equality. We establish
+2NExpTime-completeness for all studied problems except rewritability into MDLog
+for which there remains a gap between 2NExpTime and 3ExpTime. We also analyze
+the shape of rewritings which in the MMSNP case correspond to obstructions
+and give a new construction of canonical Datalog programs that is more
+elementary than existing ones and also applies to formulas with free variables.",Cristina Feier|Antti Kuusisto|Carsten Lutz,cs.LO|cs.CC|cs.DB
+2017-02-28T17:21:15Z,2017-01-03T10:38:06Z,http://arxiv.org/abs/1701.00637v1,http://arxiv.org/abs/1701.00637v1,On Upper Bounds on the Church-Rosser Theorem,"The Church-Rosser theorem in the type-free lambda-calculus is well
+investigated both for beta-equality and beta-reduction. We provide a new proof
+of the theorem for beta-equality with no use of parallel reductions but simply
+with Takahashi's translation (Gross-Knuth strategy). Based on this upper
+bounds for reduction sequences on the theorem are obtained as the fourth level
+of the Grzegorczyk hierarchy.",Ken-etsu Fujita,cs.LO|cs.CC
+2017-02-28T17:21:15Z,2017-01-01T11:25:42Z,http://arxiv.org/abs/1701.00227v1,http://arxiv.org/pdf/1701.00227v1,"Closed Sets and Operators thereon: Representations Computability and
+  Complexity","The TTE approach to Computable Analysis is the study of so-called
+representations (encodings for continuous objects such as reals functions and
+sets) with respect to the notions of computability they induce. A rich variety
+of such representations had been devised over the past decades particularly
+regarding closed subsets of Euclidean space plus subclasses thereof (like
+compact subsets). In addition they had been compared and classified with
+respect to both non-uniform computability of single sets and uniform
+computability of operators on sets. In this paper we refine these
+investigations from the point of view of computational complexity. Benefiting
+from the concept of second-order representations and complexity recently
+devised by Kawamura & Cook (2012) we determine parameterized complexity bounds
+for operators such as union intersection projection and more generally
+function image and inversion. By indicating natural parameters in addition to
+the output precision we get a uniform view on results by Ko (1991-2013)
+Braverman (2004/05) and Zhao & M\""uller (2008) relating these problems to the
+polynomial time (P)/unambiguous non-deterministic polynomial time
+(UP)/non-deterministic polynomial time (NP) question in discrete complexity
+theory.",Carsten Rösnick-Neugebauer,cs.CC|cs.LO|math.LO|03D15|F.4.1
+2017-02-28T17:21:15Z,2016-12-31T17:05:53Z,http://arxiv.org/abs/1701.00146v1,http://arxiv.org/pdf/1701.00146v1,Even $1 \times n$ Edge-Matching and Jigsaw Puzzles are Really Hard,"We prove the computational intractability of rotating and placing $n$ square
+tiles into a $1 \times n$ array such that adjacent tiles are compatible--either
+equal edge colors as in edge-matching puzzles or matching tab/pocket shapes
+as in jigsaw puzzles. Beyond basic NP-hardness we prove that it is NP-hard
+even to approximately maximize the number of placed tiles (allowing blanks)
+while satisfying the compatibility constraint between nonblank tiles within a
+factor of 0.9999999851. (On the other hand there is an easy $1 \over
+2$-approximation.) This is the first (correct) proof of inapproximability for
+edge-matching and jigsaw puzzles. Along the way we prove NP-hardness of
+distinguishing for a directed graph on $n$ nodes between having a Hamiltonian
+path (length $n-1$) and having at most $0.999999284 (n-1)$ edges that form a
+vertex-disjoint union of paths. We use this gap hardness and gap-preserving
+reductions to establish similar gap hardness for $1 \times n$ jigsaw and
+edge-matching puzzles.",Jeffrey Bosboom|Erik D. Demaine|Martin L. Demaine|Adam Hesterberg|Pasin Manurangsi|Anak Yodpinyanee,cs.CC|cs.CG
+2017-02-28T17:21:15Z,2016-12-29T21:01:01Z,http://arxiv.org/abs/1612.09306v1,http://arxiv.org/pdf/1612.09306v1,"Limitations of semidefinite programs for separable states and entangled
+  games","Semidefinite programs (SDPs) are a framework for exact or approximate
+optimization that have widespread application in quantum information theory. We
+introduce a new method for using reductions to construct integrality gaps for
+SDPs. These are based on new limitations on the sum-of-squares (SoS) hierarchy
+in approximating two particularly important sets in quantum information theory
+where previously no $\omega(1)$-round integrality gaps were known: the set of
+separable (i.e. unentangled) states or equivalently the $2 \rightarrow 4$
+norm of a matrix and the set of quantum correlations; i.e. conditional
+probability distributions achievable with local measurements on a shared
+entangled state. In both cases no-go theorems were previously known based on
+computational assumptions such as the Exponential Time Hypothesis (ETH) which
+asserts that 3-SAT requires exponential time to solve. Our unconditional
+results achieve the same parameters as all of these previous results (for
+separable states) or as some of the previous results (for quantum
+correlations). In some cases we can make use of the framework of
+Lee-Raghavendra-Steurer (LRS) to establish integrality gaps for any SDP not
+only the SoS hierarchy. Our hardness result on separable states also yields a
+dimension lower bound of approximate disentanglers answering a question of
+Watrous and Aaronson et al. These results can be viewed as limitations on the
+monogamy principle the PPT test the ability of Tsirelson-type bounds to
+restrict quantum correlations as well as the SDP hierarchies of
+Doherty-Parrilo-Spedalieri Navascues-Pironio-Acin and Berta-Fawzi-Scholz.",Aram W. Harrow|Anand Natarajan|Xiaodi Wu,quant-ph|cs.CC
+2017-02-28T17:21:15Z,2016-12-27T08:56:55Z,http://arxiv.org/abs/1612.08537v1,http://arxiv.org/pdf/1612.08537v1,The probability of a computable output from a random oracle,"Consider a universal Turing machine that produces a partial or total function
+(or a binary stream) based on the answers to the binary queries that it makes
+during the computation. We study the probability that the machine will produce
+a computable function when it is given a random stream of bits as the answers
+to its queries. Surprisingly we find that these probabilities are the entire
+class of real numbers in (0 1) that can be written as the difference of two
+halting probabilities relative to the halting problem. In particular there are
+universal Turing machines which produce a computable output with probability
+exactly 1/2. Our results contrast a large array of facts (the most well-known
+being the randomness of Chaitin's halting probability) which witness maximal
+initial segment complexity of probabilities associated with universal machines.
+Our proof uses recent advances in algorithmic randomness.",George Barmpalias|Douglas Cenzer|Christopher P. Porter,cs.CC

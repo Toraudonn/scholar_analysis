@@ -1,0 +1,1515 @@
+2017-02-28T17:18:07Z,2017-02-27T05:02:58Z,http://arxiv.org/abs/1702.08148v1,http://arxiv.org/pdf/1702.08148v1,"A Copula-based Imputation Model for Missing Data of Mixed Type in
+  Multilevel Data Sets","We propose a copula based method to handle missing values in multivariate
+data of mixed types in multilevel data sets. Building upon the extended rank
+likelihood of \cite{hoff2007extending} and the multinomial probit model our
+model is a latent variable model which is able to capture the relationship
+among variables of different types as well as accounting for the clustering
+structure. We fit the model by approximating the posterior distribution of the
+parameters and the missing values through a Gibbs sampling scheme. We use the
+multiple imputation procedure to incorporate the uncertainty due to missing
+values in the analysis of the data. Our proposed method is evaluated through
+simulations to compare it with several conventional methods of handling missing
+data. We also apply our method to a data set from a cluster randomized
+controlled trial of a multidisciplinary intervention in acute stroke units. We
+conclude that our proposed copula based imputation model for mixed type
+variables achieves reasonably good imputation accuracy and recovery of
+parameters in some models of interest and that adding random effects enhances
+performance when the clustering effect is strong.",Jiali Wang|Bronwyn Loong|Anton H. Westveld|Alan H. Welsh,stat.ME
+2017-02-28T17:18:07Z,2017-02-27T04:30:06Z,http://arxiv.org/abs/1702.08142v1,http://arxiv.org/pdf/1702.08142v1,Tensor Balancing on Statistical Manifold,"We solve tensor balancing rescaling an Nth order nonnegative tensor by
+multiplying (N - 1)th order N tensors so that every fiber sums to one. This
+generalizes a fundamental process of matrix balancing used to compare matrices
+in a wide range of applications from biology to economics. We present an
+efficient balancing algorithm with quadratic convergence using Newton's method
+and show in numerical experiments that the proposed algorithm is several orders
+of magnitude faster than existing ones. To theoretically prove the correctness
+of the algorithm we model tensors as probability distributions in a
+statistical manifold and realize tensor balancing as projection onto a
+submanifold. The key to our algorithm is that the gradient of the manifold
+used as a Jacobian matrix in Newton's method can be analytically obtained
+using the M\""obius inversion formula the essential of combinatorial
+mathematics. Our model is not limited to tensor balancing but has a wide
+applicability as it includes various statistical and machine learning models
+such as weighted DAGs and Boltzmann machines.",Mahito Sugiyama|Hiroyuki Nakahara|Koji Tsuda,stat.ME|cs.IT|cs.NA|math.IT|stat.ML
+2017-02-28T17:18:07Z,2017-02-26T21:23:33Z,http://arxiv.org/abs/1702.08088v1,http://arxiv.org/pdf/1702.08088v1,"Selection of training populations (and other subset selection problems)
+  with an accelerated genetic algorithm (STPGA: An R-package for selection of
+  training populations with a genetic algorithm)","Optimal subset selection is an important task that has numerous algorithms
+designed for it and has many application areas. STPGA contains a special
+genetic algorithm supplemented with a tabu memory property (that keeps track of
+previously tried solutions and their fitness for a number of iterations) and
+with a regression of the fitness of the solutions on their coding that is used
+to form the ideal estimated solution (look ahead property) to search for
+solutions of generic optimal subset selection problems. I have initially
+developed the programs for the specific problem of selecting training
+populations for genomic prediction or association problems therefore I give
+discussion of the theory behind optimal design of experiments to explain the
+default optimization criteria in STPGA and illustrate the use of the programs
+in this endeavor. Nevertheless I have picked a few other areas of application:
+supervised and unsupervised variable selection based on kernel alignment
+supervised variable selection with design criteria influential observation
+identification for regression solving mixed integer quadratic optimization
+problems balancing gains and inbreeding in a breeding population. Some of
+these illustrations pertain new statistical approaches.",Deniz Akdemir,stat.ME|cs.LG|q-bio.GN|q-bio.QM|stat.AP
+2017-02-28T17:18:07Z,2017-02-26T17:50:28Z,http://arxiv.org/abs/1702.08061v1,http://arxiv.org/pdf/1702.08061v1,The Ensemble Kalman Filter: A Signal Processing Perspective,"The ensemble Kalman filter (EnKF) is a Monte Carlo based implementation of
+the Kalman filter (KF) for extremely high-dimensional possibly nonlinear and
+non-Gaussian state estimation problems. Its ability to handle state dimensions
+in the order of millions has made the EnKF a popular algorithm in different
+geoscientific disciplines. Despite a similarly vital need for scalable
+algorithms in signal processing e.g. to make sense of the ever increasing
+amount of sensor data the EnKF is hardly discussed in our field.
+  This self-contained review paper is aimed at signal processing researchers
+and provides all the knowledge to get started with the EnKF. The algorithm is
+derived in a KF framework without the often encountered geoscientific
+terminology. Algorithmic challenges and required extensions of the EnKF are
+provided as well as relations to sigma-point KF and particle filters. The
+relevant EnKF literature is summarized in an extensive survey and unique
+simulation examples including popular benchmark problems complement the
+theory with practical insights. The signal processing perspective highlights
+new directions of research and facilitates the exchange of potentially
+beneficial ideas both for the EnKF and high-dimensional nonlinear and
+non-Gaussian filtering in general.",Michael Roth|Gustaf Hendeby|Carsten Fritsche|Fredrik Gustafsson,stat.ME|cs.SY|stat.CO
+2017-02-28T17:18:07Z,2017-02-24T23:43:44Z,http://arxiv.org/abs/1702.07804v1,http://arxiv.org/pdf/1702.07804v1,"A Constrained Conditional Likelihood Approach for Estimating the Means
+  of Selected Populations","Given p independent normal populations we consider the problem of estimating
+the mean of those populations that based on the observed data give the
+strongest signals. We explicitly condition on the ranking of the sample means
+and consider a constrained conditional maximum likelihood (CCMLE) approach
+avoiding the use of any priors and of any sparsity requirement between the
+population means. Our results show that if the observed means are too close
+together we should in fact use the grand mean to estimate the mean of the
+population with the larger sample mean. If they are separated by more than a
+certain threshold we should shrink the observed means towards each other. As
+intuition suggests it is only if the observed means are far apart that we
+should conclude that the magnitude of separation and consequent ranking are not
+due to chance. Unlike other methods our approach does not need to pre-specify
+the number of selected populations and the proposed CCMLE is able to perform
+simultaneous inference. Our method which is conceptually straightforward can
+be easily adapted to incorporate other selection criteria.
+  Selected populations Maximum likelihood Constrained MLE Post-selection
+inference",Claudio Fuentes|Vik Gopal,stat.ME
+2017-02-28T17:18:07Z,2017-02-24T21:44:47Z,http://arxiv.org/abs/1702.07778v1,http://arxiv.org/pdf/1702.07778v1,A Note on Nonlocal Prior Method,"We propose a new class of nonlocal prior to improve the performance of
+variable selection in high dimensional setting. We prove our new prior
+possesses the robustness to hyper parameter settings and is able to detect
+smaller decreasing signals.",Yuanyuan Bian|Ho-Hsiang Wu,stat.ME
+2017-02-28T17:18:07Z,2017-02-24T21:03:27Z,http://arxiv.org/abs/1702.07763v1,http://arxiv.org/pdf/1702.07763v1,Survival Trees for Interval-Censored Survival data,"Interval-censored data in which the event time is only known to lie in some
+time interval arise commonly in practice; for example in a medical study in
+which patients visit clinics or hospitals at pre-scheduled times and the
+events of interest occur between visits. Such data are appropriately analyzed
+using methods that account for this uncertainty in event time measurement. In
+this paper we propose a survival tree method for interval-censored data based
+on the conditional inference framework. Using Monte Carlo simulations we find
+that the tree is effective in uncovering underlying tree structure performs
+similarly to an interval-censored Cox proportional hazards model fit when the
+true relationship is linear and performs at least as well as (and in the
+presence of right-censoring outperforms) the Cox model when the true
+relationship is not linear. Further the interval-censored tree outperforms
+survival trees based on imputing the event time as an endpoint or the midpoint
+of the censoring interval. We illustrate the application of the method on tooth
+emergence data.",Wei Fu|Jeffrey S. Simonoff,stat.ME
+2017-02-28T17:18:07Z,2017-02-24T17:01:59Z,http://arxiv.org/abs/1702.07662v1,http://arxiv.org/pdf/1702.07662v1,A Network Epidemic Model for Online Community Commissioning Data,"Statistical models for network epidemics usually assume a Bernoulli random
+graph in which any two nodes have the same probability of being connected.
+This assumption provides computational simplicity but does not describe
+real-life networks well. We propose an epidemic model based on the preferential
+attachment model which adds nodes sequentially by simple rules to generate a
+network. A simulation study based on the subsequent Markov Chain Monte Carlo
+algorithm reveals an identifiability issue with the model parameters so an
+alternative parameterisation is suggested. Finally the model is applied to a
+set of online commissioning data.",Clement Lee|Andrew Garbett|Darren J. Wilkinson,stat.CO|cs.SI|stat.ME
+2017-02-28T17:18:07Z,2017-02-24T15:43:10Z,http://arxiv.org/abs/1702.07630v1,http://arxiv.org/pdf/1702.07630v1,"Inertia-Constrained Pixel-by-Pixel Nonnegative Matrix Factorisation: a
+  Hyperspectral Unmixing Method Dealing with Intra-class Variability","Blind source separation is a common processing tool to analyse the
+constitution of pixels of hyperspectral images. Such methods usually suppose
+that pure pixel spectra (endmembers) are the same in all the image for each
+class of materials. In the framework of remote sensing such an assumption is
+no more valid in the presence of intra-class variabilities due to illumination
+conditions weathering slight variations of the pure materials etc... In this
+paper we first describe the results of investigations highlighting intra-class
+variability measured in real images. Considering these results a new
+formulation of the linear mixing model is presented leading to two new methods.
+Unconstrained Pixel-by-pixel NMF (UP-NMF) is a new blind source separation
+method based on the assumption of a linear mixing model which can deal with
+intra-class variability. To overcome UP-NMF limitations an extended method is
+proposed named Inertia-constrained Pixel-by-pixel NMF (IP-NMF). For each
+sensed spectrum these extended versions of NMF extract a corresponding set of
+source spectra. A constraint is set to limit the spreading of each source's
+estimates in IP-NMF. The methods are tested on a semi-synthetic data set built
+with spectra extracted from a real hyperspectral image and then numerically
+mixed. We thus demonstrate the interest of our methods for realistic source
+variabilities. Finally IP-NMF is tested on a real data set and it is shown to
+yield better performance than state of the art methods.",Charlotte Revel|Yannick Deville|Véronique Achard|Xavier Briottet,stat.ME|cs.CV|physics.data-an|stat.ML
+2017-02-28T17:18:07Z,2017-02-24T02:28:26Z,http://arxiv.org/abs/1702.07449v1,http://arxiv.org/pdf/1702.07449v1,"Characterizing Spatiotemporal Transcriptome of Human Brain via Low Rank
+  Tensor Decomposition","Spatiotemporal gene expression data of the human brain offer insights on the
+spa- tial and temporal patterns of gene regulation during brain development.
+Most existing methods for analyzing these data consider spatial and temporal
+profiles separately with the implicit assumption that different brain regions
+develop in similar trajectories and that the spatial patterns of gene
+expression remain similar at different time points. Al- though these analyses
+may help delineate gene regulation either spatially or temporally they are not
+able to characterize heterogeneity in temporal dynamics across different brain
+regions or the evolution of spatial patterns of gene regulation over time. In
+this article we develop a statistical method based on low rank tensor
+decomposition to more effectively analyze spatiotemporal gene expression data.
+We generalize the clas- sical principal component analysis (PCA) which is
+applicable only to data matrices to tensor PCA that can simultaneously capture
+spatial and temporal effects. We also propose an efficient algorithm that
+combines tensor unfolding and power iteration to estimate the tensor principal
+components and provide guarantees on their statistical performances. Numerical
+experiments are presented to further demonstrate the mer- its of the proposed
+method. An application of our method to a spatiotemporal brain expression data
+provides insights on gene regulation patterns in the brain.",Tianqi Liu|Ming Yuan|Hongyu Zhao,stat.ME
+2017-02-28T17:18:11Z,2017-02-23T17:44:10Z,http://arxiv.org/abs/1702.07304v1,http://arxiv.org/pdf/1702.07304v1,"Conflict diagnostics for evidence synthesis in a multiple testing
+  framework","Evidence synthesis models that combine multiple datasets of varying design
+to estimate quantities that cannot be directly observed require the
+formulation of complex probabilistic models that can be expressed as graphical
+models. An assessment of whether the different datasets synthesised contribute
+information that is consistent with each other (and in a Bayesian context with
+the prior distribution) is a crucial component of the model criticism process.
+However a systematic assessment of conflict in evidence syntheses suffers from
+the multiple testing problem through testing for conflict at multiple
+locations in a model. We demonstrate how conflict diagnostics can be employed
+throughout a graphical model while accounting for the multiple hypothesis tests
+of no conflict at each location in the graph. The method is illustrated by a
+network meta-analysis to estimate treatment effects in smoking cessation
+programs and an evidence synthesis to estimate HIV prevalence in Poland.",Anne M. Presanis|David Ohlssen|Kai Cui|Magdalena Rosinska|Daniela De Angelis,stat.ME
+2017-02-28T17:18:11Z,2017-02-23T16:43:02Z,http://arxiv.org/abs/1702.07283v1,http://arxiv.org/pdf/1702.07283v1,"Non-penalized variable selection in high-dimensional linear model
+  settings via generalized fiducial inference","Standard penalized methods of variable selection and parameter estimation
+rely on the magnitude of coefficient estimates to decide which variables to
+include in the final model. However coefficient estimates are unreliable when
+the design matrix is collinear. To overcome this challenge an entirely new
+method of variable selection is presented within a generalized fiducial
+inference framework. This new procedure is able to effectively account for
+linear dependencies among subsets of covariates in a high-dimensional setting
+where $p$ can grow almost exponentially in $n$ as well as in the classical
+setting where $p \le n$.
+  It is shown that the procedure very naturally assigns small probabilities to
+subsets of covariates which include redundancies by way of explicit $L_{0}$
+minimization. Furthermore with a typical sparsity assumption it is shown that
+the proposed method is consistent in the sense that the probability of the true
+sparse subset of covariates converges in probability to 1 as $n \to \infty$ or
+as $n \to \infty$ and $p \to \infty$. Very reasonable conditions are needed
+and little restriction is placed on the class of $2^{p}$ possible subsets of
+covariates to achieve this consistency result.",Jonathan P Williams|Jan Hannig,stat.ME
+2017-02-28T17:18:11Z,2017-02-23T15:58:00Z,http://arxiv.org/abs/1702.07269v1,http://arxiv.org/pdf/1702.07269v1,Particle Filters for Partially-Observed Boolean Dynamical Systems,"Partially-observed Boolean dynamical systems (POBDS) are a general class of
+nonlinear models with application in estimation and control of Boolean
+processes based on noisy and incomplete measurements. The optimal minimum mean
+square error (MMSE) algorithms for POBDS state estimation namely the Boolean
+Kalman filter (BKF) and Boolean Kalman smoother (BKS) are intractable in the
+case of large systems due to computational and memory requirements. To address
+this we propose approximate MMSE filtering and smoothing algorithms based on
+the auxiliary particle filter (APF) method from sequential Monte-Carlo theory.
+These algorithms are used jointly with maximum-likelihood (ML) methods for
+simultaneous state and parameter estimation in POBDS models. In the presence of
+continuous parameters ML estimation is performed using the
+expectation-maximization (EM) algorithm; we develop for this purpose a special
+smoother which reduces the computational complexity of the EM algorithm. The
+resulting particle-based adaptive filter is applied to a POBDS model of Boolean
+gene regulatory networks observed through noisy RNA-Seq time series data and
+performance is assessed through a series of numerical experiments using the
+well-known cell cycle gene regulatory model.",Mahdi Imani|Ulisses Braga-Neto,stat.ME|math.DS|q-bio.MN
+2017-02-28T17:18:11Z,2017-02-23T04:13:42Z,http://arxiv.org/abs/1702.07089v1,http://arxiv.org/pdf/1702.07089v1,A Nonparametric Bayesian Approach to Copula Estimation,"We propose a novel Dirichlet-based P\'olya tree (D-P tree) prior on the
+copula and based on the D-P tree prior a nonparametric Bayesian inference
+procedure. Through theoretical analysis and simulations we are able to show
+that the flexibility of the D-P tree prior ensures its consistency in copula
+estimation thus able to detect more subtle and complex copula structures than
+earlier nonparametric Bayesian models such as a Gaussian copula mixture.
+Further the continuity of the imposed D-P tree prior leads to a more favorable
+smoothing effect in copula estimation over classic frequentist methods
+especially with small sets of observations. We also apply our method to the
+copula prediction between the S\&P 500 index and the IBM stock prices during
+the 2007-08 financial crisis finding that D-P tree-based methods enjoy strong
+robustness and flexibility over classic methods under such irregular market
+behaviors.",Shaoyang Ning|Neil Shephard,stat.ME
+2017-02-28T17:18:11Z,2017-02-26T20:06:00Z,http://arxiv.org/abs/1702.07027v2,http://arxiv.org/pdf/1702.07027v2,Nonparametric Inference via Bootstrapping the Debiased Estimator,"In this paper we propose to construct confidence bands by bootstrapping the
+debiased kernel density estimator (for density estimation) and the debiased
+local polynomial regression estimator (for regression analysis). The idea of
+using a debiased estimator was first introduced in Calonico et al. (2015)
+where they construct a confidence interval of the density function (and
+regression function) at a given point by explicitly estimating stochastic
+variations. We extend their ideas and propose a bootstrap approach for
+constructing confidence bands that is uniform for every point in the support.
+We prove that the resulting bootstrap confidence band is asymptotically valid
+and is compatible with most tuning parameter selection approaches such as the
+rule of thumb and cross-validation. We further generalize our method to
+confidence sets of density level sets and inverse regression problems.
+Simulation studies confirm the validity of the proposed confidence bands/sets.",Yen-Chi Chen,"stat.ME|math.ST|stat.TH|Primary 62G15, secondary 62G09, 62G07, 62G08"
+2017-02-28T17:18:11Z,2017-02-22T21:09:19Z,http://arxiv.org/abs/1702.07007v1,http://arxiv.org/pdf/1702.07007v1,Detecting causal associations in large nonlinear time series datasets,"Detecting causal associations in time series datasets is a key challenge for
+novel insights into complex dynamical systems such as the Earth system or the
+human brain. Interactions in high-dimensional dynamical systems often involve
+time-delays nonlinearity and strong autocorrelations. These present major
+challenges for causal discovery techniques such as Granger causality leading to
+low detection power biases and unreliable hypothesis tests. Here we introduce
+a reliable and fast method that outperforms current approaches in detection
+power and scales up to high-dimensional datasets. It overcomes detection
+biases especially when strong autocorrelations are present and allows ranking
+associations in large-scale analyses by their causal strength. We provide
+mathematical proofs evaluate our method in extensive numerical experiments
+and illustrate its capabilities in a large-scale analysis of the global
+surface-pressure system where we unravel spurious associations and find several
+potentially causal links that are difficult to detect with standard methods.
+The broadly applicable method promises to discover novel causal insights also
+in many other fields of science.",Jakob Runge|Dino Sejdinovic|Seth Flaxman,stat.ME|physics.ao-ph|stat.AP
+2017-02-28T17:18:11Z,2017-02-22T19:58:06Z,http://arxiv.org/abs/1702.06986v1,http://arxiv.org/pdf/1702.06986v1,"Rank conditional coverage and confidence intervals in high dimensional
+  problems","Confidence interval procedures used in low dimensional settings are often
+inappropriate for high dimensional applications. When a large number of
+parameters are estimated marginal confidence intervals associated with the
+most significant estimates have very low coverage rates: They are too small and
+centered at biased estimates. The problem of forming confidence intervals in
+high dimensional settings has previously been studied through the lens of
+selection adjustment. In this framework the goal is to control the proportion
+of non-covering intervals formed for selected parameters.
+  In this paper we approach the problem by considering the relationship between
+rank and coverage probability. Marginal confidence intervals have very low
+coverage rates for significant parameters and high rates for parameters with
+more boring estimates. Many selection adjusted intervals display the same
+pattern. This connection motivates us to propose a new coverage criterion for
+confidence intervals in multiple testing/covering problems --- the rank
+conditional coverage (RCC). This is the expected coverage rate of an interval
+given the significance ranking for the associated estimator. We propose
+interval construction via bootstrapping which produces small intervals and have
+a rank conditional coverage close to the nominal level. These methods are
+implemented in the R package rcc.",Jean Morrison|Noah Simon,stat.ME
+2017-02-28T17:18:11Z,2017-02-22T13:27:02Z,http://arxiv.org/abs/1702.06790v1,http://arxiv.org/pdf/1702.06790v1,Guided projections for analysing the structure of high-dimensional data,"A powerful data transformation method named guided projections is proposed
+creating new possibilities to reveal the group structure of high-dimensional
+data in the presence of noise variables. Utilising projections onto a space
+spanned by a selection of a small number of observations allows measuring the
+similarity of other observations to the selection based on orthogonal and score
+distances. Observations are iteratively exchanged from the selection creating a
+non-random sequence of projections which we call guided projections. In
+contrast to conventional projection pursuit methods which typically identify a
+low-dimensional projection revealing some interesting features contained in the
+data guided projections generate a series of projections that serve as a basis
+not just for diagnostic plots but to directly investigate the group structure
+in data. Based on simulated data we identify the strengths and limitations of
+guided projections in comparison to commonly employed data transformation
+methods. We further show the relevance of the transformation by applying it to
+real-world data sets.",Thomas Ortner|Peter Filzmoser|Maia Zaharieva|Christian Breiteneder|Sarka Brodinova,stat.ME
+2017-02-28T17:18:11Z,2017-02-22T01:14:43Z,http://arxiv.org/abs/1702.06635v1,http://arxiv.org/pdf/1702.06635v1,"Robust Empirical Bayes Small Area Estimation with Density Power
+  Divergence","Empirical Bayes estimators are widely used to provide indirect and
+model-based estimates of means in small areas. The most common model is
+two-stage normal hierarchical model called Fay-Herriot model. However due to
+the normality assumption it can be highly influenced by the presence of
+outliers. In this article we propose a simple modification of the conventional
+method by using density power divergence and derive a new robust empirical
+Bayes small area estimator. Based on some asymptotic properties of the robust
+estimator of the model parameters we obtain an expression of second order
+approximation of the mean squared error of the proposed empirical Bayes
+estimator. We investigate some numerical performances of the proposed method
+through simulations and a real data application.",Shonosuke Sugasawa,stat.ME
+2017-02-28T17:18:11Z,2017-02-21T20:23:35Z,http://arxiv.org/abs/1702.06570v1,http://arxiv.org/pdf/1702.06570v1,Inference for Stochastically Contaminated Variable Length Markov Chains,"In this paper we present a methodology to estimate the parameters of
+stochastically contaminated models under two contamination regimes. In both
+regimes we assume that the original process is a variable length Markov chain
+that is contaminated by a random noise. In the first regime we consider that
+the random noise is added to the original source and in the second regime the
+random noise is multiplied by the original source. Given a contaminated sample
+of these models the original process is hidden. Then we propose a two steps
+estimator for the parameters of these models that is the probability
+transitions and the noise parameter and prove its consistency. The first step
+is an adaptation of the Baum-Welch algorithm for Hidden Markov Models. This
+step provides an estimate of a complete order $k$ Markov chain where $k$ is
+bigger than the order of the variable length Markov chain if it has finite
+order and is a constant depending on the sample size if the hidden process has
+infinite order. In the second estimation step we propose a bootstrap Bayesian
+Information Criterion given a sample of the Markov chain estimated in the
+first step to obtain the variable length time dependence structure associated
+with the hidden process. We present a simulation study showing that our
+methodology is able to accurately recover the parameters of the models for a
+reasonable interval of random noises.",Denise Duarte|Sokol Ndreca|Wecsley O. Prates,"stat.ME|60J10, 62M05"
+2017-02-28T17:18:14Z,2017-02-21T02:23:41Z,http://arxiv.org/abs/1702.06240v1,http://arxiv.org/pdf/1702.06240v1,Best Linear Predictor with Missing Response: Locally Robust Approach,"This paper provides asymptotic theory for Inverse Probability Weighing (IPW)
+and Locally Robust Estimator (LRE) of Best Linear Predictor where the response
+missing at random (MAR) but not completely at random (MCAR). We relax previous
+assumptions in the literature about the first-step nonparametric components
+requiring only their mean square convergence. This relaxation allows to use a
+wider class of machine leaning methods for the first-step such as lasso. For a
+generic first-step IPW incurs a first-order bias unless the model it
+approximates is truly linear in the predictors. In contrast LRE remains
+first-order unbiased provided one can estimate the conditional expectation of
+the response with sufficient accuracy. An additional novelty is allowing the
+dimension of Best Linear Predictor to grow with sample size. These relaxations
+are important for estimation of best linear predictor of teacher-specific and
+hospital-specific effects with large number of individuals.",Victor Chernozhukov|Vira Semenova,stat.ME|stat.ML
+2017-02-28T17:18:14Z,2017-02-21T00:28:39Z,http://arxiv.org/abs/1702.06220v1,http://arxiv.org/pdf/1702.06220v1,"Eigenvector spatial filtering for large data sets: fixed and random
+  effects approaches","Eigenvector spatial filtering (ESF) is a spatial modeling approach which has
+been applied in urban and regional studies ecological studies and so on.
+However it is computationally demanding and may not be suitable for large
+data modeling. The objective of this study is developing fast ESF and random
+effects ESF (RE-ESF) which are capable of handling very large samples. To
+achieve it we accelerate eigen-decomposition and parameter estimation which
+make ESF and RE-ESF slow. The former is accelerated by utilizing the Nystr\""om
+extension whereas the latter is by small matrix tricks. The resulting fast ESF
+and fast RE-ESF are compared with non-approximated ESF and RE-ESF in Mote Carlo
+simulation experiments. The result shows that while ESF and RE-ESF are slow
+for several thousand sample size fast ESF and RE-ESF require only several
+minutes even for 500000 sample size. It is also verified that their
+approximation errors are very small. We subsequently apply fast ESF and RE-ESF
+approaches to a land price analysis.",Daisuke Murakami|Daniel A. Griffith,stat.ME
+2017-02-28T17:18:14Z,2017-02-21T00:28:39Z,http://arxiv.org/abs/1702.06221v1,http://arxiv.org/pdf/1702.06221v1,"Determination of hysteresis in finite-state random walks using Bayesian
+  cross validation","Consider the problem of modeling hysteresis for finite-state random walks
+using higher-order Markov chains. This Letter introduces a Bayesian framework
+to determine from data the number of prior states of recent history upon
+which a trajectory is statistically dependent. The general recommendation is to
+use leave-one-out cross validation using an easily-computable formula that is
+provided in closed form. Importantly Bayes factors using flat model priors are
+biased in favor of too-complex a model (more hysteresis) when a large amount of
+data is present and the Akaike information criterion (AIC) is biased in favor
+of too-sparse a model (less hysteresis) when few data are present.",Joshua C. Chang,stat.ME|cs.LG|physics.data-an|q-bio.QM
+2017-02-28T17:18:14Z,2017-02-25T14:17:44Z,http://arxiv.org/abs/1702.06166v2,http://arxiv.org/pdf/1702.06166v2,Bayesian Boolean Matrix Factorisation,"Boolean matrix factorisation aims to decompose a binary data matrix into an
+approximate Boolean product of two low rank binary matrices: one containing
+meaningful patterns the other quantifying how the observations can be
+expressed as a combination of these patterns. We introduce the OrMachine a
+probabilistic generative model for Boolean matrix factorisation and derive a
+Metropolised Gibbs sampler that facilitates efficient parallel posterior
+inference. On real world and simulated data our method outperforms all
+currently existing approaches for Boolean matrix factorisation and completion.
+This is the first method to provide full posterior inference for Boolean Matrix
+factorisation which is relevant in applications e.g. for controlling false
+positive rates in collaborative filtering and crucially improves the
+interpretability of the inferred patterns. The proposed algorithm scales to
+large datasets as we demonstrate by analysing single cell gene expression data
+in 1.3 million mouse brain cells across 11 thousand genes on commodity
+hardware.",Tammo Rukat|Chris C. Holmes|Michalis K. Titsias|Christopher Yau,stat.ML|cs.LG|cs.NA|q-bio.GN|q-bio.QM|stat.ME
+2017-02-28T17:18:14Z,2017-02-20T13:56:48Z,http://arxiv.org/abs/1702.05972v1,http://arxiv.org/pdf/1702.05972v1,"Generalising rate heterogeneity across sites in statistical
+  phylogenetics","In phylogenetics alignments of molecular sequence data for a collection of
+species are used to learn about their phylogeny - an evolutionary tree which
+places these species as leaves and ancestors as internal nodes. Sequence
+evolution on each branch of the tree is generally modelled using a continuous
+time Markov process characterised by an instantaneous rate matrix. Early
+models assumed the same rate matrix governed substitutions at all sites of the
+alignment ignoring the variation in evolutionary constraints. Substantial
+improvements in phylogenetic inference and model fit were achieved by
+augmenting these models with a set of multiplicative random effects that
+allowed different sites to evolve at different rates which scaled the baseline
+rate matrix. Motivated by this pioneering work we consider an extension which
+allows quadratic rather than linear site-specific transformations of the
+baseline rate matrix.
+  We derive properties of the resulting process and show that when combined
+with a particular class of non-stationary models we obtain one that allows
+sequence composition to vary across both sites of the alignment and taxa.
+Formulating the model in a Bayesian framework a Markov chain Monte Carlo
+algorithm for posterior inference is described. We consider two applications to
+alignments concerning the tree of life fitting stationary and non-stationary
+models. In each case we compare inferences obtained under our site-specific
+quadratic transformation with those under linear and site-homogeneous models.",Sarah E. Heaps|Tom M. W. Nye|Richard J. Boys|Tom A. Williams|Svetlana Cherlin|T. Martin Embley,stat.ME
+2017-02-28T17:18:14Z,2017-02-20T13:31:39Z,http://arxiv.org/abs/1702.05960v1,http://arxiv.org/pdf/1702.05960v1,A Statistical Learning Approach to Modal Regression,"This paper studies the nonparametric modal regression problem systematically
+from a statistical learning view. Originally motivated by pursuing a
+theoretical understanding of the maximum correntropy criterion based regression
+(MCCR) our study reveals that MCCR with a tending-to-zero scale parameter is
+essentially modal regression. We show that nonparametric modal regression
+problem can be approached via the classical empirical risk minimization. Some
+efforts are then made to develop a framework for analyzing and implementing
+modal regression. For instance the modal regression function is described the
+modal regression risk is defined explicitly and its \textit{Bayes} rule is
+characterized; for the sake of computational tractability the surrogate modal
+regression risk which is termed as the generalization risk in our study is
+introduced. On the theoretical side the excess modal regression risk the
+excess generalization risk the function estimation error and the relations
+among the above three quantities are studied rigorously. It turns out that
+under mild conditions function estimation consistency and convergence may be
+pursued in modal regression as in vanilla regression protocols such as mean
+regression median regression and quantile regression. However it outperforms
+these regression models in terms of robustness as shown in our study from a
+re-descending M-estimation view. This coincides with and in return explains the
+merits of MCCR on robustness. On the practical side the implementation issues
+of modal regression including the computational algorithm and the tuning
+parameters selection are discussed. Numerical assessments on modal regression
+are also conducted to verify our findings empirically.",Yunlong Feng|Jun Fan|Johan A. K. Suykens,stat.ML|math.ST|stat.ME|stat.TH
+2017-02-28T17:18:14Z,2017-02-20T07:07:05Z,http://arxiv.org/abs/1702.05879v1,http://arxiv.org/pdf/1702.05879v1,"Complexity of Possibly-gapped Histogram and Analysis of Histogram
+  (ANOHT)","Without unrealistic continuity and smoothness assumptions on a distributional
+density of one dimensional dataset constructing an authentic possibly-gapped
+histogram becomes rather complex. The candidate ensemble is described via a
+two-layer Ising model and its size is shown to grow exponentially. This
+exponential complexity makes any exhaustive search in-feasible and all boundary
+parameters local. For data compression via Uniformity the decoding error
+criterion is nearly independent of sample size. These characteristics nullify
+statistical model selection techniques such as Minimum Description Length
+(MDL). Nonetheless practical and nearly optimal solutions are algorithmically
+computable. A data-driven algorithm is devised to construct such histograms
+along the branching hierarchy of a Hierarchical Clustering tree. Such resultant
+histograms naturally manifest data's physical information contents:
+deterministic structures of bin-boundaries coupled with stochastic structures
+of Uniformity within each bin. Without enforcing unrealistic Normality and
+constant variance assumptions an application of possibly-gapped histogram is
+devised called analysis of Histogram (ANOHT) to replace Analysis of Variance
+(ANOVA). Its potential applications are foreseen in digital re-normalization
+schemes and associative pattern extraction among features of heterogeneous data
+types. Thus constructing possibly-gapped histograms becomes a prerequisite for
+knowledge discovery via exploratory data analysis and unsupervised Machine
+Learning.",Fushing Hsieh|Tania Roy,stat.ME
+2017-02-28T17:18:14Z,2017-02-20T01:50:34Z,http://arxiv.org/abs/1702.05832v1,http://arxiv.org/pdf/1702.05832v1,"Robust Hierarchical Bayes Small Area Estimation for Nested Error
+  Regression Model","National statistical institutes in many countries are now mandated to produce
+reliable statistics for important variables such as population income
+unemployment health outcomes etc. for small areas defined by geography
+and/or demography. Due to small samples from these areas direct sample-based
+estimates are often unreliable. Model-based small area estimation is now
+extensively used to generate reliable statistics by ""borrowing strength"" from
+other areas and related variables through suitable models. Outliers adversely
+influence standard model-based small area estimates. To deal with outliers
+Sinha and Rao (2009) proposed a robust frequentist approach. In this article
+we present a robust Bayesian alternative to the nested error regression model
+for unit-level data to mitigate outliers. We consider a two-component scale
+mixture of normal distributions for the unit-level error to model outliers and
+present a computational approach to produce Bayesian predictors of small area
+means under a noninformative prior for model parameters. A real example and
+extensive simulations convincingly show robustness of our Bayesian predictors
+to outliers. Simulations comparison of these two procedures with Bayesian
+predictors by Datta and Ghosh (1991) and M-quantile estimators by Chambers et
+al. (2014) shows that our proposed procedure is better than the others in terms
+of bias variability and coverage probability of prediction intervals when
+there are outliers. The superior frequentist performance of our procedure shows
+its dual (Bayes and frequentist) dominance and makes it attractive to all
+practitioners both Bayesian and frequentist of small area estimation.",Adrijo Chakraborty|Gauri Sankar Datta|Abhyuday Mandal,stat.ME
+2017-02-28T17:18:14Z,2017-02-26T00:37:27Z,http://arxiv.org/abs/1702.05829v2,http://arxiv.org/pdf/1702.05829v2,Copula-based piecewise regression,"Most common parametric families of copulas are totally ordered and in many
+cases they are also positively or negatively regression dependent and therefore
+they lead to monotone regression functions which makes them not suitable for
+dependence relationships that imply or suggest a non-monotone regression
+function. A gluing copula approach is proposed to decompose the underlying
+copula into totally ordered copulas that combined may lead to a non-monotone
+regression function.",Arturo Erdely,"stat.ME|62J02, 62H20"
+2017-02-28T17:18:14Z,2017-02-17T18:06:27Z,http://arxiv.org/abs/1702.05462v1,http://arxiv.org/pdf/1702.05462v1,Objective Bayesian Analysis for Change Point Problems,"In this paper we present an objective approach to change point analysis. In
+particular we look at the problem from two perspectives. The first focuses on
+the definition of an objective prior when the number of change points is known
+a priori. The second contribution aims to estimate the number of change points
+by using an objective approach recently introduced in the literature based on
+losses. The latter considers change point estimation as a model selection
+exercise. We show the performance of the proposed approach on simulated data
+and on real data sets.",Laurentiu Hinoveanu|Fabrizio Leisen|Cristiano Villa,stat.ME|math.ST|stat.AP|stat.CO|stat.ML|stat.TH
+2017-02-28T17:18:18Z,2017-02-17T13:53:15Z,http://arxiv.org/abs/1702.05340v1,http://arxiv.org/pdf/1702.05340v1,"Combinatorics of Distance Covariance: Inclusion-Minimal Maximizers of
+  Quasi-Concave Set Functions for Diverse Variable Selection","In this paper we show that the negative sample distance covariance function
+is a quasi-concave set function of samples of random variables that are not
+statistically independent. We use these properties to propose greedy algorithms
+to combinatorially optimize some diversity (low statistical dependence)
+promoting functions of distance covariance. Our greedy algorithm obtains all
+the inclusion-minimal maximizers of this diversity promoting objective.
+Inclusion-minimal maximizers are multiple solution sets of globally optimal
+maximizers that are not a proper subset of any other maximizing set in the
+solution set. We present results upon applying this approach to obtain diverse
+features (covariates/variables/predictors) in a feature selection setting for
+regression (or classification) problems. We also combine our diverse feature
+selection algorithm with a distance covariance based relevant feature selection
+algorithm of [7] to produce subsets of covariates that are both relevant yet
+ordered in non-increasing levels of diversity of these subsets.",Praneeth Vepakomma|Yulia Kempner,stat.ME|stat.OT
+2017-02-28T17:18:18Z,2017-02-17T00:38:13Z,http://arxiv.org/abs/1702.05195v1,http://arxiv.org/pdf/1702.05195v1,Empirical Bayes SURE and Sparse Normal Mean Models,"This paper studies the sparse normal mean models under the empirical Bayes
+framework. We focus on the mixture priors with an atom at zero and a density
+component centered at a data driven location determined by maximizing the
+marginal likelihood or minimizing the Stein Unbiased Risk Estimate. We study
+the properties of the corresponding posterior median and posterior mean. In
+particular the posterior median is a thresholding rule and enjoys the
+multi-direction shrinkage property that shrinks the observation toward either
+the origin or the data-driven location. The idea is extended by considering a
+finite mixture prior which is flexible to model the cluster structure of the
+unknown means. We further generalize the results to heteroscedastic normal mean
+models. Specifically we propose a semiparametric estimator which can be
+calculated efficiently by combining the familiar EM algorithm with the
+Pool-Adjacent-Violators algorithm for isotonic regression. The effectiveness of
+our methods is demonstrated via extensive numerical studies.",Xianyang Zhang|Anirban Bhattacharya,stat.ME
+2017-02-28T17:18:18Z,2017-02-16T23:56:19Z,http://arxiv.org/abs/1702.05189v1,http://arxiv.org/pdf/1702.05189v1,"Upper bounds on the minimum coverage probability of model averaged tail
+  area confidence intervals in regression","Frequentist model averaging has been proposed as a method for incorporating
+""model uncertainty"" into confidence interval construction. Such proposals have
+been of particular interest in the environmental and ecological statistics
+communities. A promising method of this type is the model averaged tail area
+(MATA) confidence interval put forward by Turek and Fletcher 2012. The
+performance of this interval depends greatly on the data-based model weights on
+which it is based. A computationally convenient formula for the coverage
+probability of this interval is provided by Kabaila Welsh and Abeysekera
+2016 in the simple scenario of two nested linear regression models. We
+consider the more complicated scenario that there are many (32768 in the
+example considered) linear regression models obtained as follows. For each of a
+specified set of components of the regression parameter vector we either set
+the component to zero or let it vary freely. We provide an easily-computed
+upper bound on the minimum coverage probability of the MATA confidence
+interval. This upper bound provides evidence against the use of a model weight
+based on the Bayesian Information Criterion (BIC).",Paul Kabaila,stat.ME
+2017-02-28T17:18:18Z,2017-02-16T17:11:01Z,http://arxiv.org/abs/1702.05056v1,http://arxiv.org/pdf/1702.05056v1,An Empirical Bayes Approach for High Dimensional Classification,"We propose an empirical Bayes estimator based on Dirichlet process mixture
+model for estimating the sparse normalized mean difference which could be
+directly applied to the high dimensional linear classification. In theory we
+build a bridge to connect the estimation error of the mean difference and the
+misclassification error also provide sufficient conditions of sub-optimal
+classifiers and optimal classifiers. In implementation a variational Bayes
+algorithm is developed to compute the posterior efficiently and could be
+parallelized to deal with the ultra-high dimensional case.",Yunbo Ouyang|Feng Liang,stat.ML|stat.ME
+2017-02-28T17:18:18Z,2017-02-16T15:16:27Z,http://arxiv.org/abs/1702.05008v1,http://arxiv.org/pdf/1702.05008v1,Tree Ensembles with Rule Structured Horseshoe Regularization,"We propose a new Bayesian model for flexible nonlinear regression and
+classification using tree ensembles. The model is based on the RuleFit approach
+in Friedman and Popescu (2008) where rules from decision trees and linear terms
+are used in a L1-regularized regression. We modify RuleFit by replacing the
+L1-regularization by a horseshoe prior which is well known to give aggressive
+shrinkage of noise predictor while leaving the important signal essentially
+untouched. This is especially important when a large number of rules are used
+as predictors as many of them only contribute noise. Our horseshoe prior has an
+additional hierarchical layer that applies more shrinkage a priori to rules
+with a large number of splits and to rules that are only satisfied by a few
+observations. The aggressive noise shrinkage of our prior also makes it
+possible to complement the rules from boosting in Friedman and Popescu (2008)
+with an additional set of trees from random forest which brings a desirable
+diversity to the ensemble. We sample from the posterior distribution using a
+very efficient and easily implemented Gibbs sampler. The new model is shown to
+outperform state-of-the-art methods like RuleFit BART and random forest on 16
+datasets. The model and its interpretation is demonstrated on the well known
+Boston housing data and on gene expression data for cancer classification. The
+posterior sampling prediction and graphical tools for interpreting the model
+results are implemented in a publicly available R package.",Malte Nalenz|Mattias Villani,stat.ME|stat.ML
+2017-02-28T17:18:18Z,2017-02-15T19:54:38Z,http://arxiv.org/abs/1702.04755v1,http://arxiv.org/pdf/1702.04755v1,Estimating Individualized Treatment Rules for Ordinal Treatments,"Precision medicine is an emerging scientific topic for disease treatment and
+prevention that takes into account individual patient characteristics. It is an
+important direction for clinical research and many statistical methods have
+been recently proposed. One of the primary goals of precision medicine is to
+obtain an optimal individual treatment rule (ITR) which can help make
+decisions on treatment selection according to each patient's specific
+characteristics. Recently outcome weighted learning (OWL) has been proposed to
+estimate such an optimal ITR in a binary treatment setting by maximizing the
+expected clinical outcome. However for ordinal treatment settings such as
+individualized dose finding it is unclear how to use OWL. In this paper we
+propose a new technique for estimating ITR with ordinal treatments. In
+particular we propose a data duplication technique with a piecewise convex
+loss function. We establish Fisher consistency for the resulting estimated ITR
+under certain conditions and obtain the convergence and risk bound properties.
+Simulated examples and two applications to datasets from an irritable bowel
+problem and a type 2 diabetes mellitus observational study demonstrate the
+highly competitive performance of the proposed method compared to existing
+alternatives.",Jingxiang Chen|Haoda Fu|Xuanyao He|Michael R. Kosorok|Yufeng Liu,stat.ME
+2017-02-28T17:18:18Z,2017-02-15T16:55:56Z,http://arxiv.org/abs/1702.04682v1,http://arxiv.org/pdf/1702.04682v1,"Targeted Learning Ensembles for Optimal Individualized Treatment Rules
+  with Time-to-Event Outcomes","We consider estimation of an optimal individualized treatment rule (ITR) from
+observational and randomized studies when data for a high-dimensional baseline
+variable is available. Our optimality criterion is with respect to delaying
+time to occurrence of an event of interest (e.g. death or relapse of cancer).
+We leverage semiparametric efficiency theory to construct estimators with
+desirable properties such as double robustness. We propose two estimators of
+the optimal ITR which arise from considering two loss functions aimed at (i)
+directly estimating the conditional treatment effect (also know as the blip
+function) and (ii) recasting the problem as a weighted classification problem
+that uses the 0-1 loss function. Our estimators are \textit{super learning}
+ensembles that minimize the cross-validated risk of a linear combination of
+estimators in a user-supplied library of candidate estimators. We prove oracle
+inequalities bounding the finite sample excess risk of the estimator. The
+bounds depend on the excess risk of the oracle selector and the bias in
+estimation of the nuisance parameters. These oracle inequalities imply
+asymptotic optimality of the estimated optimal ITR in the sense that one of the
+two following claims holds: the estimated optimal ITR is consistent or it is
+equivalent with the oracle selector. In a randomized trial with uninformative
+censoring we show that the value of the super learner based on (ii) achieves
+rate at least as fast as $\log n/n$whereas the value of the super learner
+based on (i) achieves the slower rate $(\log n/n)^{1/2}$. We illustrate our
+methods in the analysis of a phase III randomized study testing the efficacy of
+a new therapy for the treatment of breast cancer.",Iván Díaz|Oleksandr Savenkov|Karla Ballman,stat.ME
+2017-02-28T17:18:18Z,2017-02-15T14:36:44Z,http://arxiv.org/abs/1702.04625v1,http://arxiv.org/pdf/1702.04625v1,Non-separable Models with High-dimensional Data,"This paper studies non-separable models with a continuous treatment when
+control variables are high-dimensional. We propose an estimation and inference
+procedure for average quantile and marginal treatment effects. In the
+procedure control variables are selected via a localized method of
+$L_1$-penalization at each value of the continuous treatment. Finite sample
+properties of the new procedure are illustrated through both simulation and
+empirical applications.",Liangjun Su|Takuya Ura|Yichong Zhang,stat.ME
+2017-02-28T17:18:18Z,2017-02-15T12:13:05Z,http://arxiv.org/abs/1702.04570v1,http://arxiv.org/pdf/1702.04570v1,"Main and Interaction Effects Selection for Quadratic Discriminant
+  Analysis via Penalized Linear Regression","Discriminant analysis is a useful classification method. Variable selection
+for discriminant analysis is becoming more and more im- portant in a
+high-dimensional setting. This paper is concerned with the binary-class
+problems of main and interaction effects selection for the quadratic
+discriminant analysis. We propose a new penalized quadratic discriminant
+analysis (QDA) for variable selection in binary classification. Under sparsity
+assumption on the relevant variables we conduct a penalized liner regression
+to derive sparse QDA by plug- ging the main and interaction effects in the
+model. Then the QDA problem is converted to a penalized sparse ordinary least
+squares op- timization by using the composite absolute penalties (CAP). Coor-
+dinate descent algorithm is introduced to solve the convex penalized least
+squares. The penalized linear regression can simultaneously se- lect the main
+and interaction effects and also conduct classification. Compared with the
+existing methods of variable selection in QDA the extensive simulation studies
+and two real data analyses demon- strate that our proposed method works well
+and is robust in the performance of variable selection and classification.",Deqiang Zheng|Jinzhu Jia|Xiangzhong Fang|Xiuhua Guo,stat.ME
+2017-02-28T17:18:18Z,2017-02-15T11:26:02Z,http://arxiv.org/abs/1702.04552v1,http://arxiv.org/pdf/1702.04552v1,A new class of robust two-sample Wald-type tests,"Parametric hypothesis testing associated with two independent samples arises
+frequently in several applications in biology medical sciences epidemiology
+reliability and many more. In this paper we propose robust Wald-type tests for
+testing such two sample problems using the minimum density power divergence
+estimators of the underlying parameters. In particular we consider the simple
+two-sample hypothesis concerning the full parametric homogeneity of the samples
+as well as the general two-sample (composite) hypotheses involving nuisance
+parameters also. The asymptotic and theoretical robustness properties of the
+proposed Wald-type tests have been developed for both the simple and general
+composite hypotheses. Some particular cases of testing against one-sided
+alternatives are discussed with specific attention to testing the effectiveness
+of a treatment in clinical trials. Performances of the proposed tests have also
+been illustrated numerically through appropriate real data examples.",Abhik Ghosh|Nirian Martin|Ayanendranath Basu|Leandro Pardo,stat.ME|stat.AP
+2017-02-28T17:18:22Z,2017-02-15T06:28:58Z,http://arxiv.org/abs/1702.04473v1,http://arxiv.org/pdf/1702.04473v1,Balancing Method for High Dimensional Causal Inference,"Causal inference has received great attention across different fields from
+economics statistics education medicine to machine learning. Within this
+area inferring causal effects at individual level in observational studies has
+become an important task especially in high dimensional settings. In this
+paper we propose a framework for estimating Individualized Treatment Effects
+in high-dimensional non-experimental data. We provide both theoretical and
+empirical justifications the latter by comparing our framework with current
+best-performing methods. Our proposed framework rivals the state-of-the-art
+methods in most settings and even outperforms them while being much simpler and
+easier to implement.",Thai Pham,stat.ME
+2017-02-28T17:18:22Z,2017-02-24T22:33:59Z,http://arxiv.org/abs/1702.04430v2,http://arxiv.org/pdf/1702.04430v2,"A Unified Robust Bootstrap Method for Sharp/Fuzzy Mean/Quantile
+  Regression Discontinuity/Kink Designs","Computation of asymptotic distributions is known to be a nontrivial and
+delicate task for the regression discontinuity designs (RDD) and the regression
+kink designs (RKD). It is even more complicated when a researcher is interested
+in joint or uniform inference across heterogeneous subpopulations indexed by
+covariates or quantiles. Hence bootstrap procedures are often preferred in
+practice. This paper develops a robust multiplier bootstrap method for a
+general class of local Wald estimators. It applies to the sharp mean RDD the
+fuzzy mean RDD the sharp mean RKD the fuzzy mean RKD the sharp quantile RDD
+the fuzzy quantile RDD the sharp quantile RKD and the fuzzy quantile RKD to
+list a few examples as well as covariate-indexed versions of them. In addition
+to its generic applicability to a wide variety of local Wald estimators our
+method also enjoys robustness against large bandwidths commonly used in
+practice. This robustness is achieved through a bias correction approach
+incorporated into our multiplier bootstrap framework. We demonstrate the
+generic applicability of our theory through ten examples of local Wald
+estimators including those listed above and show by simulation studies that it
+indeed performs well robustly and uniformly across different examples. All
+the code files are available upon request.",Harold D. Chiang|Yu-Chin Hsu|Yuya Sasaki,"stat.ME|62G05, 62G20"
+2017-02-28T17:18:22Z,2017-02-14T18:34:10Z,http://arxiv.org/abs/1702.04330v1,http://arxiv.org/pdf/1702.04330v1,A Nonparametric Bayesian Approach for Sparse Sequence Estimation,"A nonparametric Bayes approach is proposed for the problem of estimating a
+sparse sequence based on Gaussian random variables. We adopt the popular
+two-group prior with one component being a point mass at zero and the other
+component being a mixture of Gaussian distributions. Although the Gaussian
+family has been shown to be suboptimal for this problem we find that Gaussian
+mixtures with a proper choice on the means and mixing weights have the
+desired asymptotic behavior e.g. the corresponding posterior concentrates on
+balls with the desired minimax rate. To achieve computation efficiency we
+propose to obtain the posterior distribution using a deterministic variational
+algorithm. Empirical studies on several benchmark data sets demonstrate the
+superior performance of the proposed algorithm compared to other alternatives.",Yunbo Ouyang|Feng Liang,stat.ME
+2017-02-28T17:18:22Z,2017-02-14T18:32:50Z,http://arxiv.org/abs/1702.04329v1,http://arxiv.org/pdf/1702.04329v1,Analysis of extreme values with random location,"Analysis of the rare and extreme values through statistical modeling is an
+important issue in economical crises climate forecasting and risk management
+of financial portfolios. Extreme value theory provides the probability models
+needed for statistical modeling of the extreme values. There are generally two
+ways to identifying the extreme values in a data set the block-maxima and the
+peak-over threshold method. The block-maxima method uses the Generalized
+Extreme Value distribution and the peak-over threshold method uses the
+Generalized Pareto distribution. It is common that the location of these
+distributions kept fixed. It is possible that some unobserved variables produce
+heterogeneity in the location of the assumed distribution. In this article we
+focus on modeling this unobserved heterogeneity in block-maxima method.",Ali Reza Fotouhi,stat.ME
+2017-02-28T17:18:22Z,2017-02-14T00:34:06Z,http://arxiv.org/abs/1702.04031v1,http://arxiv.org/pdf/1702.04031v1,Maximum likelihood estimation in Gaussian models under total positivity,"We analyze the problem of maximum likelihood estimation for Gaussian
+distributions that are multivariate totally positive of order two (MTP2). By
+exploiting connections to phylogenetics and single-linkage clustering we give
+a simple proof that the maximum likelihood estimator (MLE) for such
+distributions exists based on at least 2 observations irrespective of the
+underlying dimension. Slawski and Hein who first proved this result also
+provided empirical evidence showing that the MTP2 constraint serves as an
+implicit regularizer and leads to sparsity in the estimated inverse covariance
+matrix determining what we name the ML graph. We show that the maximum weight
+spanning forest (MWSF) of the empirical correlation matrix is a spanning forest
+of the ML graph. In addition we show that we can find an upper bound for the
+ML graph by adding edges to the MSWF corresponding to correlations in excess of
+those explained by the forest. This also gives new theoretical results in the
+study of inverse M-matrices. We provide globally convergent coordinate descent
+algorithms for calculating the MLE under the MTP2 constraint which are
+structurally similar to iterative proportional scaling. We conclude the paper
+with a discussion of signed MTP2 distributions.",Steffen Lauritzen|Caroline Uhler|Piotr Zwiernik,"stat.ME|math.ST|stat.TH|60E15, 62H99, 15B48"
+2017-02-28T17:18:22Z,2017-02-13T23:50:54Z,http://arxiv.org/abs/1702.04025v1,http://arxiv.org/pdf/1702.04025v1,"Controlling Familywise Error When Rejecting at Most One Null Hypothesis
+  Each From a Sequence of Sub-Families of Null Hypotheses","We present a procedure for controlling FWER when sequentially considering
+successive subfamilies of null hypotheses and rejecting at most one from each
+subfamily. Our procedure differs from previous procedures for controlling FWER
+by adjusting the critical values that are applied in subsequent rejection
+decisions by subtracting from the global significance level $\alpha$ quantities
+based on the p-values of rejected null hypotheses and the numbers of null
+hypotheses considered.",Geoffrey I. Webb|Mark van der Laan,stat.ME
+2017-02-28T17:18:22Z,2017-02-13T20:04:11Z,http://arxiv.org/abs/1702.03967v1,http://arxiv.org/pdf/1702.03967v1,Nonlinear Kalman Filtering for Censored Observations,"The use of Kalman filtering as well as its nonlinear extensions for the
+estimation of system variables and parameters has played a pivotal role in many
+fields of scientific inquiry where observations of the system are restricted to
+a subset of variables. However in the case of censored observations where
+measurements of the system beyond a certain detection point are impossible the
+estimation problem is complicated. Without appropriate consideration censored
+observations can lead to inaccurate estimates. Motivated by the work of [1] we
+develop a modified version of the extended Kalman filter to handle the case of
+censored observations in nonlinear systems. We validate this methodology in a
+simple oscillator system first showing its ability to accurately reconstruct
+state variables and track system parameters when observations are censored.
+Finally we utilize the nonlinear censored filter to analyze censored datasets
+from patients with hepatitis C and human immunodeficiency virus.",Joseph Arthur|Adam Attarian|Franz Hamilton|Hien Tran,math.DS|stat.ME
+2017-02-28T17:18:22Z,2017-02-13T19:07:05Z,http://arxiv.org/abs/1702.03951v1,http://arxiv.org/pdf/1702.03951v1,"Nonparametric identification of causal effects with confounders subject
+  to instrumental missingness","We consider causal inference from observational studies when confounders have
+missing values. When the confounders are missing not at random causal effects
+are generally not identifiable. In this article we propose a novel framework
+for nonparametric identification of causal effects with confounders missing not
+at random but subject to instrumental missingness that is the missing data
+mechanism is independent of the outcome given the treatment and possibly
+missing confounder values. We also give a nonparametric two-stage least squares
+estimator of the average causal effect based on series approximation which
+overcomes an ill-posed inverse problem by restricting the estimation space to a
+compact subspace. The simulation studies show that our estimator can correct
+for confounding bias when confounders are subject to instrumental missingness.",Shu Yang|Linbo Wang|Peng Ding,stat.ME
+2017-02-28T17:18:22Z,2017-02-13T18:32:13Z,http://arxiv.org/abs/1702.03912v1,http://arxiv.org/pdf/1702.03912v1,On multifractals: a non-linear study of actigraphy data,"This work aimed to determine the characteristics of activity series from
+fractal geometry concepts application in addition to evaluate the possibility
+of identifying individuals with fibromyalgia. Activity level data were
+collected from 27 healthy subjects and 27 fibromyalgia patients with the use
+of clock-like devices equipped with accelerometers for about four weeks all
+day long. The activity series were evaluated through fractal and multifractal
+methods. Hurst exponent analysis exhibited values according to other studies
+($H>0.5$) for both groups ($H=0.98\pm0.04$ for healthy subjects and
+$H=0.97\pm0.03$ for fibromyalgia patients) however it is not possible to
+distinguish between the two groups by such analysis. Activity time series also
+exhibited a multifractal pattern. A paired analysis of the spectra indices for
+the sleep and awake states revealed differences between healthy subjects and
+fibromyalgia patients. The individuals feature differences between awake and
+sleep states having statistically significant differences for $\alpha_{q-} -
+\alpha_{0}$ in healthy subjects ($p = 0.014$) and $D_{0}$ for patients with
+fibromyalgia ($p = 0.013$). The approach has proven to be an option on the
+characterisation of such kind of signals and was able to differ between both
+healthy and fibromyalgia groups. This outcome suggests changes in the
+physiologic mechanisms of movement control.",Lucas Gabriel Souza França|Pedro Montoya|José Garcia Vivas Miranda,nlin.CD|nlin.AO|physics.data-an|q-bio.QM|stat.ME
+2017-02-28T17:18:22Z,2017-02-13T17:07:29Z,http://arxiv.org/abs/1702.03877v1,http://arxiv.org/pdf/1702.03877v1,"Approximate Kernel-based Conditional Independence Tests for Fast
+  Non-Parametric Causal Discovery","Constraint-based causal discovery (CCD) algorithms require fast and accurate
+conditional independence (CI) testing. The Kernel Conditional Independence Test
+(KCIT) is currently one of the most popular CI tests in the non-parametric
+setting but many investigators cannot use KCIT with large datasets because the
+test scales cubicly with sample size. We therefore devise two relaxations
+called the Randomized Conditional Independence Test (RCIT) and the Randomized
+conditional Correlation Test (RCoT) which both approximate KCIT by utilizing
+random Fourier features. In practice both of the proposed tests scale linearly
+with sample size and return accurate p-values much faster than KCIT in the
+large sample size context. CCD algorithms run with RCIT or RCoT also return
+graphs at least as accurate as the same algorithms run with KCIT but with large
+reductions in run time.",Eric V. Strobl|Kun Zhang|Shyam Visweswaran,stat.ME|stat.ML
+2017-02-28T17:18:26Z,2017-02-13T10:06:07Z,http://arxiv.org/abs/1702.03696v1,http://arxiv.org/pdf/1702.03696v1,"Parametric uncertainty in complex environmental models: a cheap
+  emulation approach for models with high-dimensional output","In order to understand underlying processes governing environmental and
+physical processes and predict future outcomes a complex computer model is
+frequently required to simulate these dynamics. However there is inevitably
+uncertainty related to the exact parametric form or the values of such
+parameters to be used when developing these simulators with \emph{ranges} of
+plausible values prevalent in the literature. Systematic errors introduced by
+failing to account for these uncertainties have the potential to have a large
+effect on resulting estimates in unknown quantities of interest. Due to the
+complexity of these types of models it is often unfeasible to run large
+numbers of training runs that are usually required for full statistical
+emulators of the environmental processes. We therefore present a method for
+accounting for uncertainties in complex environmental simulators without the
+need for very large numbers of training runs and illustrate the method through
+an application to the Met Office's atmospheric transport model NAME. We
+conclude that there are two principle parameters that are linked with
+variability in NAME outputs namely the free tropospheric turbulence parameter
+and particle release height. Our results suggest the former should be
+significantly larger than is currently implemented as a default in NAME whilst
+changes in the latter most likely stem from inconsistencies between the model
+specified ground height at the observation locations and the true height at
+this location. Estimated discrepancies from independent data are consistent
+with the discrepancy between modelled and true ground height.",B. Swallow|M. Rigby|J. C. Rougier|A. J. Manning|M. Lunt|S. O'Doherty,stat.ME
+2017-02-28T17:18:26Z,2017-02-13T08:52:58Z,http://arxiv.org/abs/1702.03673v1,http://arxiv.org/pdf/1702.03673v1,Bayesian Probabilistic Numerical Methods,"The emergent field of probabilistic numerics has thus far lacked rigorous
+statistical principals. This paper establishes Bayesian probabilistic numerical
+methods as those which can be cast as solutions to certain Bayesian inverse
+problems albeit problems that are non-standard. This allows us to establish
+general conditions under which Bayesian probabilistic numerical methods are
+well-defined encompassing both non-linear and non-Gaussian models. For general
+computation a numerical approximation scheme is developed and its asymptotic
+convergence is established. The theoretical development is then extended to
+pipelines of computation wherein probabilistic numerical methods are composed
+to solve more challenging numerical tasks. The contribution highlights an
+important research frontier at the interface of numerical analysis and
+uncertainty quantification with some illustrative applications presented.",Jon Cockayne|Chris Oates|Tim Sullivan|Mark Girolami,stat.ME|cs.NA|math.NA|math.ST|stat.CO|stat.TH
+2017-02-28T17:18:26Z,2017-02-13T05:15:28Z,http://arxiv.org/abs/1702.03632v1,http://arxiv.org/pdf/1702.03632v1,Varying-coefficient models for dynamic networks,"Network topology evolves through time. A dynamic network model should account
+for both the temporal dependencies between graphs observed in time as well as
+the structural dependencies inherent in each observed graph. We propose and
+investigate a family of dynamic network models known as varying-coefficient
+exponential random graph models (VCERGMs) that characterize the evolution of
+network topology through smoothly varying parameters in an exponential family
+of distributions. The VCERGM provides an interpretable dynamic network model
+that enables the inference of temporal heterogeneity in a dynamic network. We
+fit the VCERGM through maximum pseudo-likelihood which is equivalent to
+maximum likelihood estimation of penalized logistic regression. We furthermore
+devise a bootstrap hypothesis testing framework for testing the temporal
+heterogeneity of an observed dynamic network sequence. The VCERGM is applied to
+a US Congress co-voting network and a resting-state brain connectivity case
+study and is shown to provide relevant and interpretable patterns describing
+each data set. Comprehensive simulation studies demonstrate the advantages of
+our proposed method over existing methods.",Jihui Lee|Gen Li|James D. Wilson,stat.ME
+2017-02-28T17:18:26Z,2017-02-13T04:36:14Z,http://arxiv.org/abs/1702.03628v1,http://arxiv.org/pdf/1702.03628v1,Multilevel Monte Carlo in Approximate Bayesian Computation,"In the following article we consider approximate Bayesian computation (ABC)
+inference. We introduce a method for numerically approximating ABC posteriors
+using the multilevel Monte Carlo (MLMC). A sequential Monte Carlo version of
+the approach is developed and it is shown under some assumptions that for a
+given level of mean square error this method for ABC has a lower cost than
+i.i.d. sampling from the most accurate ABC approximation. Several numerical
+examples are given.",Ajay Jasra|Seongil Jo|David Nott|Christine Shoemaker|Raul Tempone,stat.ME
+2017-02-28T17:18:26Z,2017-02-13T03:30:57Z,http://arxiv.org/abs/1702.03618v1,http://arxiv.org/pdf/1702.03618v1,"Quantile Treatment Effects in Difference in Differences Models under
+  Dependence Restrictions and with only Two Time Periods","This paper shows that the Conditional Quantile Treatment Effect on the
+Treated can be identified using a combination of (i) a conditional
+Distributional Difference in Differences assumption and (ii) an assumption on
+the conditional dependence between the change in untreated potential outcomes
+and the initial level of untreated potential outcomes for the treated group.
+The second assumption recovers the unknown dependence from the observed
+dependence for the untreated group. We also consider estimation and inference
+in the case where all of the covariates are discrete. We propose a uniform
+inference procedure based on the exchangeable bootstrap and show its validity.
+We conclude the paper by estimating the effect of state-level changes in the
+minimum wage on the distribution of earnings for subgroups defined by race
+gender and education.",Brantly Callaway|Tong Li|Tatsushi Oka,stat.ME|math.ST|stat.TH
+2017-02-28T17:18:26Z,2017-02-13T00:15:02Z,http://arxiv.org/abs/1702.03597v1,http://arxiv.org/pdf/1702.03597v1,"Multi-scale modeling of animal movement and general behavior data using
+  hidden Markov models with hierarchical structures","Hidden Markov models (HMMs) are commonly used to model animal movement data
+and infer aspects of animal behavior. An HMM assumes that each data point from
+a time series of observations stems from one of $N$ possible states. The states
+are loosely connected to behavioral modes that manifest themselves at the
+temporal resolution at which observations are made. However due to advances in
+tag technology data can be collected at increasingly fine temporal
+resolutions. Yet inferences at time scales cruder than those at which data are
+collected and which correspond to larger-scale behavioral processes are not
+yet answered via HMMs. We include additional hierarchical structures to the
+basic HMM framework in order to incorporate multiple Markov chains at various
+time scales. The hierarchically structured HMMs allow for behavioral inferences
+at multiple time scales and can also serve as a means to avoid coarsening data.
+Our proposed framework is one of the first that models animal behavior
+simultaneously at multiple time scales opening new possibilities in the area
+of animal movement modeling. We illustrate the application of hierarchically
+structured HMMs in two real-data examples: (i) vertical movements of harbor
+porpoises observed in the field and (ii) garter snake movement data collected
+as part of an experimental design.",Vianey Leos-Barajas|Eric Gangloff|Timo Adam|Roland Langrock|Floris M. van Beest|Jacob Nabe-Nielsen|Juan M. Morales,stat.ME|q-bio.QM
+2017-02-28T17:18:26Z,2017-02-12T21:17:44Z,http://arxiv.org/abs/1702.03578v1,http://arxiv.org/pdf/1702.03578v1,"Elements of estimation theory for causal effects in the presence of
+  network interference","Randomized experiments in which the treatment of a unit can affect the
+outcomes of other units are becoming increasingly common in healthcare
+economics and in the social and information sciences. From a causal inference
+perspective the typical assumption of no interference becomes untenable in
+such experiments. In many problems however the patterns of interference may
+be informed by the observation of network connections among the units of
+analysis. Here we develop elements of optimal estimation theory for causal
+effects leveraging an observed network by assuming that the potential outcomes
+of an individual depend only on the individual's treatment and on the treatment
+of the neighbors. We propose a collection of exclusion restrictions on the
+potential outcomes and show how subsets of these restrictions lead to various
+parameterizations. Considering the class of linear unbiased estimators of the
+average direct treatment effect we derive conditions on the design that lead
+to the existence of unbiased estimators and offer analytical insights on the
+weights that lead to minimum integrated variance estimators. We illustrate the
+improved performance of these estimators when compared to more standard biased
+and unbiased estimators using simulations.",Daniel L. Sussman|Edoardo M. Airoldi,stat.ME
+2017-02-28T17:18:26Z,2017-02-12T18:44:58Z,http://arxiv.org/abs/1702.03557v1,http://arxiv.org/pdf/1702.03557v1,"Improvements in the Small Sample Efficiency of the Minimum
+  $S$-Divergence Estimators under Discrete Models","This paper considers the problem of inliers and empty cells and the resulting
+issue of relative inefficiency in estimation under pure samples from a discrete
+population when the sample size is small. Many minimum divergence estimators in
+the $S$-divergence family although possessing very strong outlier stability
+properties often have very poor small sample efficiency in the presence of
+inliers and some are not even defined in the presence of a single empty cell;
+this limits the practical applicability of these estimators in spite of their
+otherwise sound robustness properties and high asymptotic efficiency. Here we
+will study a penalized version of the $S$-divergences such that the resulting
+minimum divergence estimators are free from these issues without altering their
+robustness properties and asymptotic efficiencies. We will give a general proof
+for the asymptotic properties of these minimum penalized $S$-divergence
+estimators. This provides a significant addition to the literature as the
+asymptotics of penalized divergences which are not finitely defined are
+currently unavailable in the literature. The small sample advantages of the
+minimum penalized $S$-divergence estimators are examined through an extensive
+simulation study and some empirical suggestions regarding the choice of the
+relevant underlying tuning parameters are also provided.",Abhik Ghosh|Ayanendranath Basu,stat.ME|math.ST|stat.TH
+2017-02-28T17:18:26Z,2017-02-12T18:43:29Z,http://arxiv.org/abs/1702.03556v1,http://arxiv.org/pdf/1702.03556v1,Functional Registration and Local Variations,"We study the problem of nonparametric registration of functional data that
+have been subjected to random deformation (warping) of their time scale. The
+separation of this phase variation (""horizontal"" variation) from the amplitude
+variation (""vertical"" variation) is crucial in order to properly conduct
+further analyses which otherwise can be severely distorted. We determine
+precise conditions under which the two forms of variation are identifiable
+under minimal assumptions on the form of the warp maps. We show that these
+conditions are sharp by means of counterexamples. We then propose a
+nonparametric registration method based on a ""local variation measure"" which
+bridges functional registration and optimal transportation. Our method is
+proven to consistently estimate the warp maps from discretely observed data
+without requiring any penalisation or tuning on the warp maps themselves. This
+circumvents the problem of over/under-registration often encountered in
+practice. Similar results hold in the presence of measurement error with the
+addition of a pre-processing smoothing step. We carry out a detailed
+theoretical investigation of the strong consistency and the weak convergence
+properties of the resulting functional estimators establishing rates of
+convergence. We also give a theoretical study of the impact of deviating from
+the identifiability conditions quantifying it in terms of the spectral gap of
+the amplitude variation. Numerical experiments demonstrate the good finite
+sample performance of our method and the methodology is further illustrated by
+means of a data analysis.",Anirvan Chakraborty|Victor M. Panaretos,stat.ME
+2017-02-28T17:18:26Z,2017-02-12T01:25:56Z,http://arxiv.org/abs/1702.03476v1,http://arxiv.org/pdf/1702.03476v1,"Statistical inference for nested data using sufficient summary
+  statistics: a tutorial","Data with hierarchical structure arise in many fields. Estimating global
+effect sizes from nested data and testing effects against global null
+hypotheses is however more challenging than in the traditional setting of
+independent and identically distributed data. In this paper we review
+statistical approaches to deal with nested data following either a fixed-effect
+or a random-effects model. We focus on methods that are easy to implement such
+as group-level t-tests and Stouffer's method. The properties of these
+approaches are discussed within the context of neuroimaging applications
+quantitatively assessed on simulated data and demonstrated on real human
+neurophysiological data from a simulated-driving experiment. With what we call
+the inverse-variance-weighted sufficient-summary-statistic approach we
+highlight a particularly compelling technique that combines desirable
+statistical properties with computational simplicity and we provide
+step-by-step instructions to apply it to a number of popular measures of effect
+size.",Irene Dowding|Stefan Haufe,math.ST|stat.ME|stat.TH
+2017-02-28T17:18:29Z,2017-02-11T19:59:51Z,http://arxiv.org/abs/1702.03453v1,http://arxiv.org/pdf/1702.03453v1,"An approximate Bayesian inference on propensity score estimation under
+  unit nonresponse","Nonresponse weighting adjustment using the response propensity score is a
+popular tool for handling unit nonresponse. Statistical inference after the
+nonresponse weighting adjustment is complicated because the effect of
+estimating the propensity model parameter needs to be incorporated. In this
+paper we propose an approximate Bayesian approach to handle unit nonresponse
+with parametric model assumptions on the response probability but without
+model assumptions for the outcome variable. The proposed Bayesian method is
+calibrated to the frequentist inference in that the credible region obtained
+from the posterior distribution asymptotically matches to the frequentist
+confidence interval obtained from the Taylor linearization method. Unlike the
+frequentist approach however the proposed method does not involve Taylor
+linearization. The proposed method can be extended to handle over-identified
+cases in which there are more estimating equations than the parameters.
+Besides the proposed method can also be modified to handle nonignorable
+nonresponse. Results from two simulation studies confirm the validity of the
+proposed methods which are then applied to data from a Korean longitudinal
+survey.",Hejian Sang|Jae Kwang Kim,stat.ME
+2017-02-28T17:18:29Z,2017-02-11T17:17:32Z,http://arxiv.org/abs/1702.03442v1,http://arxiv.org/pdf/1702.03442v1,On sensitivity value of pair-matched observational studies,"An observational study may be biased by failing to control for unmeasured
+covariates. A sensitivity analysis asks how susceptible the conclusion of a
+naive analysis is to possible unmeasured confounders. This paper proposes a new
+quantity called the ""sensitivity value"" which is defined as the magnitude of
+departure from a randomized experiment needed to change the qualitative
+conclusions. We establish the asymptotic normality of the sensitivity value in
+pair-matched observational studies. The theoretical results are used to compute
+the power of a sensitivity analysis and select the design of a study. We
+explore the potential to use sensitivity values to screen multiple hypotheses
+using a microarray dataset and find it is robust against unobserved
+confounding.",Qingyuan Zhao,stat.ME
+2017-02-28T17:18:29Z,2017-02-11T12:17:50Z,http://arxiv.org/abs/1702.03417v1,http://arxiv.org/pdf/1702.03417v1,"On a spiked model for large volatility matrix estimation from noisy
+  high-frequency data","Recently inference about high-dimensional integrated covariance matrices
+(ICVs) based on noisy high-frequency data has emerged as a challenging problem.
+In the literature a pre-averaging estimator (PA-RCov) is proposed to deal with
+the microstructure noise. Using the large-dimensional random matrix theory it
+has been established that the eigenvalue distribution of the PA-RCov matrix is
+intimately linked to that of the ICV through the Marcenko-Pastur equation.
+Consequently the spectrum of the ICV can be inferred from that of the PA-RCov.
+However extensive data analyses demonstrate that the spectrum of the PA-RCov
+is spiked that is a few large eigenvalues (spikes) stay away from the others
+which form a rather continuous distribution with a density function (bulk).
+Therefore any inference on the ICVs must take into account this spiked
+structure. As a methodological contribution we propose a spiked model for the
+ICVs where spikes can be inferred from those of the available PA-RCov matrices.
+The consistency of the inference procedure is established and is checked by
+extensive simulation studies. In addition we apply our method to the real data
+from the US and Hong Kong markets. It is found that our model clearly
+outperforms the existing one in predicting the existence of spikes and in
+mimicking the empirical PA-RCov matrices.",Keren Shen|Jianfeng Yao|Wai Keung Li,stat.ME
+2017-02-28T17:18:29Z,2017-02-10T16:35:06Z,http://arxiv.org/abs/1702.03244v1,http://arxiv.org/pdf/1702.03244v1,$L_2$Boosting for Economic Applications,"In the recent years more and more high-dimensional data sets where the
+number of parameters $p$ is high compared to the number of observations $n$ or
+even larger are available for applied researchers. Boosting algorithms
+represent one of the major advances in machine learning and statistics in
+recent years and are suitable for the analysis of such data sets. While Lasso
+has been applied very successfully for high-dimensional data sets in Economics
+boosting has been underutilized in this field although it has been proven very
+powerful in fields like Biostatistics and Pattern Recognition. We attribute
+this to missing theoretical results for boosting. The goal of this paper is to
+fill this gap and show that boosting is a competitive method for inference of a
+treatment effect or instrumental variable (IV) estimation in a high-dimensional
+setting. First we present the $L_2$Boosting with componentwise least squares
+algorithm and variants which are tailored for regression problems which are the
+workhorse for most Econometric problems. Then we show how $L_2$Boosting can be
+used for estimation of treatment effects and IV estimation. We highlight the
+methods and illustrate them with simulations and empirical examples. For
+further results and technical details we refer to Luo and Spindler (2016 2017)
+and to the online supplement of the paper.",Ye Luo|Martin Spindler,stat.ML|stat.ME
+2017-02-28T17:18:29Z,2017-02-10T11:08:57Z,http://arxiv.org/abs/1702.03129v1,http://arxiv.org/pdf/1702.03129v1,"Simple Methods for Estimating Tentative Probabilities for Hypotheses
+  Instead of P Values","In many fields of research null hypothesis significance tests and p values
+are the accepted way of assessing the degree of certainty with which research
+results can be extrapolated beyond the sample studied. However there are very
+serious concerns about the suitability of p values for this purpose. An
+alternative approach is to cite confidence intervals for a statistic of
+interest but this does not directly tell readers how certain a hypothesis is.
+Here I suggest how the framework used for confidence intervals could easily be
+extended to derive confidence levels or ""tentative probabilities"" for
+hypotheses. This allows researchers to state their confidence in a hypothesis
+as a direct probability instead of circuitously by p values referring to an
+unstated hypothetical null hypothesis. The inevitable difficulties of
+statistical inference mean that these probabilities can only be tentative but
+probabilities are the natural way to express uncertainties so arguably
+researchers using statistical methods have an obligation to estimate how
+probable their hypotheses are by the best available method. Otherwise
+misinterpretations will fill the void.
+  Key words: Null hypothesis significance test Confidence interval
+Statistical inference",Michael Wood,stat.ME
+2017-02-28T17:18:29Z,2017-02-10T07:09:13Z,http://arxiv.org/abs/1702.03080v1,http://arxiv.org/pdf/1702.03080v1,"Estimators of the correlation coefficient in the bivariate exponential
+  distribution","A finite-support constraint on the parameter space is used to derive a lower
+bound on the error of an estimator of the correlation coefficient in the
+bivariate exponential distribution. The bound is then exploited to examine
+optimality of three estimators each being a nonlinear function of moments of
+exponential or Rayleigh observables. The estimator based on a measure of cosine
+similarity is shown to be highly efficient for values of the correlation
+coefficient greater than 0.35; for smaller values however it is the
+transformed Pearson correlation coefficient that exhibits errors closer to the
+derived bound.",W. J. Szajnowski,stat.ME
+2017-02-28T17:18:29Z,2017-02-09T13:29:48Z,http://arxiv.org/abs/1702.02827v1,http://arxiv.org/pdf/1702.02827v1,Combining controls can improve power in two-stage association studies,"High dimensional case control studies are ubiquitous in the biological
+sciences particularly genomics. To maximise power while constraining cost and
+to minimise type-1 error rates researchers typically seek to replicate
+findings in a second experiment on independent cohorts before proceeding with
+further analyses.
+  This paper presents a method in which control samples %in the replication
+cohort are combined with controls from the discovery cohort are re-used in the
+replication study. The theoretical implications of this method are discussed
+and simulations used to compare performance against the standard method in a
+range of circumstances. In many common study designs the new method allows a
+substantial improvement in power while retaining type-1 error rate control.
+  The new method has differing sensitivity to confounding in study cohorts
+compared to the standard procedure which must be considered in its
+application. Type-1 error rates in these scenarios are analytically and
+empirically derived and an online tool for comparing power and error rates is
+provided.
+  Although careful consideration must be made of all necessary assumptions
+this method can enable more efficient use of data in genome-wide association
+studies (GWAS) and other applications.",James Liley,stat.ME
+2017-02-28T17:18:29Z,2017-02-09T11:55:08Z,http://arxiv.org/abs/1702.02794v1,http://arxiv.org/pdf/1702.02794v1,"Statistical inference for moving-average Lévy-driven processes:
+  Fourier-based approach","We consider a new method of the semiparametric statistical estimation for the
+continuous-time moving average L\'evy processes. We derive the convergence
+rates of the proposed estimators and show that these rates are optimal in the
+minimax sense.",Denis Belomestny|Tatiana Orlova|Vladimir Panov,stat.ME
+2017-02-28T17:18:29Z,2017-02-09T05:29:11Z,http://arxiv.org/abs/1702.02708v1,http://arxiv.org/pdf/1702.02708v1,"The Spearman rank correlation screening for ultrahigh dimensional
+  censored data","In this paper we propose a Spearman rank correlation screening procedure for
+ultrahigh dimensional data. Two adjusted versions are concerned for
+non-censored and censored response respectively. The proposed method based on
+the robust rank correlation coefficient between response and predictor
+variables rather than the Pear- son correlation has the following
+distingushiable merits: (i) It is robust and model-free without specifying any
+regression form of predictors and response variable; (ii) The sure screening
+and rank consistency properties can hold under some mild regularity condi-
+tions; (iii) It still works well when the covariates or error distribution is
+heavy-tailed or when the predictors are strongly dependent with each other;
+(iv) The use of indica- tor functions in rank correlation screening greatly
+simplifies the theoretical derivation due to the boundedness and monotonic
+invariance of the resulting statistics compared with previous studies on
+variable screening. Numerical comparison indicates that the proposed approach
+performs much better than the most existing methods in various models
+especially for censored response with high-censoring ratio. We also illustrate
+our method using mantle cell lymphoma microarray dataset with censored
+response.",Xiaodong Yan|Niangsheng Tang|Xingqiu Zhao,stat.ME
+2017-02-28T17:18:29Z,2017-02-09T03:10:13Z,http://arxiv.org/abs/1702.02686v1,http://arxiv.org/pdf/1702.02686v1,"Rate Optimal Estimation and Confidence Intervals for High-dimensional
+  Regression with Missing Covariates","We consider the problem of estimating and constructing component-wise
+confidence intervals of a sparse high-dimensional linear regression model when
+some covariates of the design matrix are missing completely at random. A
+variant of the Dantzig selector (Candes & Tao 2007) is analyzed for estimating
+the regression model and a de-biasing argument is employed to construct
+component-wise confidence intervals under additional assumptions on the
+covariance of the design matrix. We also derive rates of convergence of the
+mean-square estimation error and the average confidence interval length and
+show that the dependency over several model parameters (e.g. sparsity $s$
+portion of observed covariates $\rho_*$ signal level $\|\beta_0\|_2$) are
+optimal in a minimax sense.",Yining Wang|Jialei Wang|Sivaraman Balakrishnan|Aarti Singh,stat.ML|cs.LG|stat.ME
+2017-02-28T17:18:33Z,2017-02-09T00:11:27Z,http://arxiv.org/abs/1702.02658v1,http://arxiv.org/pdf/1702.02658v1,Estimating the number of clusters using cross-validation,"Many clustering methods including k-means require the user to specify the
+number of clusters as an input parameter. A variety of methods have been
+devised to choose the number of clusters automatically but they often rely on
+strong modeling assumptions. This paper proposes a data-driven approach to
+estimate the number of clusters based on a novel form of cross-validation. The
+proposed method differs from ordinary cross-validation because clustering is
+fundamentally an unsupervised learning problem. Simulation and real data
+analysis results show that the proposed method outperforms existing methods
+especially in high-dimensional settings with heterogeneous or heavy-tailed
+noise. In a yeast cell cycle dataset the proposed method finds a parsimonious
+clustering with interpretable gene groupings.",Wei Fu|Patrick O. Perry,stat.ME|stat.CO
+2017-02-28T17:18:33Z,2017-02-08T19:27:44Z,http://arxiv.org/abs/1702.02590v1,http://arxiv.org/pdf/1702.02590v1,p-values,"While p-values are widely used and discussed we do not know a careful
+definition of the concept in the literature. We sought to fill in the gap. In
+the process we discovered that the traditional notion of test statistic is too
+narrow and this article indicates a natural generalization.",Yuri Gurevich|Vladimir Vovk,"stat.ME|62G10, 62F03, 62A01, 06A05"
+2017-02-28T17:18:33Z,2017-02-16T15:09:46Z,http://arxiv.org/abs/1702.02484v2,http://arxiv.org/pdf/1702.02484v2,Optimization Based Methods for Partially Observed Chaotic Systems,"In this paper we consider filtering and smoothing of partially observed
+chaotic dynamical systems that are discretely observed with an additive
+Gaussian noise in the observation. These models are found in a wide variety of
+real applications and include the Lorenz 96' model. In the context of a fixed
+observation interval $T$ observation frequency $h$ and Gaussian observation
+variance $\sigma_Z^2$ we show under assumptions that the filter and smoother
+are well approximated by a Gaussian when $\sigma^2_Z h$ is sufficiently small.
+Based on this result we show that the Maximum-a-posteriori (MAP) estimators are
+asymptotically optimal in mean square error as $\sigma^2_Z h$ tends to $0$.
+Given these results we provide a batch algorithm for the smoother and filter
+based on Newton's method to obtain the MAP. In particular we show that if the
+initial point is close enough to the MAP then Newton's method converges to it
+at a fast rate. We also provide a method for computing such an initial point.
+Our approach is illustrated numerically on the Lorenz 96' model with state
+vector up to 1 million dimensions with code running in the order of minutes.
+To our knowledge the results in this paper are the first of their type for this
+class of models.",Daniel Paulin|Ajay Jasra|Dan Crisan|Alexandros Beskos,"stat.ME|math.DS|math.OC|37D45, 65K10"
+2017-02-28T17:18:33Z,2017-02-08T04:51:37Z,http://arxiv.org/abs/1702.02286v1,http://arxiv.org/pdf/1702.02286v1,Prediction Weighted Maximum Frequency Selection,"Shrinkage estimators that possess the ability to produce sparse solutions
+have become increasingly important to the analysis of today's complex datasets.
+Examples include the LASSO the Elastic-Net and their adaptive counterparts.
+Estimation of penalty parameters still presents difficulties however. While
+variable selection consistent procedures have been developed their finite
+sample performance can often be less than satisfactory. We develop a new
+strategy for variable selection using the adaptive LASSO and adaptive
+Elastic-Net estimators with $p_n$ diverging. The basic idea first involves
+using the trace paths of their LARS solutions to bootstrap estimates of maximum
+frequency (MF) models conditioned on dimension. Conditioning on dimension
+effectively mitigates overfitting however to deal with underfitting these MFs
+are then prediction-weighted and it is shown that not only can consistent
+model selection be achieved but that attractive convergence rates can as well
+leading to excellent finite sample performance. Detailed numerical studies are
+carried out on both simulated and real datasets. Extensions to the class of
+generalized linear models are also detailed.",Hongmei Liu|J. Sunil Rao,stat.ME|62J07
+2017-02-28T17:18:33Z,2017-02-08T00:29:42Z,http://arxiv.org/abs/1702.02231v1,http://arxiv.org/pdf/1702.02231v1,"Likelihood Inference and The Role of Initial Conditions for the Dynamic
+  Panel Data Model","Lancaster (2002} proposes an estimator for the dynamic panel data model with
+homoskedastic errors and zero initial conditions. In this paper we show this
+estimator is invariant to orthogonal transformations but is inefficient
+because it ignores additional information available in the data. The zero
+initial condition is trivially satisfied by subtracting initial observations
+from the data. We show that differencing out the data further erodes efficiency
+compared to drawing inference conditional on the first observations.
+  Finally we compare the conditional method with standard random effects
+approaches for unobserved data. Standard approaches implicitly rely on normal
+approximations which may not be reliable when unobserved data is very skewed
+with some mass at zero values. For example panel data on firms naturally
+depend on the first period in which the firm enters on a new state. It seems
+unreasonable then to assume that the process determining unobserved data is
+known or stationary. We can instead make inference on structural parameters by
+conditioning on the initial observations.",Jose Diogo Barbosa|Marcelo J. Moreira,stat.ME
+2017-02-28T17:18:33Z,2017-02-07T14:53:37Z,http://arxiv.org/abs/1702.02048v1,http://arxiv.org/pdf/1702.02048v1,Multiplex Network Regression: How do relations drive interactions?,"We introduce a statistical method to investigate the impact of dyadic
+relations on complex networks generated from repeated interactions. It is based
+on generalised hypergeometric ensembles a class of statistical network
+ensembles developed recently. We represent different types of known relations
+between system elements by weighted graphs separated in the different layers
+of a multiplex network. With our method we can regress the influence of each
+relational layer the independent variables on the interaction counts the
+dependent variables. Moreover we can test the statistical significance of the
+relations as explanatory variables for the observed interactions. To
+demonstrate the power of our approach and its broad applicability we will
+present examples based on synthetic and empirical data.",Giona Casiraghi,"physics.soc-ph|cs.SI|stat.ME|62H12, 62H15"
+2017-02-28T17:18:33Z,2017-02-13T06:12:49Z,http://arxiv.org/abs/1702.02010v2,http://arxiv.org/pdf/1702.02010v2,"Selection of variables and decision boundaries for functional data via
+  bi-level selection","Sparsity-inducing penalties are useful tools for variable selection and they
+are also effective for regression settings where the data are functions. We
+consider the problem of selecting not only variables but also decision
+boundaries in logistic regression models for functional data using the sparse
+regularization. The functional logistic regression model is estimated by the
+framework of the penalized likelihood method with the sparse group lasso-type
+penalty and then tuning parameters are selected using the model selection
+criterion. The effectiveness of the proposed method is investigated through
+real data analysis.",Hidetoshi Matsui,"stat.ME|62J07, 62H30|G.3; I.5.1"
+2017-02-28T17:18:33Z,2017-02-13T06:15:10Z,http://arxiv.org/abs/1702.02009v2,http://arxiv.org/pdf/1702.02009v2,Quadratic regression for functional response models,"We consider the problem of constructing a regression model with a functional
+predictor and a functional response. We extend the functional linear model to
+the quadratic model where the quadratic term also takes the interaction
+between the argument of the functional data into consideration. We assume that
+the predictor and the coefficient functions are expressed by basis expansions
+and then parameters included in the model are estimated by the maximum
+likelihood method by assuming that the error function follows a Gaussian
+process. We apply the proposed method to the analysis of weather data and then
+investigate what the results provides.",Hidetoshi Matsui,stat.ME|62J02|G.3; I.5.1
+2017-02-28T17:18:33Z,2017-02-07T07:26:41Z,http://arxiv.org/abs/1702.01906v1,http://arxiv.org/pdf/1702.01906v1,Affiliation networks with an increasing degree sequence,"Affiliation network is one kind of two-mode social network with two different
+sets of nodes (namely a set of actors and a set of social events) and edges
+representing the affiliation of the actors with the social events. Although a
+number of statistical models are proposed to analyze affiliation networks the
+asymptotic behaviors of the estimator are still unknown or have not been
+properly explored. In this paper we study an affiliation model with the degree
+sequence as the exclusively natural sufficient statistic in the exponential
+family distributions. We establish the uniform consistency and asymptotic
+normality of the maximum likelihood estimator when the numbers of actors and
+events both go to infinity. Simulation studies and a real data example
+demonstrate our theoretical results.",Yong Zhang|Xiaodi Qian|Hong Qin|Ting Yan,"stat.ME|math.ST|stat.TH|62E20, 62F12"
+2017-02-28T17:18:33Z,2017-02-07T04:32:23Z,http://arxiv.org/abs/1702.01875v1,http://arxiv.org/pdf/1702.01875v1,"Adaptive Basis Selection for Exponential Family Smoothing Splines with
+  Application in Joint Modeling of Multiple Sequencing Samples","Second-generation sequencing technologies have replaced array-based
+technologies and become the default method for genomics and epigenomics
+analysis. Second-generation sequencing technologies sequence tens of millions
+of DNA/cDNA fragments in parallel. After the resulting sequences (short reads)
+are mapped to the genome one gets a sequence of short read counts along the
+genome. Effective extraction of signals in these short read counts is the key
+to the success of sequencing technologies. Nonparametric methods in particular
+smoothing splines have been used extensively for modeling and processing
+single sequencing samples. However nonparametric joint modeling of multiple
+second-generation sequencing samples is still lacking due to computational
+cost. In this article we develop an adaptive basis selection method for
+efficient computation of exponential family smoothing splines for modeling
+multiple second-generation sequencing samples. Our adaptive basis selection
+gives a sparse approximation of smoothing splines yielding a lower-dimensional
+effective model space for a more scalable computation. The asymptotic analysis
+shows that the effective model space is rich enough to retain essential
+features of the data. Moreover exponential family smoothing spline models
+computed via adaptive basis selection are shown to have good statistical
+properties e.g. convergence at the same rate as that of full basis
+exponential family smoothing splines. The empirical performance is demonstrated
+through simulation studies and two second-generation sequencing data examples.",Ping Ma|Nan Zhang|Jianhua Z. Huang|Wenxuan Zhong,stat.ME
+2017-02-28T17:18:37Z,2017-02-06T22:00:34Z,http://arxiv.org/abs/1702.01805v1,http://arxiv.org/abs/1702.01805v1,"A Digital Hardware Fast Algorithm and FPGA-based Prototype for a Novel
+  16-point Approximate DCT for Image Compression Applications","The discrete cosine transform (DCT) is the key step in many image and video
+coding standards. The 8-point DCT is an important special case possessing
+several low-complexity approximations widely investigated. However 16-point
+DCT transform has energy compaction advantages. In this sense this paper
+presents a new 16-point DCT approximation with null multiplicative complexity.
+The proposed transform matrix is orthogonal and contains only zeros and ones.
+The proposed transform outperforms the well-know Walsh-Hadamard transform and
+the current state-of-the-art 16-point approximation. A fast algorithm for the
+proposed transform is also introduced. This fast algorithm is experimentally
+validated using hardware implementations that are physically realized and
+verified on a 40 nm CMOS Xilinx Virtex-6 XC6VLX240T FPGA chip for a maximum
+clock rate of 342 MHz. Rapid prototypes on FPGA for 8-bit input word size shows
+significant improvement in compressed image quality by up to 1-2 dB at the cost
+of only eight adders compared to the state-of-art 16-point DCT approximation
+algorithm in the literature [S. Bouguezel M. O. Ahmad and M. N. S. Swamy. A
+novel transform for image compression. In {\em Proceedings of the 53rd IEEE
+International Midwest Symposium on Circuits and Systems (MWSCAS)} 2010].",F. M. Bayer|R. J. Cintra|A. Edirisuriya|A. Madanayake,cs.MM|cs.AR|cs.DS|cs.IT|math.IT|stat.ME
+2017-02-28T17:18:37Z,2017-02-06T19:59:33Z,http://arxiv.org/abs/1702.01777v1,http://arxiv.org/pdf/1702.01777v1,"Optimal Scaling of the MALA algorithm with Irreversible Proposals for
+  Gaussian targets","It is known that reversible Langevin diffusions in confining potentials
+converge to equilibrium exponentially fast. Adding a divergence free component
+to the drift of a Langevin diffusion accelerates its convergence to
+stationarity. However such a stochastic differential equation (SDE) is no
+longer reversible. In this paper we analyze the optimal scaling of MCMC
+algorithms constructed from discretizations of irreversible Langevin dynamics
+for high dimensional Gaussian target measures. In particular we make use of
+Metropolis-Hastings algorithms where the proposal move is a time-step Euler
+discretization of an irreversible SDE. We call the resulting algorithm the
+\imala in comparison to the classical MALA algorithm. We stress that the usual
+Metropolis-Hastings accept-reject mechanism makes the \imala chain reversible;
+thus it is of interest to study the effect of irreversible proposals in these
+algorithms. In order to quantify how the cost of the algorithm scales with the
+dimension $N$ we prove invariance principles for the appropriately rescaled
+chain. In contrast to the usual MALA algorithm we show that there could be
+three regimes asymptotically: (i) a diffusive regime as in the MALA algorithm
+(ii) a ""transitive"" regime and (iii) a ""fluid"" regime where the limit is an
+ordinary differential equation. Numerical results are also given corroborating
+the theory.",Michela Ottobre|Natesh S. Pillai|Konstantinos Spiliopoulos,stat.ME|math.PR|math.ST|stat.TH
+2017-02-28T17:18:37Z,2017-02-20T16:11:20Z,http://arxiv.org/abs/1702.01591v2,http://arxiv.org/pdf/1702.01591v2,"The Partial Entropy Decomposition: Decomposing multivariate entropy and
+  mutual information via pointwise common surprisal","Obtaining meaningful quantitative descriptions of the statistical dependence
+within multivariate systems is a difficult open problem. Recently the Partial
+Information Decomposition (PID) was proposed to decompose mutual information
+(MI) about a target variable into components which are redundant unique and
+synergistic within different subsets of predictor variables. Here we propose
+to apply the elegant formalism of the PID to multivariate entropy resulting in
+a Partial Entropy Decomposition (PED). We implement the PED with an entropy
+redundancy measure based on pointwise common surprisal; a natural definition
+which is closely related to the definition of MI. We show how this approach can
+reveal the dyadic vs triadic generative structure of multivariate systems that
+are indistinguishable with classical Shannon measures. The entropy perspective
+also shows that misinformation is synergistic entropy and hence that MI itself
+includes both redundant and synergistic effects. We show the relationships
+between the PED and MI in two predictors and derive two alternative
+information decompositions which we illustrate on several example systems. This
+reveals that in entropy terms univariate predictor MI is not a proper subset
+of the joint MI and we suggest this previously unrecognised fact explains in
+part why obtaining a consistent PID has proven difficult. The PED also allows
+separate quantification of mechanistic redundancy (related to the function of
+the system) versus source redundancy (arising from dependencies between
+inputs); an important distinction which no existing methods can address. The
+new perspective provided by the PED helps to clarify some of the difficulties
+encountered with the PID approach and the resulting decompositions provide
+useful tools for practical data analysis across a wide range of application
+areas.",Robin A. A. Ince,cs.IT|math.IT|math.ST|q-bio.NC|q-bio.QM|stat.ME|stat.TH
+2017-02-28T17:18:37Z,2017-02-05T15:43:17Z,http://arxiv.org/abs/1702.01418v1,http://arxiv.org/pdf/1702.01418v1,"Choosing the number of groups in a latent stochastic block model for
+  dynamic networks","Latent stochastic block models are flexible statistical models that are
+widely used in social network analysis. In recent years efforts have been made
+to extend these models to temporal dynamic networks whereby the connections
+between nodes are observed at a number of different times. In this paper we
+extend the original stochastic block model by using a Markovian property to
+describe the evolution of nodes' cluster memberships over time. We recast the
+problem of clustering the nodes of the network into a model-based context and
+show that the integrated completed likelihood can be evaluated analytically for
+a number of likelihood models. Then we propose a scalable greedy algorithm to
+maximise this quantity thereby estimating both the optimal partition and the
+ideal number of groups in a single inferential framework. Finally we propose
+applications of our methodology to both real and artificial datasets.",Riccardo Rastelli|Pierre Latouche|Nial Friel,stat.ME|stat.CO
+2017-02-28T17:18:37Z,2017-02-04T21:39:47Z,http://arxiv.org/abs/1702.01349v1,http://arxiv.org/pdf/1702.01349v1,"Estimating Average Treatment Effects with a Response-Informed Calibrated
+  Propensity Score","Approaches based on propensity score (PS) modeling are often used to estimate
+causal treatment effects in observational studies. The performance of inverse
+probability weighting (IPW) and doubly-robust (DR) estimators deteriorate under
+model mis-specification or when the dimension of covariates that are adjusted
+for is not small. We propose a response-informed calibrated PS approach that is
+more robust to model mis-specification and accommodates a large number of
+covariates while preserving the double-robustness and local semiparametric
+efficiency properties under correct model specification. Our approach achieves
+additional robustness and efficiency gain by estimating the PS using a
+two-dimensional smoothing over an initial parametric PS and another parametric
+response score. Both of the scores are estimated via regularized regression to
+accommodate covariates with a dimension that is not small. Simulations confirm
+these favorable properties in finite samples. We illustrate the method by
+estimating the effect of statins on colorectal cancer risk in an electronic
+medical record study and the effect of smoking on C-reactive protein in the
+Framingham Offspring Study.",David Cheng|Abhishek Chakrabortty|Ashwin N. Ananthakrishnan|Tianxi Cai,stat.ME
+2017-02-28T17:18:37Z,2017-02-04T07:43:07Z,http://arxiv.org/abs/1702.01250v1,http://arxiv.org/pdf/1702.01250v1,"Estimating Average Treatment Effects: Supplementary Analyses and
+  Remaining Challenges","There is a large literature on semiparametric estimation of average treatment
+effects under unconfounded treatment assignment in settings with a fixed number
+of covariates. More recently attention has focused on settings with a large
+number of covariates. In this paper we extend lessons from the earlier
+literature to this new setting. We propose that in addition to reporting point
+estimates and standard errors researchers report results from a number of
+supplementary analyses to assist in assessing the credibility of their
+estimates.",Susan Athey|Guido Imbens|Thai Pham|Stefan Wager,stat.ME
+2017-02-28T17:18:37Z,2017-02-04T04:19:01Z,http://arxiv.org/abs/1702.01236v1,http://arxiv.org/pdf/1702.01236v1,"Improved Probabilistic Principal Component Analysis for Application to
+  Reduced Order Modeling","In our previous work a reduced order model (ROM) for a stochastic system was
+made where noisy data was projected onto principal component analysis
+(PCA)-derived basis vectors to obtain an accurate reconstruction of the
+noise-free data. That work used techniques designed for deterministic data PCA
+was used for the basis function generation and $L_2$ projection was used to
+create the reconstructions. In this work probabilistic approaches are used.
+The probabilistic PCA (PPCA) is used to generate the basis which then allows
+the noise in the training data to be estimated. PPCA has also been improved so
+that the derived basis vectors are orthonormal and the variance of the basis
+expansion coefficients over the training data set can be estimated. The
+standard approach assumes a unit variance for these coefficients. Based on the
+results of the PPCA model selection criteria are applied to automatically
+choose the dimension of the ROM. In our previous work a heuristic approach was
+used to pick the dimension. Lastly a new statistical approach is used for the
+projection step where the variance information obtained from the improved PPCA
+is used as a prior to improve the projection. This gives improved accuracy over
+$L_2$ projection when the projected data is noisy. In addition the noise
+statistics for the projected data are not assumed to be the same as that of the
+training data but are estimated in the projection process. The entire approach
+gives a fully stochastic method for computing a ROM from noisy training data
+determining ideal model selection and projecting noisy test data thus
+enabling accurate predictions of noise-free data from data that is dominated by
+noise.",Indika Udagedara|Brian Helenbrook|Aaron Luttman|Jared Catenacci,math.NA|stat.ME
+2017-02-28T17:18:37Z,2017-02-03T21:23:46Z,http://arxiv.org/abs/1702.01166v1,http://arxiv.org/pdf/1702.01166v1,Optimal Subsampling for Large Sample Logistic Regression,"For massive data the family of subsampling algorithms is popular to downsize
+the data volume and reduce computational burden. Existing studies focus on
+approximating the ordinary least squares estimate in linear regression where
+statistical leverage scores are often used to define subsampling probabilities.
+In this paper we propose fast subsampling algorithms to efficiently
+approximate the maximum likelihood estimate in logistic regression. We first
+establish consistency and asymptotic normality of the estimator from a general
+subsampling algorithm and then derive optimal subsampling probabilities that
+minimize the asymptotic mean squared error of the resultant estimator. An
+alternative minimization criterion is also proposed to further reduce the
+computational cost. The optimal subsampling probabilities depend on the full
+data estimate so we develop a two-step algorithm to approximate the optimal
+subsampling procedure. This algorithm is computationally efficient and has a
+significant reduction in computing time compared to the full data approach.
+Consistency and asymptotic normality of the estimator from a two-step algorithm
+are also established. Synthetic and real data sets are used to evaluate the
+practical performance of the proposed method.",HaiYing Wang|Rong Zhu|Ping Ma,stat.CO|stat.ME|stat.ML
+2017-02-28T17:18:37Z,2017-02-06T10:57:37Z,http://arxiv.org/abs/1702.00988v2,http://arxiv.org/pdf/1702.00988v2,"On finite sample properties of nonparametric discrete asymmetric kernel
+  estimators","The discrete kernel method was developed to estimate count data
+distributions distinguishing discrete associated kernels based on their
+asymptotic behaviour. This study investigates the class of discrete asymmetric
+kernels and their resulting non-consistent estimators but this theoretical
+drawback of the estimators is balanced by some interesting features in
+small/medium samples. The role of modal probability and variance of discrete
+asymmetric kernels is highlighted to help better understand the performance of
+these kernels in particular how the binomial kernel outperforms other
+asymmetric kernels. The performance of discrete asymmetric kernel estimators of
+probability mass functions is illustrated using simulations in addition to
+applications to real data sets.",Tristan Senga Kiessé,stat.ME
+2017-02-28T17:18:37Z,2017-02-03T11:48:27Z,http://arxiv.org/abs/1702.00978v1,http://arxiv.org/pdf/1702.00978v1,Eliciting judgements about uncertain population means and variances,"We propose an elicitation method for quantifying an expert's opinion about an
+uncertain population mean and variance. The method involves eliciting
+judgements directly about the population mean or median and eliciting
+judgements about the population proportion with a particular characteristic as
+a means of inferring the expert's beliefs about the variance. The method can be
+used for a range of two-parameter parametric families of distributions
+assuming a finite mean and variance. An illustration is given involving an
+expert's beliefs about the distribution of times taken to translate pages of
+text. The method can be implemented in R using the package SHELF.",Ziyad A. Alhussain|Jeremy E. Oakley,stat.ME
+2017-02-28T17:18:41Z,2017-02-03T11:16:36Z,http://arxiv.org/abs/1702.00971v1,http://arxiv.org/pdf/1702.00971v1,"Multiple imputation for multilevel data with continuous and binary
+  variables","We present and compare multiple imputation methods for multilevel continuous
+and binary data where variables are systematically and sporadically missing. We
+particularly focus on three recent approaches: the joint modelling approach of
+Quartagno and Carpenter (2016a) and the fully conditional specification
+approaches of Jolani et al. (2015) and Resche-Rigon and White (2016).
+  The methods are compared from a theoretical point of view and through an
+extensive simulation study motivated by a real dataset comprising multiple
+studies. Simulations are reproducible. The comparisons show why these multiple
+imputation methods are the most appropriate to handle missing values in a
+multilevel setting and why their relative performances can vary according to
+the missing data pattern the multilevel structure and the type of missing
+variables.
+  This study shows that valid inferences can be obtained if the number of
+clusters is sufficiently large. In addition heteroscedastic MI methods seems
+to be providing more accurate inferences than homoscedastic methods which
+should be reserved for data with few individuals per cluster. The method of
+Quartagno and Carpenter (2016a) appears generally accurate for binary
+variables the method of Resche-Rigon and White (2016) with large clusters and
+the approach of Jolani et al. (2015) with small clusters.",Vincent Audigier|Ian R. White|Shahab Jolani|Thomas P. A. Debray|Matteo Quartagno|James Carpenter|Stef van Buuren|Matthieu Resche-Rigon,stat.ME
+2017-02-28T17:18:41Z,2017-02-03T01:49:20Z,http://arxiv.org/abs/1702.00888v1,http://arxiv.org/pdf/1702.00888v1,"On randomization-based causal inference for matched-pair factorial
+  designs","Under the potential outcomes framework we introduce matched-pair factorial
+designs and propose the matched-pair estimator of the factorial effects. We
+also calculate the randomization-based covariance matrix of the matched-pair
+estimator and provide the ""Neymanian"" estimator of the covariance matrix.",Jiannan Lu|Alex Deng,stat.ME
+2017-02-28T17:18:41Z,2017-02-02T21:38:47Z,http://arxiv.org/abs/1702.00836v1,http://arxiv.org/pdf/1702.00836v1,"Robust inference and testing of continuity in threshold regression
+  models","This paper is concerned with inference in regression models with either a
+kink or a jump at an unknown threshold particularly when we do not know
+whether the kink or jump is the true specification. One of our main results
+shows that the statistical properties of the estimator of the threshold
+parameter are substantially different under the two settings with a slower
+rate of convergence under the kink design and more surprisingly slower than if
+the correct kink specification were employed in the estimation. We thus propose
+two testing procedures to distinguish between them. Next we develop a robust
+inferential procedure that does not require prior knowledge on whether the
+regression model is kinky or jumpy. Furthermore we propose to construct
+confidence intervals for the unknown threshold by the bootstrap test inversion
+also known as grid bootstrap. Finite sample performances of the bootstrap tests
+and the grid bootstrap confidence intervals are examined and com- pared against
+tests and confidence intervals based on the asymptotic distribution through
+Monte Carlo simulations. Finally we implement our procedure to an economic
+empirical application.",Javier Hidalgo|Jungyoon Lee|Myung Hwan Seo,math.ST|stat.ME|stat.TH
+2017-02-28T17:18:41Z,2017-02-02T16:05:01Z,http://arxiv.org/abs/1702.00728v1,http://arxiv.org/pdf/1702.00728v1,"Evaluation of time series models under non-stationarity with application
+  to the comparison of regional climate models","Different disciplines pursue the aim to develop models which characterize
+certain phenomena as accurately as possible. Climatology is a prime example
+where the temporal evolution of the climate is modeled. In order to compare and
+improve different models methodology for a fair model evaluation is
+indispensable. As models and forecasts of a phenomenon are usually associated
+with uncertainty proper scoring rules which are tools that account for this
+kind of uncertainty are an adequate choice for model evaluation. However
+under the presence of non-stationarity such a model evaluation becomes
+challenging as the characteristics of the phenomenon of interest change. We
+provide methodology for model evaluation in the context of non-stationary time
+series. Our methodology assumes stationarity of the time series in shorter
+moving time windows. These moving windows which are selected based on a
+changepoint analysis are used to characterize the uncertainty of the
+phenomenon/model for the corresponding time instances. This leads to the
+concept of moving scores allowing for a temporal assessment of the model
+performance. The merits of the proposed methodology are illustrated in a
+simulation and a case study.",T. M. Erhardt|C. Czado|T. L. Thorarinsdottir,stat.ME|stat.AP
+2017-02-28T17:18:41Z,2017-02-02T10:37:40Z,http://arxiv.org/abs/1702.00609v1,http://arxiv.org/pdf/1702.00609v1,"Robust control of varying weak hyperspectral target detection with
+  sparse non-negative representation","In this study a multiple-comparison approach is developed for detecting
+faint hyperspectral sources. The detection method relies on a sparse and
+non-negative representation on a highly coherent dictionary to track a
+spatially varying source. A robust control of the detection errors is ensured
+by learning the test statistic distributions on the data. The resulting control
+is based on the false discovery rate to take into account the large number of
+pixels to be tested. This method is applied to data recently recorded by the
+three-dimensional spectrograph Multi-Unit Spectrograph Explorer.",Raphael Bacher|Celine Meillier|Florent Chatelain|Olivier Michel,stat.ME
+2017-02-28T17:18:41Z,2017-02-02T07:48:58Z,http://arxiv.org/abs/1702.00564v1,http://arxiv.org/pdf/1702.00564v1,"Modelling dependency completion in sentence comprehension as a Bayesian
+  hierarchical mixture process: A case study involving Chinese relative clauses","In sentence comprehension it is widely assumed (Gibson 2000 Lewis &
+Vasishth 2005) that the distance between linguistic co-dependents affects the
+latency of dependency resolution: the longer the distance the longer the
+retrieval time (the distance-based account). An alternative theory of
+dependency resolution difficulty is the direct-access model (McElree et al.
+2003); this model assumes that retrieval times are a mixture of two
+distributions: one distribution represents successful retrieval and the other
+represents an initial failure to retrieve the correct dependent followed by a
+reanalysis that leads to successful retrieval. The time needed for a successful
+retrieval is independent of the dependency distance (cf. the distance-based
+account) but reanalyses cost extra time and the proportion of failures
+increases with increasing dependency distance. We implemented a series of
+increasingly complex hierarchical Bayesian models to compare the distance-based
+account and the direct-access model; the latter was implemented as a
+hierarchical finite mixture model with heterogeneous variances for the two
+mixture distributions. We evaluated the models using two published data-sets on
+Chinese relative clauses which have been used to argue in favour of the
+distance account but this account has found little support in subsequent work
+(e.g. J\""ager et al. 2015). The hierarchical finite mixture model i.e. an
+implementation of direct-access is shown to provide a superior account of the
+data than the distance account.",Shravan Vasishth|Nicolas Chopin|Robin Ryder|Bruno Nicenboim,stat.AP|cs.CL|stat.ME|stat.ML
+2017-02-28T17:18:41Z,2017-02-02T07:14:21Z,http://arxiv.org/abs/1702.00556v1,http://arxiv.org/pdf/1702.00556v1,"The illusion of power: How the statistical significance filter leads to
+  overconfident expectations of replicability","We show that publishing results using the statistical significance
+filter---publishing only when the p-value is less than 0.05---leads to a
+vicious cycle of overoptimistic expectation of the replicability of results.
+First we show through a simple derivation that when true statistical power is
+relatively low computing power based on statistically significant results will
+lead to overestimates of power. Then we present a case study using 10
+experimental comparisons drawn from a recently published meta-analysis in
+psycholinguistics (J\""ager et al. 2017). We show that the statistically
+significant results yield an illusion of replicability i.e. an illusion that
+power is high. This illusion holds even if the researcher doesn't conduct any
+formal power analysis but just uses statistical significance to informally
+assess robustness of results.",Shravan Vasishth|Andrew Gelman,stat.ME|math.ST|stat.AP|stat.TH
+2017-02-28T17:18:41Z,2017-02-02T02:02:13Z,http://arxiv.org/abs/1702.00525v1,http://arxiv.org/pdf/1702.00525v1,"A new powerful approach to the study of effect modification in
+  observational studies","Effect modification occurs when the magnitude or stability of a treatment
+effect varies as a function of an observed covariate. Generally larger and
+more stable treatment effects are insensitive to larger biases from unmeasured
+covariates so a causal conclusion may be considerably firmer if effect
+modification is noted when it occurs. We propose a new strategy called the
+submax-method that combines exploratory and confirmatory efforts to discover
+effect modification. It uses the joint distribution of test statistics that
+split the data in various ways based on observed covariates. The method splits
+the population L times into two subpopulations computing a test statistic from
+each subpopulation and appends the test statistic for the whole population
+making 2L+1 test statistics in total. The submax-method achieves the highest
+design sensitivity and the highest Bahadur efficiency of its component tests.
+Moreover the form of the test is sufficiently tractable that its large sample
+power may be studied analytically. A simulation confirms and elaborates large
+sample results. An observational study of the effects of physical activity on
+survival is used to illustrate the method.",Kwonsang Lee|Dylan S. Small|Paul R. Rosenbaum,stat.ME
+2017-02-28T17:18:41Z,2017-02-01T23:38:57Z,http://arxiv.org/abs/1702.00501v1,http://arxiv.org/pdf/1702.00501v1,Adaptive gPCA: A method for structured dimensionality reduction,"When working with large biological data sets exploratory analysis is an
+important first step for understanding the latent structure and for generating
+hypotheses to be tested in subsequent analyses. However when the number of
+variables is large compared to the number of samples standard methods such as
+principal components analysis give results which are unstable and difficult to
+interpret.
+  To mitigate these problems we have developed a method which allows the
+analyst to incorporate side information about the relationships between the
+variables in a way that encourages similar variables to have similar loadings
+on the principal axes. This leads to a low-dimensional representation of the
+samples which both describes the latent structure and which has axes which are
+interpretable in terms of groups of closely related variables.
+  The method is derived by putting a prior encoding the relationships between
+the variables on the data and following through the analysis on the posterior
+distributions of the samples. We show that our method does well at
+reconstructing true latent structure in simulated data and we also demonstrate
+the method on a dataset investigating the effects of antibiotics on the
+composition of bacteria in the human gut.",Julia Fukuyama,stat.ME|stat.AP
+2017-02-28T17:18:41Z,2017-02-01T20:41:21Z,http://arxiv.org/abs/1702.00444v1,http://arxiv.org/pdf/1702.00444v1,Matching Using Sufficient Dimension Reduction for Causal Inference,"To estimate casual treatment effects we propose a new matching approach
+based on the reduced covariates obtained from sufficient dimension reduction.
+Compared to the original covariates and the propensity score which are
+commonly used for matching in the literature the reduced covariates are
+estimable nonparametrically under a mild assumption on the original covariates
+and are sufficient and effective in imputing the missing potential outcomes.
+Under the ignorability assumption the consistency of the proposed approach
+requires a weaker common support condition. In addition the researchers are
+allowed to use different reduced covariates to find matched subjects for
+different treatment groups. We develop relative asymptotic results and conduct
+simulation studies as well as real data analysis to illustrate the usefulness
+of the proposed approach.",Wei Luo|Yeying Zhu,stat.ME

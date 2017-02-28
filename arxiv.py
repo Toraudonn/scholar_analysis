@@ -1,11 +1,8 @@
 from __future__ import print_function
 import sys
 import csv
-from urllib.request import HTTPCookieProcessor, Request, build_opener
-from urllib.parse import quote, unquote
-from http.cookiejar import MozillaCookieJar
+import time, datetime
 import requests
-from bs4 import BeautifulSoup
 
 
 import feedparser
@@ -14,112 +11,103 @@ from requests.exceptions import HTTPError
 
 root_url = 'http://export.arxiv.org/api/'
 
-
-# TODO: Field queries ("Details of Query Construction")
-# TODO: Do I want to support boolean operators?
-# TODO: Do I want to add support for quotes to group words/order of ops?
-def query(s, prune=True, start=0, max_results=10):
-    # Gets a list of top results, each of which is a dict
-    results = feedparser.parse(root_url + 'query?search_query=all:' + s + '&start=' + str(start) + '&max_results=' + str(max_results))
-    if results['status'] != 200:
-        # TODO: better error reporting
-        raise Exception("HTTP Error " + str(results['status']) + " in query")
-    else:
-        results = results['entries']
-
-    for result in results:
-        # Renamings and modifications
-        mod_query_result(result)
-        if prune:
-            prune_query_result(result)
-
-    return results
-
-
-def mod_query_result(result):
-    # Useful to have for download automation
-    result['pdf_url'] = None
-    for link in result['links']:
-        if 'title' in link and link['title'] == 'pdf':
-            result['pdf_url'] = link['href']
-
-    result['affiliation'] = result.pop('arxiv_affiliation', 'None')
-    result['arxiv_url'] = result.pop('link')
-    result['title'] = result['title'].rstrip('\n')
-    result['summary'] = result['summary'].rstrip('\n')
-    result['authors'] = [d['name'] for d in result['authors']]
-
-    if 'arxiv_comment' in result:
-        result['arxiv_comment'] = result['arxiv_comment'].rstrip('\n')
-    else:
-        result['arxiv_comment'] = None
-    if 'arxiv_journal_ref' in result:
-        result['journal_reference'] = result.pop('arxiv_journal_ref')
-    else:
-        result['journal_reference'] = None
-    if 'arxiv_doi' in result:
-        result['doi'] = result.pop('arxiv_doi')
-    else:
-        result['doi'] = None
-
-
-def prune_query_result(result):
-    prune_keys = ['updated_parsed',
-                  'published_parsed',
-                  'arxiv_primary_category',
-                  'summary_detail',
-                  'author',
-                  'author_detail',
-                  'links',
-                  'guidislink',
-                  'title_detail',
-                  'tags',
-                  'id']
-    for key in prune_keys:
-        try:
-            del result['key']
-        except KeyError:
-            pass
-
-
-def download(obj, dirname='./'):
-    # Downloads file in obj (can be result or unique page) if it has a .pdf link
-    if 'pdf_url' in obj and 'title' in obj and obj['pdf_url'] and obj['title']:
-        filename = dirname + obj['title']+".pdf"
-        try:
-            import urllib
-            urllib.urlretrieve(obj['pdf_url'], filename)
-
-            # Return the filename of the pdf
-        except AttributeError:  # i.e. except python is python 3
-            from urllib import request
-            request.urlretrieve(obj['pdf_url'], filename)
-
-        return filename
-    else:
-        print("Object passed in has no PDF URL, or has no title")
-# unicode as str
-if sys.version_info[0] == 3:
-    unicode = str 
-    encode = lambda s: unicode(s)
-
-
+format = '%Y-%m-%dT%H:%M:%SZ'  #Formatting directives
 def main():
-    url = 'http://export.arxiv.org/api/query?search_query=all:deep+learning&start=0&max_results=5'
-    data = requests.get(url).text
     
-    print(data)
+    category = ["stat.ML", "stat.AP", "stat.CO", "stat.ME", "stat.TH", "cs.AI", "cs.CL", "cs.CC", "cs.CG", "cs.GT", "cs.CV", "cs.DS", "cs.MA", "cs.SD"]
     
+    qsearch = "query?search_query="
+    for cat in category:
+        # find total # papers
+        url = root_url + qsearch + "cat:" + cat + "&start=0&sortBy=submittedDate&sortOrder=descending&max_results=1"
+        d = feedparser.parse(url)
+        filename = cat.replace('.', '')
+        print('status: ' + str(d['status']))
+        if d['status'] != 200:
+            print("cannot GET url...")
+            continue
+        else:
+            N = int(d['feed']['opensearch_totalresults'])
+            print(N)
+            if N is None:
+                print("No papers for " + cat)
+            else:
+                # for safety
+                num_of_paper = 100
+                num_pp = 10 # the maximum result is 10
+                if N < num_of_paper:
+                    num_of_paper = N
+                
+                remainder = num_of_paper%num_pp
+                num_run = num_of_paper//num_pp
+                
+                if remainder > 0:
+                    num_run += 1
+                f = open(filename+'.csv', 'a')
+                for n in range(0, num_run):
+                    
+                    # open csv
+                    
+                    
+                    url = root_url + qsearch + "cat:" + cat+ "&start=" + str(n*num_pp) + "&sortBy=submittedDate&sortOrder=descending&max_results=" + str(num_pp)
+                    d = feedparser.parse(url)
+                    results = d['entries']
+                    
+                    
+                    for result in results:
+                        link = result['link']
+                        try:
+                            pdf = result['links'][1]['href']
+                        except:
+                            pdf = ''
+                        title = result['title'].replace(',', '')
+                        title.replace('\n', ' ')
+                        summary = result['summary'].replace(',', '')
+                        summary.replace('\n', ' ')
+                        
+                        # make authors into one string
+                        authors = result['authors']
+                        author_names = authors[0]['name']
+                        authors.pop(0)
+                        if len(authors) > 0:
+                            for author in authors:
+                                author_names = author_names + '|' + author['name']
+                        
+                        # get today's time
+                        unix_epoch = time.time()           #the popular UNIX epoch time in seconds
+                        ts = datetime.datetime.fromtimestamp(unix_epoch)
+                        today = str(ts.strftime(format))
+                        
+                        updated = result['updated']
+                        
+                        # get category keyword
+                        tags = result['tags']
+                        tag_names = tags[0]['term']
+                        tags.pop(0)
+                        if len(tags) > 0:
+                            for tag in tags:
+                                tag_names = tag_names + '|' + tag['term']
+                        
+                        # print the output
+                        # print('---------------------------------')
+                        # print(link)
+                        # print(title)
+                        # print(author_names)
+                        # print(tag_names)
+                        
+                        # add to csv
+                        data = [today, updated, link, pdf, title, summary, author_names, tag_names]
+                        writer = csv.writer(f)
+                        writer.writerow(data)
+                        
+                    # wait 3 seconds (for safety)
+                    time.sleep(3)
+                
+                f.close()
+        
     pass
     
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 if __name__ == '__main__':
     main()
