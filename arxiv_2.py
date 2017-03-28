@@ -9,10 +9,15 @@ import feedparser
 import requests
 from requests.exceptions import HTTPError
 
-# TODO: condition for when data is not available
-try:
-    import nltk
-except:
-    
-
+import nltk
 import pandas
+
+
+#TODO: OOP
+
+class ScholarArticle(object):
+    """
+    A class representing articles listed on arxiv (basic dictionary-like behavior)
+    """
+    def __init__(self):
+        self.attrs():

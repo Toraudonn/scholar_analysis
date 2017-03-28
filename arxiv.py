@@ -200,6 +200,52 @@ class TestDataRetriever(Arxiv):
             # wait 3 seconds (for safety)
             time.sleep(3)
         f.close()
+        
+    def data2all(self, cat, N):
+        fd = FormatData()
+        if N < self.total_paper:
+            total_paper_ = N
+        else:
+            total_paper_=self.total_paper
+        remainder = total_paper_%self.max_number
+        num_run = total_paper_//self.max_number
+        if remainder > 0:
+            num_run += 1
+        
+        f = open('./all_csv/'+cat.replace('.', '')+'.txt', 'a')
+        
+        for n in range(0, num_run):
+            url = self.root_url + self.qsearch + "cat:" + cat+ "&start=" + str(n*self.max_number) + "&sortBy=submittedDate&sortOrder=descending&max_results=" + str(self.max_number)
+            d = feedparser.parse(url)
+            results = d['entries']
+            for result in results:
+                fd = FormatData()
+                # get today's time
+                unix_epoch = time.time()           #the popular UNIX epoch time in seconds
+                ts = datetime.datetime.fromtimestamp(unix_epoch)
+                today = ts.strftime(self.date_format)
+                
+                updated = result['updated']
+                link = result['link']
+                pdf = result['links'][1]['href']
+                title = result['title'].replace('|', ' ')
+                title = title.replace('\n', ' ')
+                title_refact = fd.format_string(result['title'])
+                
+                summary = result['summary'].replace('|', ' ')
+                summary = summary.replace('\n', ' ')
+                summary_refact = fd.format_string(result['summary'])
+                authors = result['authors']
+                author_names = fd.arr2psv(authors, 'name')
+                tags = result['tags']
+                tag_names = fd.arr2psv(tags, 'term')
+                data = [today, updated, link, pdf, title, title_refact, summary, summary_refact, author_names, tag_names]
+                writer = csv.writer(f, delimiter='|')
+                writer.writerow(data)
+                
+            # wait 3 seconds (for safety)
+            time.sleep(3)
+        f.close()
     
     def test_data_refactor(self, result, raw=True):
         fd = FormatData()
@@ -240,6 +286,8 @@ class TestDataRetriever(Arxiv):
                     self.data2csv(cat, total_num)
                 elif output == 2:
                     self.data2psv(cat, total_num)
+                elif output == 3:
+                    self.data2all(cat, total_num)
                 else:
                     self.data_print(cat, total_num)
             else:
@@ -312,7 +360,7 @@ def main():
     
     #category = ["stat.ML"]
     tdr = TestDataRetriever()
-    tdr.get_data(category, 1)
+    tdr.get_data(category, 3)
     
     pass
     
