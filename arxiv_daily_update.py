@@ -1,4 +1,3 @@
-
 # coding: utf-8
 import sys
 import os
@@ -222,7 +221,7 @@ class CategoryClassifier(object): # object for classifying categories
             df_classified = df_classified.drop(drop_list, axis = 1)
             df_classified['カテゴリ'] = [cat] * len(df_classified)
             df_all = pd.concat([df_all, df_classified])
-        df_all.to_csv("./sample_csv/" + str(self.today.month) +"_" + str(self.today.day) + ".csv", index = False)
+        df_all.to_csv("./output_csv/" + str(self.today.month) +"_" + str(self.today.day) + ".csv", index = False)
 
 if __name__ == '__main__':
     categories = ["stat.ML", "stat.AP", "stat.CO", "stat.ME", "stat.TH", "cs.AI", "cs.CL", "cs.CC", "cs.CG", "cs.GT", "cs.CV", "cs.DS", "cs.MA", "cs.SD"]
@@ -237,11 +236,11 @@ if __name__ == '__main__':
     df_recv = dr.data2df(categories, delay)
 
     # pickle load
-    with open('pcat_list.dump', 'rb') as f:
+    with open('./dumpfile/pcat_list.dump', 'rb') as f:
         pcat_list = pickle.load(f)
-    with open('word_dict_list.dump', 'rb') as f:
+    with open('./dumpfile/word_dict_list.dump', 'rb') as f:
         word_dict_list = pickle.load(f)
-    with open('word_num_all_list.dump', 'rb') as f:
+    with open('./dumpfile/word_num_all_list.dump', 'rb') as f:
         word_num_all_list = pickle.load(f)
 
     df_classified = cc.classify(df_recv, pcat_list, word_dict_list, word_num_all_list, threshold, title_weight)
